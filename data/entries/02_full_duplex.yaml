@@ -1,0 +1,858 @@
+entries:
+- id: moshi
+  name: Moshi
+  title: 'Moshi: a speech-text foundation model for real-time dialogue'
+  date: 2024-09
+  venue: ICLR'25
+  org: Kyutai
+  status: open_weights
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2410.00037
+    code: https://github.com/kyutai-labs/moshi
+    hf: https://huggingface.co/kyutai/moshiko-pytorch-bf16
+    web: https://moshi.chat/
+    blog: https://kyutai.org/2024/09/17/moshi.html
+  sections:
+  - duplex-multistream
+  - blogs
+  note_en: Hierarchical RQ-Transformer with parallel user/system audio streams for native duplex.
+  note_zh: 分层 RQ-Transformer 并行用户/系统音频流，原生全双工。
+- id: personaplex
+  name: PersonaPlex
+  title: 'PersonaPlex: Controllable Persona and Style for Full-Duplex Speech Dialogue'
+  date: 2026-02
+  venue: ''
+  org: NVIDIA
+  status: open_weights
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2602.06053
+    code: https://github.com/NVIDIA/personaplex
+    hf: https://huggingface.co/nvidia/personaplex-7b-v1
+  sections:
+  - duplex-multistream
+  - expressive
+  - blogs
+  - industry-others
+  note_en: Moshi-style dual-channel model with controllable persona and conversational style.
+  note_zh: Moshi 式双通道模型，可控人设与对话风格。
+- id: voicechat-11b
+  name: VoiceChat
+  title: 'NemotronLabs VoiceChat: An Open Full-Duplex Spoken Dialogue Model'
+  date: 2026-09
+  venue: ''
+  org: NVIDIA
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.21967
+    hf: https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B
+  sections:
+  - duplex-multistream
+  - agentic-native
+  - industry-others
+  note_en: 11B dual-channel duplex SLM with a separate tool-calling output channel.
+  note_zh: 11B 双通道双工语音模型，另设工具调用输出通道。
+- id: lychee-fd
+  name: Lychee-FD
+  title: 'Lychee-FD: Full-Duplex Spoken Dialogue with Dual-Stream Modeling'
+  date: 2026-07
+  venue: ACL'26
+  org: HITsz-TMG
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2607.06540
+    code: https://github.com/HITsz-TMG/Lychee-FD
+    hf: https://huggingface.co/HIT-TMG/Lychee-FD
+  sections:
+  - duplex-multistream
+  note_en: Open dual-stream full-duplex spoken dialogue model from HITsz-TMG.
+  note_zh: HITsz-TMG 开放双流全双工口语对话模型。
+- id: bayling-duplex
+  name: BayLing-Duplex
+  title: 'BayLing-Duplex: Native Full-Duplex Spoken Dialogue without External Controllers'
+  date: 2026-06
+  venue: ''
+  org: BayLing
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2606.14528
+    code: https://github.com/BayLing-Models/BayLing-Duplex
+    hf: https://huggingface.co/BayLing-Models/BayLing-Duplex
+  sections:
+  - duplex-multistream
+  note_en: Native full-duplex SLM without independent VAD or turn controller.
+  note_zh: 原生全双工语音模型，无独立 VAD/轮次控制器。
+- id: voila
+  name: Voila
+  title: 'Voila: Voice-Language Foundation Models for Real-Time Autonomous Interaction'
+  date: 2025-05
+  venue: ''
+  org: Maitrix
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.02707
+    code: https://github.com/maitrix-org/Voila
+  sections:
+  - duplex-multistream
+  note_en: Hierarchical multi-scale Transformer for autonomous listen/speak at ~195ms.
+  note_zh: 分层多尺度 Transformer，自主听说延迟约 195ms。
+- id: f-actor
+  name: F-Actor
+  title: 'F-Actor: Controllable Conversational Behaviour in Full-Duplex Spoken Dialogue'
+  date: 2026-01
+  venue: ACL Findings'26
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2601.11329
+  sections:
+  - duplex-multistream
+  note_en: Instruction-following duplex model controlling voice and conversational behaviours.
+  note_zh: 指令可控全双工模型，调节语音与对话行为。
+- id: hertz-dev
+  name: Hertz-dev
+  title: 'Hertz-dev: An Open Full-Duplex Audio Foundation Model'
+  date: 2025-01
+  venue: ''
+  org: Standard Intelligence
+  status: open_weights
+  star: false
+  links:
+    web: https://github.com/Standard-Intelligence/hertz-dev
+    code: https://github.com/Standard-Intelligence/hertz-dev
+    hf: https://huggingface.co/Standard-Intelligence/hertz-dev
+  sections:
+  - duplex-multistream
+  note_en: Open duplex audio foundation model for continuous bidirectional speech.
+  note_zh: 开放双工音频基础模型，支持连续双向语音。
+- id: ntpp
+  name: NTPP
+  title: 'Next Token Pair Prediction: Dual-Channel Spoken Dialogue Generation'
+  date: 2025-06
+  venue: ICML'25
+  org: NTPP / Qichao Wang 等
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.00975
+    code: https://github.com/Chaos96/NTPP
+    hf: https://huggingface.co/aigc-x/NTPP-0.5B
+  sections:
+  - duplex-multistream
+  note_en: Next-token-pair objective jointly predicts dual-channel speech tokens.
+  note_zh: 下一对 token 目标联合预测双通道语音 token。
+- id: j-moshi
+  name: J-Moshi
+  title: 'J-Moshi: Japanese Adaptation of Moshi for Full-Duplex Dialogue'
+  date: 2025-03
+  venue: ''
+  org: Nagoya / nu-dialogue
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/nu-dialogue/j-moshi
+    hf: https://huggingface.co/nu-dialogue/j-moshi
+  sections:
+  - duplex-multistream
+  note_en: Japanese Moshi-family dual-stream full-duplex speech dialogue model.
+  note_zh: 日语 Moshi 系双流全双工口语对话模型。
+- id: llm-jp-moshi
+  name: LLM-jp-Moshi
+  title: 'LLM-jp-Moshi: Japanese Full-Duplex Spoken Dialogue via Moshi Adaptation'
+  date: 2025-06
+  venue: ''
+  org: LLM-jp
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/llm-jp
+    hf: https://huggingface.co/llm-jp/llm-jp-moshi-v1
+  sections:
+  - duplex-multistream
+  note_en: LLM-jp community Moshi adaptation for Japanese duplex dialogue.
+  note_zh: LLM-jp 社区基于 Moshi 的日语双工对话适配。
+- id: salm-duplex
+  name: SALM-Duplex
+  title: 'SALM-Duplex: Direct Full-Duplex Modeling with Asymmetric Channels'
+  date: 2025-05
+  venue: ''
+  org: NVIDIA
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.15670
+    code: https://github.com/NVIDIA/NeMo
+    docs: https://docs.nvidia.com/nemo/speech/nightly/speechlm2/models.html
+  sections:
+  - duplex-multistream
+  - duplex-tdm
+  note_en: Direct duplex SpeechLM with asymmetric user/assistant audio channels.
+  note_zh: 非对称用户/助手通道的直接双工语音语言模型。
+- id: duplexmamba
+  name: DuplexMamba
+  title: 'DuplexMamba: State-Space Modeling for Full-Duplex Spoken Dialogue'
+  date: 2025-02
+  venue: ''
+  org: DuplexMamba 团队
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2502.11123
+    code: https://github.com/khfs/DuplexMamba
+    hf: https://huggingface.co/Xiangyu1/DuplexMamba
+  sections:
+  - duplex-multistream
+  - duplex-tdm
+  note_en: State-space duplex speech dialogue with efficient dual-stream processing.
+  note_zh: 状态空间双工口语对话，高效双流处理。
+- id: steerduplex
+  name: SteerDuplex
+  title: 'SteerDuplex: Controllable Moshi-style Full-Duplex Spoken Dialogue'
+  date: 2026-09
+  venue: ''
+  org: SteerDuplex 团队
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.12623
+    code: https://github.com/Utkarsh4430/SteerDuplex
+  sections:
+  - duplex-multistream
+  - duplex-tdm
+  note_en: Controllable Moshi-family duplex model with steered conversational behaviours.
+  note_zh: 可控 Moshi 系双工模型，可引导对话行为。
+- id: av-dialog
+  name: AV-Dialog
+  title: 'AV-Dialog: Spoken Dialogue Models with Audio-Visual Input'
+  date: 2025-11
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2511.11124
+  sections:
+  - duplex-multistream
+  note_en: Audio-visual spoken dialogue extending duplex listening with visual cues.
+  note_zh: 音视频口语对话，用视觉线索扩展双工聆听。
+- id: parrot-duplex
+  name: Parrot
+  title: 'Parrot: Full-Duplex Spoken Dialogue Generation'
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links: {}
+  sections:
+  - duplex-multistream
+  note_en: Research prototype for full-duplex spoken dialogue generation.
+  note_zh: 全双工口语对话生成研究原型。
+- id: intrinsicvoice
+  name: IntrinsicVoice
+  title: 'IntrinsicVoice: Empowering LLMs with Intrinsic Real-time Voice Interaction Abilities'
+  date: 2024-10
+  venue: ''
+  org: IntrinsicVoice 团队
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2410.08035
+    web: https://instrinsicvoice.github.io/
+  sections:
+  - duplex-multistream
+  - duplex-tdm
+  note_en: Injects real-time voice interaction ability into LLM decoding timelines.
+  note_zh: 将实时语音交互能力注入 LLM 解码时间轴。
+- id: seeduplex
+  name: Seeduplex
+  title: 'Doubao Seeduplex: Native Full-Duplex Speech Interaction Model'
+  date: 2025-12
+  venue: ''
+  org: ByteDance Seed
+  status: closed
+  star: true
+  links:
+    web: https://www.volcengine.com/
+    blog: https://research.doubao.com/en/seeduplex
+  sections:
+  - duplex-multistream
+  - industry-bytedance
+  - blogs
+  note_en: ByteDance native full-duplex speech model for continuous bidirectional talk.
+  note_zh: 字节原生全双工语音模型，支持连续双向对话。
+- id: rts2s-dg
+  name: RTS2S-DG
+  title: Real-Time Textless Dialogue Generation with Dual-Stream Speech Models
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2501.04877
+    code: https://github.com/mailong25/rts2s-dg
+  sections:
+  - duplex-multistream
+  note_en: Textless real-time dual-stream speech dialogue generation system.
+  note_zh: 无文本实时双流语音对话生成系统。
+- id: joyai-talker
+  name: JoyAI-Talker
+  title: 'JoyAI-Talker: Full-Duplex Speech Interactive Large Model for Empathetic Agents'
+  date: 2026-08
+  venue: ''
+  org: JD JoyAI
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2608.01119
+    web: https://research.joyai.com/joyai-talker
+    code: https://github.com/jd-opensource/JoyAI-VL-Interaction
+  sections:
+  - duplex-multistream
+  - industry-others
+  - duplex-tdm
+  note_en: Modular Thinker–Talker full-duplex speech model for empathetic agents.
+  note_zh: 模块化 Thinker–Talker 全双工语音模型，面向共情智能体。
+- id: minicpm-o-45
+  name: MiniCPM-o 4.5
+  title: 'MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction'
+  date: 2026-04
+  venue: ''
+  org: OpenBMB
+  status: open_weights
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2604.27393
+    hf: https://huggingface.co/openbmb/MiniCPM-o-4_5
+    code: https://github.com/OpenBMB/MiniCPM-o
+  sections:
+  - duplex-tdm
+  - streaming-omni-assistants
+  - industry-others
+  note_en: 9B omni model with time-multiplexed audio/video/output streams on device.
+  note_zh: 9B Omni 模型，端侧时分复用音视频与输出流。
+- id: minicpm-duplex
+  name: MiniCPM-Duplex
+  title: 'Beyond the Turn-Based Game: Enabling Real-Time Conversations with Duplex Models'
+  date: 2024-09
+  venue: EMNLP'24
+  org: THUNLP
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2409.11727
+  sections:
+  - duplex-tdm
+  note_en: Parallel decoding with channel switching for duplex language modeling.
+  note_zh: 并行解码与通道切换实现双工语言建模。
+- id: omniflatten
+  name: OmniFlatten
+  title: 'OmniFlatten: An End-to-end GPT Model for Seamless Voice Conversation'
+  date: 2024-10
+  venue: ACL'25
+  org: OmniFlatten 团队
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2410.17799
+    web: https://omniflatten.github.io/
+  sections:
+  - duplex-tdm
+  note_en: Flattens speech conversation into a single sequence for duplex GPT modeling.
+  note_zh: 将语音对话展平为单序列，实现双工 GPT 建模。
+- id: salmonn-omni
+  name: SALMONN-omni
+  title: 'SALMONN-omni: A Standalone Speech LLM without Codec for Full-Duplex Dialogue'
+  date: 2025-05
+  venue: NeurIPS'25
+  org: ByteDance / Tsinghua / Cambridge
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.17060
+    code: https://github.com/bytedance/SALMONN
+  sections:
+  - duplex-tdm
+  note_en: Codec-free speech LLM research for native full-duplex dialogue.
+  note_zh: 无 codec 语音 LLM，面向原生全双工对话研究。
+- id: syncllm
+  name: SyncLLM
+  title: 'Beyond Turn-Based Interfaces: Synchronous LLMs as Full-Duplex Dialogue Agents'
+  date: 2024-09
+  venue: EMNLP'24
+  org: University of Washington
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2409.15594
+    web: https://syncllm.cs.washington.edu/
+  sections:
+  - duplex-tdm
+  note_en: Synchronous timeline tokens coordinate listening and speaking jointly.
+  note_zh: 同步时间轴 token 联合协调听说。
+- id: lslm
+  name: LSLM
+  title: 'LSLM: Listening-while-Speaking Language Model'
+  date: 2024-08
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2408.02622
+  sections:
+  - duplex-tdm
+  note_en: Interleaves listen/speak states so the model hears while generating speech.
+  note_zh: 交错听/说状态，生成语音时仍可聆听。
+- id: minmo
+  name: MinMo
+  title: 'MinMo: A Multimodal Large Language Model for Seamless Voice Interaction'
+  date: 2025-01
+  venue: ''
+  org: Alibaba FunAudioLLM
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2501.06282
+    web: https://qwenaudio.github.io/minmo/
+  sections:
+  - duplex-tdm
+  note_en: Multimodal SLM paper exploring full-duplex voice interaction regimes.
+  note_zh: 多模态语音 LLM，探索全双工语音交互机制。
+- id: duplexsla
+  name: DuplexSLA
+  title: 'DuplexSLA: Chunk-Level Joint Full-Duplex Speech-Language Agents'
+  date: 2026-05
+  venue: ''
+  org: DuplexSLA 团队
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2605.20755
+    code: https://github.com/hyzhang24/DuplexSLA
+  sections:
+  - duplex-tdm
+  - agentic-native
+  note_en: 160ms chunk-level joint duplex with native tool/action channels.
+  note_zh: 160ms 块级联合双工，含原生工具/动作通道。
+- id: covo-audio-chat-fd
+  name: Covo-Audio-Chat-FD
+  title: Covo-Audio-Chat Full-Duplex Variant
+  date: 2025-06
+  venue: ''
+  org: Tencent
+  status: paper_only
+  star: false
+  links:
+    code: https://github.com/Tencent/Covo-Audio
+  sections:
+  - duplex-tdm
+  note_en: Paper variant of Covo-Audio-Chat extended to full-duplex interaction.
+  note_zh: Covo-Audio-Chat 论文中的全双工变体。
+- id: adaptduplex
+  name: AdaptDuplex
+  title: 'AdaptDuplex: From Static to Adaptive Full-Duplex Spoken Dialogue'
+  date: 2026-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.29217
+  sections:
+  - duplex-tdm
+  note_en: Behaviour tokens and adaptive windows on Qwen3-Omni via SFT+GRPO.
+  note_zh: Qwen3-Omni 上行为token与自适应窗口(SFT+GRPO)。
+- id: turnguide
+  name: TurnGuide
+  title: 'TurnGuide: Enhancing Meaningful Full Duplex Spoken Interaction via Turn-level Guidance'
+  date: 2025-08
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2508.07375
+  sections:
+  - duplex-tdm
+  note_en: GLM-4-Voice dual-channel model with 400ms chunk interleaving and text guidance.
+  note_zh: 基于 GLM-4-Voice，400ms 分块交错与轮次文本引导。
+- id: flm-audio
+  name: FLM-Audio
+  title: 'FLM-Audio: Full-Duplex Speech with Intrinsic Monologue'
+  date: 2025-09
+  venue: ''
+  org: Cofe AI
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2509.02521
+  sections:
+  - duplex-tdm
+  note_en: Native duplex speech model with intrinsic monologue for planning.
+  note_zh: 原生双工语音模型，以内在独白辅助规划。
+- id: mini-omni2
+  name: Mini-Omni2
+  title: 'Mini-Omni2: Towards Open-source GPT-4o Mini with Vision, Speech and Duplex'
+  date: 2024-10
+  venue: ''
+  org: gpt-omni
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2410.11190
+    code: https://github.com/gpt-omni/mini-omni2
+  sections:
+  - duplex-tdm
+  note_en: Small end-to-end omni model with interruption-aware duplex mechanisms.
+  note_zh: 小型端到端 Omni，含打断感知双工机制。
+- id: neural-fsm
+  name: Neural-FSM
+  title: Full-Duplex Speech Dialogue via Neural Finite-State Machines
+  date: 2024-05
+  venue: NeurIPS'24
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2405.19487
+  sections:
+  - duplex-engineered
+  note_en: Neural FSM controller coordinates speak/listen states over cascaded modules.
+  note_zh: 神经有限状态机控制器协调级联模块的说/听状态。
+- id: flexduo
+  name: FlexDuo
+  title: 'FlexDuo: A Pluggable System for Flexible Full-Duplex Speech Interaction'
+  date: 2025-02
+  venue: ''
+  org: FlexDuo 团队
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2502.13472
+  sections:
+  - duplex-engineered
+  note_en: Pluggable duplex controller decoupled from the underlying dialogue model.
+  note_zh: 可插拔双工控制器，与底层对话模型解耦。
+- id: duplexcascade
+  name: DuplexCascade
+  title: 'DuplexCascade: VAD-free System Duplex with Micro-Turn Control'
+  date: 2026-03
+  venue: ''
+  org: SB Intuitions
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2603.09180
+    code: https://github.com/sbintuitions/DuplexCascade
+  sections:
+  - duplex-engineered
+  - agentic-harness
+  note_en: VAD-free cascaded duplex system using micro-turn control policies.
+  note_zh: 无 VAD 级联双工系统，采用微轮次控制策略。
+- id: fireredchat
+  name: FireRedChat
+  title: 'FireRedChat: A Pluggable, Full-Duplex Voice Interaction System'
+  date: 2025-09
+  venue: ''
+  org: FireRedTeam
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2509.06502
+    code: https://github.com/FireRedTeam/FireRedChat
+    web: https://fireredteam.github.io/demos/firered_chat/
+  sections:
+  - duplex-engineered
+  - agentic-harness
+  - blogs
+  - agentic-frameworks
+  note_en: Cascaded/semi-cascaded duplex with turn controller, tools, and LiveKit hosting.
+  note_zh: 级联/半级联双工，含轮次控制、工具与 LiveKit 部署。
+- id: xtalk
+  name: XTalk
+  title: 'XTalk: A System-Level Full-Duplex Voice Interaction Framework'
+  date: 2025-12
+  venue: ''
+  org: XTalk 团队
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2512.18706
+    code: https://github.com/xcc-zach/xtalk
+  sections:
+  - duplex-engineered
+  - agentic-harness
+  - agentic-frameworks
+  note_en: System-level full-duplex voice interaction with engineered sync layers.
+  note_zh: 系统级全双工语音交互，工程化同步层。
+- id: cleans2s
+  name: CleanS2S
+  title: 'CleanS2S: An Open Pipeline for Active Real-Time Speech-to-Speech Agents'
+  date: 2025-06
+  venue: ''
+  org: OpenDILab
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.01268
+    code: https://github.com/opendilab/CleanS2S
+  sections:
+  - duplex-engineered
+  - agentic-harness
+  - agentic-frameworks
+  note_en: Open active/real-time speech-to-speech pipeline with duplex control modules.
+  note_zh: 开放主动/实时语音对话流水线，含双工控制模块。
+- id: freeze-omni
+  name: Freeze-Omni
+  title: 'Freeze-Omni: A Smart and Low Computational Cost Speech-to-Speech Dialogue Model'
+  date: 2024-11
+  venue: ''
+  org: VITA Team
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2411.00774
+    code: https://github.com/VITA-MLLM/Freeze-Omni
+  sections:
+  - duplex-engineered
+  - omni-generation
+  note_en: Frozen text backbone plus speech modules and an external duplex controller.
+  note_zh: 冻结文本骨干 + 语音模块与外部双工控制器。
+- id: vita
+  name: VITA
+  title: 'VITA: Towards Open-Source Interactive Omni Assistant'
+  date: 2024-08
+  venue: ''
+  org: Tencent / VITA
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2408.05211
+    code: https://github.com/VITA-MLLM/VITA
+  sections:
+  - duplex-engineered
+  note_en: Dual-model interactive omni assistant with controller-mediated duplex.
+  note_zh: 双模型交互 Omni 助手，控制器介导双工。
+- id: vita-1-5
+  name: VITA-1.5
+  title: 'VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction'
+  date: 2025-01
+  venue: ''
+  org: Tencent / VITA
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2501.01957
+    code: https://github.com/VITA-MLLM/VITA
+  sections:
+  - duplex-engineered
+  - streaming-omni-assistants
+  note_en: Upgraded dual-model omni interaction with streaming speech and vision.
+  note_zh: 升级双模型 Omni 交互，支持流式语音与视觉。
+- id: llm-dm-semantic-vad
+  name: LLM-DM
+  title: LLM-Enhanced Dialogue Management for Full-Duplex Spoken Dialogue Systems
+  date: 2025-02
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2502.14145
+  sections:
+  - duplex-engineered
+  note_en: 0.5B dialogue manager predicts speak/listen tokens for barge-in decisions.
+  note_zh: 0.5B 对话管理器预测说/听 token，区分有意打断。
+- id: lps-tc
+  name: LPS-TC
+  title: Enabling Proactive Spoken Turns via a Generalized Style-Aware Turn Controller
+  date: 2026-08
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2608.28630
+  sections:
+  - duplex-engineered
+  note_en: Style-aware turn controller for proactive spoken turns with stereo data.
+  note_zh: 风格感知轮次控制器，支持主动发言与立体声数据。
+- id: nemo-speechlm2-duplex
+  name: NeMo SpeechLM2 Duplex
+  title: 'NeMo SpeechLM2: SALM, DuplexS2S, DuplexSTT and EAR TTS Recipes'
+  date: 2025-05
+  venue: ''
+  org: NVIDIA NeMo
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/NVIDIA/NeMo
+  sections:
+  - duplex-engineered
+  note_en: NeMo recipes for duplex S2S/STT pipelines and speech-language agents.
+  note_zh: NeMo 双工 S2S/STT 流水线与语音语言智能体配方。
+- id: speculative-etd
+  name: SpeculativeETD
+  title: Speculative End-Turn Detector for Efficient Speech Chatbot Assistants
+  date: 2025-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2503.23439
+  sections:
+  - duplex-engineered
+  note_en: Collaborative on-device/server end-turn detection for duplex pipelines.
+  note_zh: 端侧/云端协同结束轮检测，服务双工流水线。
+- id: nac-endpointer
+  name: NAC Endpointer
+  title: Streaming Endpointer for Spoken Dialogue using Neural Audio Codecs
+  date: 2025-06
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.07081
+  sections:
+  - duplex-engineered
+  note_en: Neural audio codec streaming endpointer cutting cutoff errors ~40%.
+  note_zh: 神经编解码流式端点，减少截断错误。
+- id: llama-mimi
+  name: Llama-Mimi
+  title: 'Llama-Mimi: Speech LMs with Interleaved Semantic and Acoustic Tokens'
+  date: 2025-09
+  venue: ''
+  org: LLM-jp
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2509.14882
+    code: https://github.com/llm-jp/llama-mimi
+  sections:
+  - duplex-tdm
+  note_en: Single Llama decoder over flattened Mimi tokens for duplex-style speech.
+  note_zh: Llama 解码扁平 Mimi token 的双工语音。
+- id: duplex-conversation-kdd
+  name: Duplex Conversation
+  title: 'Duplex Conversation: Towards Human-like Interaction in Spoken Dialogue Systems'
+  date: 2022-05
+  venue: KDD'22
+  org: Alibaba
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2205.15060
+  sections:
+  - duplex-engineered
+  note_en: Early industry duplex SDS with barge-in and backchannel engineering.
+  note_zh: 早期工业双工对话系统，工程化打断与附和。
+- id: dual-resolution-duplex
+  name: Dual-Resolution Duplex
+  title: Parallel Speech-Text Dual-Resolution Modeling for Duplex Streams
+  date: 2025-06
+  venue: ''
+  org: FunAudioLLM
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.09349
+  sections:
+  - duplex-tdm
+  note_en: Dual-resolution speech–text alignment enabling parallel duplex streams.
+  note_zh: 双分辨率语音文本对齐，支撑并行双工流。
+- id: open-full-duplex-data
+  name: Open FD Data
+  title: Open-Source Full-Duplex Conversational Datasets for Native Duplex Training
+  date: 2025-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2509.04093
+  sections:
+  - duplex-multistream
+  note_en: Open stereo duplex corpora used to train multi-stream duplex SLMs.
+  note_zh: 开放立体声双工语料，用于训练多流双工SLM。
+- id: interrupt-handling-robots
+  name: Interrupt Handling
+  title: Interruption Handling for Conversational Robots
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2501.01568
+  sections:
+  - duplex-engineered
+  note_en: LLM interruption classifier for engineered duplex robot dialogue.
+  note_zh: 面向工程化双工机器人对话的LLM打断分类器。
+- id: moshiko
+  name: Moshiko
+  title: 'Moshiko: Kyutai Moshi Male-Voice Full-Duplex Checkpoint'
+  date: 2024-09
+  venue: ''
+  org: Kyutai
+  status: open_weights
+  star: false
+  links:
+    hf: https://huggingface.co/kyutai/moshiko-pytorch-bf16
+    arxiv: https://arxiv.org/abs/2410.00037
+  sections:
+  - duplex-multistream
+  note_en: Official Moshi male-voice dual-stream duplex checkpoint release.
+  note_zh: 官方 Moshi 男声双流双工权重发布。
+- id: moshika
+  name: Moshika
+  title: 'Moshika: Kyutai Moshi Female-Voice Full-Duplex Checkpoint'
+  date: 2024-09
+  venue: ''
+  org: Kyutai
+  status: open_weights
+  star: false
+  links:
+    hf: https://huggingface.co/kyutai/moshika-pytorch-bf16
+    arxiv: https://arxiv.org/abs/2410.00037
+  sections:
+  - duplex-multistream
+  note_en: Official Moshi female-voice dual-stream duplex checkpoint release.
+  note_zh: 官方 Moshi 女声双流双工权重发布。
+- id: nemotron-duplex-s2s
+  name: DuplexS2S
+  title: NeMo DuplexS2S Recipe for Cascaded Full-Duplex Speech Agents
+  date: 2025-05
+  venue: ''
+  org: NVIDIA
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/NVIDIA/NeMo
+  sections:
+  - duplex-engineered
+  note_en: NeMo SpeechLM2 recipe for duplex speech-to-speech agent pipelines.
+  note_zh: NeMo SpeechLM2 双工语音到语音智能体配方。
+- id: ear-tts-duplex
+  name: EAR-TTS
+  title: EAR TTS Streaming Synthesis for Duplex Pipelines
+  date: 2025-05
+  venue: ''
+  org: NVIDIA
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/NVIDIA/NeMo
+  sections:
+  - duplex-engineered
+  note_en: Streaming TTS component used inside NeMo duplex speech pipelines.
+  note_zh: NeMo 双工语音流水线中的流式 TTS 组件。

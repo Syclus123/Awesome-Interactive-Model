@@ -1,0 +1,1209 @@
+entries:
+- id: step-audio-2
+  name: Step-Audio 2
+  title: 'Step-Audio 2: Native Tool-Calling End-to-End Speech Agent'
+  date: 2025-07
+  venue: ''
+  org: StepFun
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2507.16632
+  sections:
+  - agentic-native
+  note_en: End-to-end speech model with native tool-calling channels during dialogue.
+  note_zh: 端到端语音模型，对话中原生工具调用通道。
+- id: voxmind
+  name: VoxMind
+  title: 'VoxMind: An End-to-End Agentic Spoken Dialogue System'
+  date: 2026-04
+  venue: ACL'26
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2604.15710
+    code: https://github.com/MM-Speech/VoxMind
+    hf: https://huggingface.co/leungtianle/VoxMind
+  sections:
+  - agentic-native
+  note_en: End-to-end agentic spoken dialogue with planning and tool execution.
+  note_zh: 端到端智能体口语对话，含规划与工具执行。
+- id: stream-rag
+  name: Stream RAG
+  title: 'Stream RAG: Instant Spoken Dialogue with Streaming Tool Usage'
+  date: 2025-10
+  venue: ''
+  org: Meta
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.02044
+  sections:
+  - agentic-native
+  note_en: Streams tool/RAG usage during speech so answers arrive with low latency.
+  note_zh: 语音过程中流式工具/RAG，低延迟返回答案。
+- id: wavrag
+  name: WavRAG
+  title: 'WavRAG: Audio-Integrated Retrieval Augmented Generation for Spoken Dialogue'
+  date: 2025-02
+  venue: ACL'25
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2502.14727
+  sections:
+  - agentic-native
+  note_en: Retrieves over audio-integrated indexes for spoken dialogue agents.
+  note_zh: 面向口语对话智能体的音频融合检索增强。
+- id: voxtral
+  name: Voxtral
+  title: 'Voxtral: Open Speech Understanding Models with Function Calling'
+  date: 2025-07
+  venue: ''
+  org: Mistral AI
+  status: open_weights
+  star: false
+  links:
+    web: https://mistral.ai/news/voxtral
+    hf: https://huggingface.co/mistralai
+  sections:
+  - agentic-native
+  note_en: Speech understanding models exposing native function-calling interfaces.
+  note_zh: 语音理解模型，暴露原生函数调用接口。
+- id: audiogpt
+  name: AudioGPT
+  title: 'AudioGPT: Understanding and Generating Speech, Music, Sound and Talking Head'
+  date: 2023-04
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2304.12995
+    code: https://github.com/AIGC-Audio/AudioGPT
+  sections:
+  - agentic-native
+  note_en: Early LLM-orchestrated audio tool agent connecting ASR/TTS/music tools.
+  note_zh: 早期 LLM 编排音频工具智能体，连接 ASR/TTS/音乐工具。
+- id: uitron-speech
+  name: UITron-Speech
+  title: 'UITron-Speech: Automated GUI Agents Based on Speech Instructions'
+  date: 2025-06
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.11127
+  sections:
+  - agentic-native
+  note_en: Speech-instructed GUI agent that acts on screens while conversation continues.
+  note_zh: 语音指令 GUI 智能体，对话同时操作屏幕。
+- id: webnav
+  name: WebNav
+  title: 'WebNav: An Intelligent Agent for Voice-Controlled Web Navigation'
+  date: 2025-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2503.13843
+  sections:
+  - agentic-native
+  note_en: Voice-controlled web agent with planner and executor roles.
+  note_zh: 语音控制网页智能体，含规划与执行角色。
+- id: aura
+  name: AURA
+  title: 'AURA: Agent for Understanding, Reasoning, and Automated Tool Use in Voice Tasks'
+  date: 2025-06
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.23049
+    code: https://github.com/Sentientia/Aura
+  sections:
+  - agentic-native
+  note_en: Voice-driven agent framework for reasoning and automated tool use.
+  note_zh: 语音驱动智能体框架，支持推理与自动工具使用。
+- id: asynclm
+  name: AsyncLM
+  title: Asynchronous LLM Function Calling
+  date: 2024-12
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2412.07017
+  sections:
+  - agentic-native
+  note_en: Non-blocking function calls with interrupt tokens when results return.
+  note_zh: 非阻塞函数调用，结果返回时用中断 token 注入。
+- id: anovax
+  name: AnovaX
+  title: 'AnovaX: Local Multi-Agent Voice Assistant with LLM Planning'
+  date: 2026-07
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2607.15367
+  sections:
+  - agentic-native
+  note_en: Local multi-agent voice assistant with typed executors and adaptive recovery.
+  note_zh: 本地多智能体语音助手，含类型化执行器与自适应恢复。
+- id: qwen-audio-agent
+  name: qwen-audio-agent
+  title: 'qwen-audio-agent v2: Front-End Dialogue with Persistent Background Tasks'
+  date: 2026-09
+  venue: ''
+  org: QwenAudio
+  status: code_only
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2609.25195
+    code: https://github.com/QwenAudio/qwen-audio-agent
+  sections:
+  - agentic-harness
+  note_en: Harness for continuous background tasks beside a speech front-end.
+  note_zh: 语音前台旁持续后台任务的 Harness。
+- id: qwen-live-harness
+  name: Qwen-Live-Harness
+  title: 'Qwen-Live-Harness: Realtime Perception, Watch, and Task Delegation'
+  date: 2026-08
+  venue: ''
+  org: Qwen
+  status: code_only
+  star: true
+  links:
+    code: https://github.com/QwenLM/Qwen-Live-Harness
+  sections:
+  - agentic-harness
+  note_en: Realtime perception + proactive watch + task delegation runtime.
+  note_zh: 实时感知 + 主动监看 + 任务委派运行时。
+- id: qwen-mm-plugins
+  name: Qwen-MM-Plugins
+  title: 'Qwen-MM-Plugins: Multimodal Tools for Existing Agent Harnesses'
+  date: 2026-07
+  venue: ''
+  org: Qwen
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/QwenLM/Qwen-MM-Plugins
+  sections:
+  - agentic-harness
+  note_en: Plugin pack adding multimodal tools into existing agent harnesses.
+  note_zh: 为现有智能体 Harness 增添多模态工具插件包。
+- id: venus-harness
+  name: Venus Harness
+  title: 'Realtime-Venus Harness: Dual-Loop Task Execution and Speech Delivery'
+  date: 2026-09
+  venue: ''
+  org: inclusionAI
+  status: code_only
+  star: false
+  links: {}
+  sections:
+  - agentic-harness
+  note_en: Runtime organizing Venus task loops, permissions, and speech delivery.
+  note_zh: 组织 Venus 任务循环、权限与语音投递的运行时。
+- id: gander-runtime
+  name: Gander Runtime
+  title: Gander Agent Orchestration Runtime
+  date: 2026-09
+  venue: ''
+  org: Gander
+  status: code_only
+  star: false
+  links: {}
+  sections:
+  - agentic-harness
+  note_en: Task state machine, permissions, context, and delivery for Gander.
+  note_zh: Gander 的任务状态机、权限、上下文与投递运行时。
+- id: async-tool-fsm
+  name: Async-Tool FSM
+  title: Asynchronous Tool Usage for Real-Time Agents
+  date: 2024-10
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2410.21620
+  sections:
+  - agentic-harness
+  note_en: Event-driven FSM runtime for non-blocking tools in realtime agents.
+  note_zh: 实时智能体非阻塞工具的事件驱动状态机运行时。
+- id: openai-chat-supervisor
+  name: OpenAI Chat-Supervisor
+  title: 'OpenAI Realtime Agents: Chat-Supervisor Pattern'
+  date: 2025-04
+  venue: ''
+  org: OpenAI
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/openai/openai-realtime-agents
+  sections:
+  - agentic-harness
+  note_en: Realtime model handles talk; text supervisor runs tools/workflows.
+  note_zh: 实时模型负责交谈，文本 Supervisor 跑工具/工作流。
+- id: cartesia-line
+  name: Cartesia Line
+  title: Cartesia Line SDK for Background Reasoning Voice Agents
+  date: 2025-06
+  venue: ''
+  org: Cartesia
+  status: closed
+  star: false
+  links:
+    code: https://github.com/cartesia-ai/line
+    docs: https://docs.cartesia.ai/line/sdk/overview
+  sections:
+  - agentic-harness
+  - industry-others
+  - bb-platforms
+  note_en: SDK where background tools survive interruptions during speech.
+  note_zh: SDK：后台工具在语音打断后仍可继续。
+- id: genai-processors
+  name: GenAI Processors
+  title: Google GenAI Processors for Live Async Function Calling
+  date: 2025-05
+  venue: ''
+  org: Google
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/google-gemini/genai-processors
+    docs: https://google-gemini.github.io/genai-processors/
+  sections:
+  - agentic-harness
+  note_en: Open library for composing Live API streams with async function calling.
+  note_zh: 组合 Live API 流与异步函数调用的开放库。
+- id: letta-voice
+  name: Letta Voice
+  title: Letta Stateful Voice Agents with Sleep-Time Memory Compute
+  date: 2025-09
+  venue: ''
+  org: Letta
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/letta-ai/letta-voice
+  sections:
+  - agentic-harness
+  note_en: Voice agents with sleep-time background memory/compute loops.
+  note_zh: 语音智能体，含睡眠期后台记忆/计算循环。
+- id: gamechat
+  name: gamechat
+  title: 'gamechat: Voice Supervisor for Coding Agents'
+  date: 2025-12
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/zdql/gamechat
+  sections:
+  - agentic-harness
+  note_en: Realtime voice front-end delegates named tasks to Claude Code/Codex.
+  note_zh: 实时语音前台将命名任务委派给 Claude Code/Codex。
+- id: cicero
+  name: Cicero
+  title: 'Cicero: Self-Hosted Voice Client for Coding Agent Harnesses'
+  date: 2026-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/5uck1ess/cicero
+  sections:
+  - agentic-harness
+  note_en: Local voice client for Claude Code, Codex, Gemini, or ACP harnesses.
+  note_zh: 本地语音客户端，对接 Claude Code/Codex/Gemini/ACP。
+- id: voicemode
+  name: VoiceMode
+  title: 'VoiceMode: MCP Voice Tools for Coding Agents'
+  date: 2025-10
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/mbailey/voicemode
+    web: https://voicemode.dev
+  sections:
+  - agentic-harness
+  note_en: MCP server/plugin adding voice conversation tools to coding agents.
+  note_zh: MCP 服务/插件，为编程智能体添加语音对话工具。
+- id: aiden
+  name: Aiden
+  title: Aiden Foreground/Background Voice Agents
+  date: 2026-02
+  venue: ''
+  org: Aiden
+  status: closed
+  star: false
+  links:
+    docs: https://aidenai.io/docs/agent/foreground-background-agents/
+  sections:
+  - agentic-harness
+  note_en: Realtime foreground voice agent with background task loop APIs.
+  note_zh: 实时前台语音智能体 + 后台任务循环 API。
+- id: livekit-agents
+  name: LiveKit Agents
+  title: 'LiveKit Agents: Realtime Voice Agent Framework'
+  date: 2024-06
+  venue: ''
+  org: LiveKit
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/livekit/agents
+    docs: https://docs.livekit.io/agents/
+  sections:
+  - agentic-frameworks
+  - agentic-harness
+  note_en: Framework for realtime voice/video agents with jobs, tools, and RTC.
+  note_zh: 实时音视频智能体框架，含 Job、工具与 RTC。
+- id: pipecat
+  name: Pipecat
+  title: 'Pipecat: Composable Realtime Voice & Multimodal Agent Framework'
+  date: 2024-03
+  venue: ''
+  org: Daily
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/pipecat-ai/pipecat
+    docs: https://docs.pipecat.ai/
+  sections:
+  - agentic-frameworks
+  - bb-serving
+  - agentic-harness
+  note_en: Composable pipeline framework for realtime voice and multimodal agents.
+  note_zh: 可组合实时语音与多模态智能体流水线框架。
+- id: ten-framework
+  name: TEN
+  title: 'TEN Framework / TEN Agent: Realtime Multimodal Agents'
+  date: 2024-08
+  venue: ''
+  org: TEN
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/TEN-framework/TEN-Agent
+  sections:
+  - agentic-frameworks
+  note_en: Composable realtime multimodal agent framework and reference agents.
+  note_zh: 可组合实时多模态智能体框架与参考智能体。
+- id: unmute
+  name: Unmute
+  title: 'Kyutai Unmute: Low-Latency Modular Speech Interaction Stack'
+  date: 2025-02
+  venue: ''
+  org: Kyutai
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/kyutai-labs/unmute
+    web: https://unmute.sh/
+    blog: https://kyutai.org/
+  sections:
+  - agentic-frameworks
+  - duplex-engineered
+  - blogs
+  note_en: Modular low-latency speech stack wrapping Moshi-family duplex models.
+  note_zh: 模块化低延迟语音栈，封装 Moshi 系双工模型。
+- id: hf-speech-to-speech
+  name: HF speech-to-speech
+  title: Hugging Face speech-to-speech Realtime Pipeline
+  date: 2024-10
+  venue: ''
+  org: Hugging Face
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/huggingface/speech-to-speech
+  sections:
+  - agentic-frameworks
+  note_en: Community modular realtime speech-to-speech pipeline templates.
+  note_zh: 社区模块化实时语音到语音流水线模板。
+- id: openai-agents-sdk-voice
+  name: OpenAI Agents SDK Voice
+  title: OpenAI Agents SDK Voice Workflows
+  date: 2025-03
+  venue: ''
+  org: OpenAI
+  status: code_only
+  star: false
+  links:
+    docs: https://openai.github.io/openai-agents-python/
+  sections:
+  - agentic-frameworks
+  note_en: Agents SDK patterns for voice sessions, handoffs, and tools.
+  note_zh: Agents SDK 语音会话、交接与工具模式。
+- id: google-adk-live
+  name: Google ADK Live
+  title: Google ADK Live / Streaming Agent Runtime
+  date: 2025-05
+  venue: ''
+  org: Google
+  status: code_only
+  star: false
+  links:
+    docs: https://google.github.io/adk-docs/
+  sections:
+  - agentic-frameworks
+  note_en: Bidirectional streaming agent runtime in Google Agent Development Kit.
+  note_zh: Google ADK 中的双向流式智能体运行时。
+- id: strands-bidiagent
+  name: Strands BidiAgent
+  title: AWS Strands BidiAgent for Bidirectional Voice Agents
+  date: 2025-09
+  venue: ''
+  org: AWS
+  status: code_only
+  star: false
+  links:
+    docs: https://strandsagents.com/
+  sections:
+  - agentic-frameworks
+  - agentic-harness
+  note_en: Bidirectional streaming, barge-in, and concurrent tools in Strands.
+  note_zh: Strands 双向流、打断与并发工具支持。
+- id: fastrtc
+  name: FastRTC
+  title: 'FastRTC: Interactive Audio/Video Transport for Agents'
+  date: 2025-01
+  venue: ''
+  org: Gradio
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/gradio-app/fastrtc
+  sections:
+  - agentic-frameworks
+  - bb-serving
+  - agentic-harness
+  note_en: Interactive audio/video transport and callback layer for voice agents.
+  note_zh: 语音智能体的交互音视频传输与回调层。
+- id: openavatarchat
+  name: OpenAvatarChat
+  title: 'OpenAvatarChat: Real-Time Digital Human Interaction System'
+  date: 2025-03
+  venue: ''
+  org: HumanAIGC
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/HumanAIGC-Engineering/OpenAvatarChat
+  sections:
+  - agentic-frameworks
+  - agentic-harness
+  note_en: Open realtime digital-human conversational interaction system.
+  note_zh: 开放实时数字人对话交互系统。
+- id: egomem
+  name: EgoMem
+  title: 'EgoMem: Lifelong Memory Agent for Full-duplex Omnimodal Models'
+  date: 2025-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2509.11914
+  sections:
+  - agentic-memory
+  note_en: Async identity, personalization, and memory updates beside duplex chat.
+  note_zh: 双工对话旁异步身份识别、个性化与记忆更新。
+- id: voicemem
+  name: VoiceMem
+  title: 'VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction'
+  date: 2026-08
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2608.26005
+  sections:
+  - agentic-memory
+  note_en: Streaming factual/emotion memory banks within duplex speech latency.
+  note_zh: 在双工语音时延内的流式事实/情感记忆库。
+- id: ixc25-ol
+  name: IXC2.5-OL
+  title: 'InternLM-XComposer2.5-OmniLive: Comprehensive Multimodal Live Assistant'
+  date: 2024-12
+  venue: ''
+  org: InternLM
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2412.09596
+  sections:
+  - streaming-omni-assistants
+  note_en: OmniLive assistant for streaming multimodal perception and response.
+  note_zh: 面向流式多模态感知与应答的 OmniLive 助手。
+- id: moshivis
+  name: MoshiVis
+  title: 'MoshiVis: Teaching Speech Models to Converse about Vision'
+  date: 2025-03
+  venue: ''
+  org: Kyutai
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2503.15633
+  sections:
+  - streaming-omni-assistants
+  note_en: Vision-conditioned Moshi enabling duplex speech about visual scenes.
+  note_zh: 视觉条件 Moshi，支持关于视觉场景的双工语音。
+- id: wan-streamer
+  name: Wan-Streamer
+  title: 'Wan-Streamer v0.1: End-to-end Real-time Interactive Omni Streaming'
+  date: 2026-06
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2606.25041
+  sections:
+  - streaming-omni-assistants
+  note_en: End-to-end realtime interactive omni streaming prototype.
+  note_zh: 端到端实时交互 Omni 流式原型。
+- id: lyra
+  name: Lyra
+  title: 'Lyra: An Efficient and Speech-Centric Omnimodal Framework'
+  date: 2024-12
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2412.09501
+  sections:
+  - streaming-omni-assistants
+  note_en: Speech-centric omnimodal framework for efficient interactive assistants.
+  note_zh: 以语音为中心的高效交互 Omni 框架。
+- id: openomni
+  name: OpenOmni
+  title: 'OpenOmni: Advancing Open-Source Omnimodal Large Language Models'
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2501.04561
+  sections:
+  - streaming-omni-assistants
+  note_en: Open omnimodal LLM stack for interactive speech–vision assistants.
+  note_zh: 开放 Omni LLM 栈，服务交互式语音–视觉助手。
+- id: x-streamer
+  name: X-Streamer
+  title: 'X-Streamer: Unified Human World Modeling with Audio-Visual Streams'
+  date: 2025-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2509.21574
+  sections:
+  - streaming-omni-assistants
+  note_en: Unified audio-visual streaming world model for interactive agents.
+  note_zh: 统一音视频流世界模型，服务交互智能体。
+- id: video-salmonn-s
+  name: video-SALMONN S
+  title: 'video-SALMONN S: Memory-Enhanced Streaming Audio-Visual LLM'
+  date: 2025-10
+  venue: ''
+  org: ByteDance / Tsinghua
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.11129
+  sections:
+  - streaming-omni-assistants
+  note_en: Memory-enhanced streaming audio-visual LLM for continuous video.
+  note_zh: 记忆增强流式音视频 LLM，处理连续视频。
+- id: videollm-online
+  name: VideoLLM-online
+  title: 'VideoLLM-online: Online Video Large Language Model'
+  date: 2024-06
+  venue: ''
+  org: ''
+  status: paper_only
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2406.11816
+  sections:
+  - when-to-speak
+  note_en: Online video LLM that decides when to respond over continuous streams.
+  note_zh: 在线视频 LLM，在连续流上决定何时回应。
+- id: mmduet
+  name: MMDuet
+  title: 'VideoLLM Knows When to Speak: Enhancing Time-Sensitive Interaction'
+  date: 2024-11
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2411.17991
+  sections:
+  - when-to-speak
+  note_en: Teaches VideoLLMs when to speak for time-sensitive interactions.
+  note_zh: 训练 VideoLLM 在时间敏感交互中何时发言。
+- id: mmduet2
+  name: MMDuet2
+  title: 'MMDuet2: Enhancing Proactive Interaction of Video LLMs'
+  date: 2025-12
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2512.06810
+  sections:
+  - when-to-speak
+  note_en: Stronger proactive when-to-speak behaviours for video LLMs.
+  note_zh: 增强视频 LLM 的主动 when-to-speak 行为。
+- id: dispider
+  name: Dispider
+  title: 'Dispider: Enabling Video LLMs with Active Real-Time Interaction'
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2501.03218
+  sections:
+  - when-to-speak
+  note_en: Active realtime interaction controller for streaming video LLMs.
+  note_zh: 流式视频 LLM 的主动实时交互控制器。
+- id: streambridge
+  name: StreamBridge
+  title: 'StreamBridge: Turning Offline Video LLMs into Streaming Assistants'
+  date: 2025-05
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.05467
+  sections:
+  - when-to-speak
+  note_en: Adapts offline video LLMs into streaming when-to-speak assistants.
+  note_zh: 将离线视频 LLM 适配为流式 when-to-speak 助手。
+- id: livecc
+  name: LiveCC
+  title: 'LiveCC: Learning Video LLM with Streaming Speech Transcription'
+  date: 2025-04
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2504.16030
+  sections:
+  - when-to-speak
+  note_en: Streaming speech-transcription supervision for live video commentary.
+  note_zh: 流式语音转写监督，用于实时视频解说。
+- id: streammind
+  name: StreamMind
+  title: 'StreamMind: Unlocking Full Frame Rate Streaming Video Dialogue'
+  date: 2025-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2503.06220
+  sections:
+  - when-to-speak
+  note_en: Full frame-rate streaming video dialogue with proactive responses.
+  note_zh: 全帧率流式视频对话与主动回应。
+- id: lion-fs
+  name: LION-FS
+  title: 'LION-FS: Fast & Slow Video-Language Thinker as Online Assistant'
+  date: 2025-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2503.03663
+  sections:
+  - when-to-speak
+  note_en: Fast/slow video-language thinker for online assistance timing.
+  note_zh: 快/慢视频语言思考器，服务在线助手时机。
+- id: flash-vstream
+  name: Flash-VStream
+  title: 'Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams'
+  date: 2024-06
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2406.08085
+  sections:
+  - when-to-speak
+  note_en: Memory-based realtime understanding enabling timely stream replies.
+  note_zh: 基于记忆的实时理解，支持及时流式回复。
+- id: timechat-online
+  name: TimeChat-Online
+  title: 'TimeChat-Online: Efficient Online Video Understanding'
+  date: 2025-04
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2504.17343
+  sections:
+  - when-to-speak
+  note_en: Efficient online video understanding with sparse visual tokens.
+  note_zh: 高效在线视频理解，稀疏视觉 token。
+- id: streamagent
+  name: StreamAgent
+  title: 'StreamAgent: Towards Anticipatory Agents for Streaming Video'
+  date: 2025-08
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2508.01875
+  sections:
+  - when-to-speak
+  note_en: Anticipatory agent policies for speaking/acting on video streams.
+  note_zh: 面向视频流发言/行动的预期式智能体策略。
+- id: proassist
+  name: ProAssist
+  title: Proactive Assistant Dialogue Generation from Streaming Video
+  date: 2025-06
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.05904
+  sections:
+  - when-to-speak
+  note_en: Generates proactive assistant dialogue from continuous video.
+  note_zh: 从连续视频生成主动助手对话。
+- id: vispeak
+  name: ViSpeak
+  title: 'ViSpeak: Visual Instruction Feedback in Streaming Video'
+  date: 2025-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2503.12769
+  sections:
+  - when-to-speak
+  note_en: Visual instruction feedback determining when/what to speak in streams.
+  note_zh: 视觉指令反馈，决定流中何时/说什么。
+- id: streamingvlm
+  name: StreamingVLM
+  title: 'StreamingVLM: Real-Time Understanding for Infinite Video Streams'
+  date: 2025-10
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.09608
+  sections:
+  - when-to-speak
+  note_en: Realtime VLM designed for infinite streaming video understanding.
+  note_zh: 面向无限流视频理解的实时 VLM。
+- id: livestar
+  name: LiveStar
+  title: 'LiveStar: Live Streaming Assistant for Real-World Videos'
+  date: 2025-11
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2511.05299
+  sections:
+  - when-to-speak
+  note_en: Live streaming assistant deciding commentary timing in the wild.
+  note_zh: 直播助手，在真实场景决定解说时机。
+- id: streamo
+  name: Streamo
+  title: 'Streamo: Streaming Video Instruction Tuning'
+  date: 2025-12
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2512.21334
+  sections:
+  - when-to-speak
+  note_en: Instruction tuning recipe for streaming video interaction models.
+  note_zh: 流式视频交互模型的指令微调配方。
+- id: proact-vl
+  name: Proact-VL
+  title: 'Proact-VL: A Proactive VideoLLM for Real-Time AI Companions'
+  date: 2026-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2603.03447
+  sections:
+  - when-to-speak
+  note_en: Proactive VideoLLM tuned for realtime companion interventions.
+  note_zh: 面向实时陪伴介入的主动 VideoLLM。
+- id: egospeak
+  name: EgoSpeak
+  title: 'EgoSpeak: Learning When to Speak for Egocentric Conversational Assistants'
+  date: 2025-02
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2502.14892
+  sections:
+  - when-to-speak
+  note_en: Learns speaking timing for egocentric wearable assistants.
+  note_zh: 学习第一人称可穿戴助手的发言时机。
+- id: streamchat
+  name: StreamChat
+  title: 'StreamChat: Chatting with Streaming Video'
+  date: 2024-12
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2412.08646
+  sections:
+  - when-to-speak
+  note_en: Chat interface over streaming video with response timing control.
+  note_zh: 流式视频聊天接口，含回应时机控制。
+- id: videochat-online
+  name: VideoChat-Online
+  title: 'Online Video Understanding: OVBench and VideoChat-Online'
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2501.00584
+  sections:
+  - when-to-speak
+  note_en: Online video chat model and OVBench for streaming interaction.
+  note_zh: 在线视频聊天模型与 OVBench 流式交互评测。
+- id: rekv
+  name: ReKV
+  title: Streaming Video Question-Answering with In-context Knowledge Retrieval
+  date: 2025-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2503.00540
+  sections:
+  - when-to-speak
+  note_en: Streaming VQA with in-context retrieval guiding answer timing.
+  note_zh: 流式视频问答，上下文检索引导回答时机。
+- id: assistpda
+  name: AssistPDA
+  title: 'AssistPDA: An Online Video Surveillance Assistant'
+  date: 2025-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2503.21904
+  sections:
+  - when-to-speak
+  note_en: Online surveillance assistant that speaks on detected events.
+  note_zh: 在线监控助手，在检测到事件时发言。
+- id: ellsa
+  name: ELLSA
+  title: 'ELLSA: Native Multimodal Full-Duplex Speech and Action'
+  date: 2025-10
+  venue: ''
+  org: Tsinghua / ByteDance
+  status: paper_only
+  star: false
+  links:
+    code: https://github.com/bytedance/SALMONN/tree/ELLSA
+    hf: https://huggingface.co/tsinghua-ee/ELLSA
+  sections:
+  - embodied-duplex
+  note_en: Native multimodal full-duplex model coupling speech with actions.
+  note_zh: 原生多模态全双工，耦合语音与动作。
+- id: vita-e
+  name: VITA-E
+  title: 'VITA-E: Embodied Dual-Model Active/Listening Interaction'
+  date: 2025-10
+  venue: ''
+  org: Tencent / VITA
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.21817
+    code: https://github.com/Tencent/VITA/tree/VITA-E
+    hf: https://huggingface.co/VITA-MLLM/VITA-E
+  sections:
+  - embodied-duplex
+  note_en: Active/Listening dual models with model-as-controller for robots.
+  note_zh: Active/Listening 双模型，模型作机器人控制器。
+- id: roboego
+  name: RoboEgo
+  title: 'RoboEgo System Card: Omnimodal Model with Native Ego Interaction'
+  date: 2025-06
+  venue: ''
+  org: Cofe AI
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.01934
+  sections:
+  - embodied-duplex
+  note_en: Omnimodal ego robot model with native interactive speech–action loops.
+  note_zh: Omni 第一人称机器人模型，原生语音–动作交互环。
+- id: mira
+  name: MIRA
+  title: 'MIRA: Real-Time Full-Duplex Human-Robot Interaction'
+  date: 2026-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.24547
+  sections:
+  - embodied-duplex
+  note_en: Realtime full-duplex human–robot speech and behaviour interaction.
+  note_zh: 实时全双工人机语音与行为交互。
+- id: roboomni
+  name: RoboOmni
+  title: 'RoboOmni: Proactive Robot Manipulation in Omni-modal Streams'
+  date: 2025-10
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.23763
+  sections:
+  - embodied-duplex
+  note_en: Proactive robot manipulation under continuous omni-modal streams.
+  note_zh: 连续 Omni 流下的主动机器人操作。
+- id: hear-embodied
+  name: HEAR
+  title: 'HEAR: Towards the Vision-Sound-Language-Action Paradigm'
+  date: 2026-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2603.16086
+  sections:
+  - embodied-duplex
+  note_en: Vision–sound–language–action paradigm for duplex embodied agents.
+  note_zh: 视觉–声音–语言–动作范式，服务双工具身智能体。
+- id: streamingclaw
+  name: StreamingClaw
+  title: StreamingClaw Technical Report
+  date: 2026-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2603.22120
+  sections:
+  - embodied-duplex
+  note_en: Streaming embodied agent technical report for continuous interaction.
+  note_zh: 面向连续交互的流式具身智能体技术报告。
+- id: hi-robot
+  name: Hi Robot
+  title: 'Hi Robot: Open-Ended Instruction Following with Hierarchical VLAs'
+  date: 2025-02
+  venue: ICML'25
+  org: Physical Intelligence
+  status: paper_only
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2502.19417
+    web: https://www.pi.website/research/hirobot
+  sections:
+  - embodied-dual-vla
+  note_en: System-2 VLM handles live interjections; System-1 π0 executes actions.
+  note_zh: System-2 VLM 处理实时插话，System-1 π0 执行动作。
+- id: helix
+  name: Helix
+  title: 'Helix: A Vision-Language-Action Model for Generalist Humanoid Control'
+  date: 2025-02
+  venue: ''
+  org: Figure AI
+  status: closed
+  star: false
+  links:
+    blog: https://www.figure.ai/news/helix
+  sections:
+  - embodied-dual-vla
+  note_en: 7B System-2 latent updater with 200Hz System-1 humanoid control.
+  note_zh: 7B System-2 潜变量更新 + 200Hz System-1 人形控制。
+- id: groot-n1
+  name: GR00T N1
+  title: 'GR00T N1: An Open Foundation Model for Generalist Humanoid Robots'
+  date: 2025-03
+  venue: ''
+  org: NVIDIA
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2503.14734
+    code: https://github.com/NVIDIA/Isaac-GR00T
+  sections:
+  - embodied-dual-vla
+  note_en: 10Hz VL System-2 with 120Hz diffusion-transformer System-1 actions.
+  note_zh: 10Hz视觉语言慢系统+120Hz扩散快系统。
+- id: roboos
+  name: RoboOS
+  title: 'RoboOS: Hierarchical Embodied Framework with Brain–Cerebellum Design'
+  date: 2025-05
+  venue: ''
+  org: BAAI
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.03673
+    code: https://github.com/FlagOpen/RoboOS
+  sections:
+  - embodied-dual-vla
+  note_en: Explicit brain–cerebellum hierarchy for cross-embodiment collaboration.
+  note_zh: 显式大小脑层级，支持跨本体协作。
+- id: gemini-robotics
+  name: Gemini Robotics
+  title: 'Gemini Robotics 1.5: Embodied Reasoning with Orchestrator + Action Model'
+  date: 2025-10
+  venue: ''
+  org: Google DeepMind
+  status: closed
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.03342
+  sections:
+  - embodied-dual-vla
+  note_en: Orchestrator plans/tools; thinking action model executes motor skills.
+  note_zh: 编排器负责规划/工具，思考动作模型执行技能。
+- id: fast-in-slow
+  name: Fast-in-Slow
+  title: 'Fast-in-Slow: Unifying Fast Manipulation within Slow Reasoning'
+  date: 2025-06
+  venue: NeurIPS'25
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.01953
+    web: https://fast-in-slow.github.io
+  sections:
+  - embodied-dual-vla
+  note_en: Fast System-1 executor embedded in final layers of slow System-2.
+  note_zh: 快 System-1 执行器嵌入慢 System-2 末层。
+- id: robodual
+  name: RoboDual
+  title: Towards Synergistic Dual-System Robotic Manipulation
+  date: 2024-10
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2410.08001
+    code: https://github.com/OpenDriveLab/RoboDual
+  sections:
+  - embodied-dual-vla
+  note_en: Slow generalist + fast specialist dual-system manipulation policy.
+  note_zh: 慢通才 + 快专才双系统操作策略。
+- id: yay-robot
+  name: YAY Robot
+  title: 'Yell At Your Robot: Improving On-the-Fly from Language Corrections'
+  date: 2024-03
+  venue: RSS'24
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2403.12910
+    code: https://github.com/yay-robot/yay_robot
+    web: https://yay-robot.github.io/
+  sections:
+  - embodied-dual-vla
+  note_en: Spoken mid-task corrections override high-level policy in real time.
+  note_zh: 任务中口语纠正实时覆盖高层策略。
+- id: onetwovla
+  name: OneTwoVLA
+  title: 'OneTwoVLA: Unified VLA with Adaptive Reasoning'
+  date: 2025-05
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.11917
+  sections:
+  - embodied-dual-vla
+  note_en: Adaptive reasoning/action switching inside a unified VLA model.
+  note_zh: 统一 VLA 内自适应推理/动作切换。
+- id: switchvla
+  name: SwitchVLA
+  title: 'SwitchVLA: Execution-Aware Task Switching for Vision-Language-Action'
+  date: 2025-06
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.03574
+  sections:
+  - embodied-dual-vla
+  note_en: Execution-aware switching enabling mid-task language interjections.
+  note_zh: 执行感知切换，支持任务中语言插话。
+- id: vlas
+  name: VLAS
+  title: 'VLAS: Vision-Language-Action Model with Speech Instructions'
+  date: 2025-02
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2502.13508
+  sections:
+  - embodied-dual-vla
+  note_en: VLA conditioned on speech instructions for interactive robot control.
+  note_zh: 以语音指令为条件的 VLA，服务交互机器人控制。

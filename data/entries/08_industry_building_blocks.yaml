@@ -1,0 +1,1365 @@
+entries:
+- id: ind-gpt-live-1
+  name: gpt-live-1
+  title: OpenAI GPT-Live 1 front-end voice model
+  date: 2026-01
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: true
+  links:
+    docs: https://developers.openai.com/api/docs/models/gpt-live-1
+  sections:
+  - industry-openai
+  - dual-closed
+  note_en: Live front-end with Responses/client delegation; audio/text, no image/video.
+  note_zh: 实时前台，支持 Responses/客户端委派；音频/文本，不含图像/视频。
+- id: ind-gpt-live-1-mini
+  name: gpt-live-1-mini
+  title: OpenAI GPT-Live 1 mini
+  date: 2026-01
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: false
+  links:
+    docs: https://developers.openai.com/api/docs/models/gpt-live-1
+  sections:
+  - industry-openai
+  note_en: Smaller/cheaper Live tier; verify modality and delegation parity with full.
+  note_zh: 更小/更便宜的 Live 档；需核对与完整版模态和委派能力是否一致。
+- id: ind-gpt-realtime-2.1
+  name: gpt-realtime-2.1
+  title: OpenAI GPT Realtime 2.1 / 2.1 mini
+  date: 2026-05
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: false
+  links:
+    docs: https://developers.openai.com/api/docs/models/gpt-realtime-2.1
+  sections:
+  - industry-openai
+  note_en: Realtime session with configurable reasoning and tools; not identical to Live.
+  note_zh: Realtime 会话，可配推理与工具；架构不等于 GPT-Live。
+- id: ind-gpt-realtime-translate
+  name: GPT-Realtime-Translate
+  title: OpenAI realtime speech translation SKU
+  date: 2025-01
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: false
+  links:
+    docs: https://developers.openai.com/api/docs/
+  sections:
+  - industry-openai
+  note_en: Realtime translation-oriented endpoint; not a general duplex chat model.
+  note_zh: 面向实时翻译的端点；不是通用双工闲聊模型。
+- id: ind-gpt-audio-1.5
+  name: GPT Audio 1.5
+  title: OpenAI GPT Audio 1.5 family
+  date: 2026-02
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: false
+  links:
+    docs: https://developers.openai.com/api/docs/models/gpt-audio-1.5
+  sections:
+  - industry-openai
+  note_en: Audio QA/generation via Chat Completions — not full-duplex Live/Realtime.
+  note_zh: Chat Completions 音频问答/生成——不是全双工 Live/Realtime。
+- id: ind-gemini-38-live-thinking
+  name: Gemini 3.8 Live Extended Thinking
+  title: Gemini 3.8 Live with Extended Thinking
+  date: 2026-09
+  venue: ''
+  org: Google DeepMind
+  status: closed
+  star: true
+  links:
+    docs: https://ai.google.dev/gemini-api/docs/live-api/thinking
+  sections:
+  - industry-google
+  - dual-closed
+  note_en: Keeps interaction while backend extended thinking runs.
+  note_zh: 后台 Extended Thinking 期间仍保持交互。
+- id: ind-gemini-25-flash-native-audio
+  name: Gemini 2.5 Flash Native Audio
+  title: Gemini 2.5 Flash native audio Live preview lineage
+  date: 2025-04
+  venue: ''
+  org: Google DeepMind
+  status: closed
+  star: false
+  links:
+    docs: https://ai.google.dev/gemini-api/docs/live
+  sections:
+  - industry-google
+  note_en: Native-audio preview generation; some live-preview endpoints retired.
+  note_zh: 原生音频预览代；部分 live-preview 端点已退役。
+- id: ind-gemini-35-live-translate
+  name: Gemini 3.5 Live Translate
+  title: Gemini Live speech translation SKU
+  date: 2026-01
+  venue: ''
+  org: Google DeepMind
+  status: closed
+  star: false
+  links:
+    docs: https://ai.google.dev/gemini-api/docs/
+  sections:
+  - industry-google
+  note_en: Live translation-oriented Gemini SKU; separate from general Live chat.
+  note_zh: 面向实时翻译的 Gemini SKU；与通用 Live 闲聊分开。
+- id: ind-qwen-audio-31-realtime-plus
+  name: Qwen-Audio 3.1 Realtime Plus
+  title: Qwen-Audio 3.1 Realtime Plus (Think/Act/Speak)
+  date: 2026-09
+  venue: ''
+  org: Alibaba / QwenAudio
+  status: closed
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2609.25176
+    web: https://qwenaudio.github.io/qwen-audio-3.1-realtime/
+    docs: https://www.alibabacloud.com/help/en/model-studio/qwen-audio-realtime-model-access
+  sections:
+  - industry-alibaba
+  note_en: Closed realtime API; not a small version of open Qwen3-Omni-30B.
+  note_zh: 闭源实时 API；不是开源 Qwen3-Omni-30B 的小版本。
+- id: ind-qwen-audio-30
+  name: Qwen-Audio 3.0
+  title: Qwen-Audio 3.0 Realtime Plus / Flash
+  date: 2026-01
+  venue: ''
+  org: Alibaba / QwenAudio
+  status: closed
+  star: false
+  links:
+    docs: https://www.alibabacloud.com/help/en/model-studio/
+  sections:
+  - industry-alibaba
+  note_en: Prior realtime audio series with function calling and search.
+  note_zh: 前代实时音频系列，支持函数调用与搜索。
+- id: ind-qwen38-omni-flash-realtime
+  name: Qwen3.8-Omni-Flash-Realtime
+  title: Qwen3.8 Omni Flash Realtime API
+  date: 2026-01
+  venue: ''
+  org: Alibaba / Qwen
+  status: closed
+  star: false
+  links:
+    docs: https://www.alibabacloud.com/help/en/model-studio/
+  sections:
+  - industry-alibaba
+  note_en: Flash realtime omni API SKU in the Qwen3.8 line.
+  note_zh: Qwen3.8 线的 Flash 实时 Omni API。
+- id: ind-qwen35-omni-plus-realtime
+  name: Qwen3.5-Omni-Plus-Realtime
+  title: Qwen3.5 Omni Plus Realtime API
+  date: 2026-01
+  venue: ''
+  org: Alibaba / Qwen
+  status: closed
+  star: false
+  links:
+    docs: https://www.alibabacloud.com/help/en/model-studio/
+    code: https://github.com/QwenAudio/qwen-audio-agent
+  sections:
+  - industry-alibaba
+  note_en: Plus-tier realtime omni API; distinct from open-weight Omni checkpoints.
+  note_zh: Plus 档实时 Omni API；与开源 Omni 权重不是同一交付物。
+- id: ind-qwen3-livetranslate
+  name: qwen3-livetranslate
+  title: Qwen3 live speech translation model/API
+  date: 2025-01
+  venue: ''
+  org: Alibaba / Qwen
+  status: closed
+  star: false
+  links:
+    docs: https://www.alibabacloud.com/help/en/model-studio/
+  sections:
+  - industry-alibaba
+  note_en: Live translation SKU; not a general duplex assistant.
+  note_zh: 实时翻译型号；不是通用双工助手。
+- id: ind-doubao-o20
+  name: Doubao O2.0
+  title: Doubao O2.0 omni / voice product line
+  date: 2025-01
+  venue: ''
+  org: ByteDance
+  status: closed
+  star: false
+  links:
+    web: https://www.volcengine.com/
+  sections:
+  - industry-bytedance
+  note_en: Doubao omni/voice product naming; verify against current console IDs.
+  note_zh: 豆包 Omni/语音产品命名；以控制台当前 ID 为准。
+- id: ind-seed-realtime-voice-2025
+  name: Seed Realtime Voice 2025
+  title: Seed realtime voice model (2025)
+  date: 2025-01
+  venue: ''
+  org: ByteDance / Seed
+  status: closed
+  star: false
+  links: {}
+  sections:
+  - industry-bytedance
+  note_en: 2025 official realtime voice lineage before Seeduplex research post.
+  note_zh: 2025 官方实时语音谱系，早于 Seeduplex 研究发布。
+- id: ind-seedrealtime-2026-08
+  name: SeedRealtime 2026-08
+  title: Seed Realtime voice update (2026-08)
+  date: 2026-08
+  venue: ''
+  org: ByteDance / Seed
+  status: closed
+  star: false
+  links: {}
+  sections:
+  - industry-bytedance
+  note_en: 2026-08 Seed realtime voice refresh; check Volcano console for SKU.
+  note_zh: 2026-08 Seed 实时语音更新；SKU 以火山控制台为准。
+- id: ind-nova-25-sonic
+  name: Nova 2.5 Sonic
+  title: Amazon Nova 2.5 Sonic
+  date: 2026-01
+  venue: ''
+  org: Amazon
+  status: closed
+  star: false
+  links:
+    docs: https://aws.amazon.com/ai/generative-ai/nova/
+  sections:
+  - industry-others
+  note_en: 2.5 Sonic tier; confirm region/feature matrix in AWS docs.
+  note_zh: 2.5 Sonic 档；区域与功能以 AWS 文档为准。
+- id: ind-hume-evi
+  name: Hume EVI 3 / 4-mini
+  title: Hume Empathic Voice Interface 3 and 4-mini
+  date: 2025-01
+  venue: ''
+  org: Hume
+  status: closed
+  star: false
+  links:
+    docs: https://dev.hume.ai/
+  sections:
+  - industry-others
+  note_en: Empathic voice API focused on expressive/emotional interaction.
+  note_zh: 强调表达/情绪交互的共情语音 API。
+- id: ind-sensenova-omni
+  name: SenseNova 5o / V6 Omni
+  title: SenseTime SenseNova omni realtime models
+  date: 2025-01
+  venue: ''
+  org: SenseTime
+  status: closed
+  star: false
+  links: {}
+  sections:
+  - industry-others
+  note_en: SenseNova omni/realtime product line (5o / V6 naming).
+  note_zh: 商汤 SenseNova Omni/实时产品线（5o / V6 命名）。
+- id: ind-glm-realtime
+  name: GLM-Realtime
+  title: Zhipu GLM-Realtime audiovisual API
+  date: 2025-01
+  venue: ''
+  org: Zhipu AI
+  status: closed
+  star: false
+  links:
+    docs: https://open.bigmodel.cn/dev/api/rtav/GLM-Realtime
+  sections:
+  - industry-others
+  note_en: Closed realtime AV API; distinct from open GLM-4-Voice weights.
+  note_zh: 闭源实时音视频 API；与开源 GLM-4-Voice 权重不同。
+- id: ind-baidu-speech-llm
+  name: Baidu Speech LLM
+  title: Baidu Qianfan / speech LLM realtime offerings
+  date: 2025-01
+  venue: ''
+  org: Baidu
+  status: closed
+  star: false
+  links: {}
+  sections:
+  - industry-others
+  note_en: Baidu cloud speech LLM / realtime voice products.
+  note_zh: 百度云语音大模型/实时语音产品。
+- id: ind-iflytek-sparkos
+  name: iFlytek SparkOS
+  title: iFlytek SparkOS voice agent OS / runtime
+  date: 2025-01
+  venue: ''
+  org: iFlytek
+  status: closed
+  star: false
+  links: {}
+  sections:
+  - industry-others
+  note_en: iFlytek Spark-oriented voice OS / agent runtime.
+  note_zh: 科大讯飞星火方向的语音 OS / Agent 运行时。
+- id: ind-tml-interaction-small
+  name: TML Interaction-Small
+  title: Thinking Machines Lab Interaction-Small model
+  date: 2025-01
+  venue: ''
+  org: Thinking Machines Lab
+  status: closed
+  star: false
+  links: {}
+  sections:
+  - industry-others
+  note_en: Small interaction-model SKU referenced in TML materials.
+  note_zh: TML 材料中提及的小型 Interaction Model。
+- id: ind-sesame-maya-miles
+  name: Sesame Maya / Miles
+  title: Sesame conversational voice personas Maya and Miles
+  date: 2025-02
+  venue: ''
+  org: Sesame
+  status: closed
+  star: false
+  links:
+    web: https://www.sesame.com/
+  sections:
+  - industry-others
+  note_en: Product personas demoing Sesame conversational speech tech.
+  note_zh: 展示 Sesame 对话语音技术的产品人设。
+- id: ind-step-audio-3-realtime
+  name: Step-Audio 3 Realtime
+  title: StepFun Step-Audio 3 realtime speech model
+  date: 2025-01
+  venue: ''
+  org: StepFun
+  status: closed
+  star: false
+  links:
+    code: https://github.com/stepfun-ai/Step-Audio
+    blog: https://static.stepfun.com/blog/stepaudio3/realtime/
+    web: https://platform.stepfun.com/
+  sections:
+  - industry-others
+  note_en: StepFun realtime audio model line.
+  note_zh: 阶跃星辰实时音频模型线。
+- id: ind-kyutai-moshi
+  name: Kyutai Moshi
+  title: Moshi / Moshiko / Moshika full-duplex models
+  date: 2024-09
+  venue: ''
+  org: Kyutai
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2410.00037
+    code: https://github.com/kyutai-labs/moshi
+    hf: https://huggingface.co/kyutai/moshiko-pytorch-bf16
+  sections:
+  - industry-others
+  note_en: Open full-duplex baseline with multi-stream audio + inner monologue.
+  note_zh: 开放全双工基线：多音频流 + 内部独白。
+- id: ind-kyutai-unmute
+  name: Kyutai Unmute
+  title: Unmute open voice assistant stack
+  date: 2025-01
+  venue: ''
+  org: Kyutai
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/kyutai-labs/unmute
+  sections:
+  - industry-others
+  - agentic-harness
+  - agentic-frameworks
+  note_en: Composable open voice assistant using Kyutai components.
+  note_zh: 基于 Kyutai 组件的可组合开源语音助手。
+- id: ind-kyutai-hibiki
+  name: Kyutai Hibiki
+  title: Hibiki simultaneous speech translation
+  date: 2025-01
+  venue: ''
+  org: Kyutai
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/kyutai-labs/hibiki
+  sections:
+  - industry-others
+  note_en: Kyutai streaming / simultaneous speech translation model.
+  note_zh: Kyutai 流式/同声传译模型。
+- id: ind-liquid-lfm25-audio
+  name: LFM2.5-Audio
+  title: Liquid LFM2.5-Audio model
+  date: 2025-01
+  venue: ''
+  org: Liquid AI
+  status: open_weights
+  star: false
+  links:
+    web: https://www.liquid.ai/
+  sections:
+  - industry-others
+  note_en: Liquid Foundation Models audio variant.
+  note_zh: Liquid Foundation Models 音频变体。
+- id: ind-talkingmachines
+  name: TalkingMachines
+  title: Character.AI TalkingMachines voice stack
+  date: 2025-01
+  venue: ''
+  org: Character.AI
+  status: closed
+  star: false
+  links: {}
+  sections:
+  - industry-others
+  note_en: Character.AI conversational voice / talking machines product line.
+  note_zh: Character.AI 对话语音 / TalkingMachines 产品线。
+- id: ind-ernie-50
+  name: ERNIE 5.0
+  title: Baidu ERNIE 5.0 multimodal / voice capabilities
+  date: 2025-01
+  venue: ''
+  org: Baidu
+  status: closed
+  star: false
+  links: {}
+  sections:
+  - industry-others
+  note_en: ERNIE 5.0 product multimodal/voice features via Qianfan.
+  note_zh: 文心 5.0 通过千帆提供的多模态/语音能力。
+- id: ind-apple-live-translation
+  name: Apple Live Translation / Siri AI
+  title: Apple Live Translation and Siri AI voice features
+  date: 2025-01
+  venue: ''
+  org: Apple
+  status: closed
+  star: false
+  links: {}
+  sections:
+  - industry-others
+  note_en: On-device/OS-integrated live translation and Siri AI voice.
+  note_zh: 端侧/系统集成的实时翻译与 Siri AI 语音。
+- id: ind-claude-voice
+  name: Claude Voice Mode
+  title: Anthropic Claude voice mode
+  date: 2024-01
+  venue: ''
+  org: Anthropic
+  status: closed
+  star: false
+  links:
+    web: https://www.anthropic.com/
+  sections:
+  - industry-others
+  note_en: Claude app voice mode; cascade vs native duplex not fully public.
+  note_zh: Claude 应用语音模式；级联 vs 原生双工细节未完全公开。
+- id: ind-meta-ai-voice
+  name: Meta AI Voice
+  title: Meta AI voice / conversational speech features
+  date: 2024-01
+  venue: ''
+  org: Meta
+  status: closed
+  star: false
+  links: {}
+  sections:
+  - industry-others
+  note_en: Meta AI assistant voice experiences across apps/devices.
+  note_zh: Meta AI 助手在多应用/设备上的语音体验。
+- id: ind-elevenagents
+  name: ElevenAgents
+  title: ElevenLabs conversational / agent platform
+  date: 2025-01
+  venue: ''
+  org: ElevenLabs
+  status: closed
+  star: false
+  links:
+    docs: https://elevenlabs.io/docs
+  sections:
+  - industry-others
+  - bb-platforms
+  note_en: ElevenLabs agents for conversational voice apps.
+  note_zh: ElevenLabs 对话式语音 Agent 平台。
+- id: ind-deepgram-voice-agent
+  name: Deepgram Voice Agent
+  title: Deepgram Voice Agent API
+  date: 2025-01
+  venue: ''
+  org: Deepgram
+  status: closed
+  star: false
+  links:
+    docs: https://developers.deepgram.com/
+  sections:
+  - industry-others
+  - bb-platforms
+  note_en: Hosted voice agent with STT-centric realtime stack.
+  note_zh: 以 STT 为中心的托管实时语音 Agent。
+- id: bb-mimi
+  name: Mimi
+  title: Kyutai Mimi neural audio codec for Moshi
+  date: 2024-09
+  venue: ''
+  org: Kyutai
+  status: open_weights
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2410.00037
+    code: https://github.com/kyutai-labs/moshi
+    hf: https://huggingface.co/kyutai/mimi
+  sections:
+  - bb-codec
+  note_en: Landmark streaming codec used by Moshi full-duplex models.
+  note_zh: Moshi 全双工模型使用的里程碑式流式 codec。
+- id: bb-snac
+  name: SNAC
+  title: Multi-scale neural audio codec
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/hubertsiuzdak/snac
+  sections:
+  - bb-codec
+  note_en: Multi-resolution codec popular in open TTS/SLM stacks.
+  note_zh: 多分辨率 codec，常见于开源 TTS/SLM 栈。
+- id: bb-encodec
+  name: EnCodec
+  title: Meta EnCodec neural audio codec
+  date: 2022-10
+  venue: ''
+  org: Meta
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2210.13438
+    code: https://github.com/facebookresearch/encodec
+  sections:
+  - bb-codec
+  note_en: Widely used RVQ audio codec baseline.
+  note_zh: 广泛使用的 RVQ 音频 codec 基线。
+- id: bb-dac
+  name: DAC
+  title: Descript Audio Codec
+  date: 2023-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/descriptinc/descript-audio-codec
+  sections:
+  - bb-codec
+  note_en: High-quality neural audio codec (Descript).
+  note_zh: Descript 高质量神经音频 codec。
+- id: bb-speechtokenizer
+  name: SpeechTokenizer
+  title: Unified speech tokenizer with semantic+acoustic tokens
+  date: 2023-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2308.16692
+    code: https://github.com/ZhangXInFD/SpeechTokenizer
+  sections:
+  - bb-codec
+  note_en: Supervised semantic + acoustic residual tokenization.
+  note_zh: 监督语义 token + 声学残差 tokenization。
+- id: bb-wavtokenizer
+  name: WavTokenizer
+  title: Acoustic codec / tokenizer for speech LMs
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/jishengpeng/WavTokenizer
+  sections:
+  - bb-codec
+  note_en: Compact wav tokenizer for generative speech models.
+  note_zh: 面向生成式语音模型的紧凑 wav tokenizer。
+- id: bb-xcodec2
+  name: X-Codec2
+  title: X-Codec2 speech codec
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    hf: https://huggingface.co/HKUSTAudio/xcodec2
+  sections:
+  - bb-codec
+  note_en: Improved X-Codec family tokenizer for SLMs.
+  note_zh: 改进的 X-Codec 族 tokenizer，用于 SLM。
+- id: bb-bicodec
+  name: BiCodec
+  title: BiCodec dual-stream speech tokenizer
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - bb-codec
+  note_en: Dual-stream codec design for speech generation.
+  note_zh: 面向语音生成的双流 codec 设计。
+- id: bb-glm4voice-tok
+  name: GLM-4-Voice tokenizer
+  title: Tokenizer stack from GLM-4-Voice
+  date: 2024-10
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/THUDM/GLM-4-Voice
+  sections:
+  - bb-codec
+  note_en: Speech tokenizer released with GLM-4-Voice.
+  note_zh: 随 GLM-4-Voice 发布的语音 tokenizer。
+- id: bb-cosyvoice-s3
+  name: CosyVoice S3
+  title: CosyVoice S3 speech tokenizer / codec
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/FunAudioLLM/CosyVoice
+  sections:
+  - bb-codec
+  note_en: Tokenizer component in the CosyVoice TTS lineage.
+  note_zh: CosyVoice TTS 谱系中的 tokenizer 组件。
+- id: bb-qwen3-tts-tok
+  name: Qwen3-TTS-Tokenizer
+  title: Qwen3 TTS speech tokenizer
+  date: 2025-01
+  venue: ''
+  org: Alibaba / Qwen
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/QwenLM
+  sections:
+  - bb-codec
+  note_en: Tokenizer used by Qwen3-TTS models.
+  note_zh: Qwen3-TTS 使用的语音 tokenizer。
+- id: bb-codec-superb
+  name: Codec-SUPERB
+  title: SUPERB-style evaluation for neural codecs
+  date: 2024-02
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2402.13071
+    code: https://github.com/voidful/Codec-SUPERB
+  sections:
+  - bb-codec
+  note_en: Benchmark suite for comparing speech codecs/tokenizers.
+  note_zh: 比较语音 codec/tokenizer 的评测套件。
+- id: bb-dasb
+  name: DASB
+  title: Discrete audio / speech benchmark for tokenizers
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links: {}
+  sections:
+  - bb-codec
+  note_en: Evaluation harness for discrete audio representations.
+  note_zh: 离散音频表征的评测框架。
+- id: bb-cosyvoice-2-3
+  name: CosyVoice 2/3
+  title: FunAudioLLM CosyVoice 2 and 3 streaming TTS
+  date: 2024-01
+  venue: ''
+  org: FunAudioLLM
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/FunAudioLLM/CosyVoice
+  sections:
+  - bb-tts
+  note_en: Strong open streaming/zero-shot TTS lineage.
+  note_zh: 强力开源流式/零样本 TTS 谱系。
+- id: bb-kyutai-tts
+  name: Kyutai TTS
+  title: Kyutai streaming TTS models
+  date: 2025-01
+  venue: ''
+  org: Kyutai
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/kyutai-labs
+  sections:
+  - bb-tts
+  note_en: Streaming TTS components from Kyutai.
+  note_zh: Kyutai 流式 TTS 组件。
+- id: bb-sesame-csm
+  name: Sesame CSM
+  title: Sesame Conversational Speech Model
+  date: 2025-02
+  venue: ''
+  org: Sesame
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/SesameAILabs/csm
+    hf: https://huggingface.co/sesame/csm-1b
+    blog: https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice
+  sections:
+  - bb-tts
+  - blogs
+  note_en: Open conversational speech generator (CSM-1B).
+  note_zh: 开放对话式语音生成（CSM-1B）。
+- id: bb-spark-tts
+  name: Spark-TTS
+  title: Spark-TTS efficient speech synthesis
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/SparkAudio/Spark-TTS
+  sections:
+  - bb-tts
+  note_en: Open TTS model aimed at efficient high-quality synthesis.
+  note_zh: 面向高效高质量合成的开源 TTS。
+- id: bb-qwen3-tts
+  name: Qwen3-TTS
+  title: Qwen3 text-to-speech models
+  date: 2025-01
+  venue: ''
+  org: Alibaba / Qwen
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/QwenLM
+  sections:
+  - bb-tts
+  note_en: Qwen TTS line for streaming / controllable speech.
+  note_zh: 通义 TTS 线，支持流式/可控语音。
+- id: bb-orpheus
+  name: Orpheus
+  title: Orpheus TTS / speech LM
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    hf: https://huggingface.co/canopylabs
+  sections:
+  - bb-tts
+  note_en: Open Orpheus TTS models on Hugging Face.
+  note_zh: Hugging Face 上的开源 Orpheus TTS。
+- id: bb-fireredtts-2
+  name: FireRedTTS-2
+  title: FireRedTeam TTS 2
+  date: 2025-01
+  venue: ''
+  org: FireRedTeam
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/FireRedTeam/FireRedTTS
+  sections:
+  - bb-tts
+  note_en: TTS component in FireRedChat full-duplex stacks.
+  note_zh: FireRedChat 全双工栈中的 TTS 组件。
+- id: bb-vibevoice-realtime
+  name: VibeVoice-Realtime
+  title: VibeVoice realtime TTS
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - bb-tts
+  note_en: Realtime-oriented VibeVoice synthesis.
+  note_zh: 面向实时的 VibeVoice 合成。
+- id: bb-f5-tts
+  name: F5-TTS
+  title: F5-TTS flow-matching TTS
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/SWivid/F5-TTS
+  sections:
+  - bb-tts
+  note_en: Popular open non-autoregressive TTS baseline.
+  note_zh: 流行的开源非自回归 TTS 基线。
+- id: bb-whisper
+  name: Whisper
+  title: OpenAI Whisper ASR family
+  date: 2022-09
+  venue: ''
+  org: OpenAI
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2212.04356
+    code: https://github.com/openai/whisper
+  sections:
+  - bb-asr
+  note_en: Ubiquitous open ASR; streaming needs chunked/VAD wrappers.
+  note_zh: 无处不在的开源 ASR；流式需分块/VAD 封装。
+- id: bb-kyutai-stt
+  name: Kyutai STT
+  title: Kyutai streaming speech-to-text
+  date: 2025-01
+  venue: ''
+  org: Kyutai
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/kyutai-labs
+  sections:
+  - bb-asr
+  note_en: Streaming STT models from Kyutai.
+  note_zh: Kyutai 流式语音识别模型。
+- id: bb-voxtral-asr
+  name: Voxtral Realtime
+  title: Mistral Voxtral realtime ASR / audio understanding
+  date: 2025-01
+  venue: ''
+  org: Mistral
+  status: closed
+  star: false
+  links:
+    docs: https://docs.mistral.ai/
+  sections:
+  - bb-asr
+  - industry-others
+  note_en: Realtime audio understanding API useful as ASR front-end.
+  note_zh: 可用作 ASR 前端的实时音频理解 API。
+- id: bb-qwen3-asr
+  name: Qwen3-ASR
+  title: Qwen3 automatic speech recognition
+  date: 2025-01
+  venue: ''
+  org: Alibaba / Qwen
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/QwenLM
+  sections:
+  - bb-asr
+  note_en: Qwen ASR models for multilingual recognition.
+  note_zh: 通义多语种语音识别模型。
+- id: bb-nemotron-speech-streaming
+  name: Nemotron Speech Streaming
+  title: NVIDIA Nemotron streaming speech recognition
+  date: 2025-01
+  venue: ''
+  org: NVIDIA
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/NVIDIA/NeMo
+  sections:
+  - bb-asr
+  note_en: NVIDIA streaming ASR / speech models for agents.
+  note_zh: 面向 Agent 的 NVIDIA 流式 ASR/语音模型。
+- id: bb-sensevoice
+  name: SenseVoice
+  title: FunAudioLLM SenseVoice ASR
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/FunAudioLLM/SenseVoice
+  sections:
+  - bb-asr
+  note_en: Multilingual ASR with emotion/event tags.
+  note_zh: 多语种 ASR，含情感/事件标签。
+- id: bb-paraformer
+  name: Paraformer
+  title: FunASR Paraformer non-autoregressive ASR
+  date: 2022-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/modelscope/FunASR
+  sections:
+  - bb-asr
+  note_en: Industrial NAR ASR widely used in Chinese stacks.
+  note_zh: 中文栈常用的工业级非自回归 ASR。
+- id: bb-moonshine-v2
+  name: Moonshine v2
+  title: Useful Sensors Moonshine v2 efficient ASR
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/usefulsensors/moonshine
+  sections:
+  - bb-asr
+  note_en: Edge-friendly open ASR models.
+  note_zh: 面向端侧的开源 ASR。
+- id: bb-fireredasr
+  name: FireRedASR
+  title: FireRedTeam ASR models
+  date: 2025-01
+  venue: ''
+  org: FireRedTeam
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/FireRedTeam
+  sections:
+  - bb-asr
+  note_en: ASR component released with FireRedChat stack.
+  note_zh: 随 FireRedChat 栈发布的 ASR 组件。
+- id: bb-silero-vad
+  name: Silero VAD
+  title: Silero Voice Activity Detection
+  date: 2021-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/snakers4/silero-vad
+  sections:
+  - bb-vad
+  note_en: Default lightweight VAD in many voice-agent pipelines.
+  note_zh: 许多语音 Agent 流水线的默认轻量 VAD。
+- id: bb-ten-vad
+  name: TEN VAD
+  title: TEN Framework voice activity detection
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/TEN-framework/ten-vad
+  sections:
+  - bb-vad
+  note_en: VAD module in the TEN conversational framework.
+  note_zh: TEN 对话框架中的 VAD 模块。
+- id: bb-deepgram-flux
+  name: Deepgram Flux
+  title: Deepgram Flux endpointing / turn features
+  date: 2025-01
+  venue: ''
+  org: Deepgram
+  status: closed
+  star: false
+  links:
+    docs: https://developers.deepgram.com/
+  sections:
+  - bb-vad
+  - turn-taking-methods
+  note_en: Hosted endpointing features in Deepgram realtime APIs.
+  note_zh: Deepgram 实时 API 中的托管端点检测能力。
+- id: bb-parakeet-realtime-eou
+  name: Parakeet-Realtime-EOU
+  title: NVIDIA Parakeet realtime end-of-utterance
+  date: 2025-01
+  venue: ''
+  org: NVIDIA
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/NVIDIA/NeMo
+  sections:
+  - bb-vad
+  note_en: Realtime EOU models in the NeMo / Parakeet line.
+  note_zh: NeMo / Parakeet 线的实时句末检测模型。
+- id: bb-webrtc-apm
+  name: WebRTC APM
+  title: WebRTC Audio Processing Module (AEC/NS/AGC)
+  date: 2011-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://webrtc.googlesource.com/src
+  sections:
+  - bb-aec
+  note_en: Industry-standard AEC/NS building block for voice clients.
+  note_zh: 语音客户端的工业标准 AEC/NS 组件。
+- id: bb-fireredchat-pvad
+  name: FireRedChat pVAD
+  title: FireRedChat personalized / duplex VAD
+  date: 2025-09
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/FireRedTeam/FireRedChat
+  sections:
+  - bb-aec
+  note_en: pVAD component for full-duplex self-hosted voice stacks.
+  note_zh: 面向自托管全双工语音栈的 pVAD 组件。
+- id: bb-wesep
+  name: WeSep
+  title: Speaker separation toolkit
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/wenet-e2e/wesep
+  sections:
+  - bb-aec
+  note_en: Open speaker separation useful before duplex ASR.
+  note_zh: 开源说话人分离，可用于双工 ASR 前处理。
+- id: bb-streaming-sortformer
+  name: Streaming Sortformer
+  title: Streaming Sortformer diarization / separation
+  date: 2024-01
+  venue: ''
+  org: NVIDIA
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/NVIDIA/NeMo
+  sections:
+  - bb-aec
+  note_en: Streaming diarization/separation for multi-speaker clients.
+  note_zh: 多方客户端的流式日志化/分离。
+- id: bb-vllm-omni
+  name: vLLM-Omni
+  title: vLLM serving extensions for omni / multimodal models
+  date: 2025-01
+  venue: ''
+  org: vLLM 社区
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/vllm-project/vllm
+  sections:
+  - bb-serving
+  - agentic-harness
+  note_en: High-throughput serving path for omni checkpoints.
+  note_zh: 面向 Omni 权重的高吞吐推理服务路径。
+- id: bb-sglang-omni
+  name: SGLang-Omni
+  title: SGLang serving for omni / speech models
+  date: 2025-01
+  venue: ''
+  org: SGLang 社区
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/sgl-project/sglang
+  sections:
+  - bb-serving
+  - agentic-harness
+  note_en: SGLang runtime used for fast omni/speech serving.
+  note_zh: 用于快速 Omni/语音服务的 SGLang 运行时。
+- id: bb-livekit
+  name: LiveKit
+  title: LiveKit realtime transport and Agents framework
+  date: 2023-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/livekit/agents
+    docs: https://docs.livekit.io/agents/
+  sections:
+  - bb-serving
+  note_en: WebRTC transport + Agents SDK for production voice apps.
+  note_zh: 面向生产语音应用的 WebRTC 传输 + Agents SDK。
+- id: bb-ten-framework
+  name: TEN Framework
+  title: TEN conversational AI framework
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/TEN-framework/ten-framework
+  sections:
+  - bb-serving
+  note_en: Open framework for realtime multimodal voice agents.
+  note_zh: 面向实时多模态语音 Agent 的开源框架。
+- id: bb-moshi-server
+  name: moshi-server
+  title: Kyutai Moshi realtime server
+  date: 2024-09
+  venue: ''
+  org: Kyutai
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/kyutai-labs/moshi
+  sections:
+  - bb-serving
+  note_en: Official Moshi server for full-duplex sessions.
+  note_zh: 官方 Moshi 全双工会话服务端。
+- id: bb-nemo-voice-agent
+  name: NeMo Voice Agent
+  title: NVIDIA NeMo voice agent recipes / runtime
+  date: 2025-01
+  venue: ''
+  org: NVIDIA
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/NVIDIA/NeMo
+  sections:
+  - bb-serving
+  note_en: NeMo components and recipes for speech agents.
+  note_zh: NeMo 语音 Agent 组件与配方。
+- id: bb-qwen2-audio
+  name: Qwen2-Audio
+  title: Qwen2-Audio large audio language model
+  date: 2024-01
+  venue: ''
+  org: Alibaba / Qwen
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2407.10759
+    code: https://github.com/QwenLM/Qwen2-Audio
+  sections:
+  - bb-audio-understanding
+  note_en: Strong open audio→text LALM baseline.
+  note_zh: 强力开源音频→文本 LALM 基线。
+- id: bb-audio-flamingo-3
+  name: Audio Flamingo 3
+  title: NVIDIA Audio Flamingo 3
+  date: 2025-01
+  venue: ''
+  org: NVIDIA
+  status: open_weights
+  star: false
+  links:
+    hf: https://huggingface.co/nvidia
+  sections:
+  - bb-audio-understanding
+  note_en: Audio understanding LALM from NVIDIA.
+  note_zh: NVIDIA 音频理解 LALM。
+- id: bb-salmonn
+  name: SALMONN
+  title: SALMONN speech audio language model
+  date: 2023-10
+  venue: ''
+  org: ByteDance
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2310.13289
+    code: https://github.com/bytedance/SALMONN
+  sections:
+  - bb-audio-understanding
+  note_en: Early influential open audio LLM (ByteDance).
+  note_zh: 早期有影响力的开源音频大模型（字节）。
+- id: bb-ultravox-understand
+  name: Ultravox
+  title: Ultravox speech-aware LLM (understanding)
+  date: 2024-01
+  venue: ''
+  org: Fixie
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/fixie-ai/ultravox
+    hf: https://huggingface.co/fixieai
+    docs: https://docs.ultravox.ai/
+  sections:
+  - bb-audio-understanding
+  - industry-others
+  - bb-tts
+  note_en: Speech→text LLM often paired with external TTS.
+  note_zh: 语音→文本 LLM，常外接 TTS。
+- id: bb-phi4-multimodal
+  name: Phi-4 Multimodal
+  title: Microsoft Phi-4 Multimodal
+  date: 2025-01
+  venue: ''
+  org: Microsoft
+  status: open_weights
+  star: false
+  links:
+    hf: https://huggingface.co/microsoft
+  sections:
+  - bb-audio-understanding
+  note_en: Small multimodal model with audio understanding.
+  note_zh: 含音频理解的小尺寸多模态模型。
+- id: bb-ola
+  name: Ola
+  title: Ola omni / audio understanding model
+  date: 2025-01
+  venue: ''
+  org: Ola 团队
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/Ola-Omni/Ola
+    hf: https://huggingface.co/THUdyh/Ola-7b
+  sections:
+  - bb-audio-understanding
+  note_en: Open omni-style understanding model used in AV stacks.
+  note_zh: 开源 Omni 风格理解模型，用于音视频栈。
+- id: bb-megrez-omni
+  name: Megrez-Omni
+  title: Megrez Omni audio-visual understanding
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - bb-audio-understanding
+  note_en: Omni understanding model from Megrez line.
+  note_zh: Megrez 线的 Omni 理解模型。
+- id: bb-step-audio-r1
+  name: Step-Audio R1
+  title: StepFun Step-Audio R1 reasoning audio model
+  date: 2025-01
+  venue: ''
+  org: StepFun
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/stepfun-ai/Step-Audio-R1
+  sections:
+  - bb-audio-understanding
+  note_en: Audio reasoning / understanding model in Step-Audio series.
+  note_zh: Step-Audio 系列中的音频推理/理解模型。
+- id: bb-azure-voice-live
+  name: Azure Voice Live
+  title: Microsoft Azure Voice Live API
+  date: 2025-01
+  venue: ''
+  org: Microsoft
+  status: closed
+  star: false
+  links:
+    docs: https://learn.microsoft.com/azure/ai-services/
+  sections:
+  - bb-platforms
+  note_en: Azure-hosted realtime voice live API for agents.
+  note_zh: Azure 托管的实时 Voice Live Agent API。
+- id: bb-vapi
+  name: Vapi
+  title: Vapi hosted voice agent platform
+  date: 2023-01
+  venue: ''
+  org: Vapi
+  status: closed
+  star: false
+  links:
+    docs: https://docs.vapi.ai/
+  sections:
+  - bb-platforms
+  note_en: Orchestrates STT/LLM/TTS or realtime providers for phone/web.
+  note_zh: 为电话/网页编排 STT/LLM/TTS 或 realtime 供应商。
+- id: bb-retell
+  name: Retell
+  title: Retell AI phone voice agents
+  date: 2023-01
+  venue: ''
+  org: Retell
+  status: closed
+  star: false
+  links:
+    docs: https://docs.retellai.com/
+  sections:
+  - bb-platforms
+  note_en: Phone-centric voice agent platform with tool calling.
+  note_zh: 以电话为中心的语音 Agent 平台，支持工具调用。
+- id: bb-twilio-conversationrelay
+  name: Twilio ConversationRelay
+  title: Twilio ConversationRelay voice AI connector
+  date: 2024-01
+  venue: ''
+  org: Twilio
+  status: closed
+  star: false
+  links:
+    docs: https://www.twilio.com/docs
+  sections:
+  - bb-platforms
+  note_en: Twilio telephony relay into LLM/voice pipelines.
+  note_zh: Twilio 电话中继接入 LLM/语音流水线。
+- id: bb-agora-conversational-ai
+  name: Agora Conversational AI
+  title: Agora conversational AI / RTC agent toolkit
+  date: 2024-01
+  venue: ''
+  org: Agora
+  status: closed
+  star: false
+  links:
+    docs: https://docs.agora.io/
+  sections:
+  - bb-platforms
+  note_en: RTC-native conversational AI building blocks.
+  note_zh: 基于 RTC 的对话式 AI 构建块。
+- id: bb-tencent-trtc-ai
+  name: Tencent TRTC AI
+  title: Tencent TRTC conversational AI
+  date: 2024-01
+  venue: ''
+  org: Tencent
+  status: closed
+  star: false
+  links:
+    docs: https://cloud.tencent.com/document/product/647
+  sections:
+  - bb-platforms
+  note_en: Tencent real-time communication AI agent features.
+  note_zh: 腾讯实时通信 AI Agent 能力。
+- id: bb-volcano-rtc-ai
+  name: Volcano RTC AI
+  title: ByteDance Volcano Engine RTC AI
+  date: 2024-01
+  venue: ''
+  org: ByteDance
+  status: closed
+  star: false
+  links:
+    docs: https://www.volcengine.com/
+  sections:
+  - bb-platforms
+  note_en: Volcano RTC AI for realtime conversational experiences.
+  note_zh: 火山 RTC AI，用于实时对话体验。

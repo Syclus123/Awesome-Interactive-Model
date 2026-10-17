@@ -1,0 +1,676 @@
+entries:
+- id: talker-reasoner
+  name: Talker-Reasoner
+  title: 'Agents Thinking Fast and Slow: A Talker-Reasoner Architecture'
+  date: 2024-10
+  venue: NeurIPS'24 Workshop
+  org: Google DeepMind
+  status: paper_only
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2410.08328
+    web: https://openreview.net/forum?id=xPhcP6rbI4
+  sections:
+  - dual-concepts
+  - positions
+  note_en: Canonical fast Talker + slow Reasoner dual-system for conversational agents.
+  note_zh: 经典快 Talker + 慢 Reasoner 双系统对话智能体架构。
+- id: dpt-agent
+  name: DPT-Agent
+  title: Leveraging Dual Process Theory in Language Agent Framework for Real-time Human-AI Collaboration
+  date: 2025-02
+  venue: ACL'25
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2502.11882
+  sections:
+  - dual-concepts
+  note_en: Dual-process theory agent with System-1/System-2 paths for real-time collaboration.
+  note_zh: 双过程理论智能体，System-1/2 路径支持实时协作。
+- id: sofai
+  name: SOFAI
+  title: 'SOFAI: A Dual-Process Cognitive Architecture for AI Systems'
+  date: 2023-01
+  venue: ''
+  org: IBM Research
+  status: paper_only
+  star: false
+  links:
+    web: https://research.ibm.com/
+  sections:
+  - dual-concepts
+  note_en: Cognitive dual-process architecture motivating fast/slow AI system designs.
+  note_zh: 认知双过程架构，启发快/慢 AI 系统设计。
+- id: realtime-venus
+  name: Realtime-Venus
+  title: 'Realtime-Venus: Full-Duplex Interaction with Asynchronous Task Delegation'
+  date: 2026-09
+  venue: ''
+  org: inclusionAI
+  status: open_weights
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2609.13814
+    hf: https://huggingface.co/inclusionAI
+  sections:
+  - dual-open
+  - duplex-multistream
+  - streaming-omni-assistants
+  note_en: MiniCPM-o-based duplex front-end with dual-loop async tool/brain delegation.
+  note_zh: 基于 MiniCPM-o 的双工前台，双循环异步工具/大脑委派。
+- id: gander
+  name: Gander
+  title: 'Gander / Omni-Interaction-Agent: Native Duplex with Asynchronous Brain'
+  date: 2026-09
+  venue: ''
+  org: Gander
+  status: open_weights
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2609.08977
+  sections:
+  - dual-open
+  - streaming-omni-assistants
+  note_en: Native duplex front-end plus asynchronous Brain agent orchestration runtime.
+  note_zh: 原生双工前台 + 异步 Brain 智能体编排运行时。
+- id: duplexomni
+  name: DuplexOmni
+  title: 'DuplexOmni: Real-Time Listening, Seeing, Thinking, and Speaking'
+  date: 2026-06
+  venue: ''
+  org: DuplexOmni
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2606.09186
+    code: https://github.com/MuyeHuang/DuplexOmni
+    hf: https://huggingface.co/MuyeHuang/DuplexOmni
+  sections:
+  - dual-open
+  - duplex-tdm
+  - streaming-omni-assistants
+  note_en: Duplex omni interaction with a pluggable System-2 reasoner backend.
+  note_zh: 双工 Omni 交互，可插拔 System-2 推理后端。
+- id: salmonn-duo
+  name: SALMONN-duo
+  title: 'SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents'
+  date: 2026-09
+  venue: ''
+  org: ByteDance
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.34247
+  sections:
+  - dual-open
+  note_en: Adaptive coordination between duplex front-end and slow reasoner agent.
+  note_zh: 双工前台与慢推理智能体的自适应协同。
+- id: kame
+  name: KAME
+  title: 'KAME: Moshi Front-End with Asynchronous Oracle Reasoning'
+  date: 2025-10
+  venue: ''
+  org: Sakana AI
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.02327
+    code: https://github.com/SakanaAI/kame
+    hf: https://huggingface.co/SakanaAI/kame
+  sections:
+  - dual-open
+  - duplex-multistream
+  note_en: Moshi duplex front-end paired with an asynchronous oracle reasoner.
+  note_zh: Moshi 双工前台配对异步 oracle 推理器。
+- id: moshirag
+  name: MoshiRAG
+  title: 'MoshiRAG: Full-Duplex Front-End with Retrieval Backend'
+  date: 2025-06
+  venue: ''
+  org: Kyutai
+  status: code_only
+  star: false
+  links:
+    web: https://github.com/kyutai-labs
+    code: https://github.com/kyutai-labs/moshi-rag
+    hf: https://huggingface.co/kyutai/moshika-rag-pytorch-bf16
+  sections:
+  - dual-open
+  - duplex-multistream
+  note_en: Moshi duplex talker with asynchronous retrieval/reasoner backend.
+  note_zh: Moshi 双工 Talker + 异步检索/推理后端。
+- id: mind-paced-speaking
+  name: Mind-Paced Speaking
+  title: 'Mind-Paced Speaking: A Dual-Brain Approach to Real-Time Reasoning in Spoken LMs'
+  date: 2025-10
+  venue: ''
+  org: StepFun
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.09592
+    hf: https://huggingface.co/stepfun-ai
+  sections:
+  - dual-open
+  note_en: Dual-brain pacing so slow reasoning guides real-time spoken responses (Step-Audio R1.1).
+  note_zh: 双脑节奏：慢推理引导实时口语应答（Step-Audio R1.1）。
+- id: nvidia-frontend-backend-tools
+  name: NVIDIA FB Tools
+  title: Frontend–Backend Cascaded Voice Agents with Asynchronous Tools
+  date: 2026-09
+  venue: ''
+  org: NVIDIA
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.19334
+  sections:
+  - dual-open
+  note_en: Cascaded speech front-end and text backend with async tool orchestration.
+  note_zh: 级联语音前台与文本后台，异步工具编排。
+- id: joyai-vl-interaction
+  name: JoyAI-VL-Interaction
+  title: 'JoyAI-VL-Interaction: Proactive Interaction with Background Delegation'
+  date: 2026-06
+  venue: ''
+  org: JD
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/jd-opensource/JoyAI-VL-Interaction
+    hf: https://huggingface.co/jdopensource/JoyAI-VL-Interaction
+  sections:
+  - dual-open
+  - when-to-speak
+  - streaming-omni-assistants
+  note_en: Proactive VL interaction model with background task delegation harness.
+  note_zh: 主动视觉交互模型，支持后台任务委派。
+- id: relays2s
+  name: RelayS2S
+  title: 'RelayS2S: A Dual-Path Speculative Generation for Real-Time Dialogue'
+  date: 2026-03
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2603.23346
+    code: https://github.com/mailong25/relays2s
+  sections:
+  - dual-cascade
+  note_en: Fast draft path plus slow refine path for speculative real-time dialogue.
+  note_zh: 快草稿路径 + 慢精炼路径，投机式实时对话。
+- id: convfill
+  name: ConvFill
+  title: 'Thinking While Speaking: Inference-Time Knowledge Transfer for Conversational Voice Agents'
+  date: 2025-11
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2511.07397
+  sections:
+  - dual-cascade
+  note_en: Fills speaking time with backend reasoning transferred into the live reply.
+  note_zh: 利用说话时段做后台推理并注入实时回复。
+- id: lts-voiceagent
+  name: LTS-VoiceAgent
+  title: 'LTS-VoiceAgent: Listen-Think-Speak Streaming Voice Interaction'
+  date: 2026-01
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2601.19952
+  sections:
+  - dual-cascade
+  note_en: Semantic triggering and incremental reasoning across listen–think–speak stages.
+  note_zh: 语义触发与增量推理贯穿听–想–说阶段。
+- id: ddtsr
+  name: DDTSR
+  title: Discourse-Aware Dual-Track Streaming Response for Low-Latency Spoken Dialogue
+  date: 2026-02
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2602.23266
+  sections:
+  - dual-cascade
+  note_en: Small model emits connective speech while a slow track completes reasoning.
+  note_zh: 小模型先发衔接语，慢轨完成推理。
+- id: voiceagentrag
+  name: VoiceAgentRAG
+  title: 'VoiceAgentRAG: Dual-Agent Architectures for RAG Latency in Real-Time Voice'
+  date: 2026-03
+  venue: ''
+  org: Salesforce
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2603.02206
+  sections:
+  - dual-cascade
+  note_en: Talker continues while a RAG agent retrieves and injects grounded answers.
+  note_zh: Talker 继续说话，RAG 智能体检索并注入答案。
+- id: asyncvoice-agent
+  name: AsyncVoice Agent
+  title: 'AsyncVoice Agent: Real-Time Explanation for LLM Planning and Reasoning'
+  date: 2025-10
+  venue: ASRU'25
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.16156
+  sections:
+  - dual-cascade
+  note_en: Streaming explanation voice track over a slower planning/reasoning backend.
+  note_zh: 在慢规划/推理后端上叠加流式解释语音轨。
+- id: predgen
+  name: PredGen
+  title: 'PredGen: Input-Time Speculation for Real-Time Speech Interaction'
+  date: 2025-06
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.15556
+  sections:
+  - dual-cascade
+  - low-latency
+  note_en: Speculates LLM computation during user speech to hide end-to-end latency.
+  note_zh: 用户说话期间投机计算，隐藏端到端延迟。
+- id: endpoint-anticipation
+  name: Endpoint Anticipation
+  title: Endpoint Anticipation for Low-Latency Spoken Dialogue
+  date: 2026-06
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2606.13450
+  sections:
+  - dual-cascade
+  note_en: Predicts end-of-turn early to start backend generation before silence.
+  note_zh: 提前预测轮次结束，静音前启动后台生成。
+- id: livemind
+  name: LiveMind
+  title: 'LiveMind: Low-latency Large Language Models with Simultaneous Inference'
+  date: 2024-06
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2406.14319
+    code: https://github.com/ChuangtaoChen-TUM/LiveMind
+  sections:
+  - dual-cascade
+  note_en: Simultaneous inference during streaming input for low-latency responses.
+  note_zh: 流式输入期间同时推理，降低响应延迟。
+- id: gpt-live
+  name: GPT-Live
+  title: 'GPT-Live 1: Native Full-Duplex Voice with Backend Delegation'
+  date: 2026-05
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: true
+  links:
+    docs: https://developers.openai.com/api/docs/models/gpt-live-1
+    blog: https://openai.com/
+  sections:
+  - dual-closed
+  - blogs
+  note_en: Native duplex voice front-end with Responses/client delegation to agents.
+  note_zh: 原生双工语音前台，经 Responses/客户端委派至智能体。
+- id: gemini-live-extended-thinking
+  name: Gemini Live ET
+  title: Gemini Live with Extended Thinking and Async Tools
+  date: 2026-03
+  venue: ''
+  org: Google DeepMind
+  status: closed
+  star: false
+  links:
+    docs: https://ai.google.dev/gemini-api/docs/live
+  sections:
+  - dual-closed
+  note_en: Live bidirectional audio with extended thinking and non-blocking tools.
+  note_zh: Live 双向音频，支持扩展思考与非阻塞工具。
+- id: qwen-audio-3-1
+  name: Qwen-Audio 3.1
+  title: 'Qwen-Audio 3.1 Realtime Plus: Duplex Speech with Dual-System Services'
+  date: 2026-09
+  venue: ''
+  org: Alibaba QwenAudio
+  status: closed
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.25176
+  sections:
+  - dual-closed
+  note_en: Realtime duplex speech API with backend reasoning/tool services.
+  note_zh: 实时双工语音 API，配后台推理/工具服务。
+- id: grok-voice-think-fast
+  name: Grok Voice Think Fast
+  title: Grok Voice Agent with Fast Thinking Modes
+  date: 2026-06
+  venue: ''
+  org: xAI
+  status: closed
+  star: false
+  links:
+    web: https://x.ai/
+  sections:
+  - dual-closed
+  - industry-others
+  note_en: Realtime voice agent with configurable fast/slow thinking pathways.
+  note_zh: 实时语音智能体，可配置快/慢思考路径。
+- id: tml-interaction-small
+  name: Interaction-Small
+  title: Thinking Machines Lab Interaction-Small Preview
+  date: 2026-08
+  venue: ''
+  org: Thinking Machines Lab
+  status: closed
+  star: false
+  links:
+    blog: https://thinkingmachines.ai/blog/interaction-models/
+    web: https://thinkingmachines.ai/news/introducing-inkling/
+  sections:
+  - dual-closed
+  - industry-others
+  note_en: Research preview for continuous interaction with background agents.
+  note_zh: 连续交互与后台智能体的研究预览。
+- id: step-audio-3-realtime
+  name: Step-Audio 3 RT
+  title: 'Step-Audio 3 Realtime: Official Full-Duplex Speech Product'
+  date: 2026-06
+  venue: ''
+  org: StepFun
+  status: closed
+  star: false
+  links:
+    web: https://www.stepfun.com/
+  sections:
+  - dual-closed
+  - duplex-multistream
+  note_en: Official full-duplex realtime speech product with dual-system service hooks.
+  note_zh: 官方全双工实时语音产品，含双系统服务接口。
+- id: nova-2-sonic
+  name: Nova 2 Sonic
+  title: 'Amazon Nova 2 Sonic: Bidirectional Speech with Async Tools'
+  date: 2026-04
+  venue: ''
+  org: Amazon
+  status: closed
+  star: false
+  links:
+    docs: https://docs.aws.amazon.com/nova/
+  sections:
+  - dual-closed
+  - industry-others
+  note_en: Bidirectional speech streaming with asynchronous Bedrock tool calling.
+  note_zh: 双向语音流，支持 Bedrock 异步工具调用。
+- id: stitch
+  name: STITCH
+  title: 'STITCH: Simultaneous Thinking and Talking with Chunked Reasoning for Spoken LMs'
+  date: 2025-07
+  venue: ICLR'26
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2507.15375
+    web: https://d223302.github.io/STITCH/
+  sections:
+  - think-while
+  note_en: Alternates reasoning and speech chunks to raise accuracy without extra latency.
+  note_zh: 交错推理与语音块，提升准确率且不增延迟。
+- id: shanks
+  name: SHANKS
+  title: 'SHANKS: Simultaneous Hearing and Thinking for Spoken Language Models'
+  date: 2025-10
+  venue: ACL'26
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.06917
+    web: https://d223302.github.io/SHANKS/
+  sections:
+  - think-while
+  note_en: Thinks while listening to enable timely interruptions and mid-utterance answers.
+  note_zh: 边听边想，支持及时打断与句中应答。
+- id: ct-sdlm
+  name: CT-SDLM
+  title: Chronological Thinking in Full-Duplex Spoken Dialogue Language Models
+  date: 2025-10
+  venue: SIGDIAL'26
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.05150
+  sections:
+  - think-while
+  note_en: Explicit chronological thinking tokens during full-duplex listening.
+  note_zh: 全双工聆听时使用显式时序思考 token。
+- id: flair-think
+  name: FLAIR
+  title: 'FLAIR: Implicit Think-while-Listening in Full-Duplex Speech Models'
+  date: 2026-03
+  venue: ''
+  org: Donghang Wu 等
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2603.17837
+  sections:
+  - think-while
+  note_en: Implicit think-while-listening inside a single full-duplex speech timeline.
+  note_zh: 在单一全双工语音时间轴内隐式边听边想。
+- id: mini-omni-reasoner
+  name: Mini-Omni-Reasoner
+  title: 'Mini-Omni-Reasoner: Token-Level Thinking-in-Speaking in Large Speech Models'
+  date: 2025-08
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2508.15827
+    code: https://github.com/xzf-thu/Mini-Omni-Reasoner
+  sections:
+  - think-while
+  note_en: Interleaves silent thinking tokens with spoken tokens during generation.
+  note_zh: 生成时交错静默思考 token 与口语 token。
+- id: think-while-listening
+  name: Think-while-Listening
+  title: Can Speech LLMs Think while Listening?
+  date: 2025-10
+  venue: ICLR'26
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.07497
+  sections:
+  - think-while
+  note_en: Adds text chain-of-thought during listening before spoken answers.
+  note_zh: 聆听阶段加入文本思维链再作口语回答。
+- id: dual-reasoner
+  name: Dual-Reasoner
+  title: 'Dual-Reasoner: Bridging Interleaved Atomicity and Streaming Latency via Thinking-while-Talking'
+  date: 2026-07
+  venue: ACL Findings'26
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    web: https://aclanthology.org/
+  sections:
+  - think-while
+  note_en: Thinking-while-talking to balance interleaved reasoning atoms and latency.
+  note_zh: 边说边想，平衡交错推理原子与流式延迟。
+- id: think-aloud-slm
+  name: Think-Aloud SLM
+  title: Spoken Language Models that Think Aloud
+  date: 2026-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.26488
+  sections:
+  - think-while
+  note_en: Asynchronous dual-stream design that verbalizes intermediate reasoning.
+  note_zh: 异步双流设计，外显中间推理过程。
+- id: wait-think-answer
+  name: Wait-Think-Answer
+  title: Learning When to Think While Listening in Large Audio-Language Models
+  date: 2026-05
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2605.27190
+  sections:
+  - think-while
+  note_en: Learnable controller decides when to think during listening (Qwen2.5-Omni).
+  note_zh: 可学习控制器决定聆听时何时思考（Qwen2.5-Omni）。
+- id: cot-while-listening
+  name: CoT-while-listening
+  title: Can Speech LLMs Think while Listening? (CoT-while-listening formulation)
+  date: 2025-10
+  venue: ICLR'26
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.07497
+  sections:
+  - think-while
+  note_en: Formulates listening-time chain-of-thought for speech LLMs (same line as TwL).
+  note_zh: 形式化聆听期思维链（与 Think-while-Listening 同脉络）。
+- id: proactivellm-dual
+  name: ProactiveLLM
+  title: 'ProactiveLLM: Learning Active Interaction for Streaming LMs'
+  date: 2026-06
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2606.00523
+  sections:
+  - think-while
+  note_en: Learns sufficiency while streaming to decide when to think/act/speak.
+  note_zh: 流式学习信息充分性，决定何时思考/行动/说话。
+- id: relay-style-filler
+  name: Speech Fillers Dual
+  title: Using Conversational Fillers while Backend Reasoning Completes
+  date: 2025-08
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links: {}
+  sections:
+  - dual-cascade
+  note_en: Front-end emits fillers/connectives while slow reasoner finishes.
+  note_zh: 前台发填充语，后台慢推理完成。
+- id: deepgram-listen-think-speak
+  name: Deepgram LTS
+  title: Deepgram Voice Agent Listen–Think–Speak Pipeline
+  date: 2025-06
+  venue: ''
+  org: Deepgram
+  status: closed
+  star: false
+  links:
+    docs: https://developers.deepgram.com/
+  sections:
+  - dual-cascade
+  note_en: Hosted listen–think–speak cascade with external LLM thinking stage.
+  note_zh: 托管听想说级联，外部LLM做思考。
+- id: cartesia-background-reason
+  name: Cartesia BG Reason
+  title: Cartesia Line Background Reasoning Dual-System Pattern
+  date: 2025-06
+  venue: ''
+  org: Cartesia
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/cartesia-ai/line
+  sections:
+  - dual-open
+  note_en: Voice SDK pattern keeping background reasoning across barge-ins.
+  note_zh: 打断后仍保持后台推理的语音SDK模式。
+- id: fire-red-dual-view
+  name: FireRed Dual View
+  title: FireRedChat Dialogue Manager as Dual-System Harness View
+  date: 2025-09
+  venue: ''
+  org: FireRedTeam
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2509.06502
+  sections:
+  - dual-cascade
+  note_en: Cascaded duplex controller plus dialogue manager tool backend.
+  note_zh: 级联双工控制加对话管理工具后端。
+- id: moshi-oracle-pattern
+  name: Moshi Oracle Pattern
+  title: Moshi Front-End with Pluggable Oracle/Reasoner Backends
+  date: 2025-10
+  venue: ''
+  org: Kyutai / Sakana
+  status: paper_only
+  star: false
+  links: {}
+  sections:
+  - dual-concepts
+  note_en: 'Conceptual pattern shared by KAME/MoshiRAG: duplex talker + oracle.'
+  note_zh: KAME/MoshiRAG 概念：双工Talker加Oracle。
+- id: async-tool-dual-view
+  name: Async Tool Dual
+  title: Asynchronous Tool Usage as Dual-System Runtime Primitive
+  date: 2024-10
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2410.21620
+  sections:
+  - dual-concepts
+  note_en: Treats non-blocking tools as System-2 running beside a talker.
+  note_zh: 非阻塞工具视为 Talker 旁的 System-2。
+- id: step-audio-r11-dual
+  name: Step-Audio R1.1
+  title: Step-Audio R1.1 as Mind-Paced Dual-Brain Spoken Reasoner
+  date: 2025-10
+  venue: ''
+  org: StepFun
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.09592
+  sections:
+  - dual-open
+  note_en: Productized mind-paced speaking dual-brain speech reasoner release.
+  note_zh: Mind-Paced Speaking 双脑口语推理产品。

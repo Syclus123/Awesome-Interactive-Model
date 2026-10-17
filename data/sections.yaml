@@ -1,0 +1,350 @@
+# Taxonomy for Awesome Interactive Model
+# Each section has: id, anchor, title_en, title_zh, intro_en, intro_zh, children?
+
+meta:
+  as_of: "2026-10-06"
+
+sections:
+  - id: surveys
+    anchor: surveys
+    emoji: "📚"
+    title_en: "Surveys & Position Papers"
+    title_zh: "综述与立场文章"
+    intro_en: "Surveys, taxonomies, and position papers that map spoken dialogue, full-duplex SLMs, omni models, streaming video, and interactive agents."
+    intro_zh: "覆盖口语对话、全双工语音语言模型、Omni 模型、流式视频与交互式智能体的综述、分类与立场文章。"
+    children:
+      - id: surveys-spoken
+        anchor: surveys-spoken
+        title_en: "Spoken Language / Speech LLMs"
+        title_zh: "口语与语音大模型综述"
+      - id: surveys-duplex
+        anchor: surveys-duplex
+        title_en: "Full-Duplex & Turn-Taking"
+        title_zh: "全双工与轮次综述"
+      - id: surveys-omni-stream
+        anchor: surveys-omni-stream
+        title_en: "Omni, Streaming & Proactive Agents"
+        title_zh: "Omni、流式与主动智能体综述"
+      - id: positions
+        anchor: positions
+        title_en: "Position & Perspective Papers"
+        title_zh: "立场与观点文章"
+      - id: blogs
+        anchor: blogs
+        title_en: "Influential Blogs & Announcements"
+        title_zh: "重要博客与发布公告"
+      - id: tutorials
+        anchor: tutorials
+        title_en: "Tutorials & Primers"
+        title_zh: "教程与入门"
+      - id: related-lists
+        anchor: related-lists
+        title_en: "Related Awesome Lists"
+        title_zh: "相关 Awesome 列表"
+
+  - id: turn-based
+    anchor: turn-based
+    emoji: "🎙️"
+    title_en: "1. Turn-based Speech & Omni LLMs"
+    title_zh: "1. 轮次式语音与 Omni 大模型"
+    intro_en: "Half-duplex or request–response speech/Omni models that understand audio (and often vision) and generate text and/or speech. Streaming output does not imply listening while speaking."
+    intro_zh: "半双工或请求–响应式语音/Omni 模型：能理解音频（常含视觉）并生成文本和/或语音。流式输出不等于说话时仍在聆听。"
+    children:
+      - id: early-speech-lm
+        anchor: early-speech-lm
+        title_en: "Early Speech–Language Models"
+        title_zh: "早期语音–语言模型"
+      - id: e2e-speech-dialogue
+        anchor: e2e-speech-dialogue
+        title_en: "End-to-End Spoken Dialogue Models"
+        title_zh: "端到端口语对话模型"
+      - id: omni-generation
+        anchor: omni-generation
+        title_en: "Omni Models with Speech Generation"
+        title_zh: "带语音生成的 Omni 模型"
+
+  - id: full-duplex
+    anchor: full-duplex
+    emoji: "🔄"
+    title_en: "2. Full-Duplex Interaction Models"
+    title_zh: "2. 全双工交互模型"
+    intro_en: "Systems whose time axis supports (or explicitly coordinates) listening and speaking concurrently. We follow the engineered vs learned synchronization taxonomy from FD-SLM surveys—not a quality ranking."
+    intro_zh: "时间轴支持（或显式协调）同时听说的系统。分类沿用 FD-SLM 综述中的 engineered vs learned 同步谱系——这不是质量排行。"
+    children:
+      - id: duplex-engineered
+        anchor: duplex-engineered
+        title_en: "2.1 Engineered Sync (Controller / Cascade)"
+        title_zh: "2.1 Engineered 同步（控制器 / 级联）"
+      - id: duplex-multistream
+        anchor: duplex-multistream
+        title_en: "2.2 Learned Sync: Multi-Stream / Dual-Channel"
+        title_zh: "2.2 Learned 同步：多流 / 双通道"
+      - id: duplex-tdm
+        anchor: duplex-tdm
+        title_en: "2.3 Learned Sync: Time-Division / Chunk / State Tokens"
+        title_zh: "2.3 Learned 同步：时分复用 / 分块 / 状态 Token"
+
+  - id: dual-system
+    anchor: dual-system
+    emoji: "🧠"
+    title_en: "3. Brain–Cerebellum Dual Systems"
+    title_zh: "3. 大小脑双系统"
+    intro_en: "Fast front-end interaction (cerebellum / System 1 / Talker) runs concurrently with a slower back-end reasoner or agent (brain / System 2). Results are injected back into the live conversation. Distinct from Thinker–Talker (semantic vs acoustic modules inside one model)."
+    intro_zh: "快速前台交互（小脑 / System 1 / Talker）与较慢的后台推理或智能体（大脑 / System 2）并发运行，结果回流到实时对话。区别于 Thinker–Talker（同一模型内语义 vs 声学模块）。"
+    children:
+      - id: dual-concepts
+        anchor: dual-concepts
+        title_en: "3.1 Concepts & Frameworks"
+        title_zh: "3.1 概念与框架"
+      - id: dual-open
+        anchor: dual-open
+        title_en: "3.2 Open Dual-System Models"
+        title_zh: "3.2 开放双系统模型"
+      - id: dual-cascade
+        anchor: dual-cascade
+        title_en: "3.3 Fast–Slow Cascades & Speculative Handoff"
+        title_zh: "3.3 快慢级联与投机交接"
+      - id: dual-closed
+        anchor: dual-closed
+        title_en: "3.4 Closed Dual-System Products"
+        title_zh: "3.4 闭源双系统产品"
+
+  - id: think-while
+    anchor: think-while
+    emoji: "💭"
+    title_en: "4. Think-while-Listening / Speaking"
+    title_zh: "4. 边听边想 / 边说边想"
+    intro_en: "Methods that use listening or speaking time for causal reasoning—within one model timeline—without waiting for a full user turn or a separate backend."
+    intro_zh: "在同一模型时间轴上，利用聆听或说话时段做因果推理的方法——不必等完整用户轮次，也不必依赖独立后台。"
+
+  - id: agentic
+    anchor: agentic
+    emoji: "🛠️"
+    title_en: "5. Agentic Interactive Models & Harness"
+    title_zh: "5. Agentic 交互模型与 Harness"
+    intro_en: "Interactive systems that call tools, retrieve knowledge, or run long tasks while conversation continues. A harness is the runtime that organizes context, tools, task state, permissions, and result delivery—outside (or around) the front-end model."
+    intro_zh: "在对话持续进行时调用工具、检索知识或执行长任务的交互系统。Harness 是组织上下文、工具、任务状态、权限与结果投递的运行时——位于前台模型之外（或环绕其周围）。"
+    children:
+      - id: agentic-native
+        anchor: agentic-native
+        title_en: "5.1 Native Tool / RAG / Action Channels"
+        title_zh: "5.1 原生工具 / RAG / 动作通道"
+      - id: agentic-harness
+        anchor: agentic-harness
+        title_en: "5.2 Interaction Harness & Runtimes"
+        title_zh: "5.2 交互 Harness 与运行时"
+      - id: agentic-frameworks
+        anchor: agentic-frameworks
+        title_en: "5.3 Voice Agent Frameworks & SDKs"
+        title_zh: "5.3 语音 Agent 框架与 SDK"
+      - id: agentic-memory
+        anchor: agentic-memory
+        title_en: "5.4 Memory for Interactive Agents"
+        title_zh: "5.4 交互智能体的记忆"
+
+  - id: streaming-omni
+    anchor: streaming-omni
+    emoji: "👁️"
+    title_en: "6. Streaming Omni & Proactive Vision"
+    title_zh: "6. 流式 Omni 与主动视觉交互"
+    intro_en: "Audio–visual assistants that process continuous video, decide when to speak, and optionally generate speech. Includes proactive when-to-speak Video-LLMs."
+    intro_zh: "处理连续视频、决定何时发言、并可生成语音的音视频助手。包含主动式 when-to-speak 视频大模型。"
+    children:
+      - id: streaming-omni-assistants
+        anchor: streaming-omni-assistants
+        title_en: "6.1 Streaming / Duplex Omni Assistants"
+        title_zh: "6.1 流式 / 双工 Omni 助手"
+      - id: when-to-speak
+        anchor: when-to-speak
+        title_en: "6.2 When-to-Speak Video LLMs"
+        title_zh: "6.2 When-to-Speak 视频大模型"
+
+  - id: embodied
+    anchor: embodied
+    emoji: "🤖"
+    title_en: "7. Embodied Interaction"
+    title_zh: "7. 具身交互"
+    intro_en: "Robots and embodied agents that talk and act under continuous sensory streams, including full-duplex speech+action and dual-system VLAs that accept mid-task language corrections."
+    intro_zh: "在连续感知流下边说边做的机器人与具身智能体，包括全双工语音+动作，以及可接受任务中语言纠正的双系统 VLA。"
+    children:
+      - id: embodied-duplex
+        anchor: embodied-duplex
+        title_en: "7.1 Full-Duplex Embodied Models"
+        title_zh: "7.1 全双工具身模型"
+      - id: embodied-dual-vla
+        anchor: embodied-dual-vla
+        title_en: "7.2 Dual-System VLAs with Interjections"
+        title_zh: "7.2 支持插话的双系统 VLA"
+
+  - id: cross-cutting
+    anchor: cross-cutting
+    emoji: "🔬"
+    title_en: "8. Cross-Cutting Technical Themes"
+    title_zh: "8. 横切技术主题"
+    intro_en: "Methods that cut across model families: turn-taking, RL alignment for duplex behaviour, expressive control, simultaneous interpretation, multi-party interaction, and low-latency decoding."
+    intro_zh: "跨模型家族的方法：轮次控制、双工行为的 RL 对齐、表达控制、同声传译、多方交互与低延迟解码。"
+    children:
+      - id: turn-taking-methods
+        anchor: turn-taking-methods
+        title_en: "8.1 Turn-Taking, Backchannel & Interruption"
+        title_zh: "8.1 轮次、Backchannel 与打断"
+      - id: duplex-alignment
+        anchor: duplex-alignment
+        title_en: "8.2 Interaction Alignment & RL"
+        title_zh: "8.2 交互对齐与强化学习"
+      - id: expressive
+        anchor: expressive
+        title_en: "8.3 Expressive, Empathetic & Persona Control"
+        title_zh: "8.3 表达、共情与人设控制"
+      - id: simul-s2st
+        anchor: simul-s2st
+        title_en: "8.4 Simultaneous Speech Translation"
+        title_zh: "8.4 同声传译（双工 S2ST）"
+      - id: multiparty
+        anchor: multiparty
+        title_en: "8.5 Multi-Party Interaction"
+        title_zh: "8.5 多方交互"
+      - id: low-latency
+        anchor: low-latency
+        title_en: "8.6 Low-Latency Decoding & Systems"
+        title_zh: "8.6 低延迟解码与系统"
+
+  - id: industry
+    anchor: industry
+    emoji: "🏢"
+    title_en: "Industry Landscape"
+    title_zh: "产业全景"
+    intro_en: "Closed APIs, product demos, and open-weight releases by vendor (as of 2026-10-06). Deprecations are noted where verified."
+    intro_zh: "按厂商整理的闭源 API、产品演示与开放权重发布（截至 2026-10-06）。已核实的停用信息会单独标注。"
+    children:
+      - id: industry-openai
+        anchor: industry-openai
+        title_en: "OpenAI"
+        title_zh: "OpenAI"
+      - id: industry-google
+        anchor: industry-google
+        title_en: "Google DeepMind"
+        title_zh: "Google DeepMind"
+      - id: industry-alibaba
+        anchor: industry-alibaba
+        title_en: "Alibaba / Qwen"
+        title_zh: "阿里 / 通义千问"
+      - id: industry-bytedance
+        anchor: industry-bytedance
+        title_en: "ByteDance / Seed"
+        title_zh: "字节跳动 / Seed"
+      - id: industry-others
+        anchor: industry-others
+        title_en: "Other Vendors"
+        title_zh: "其他厂商"
+
+  - id: benchmarks
+    anchor: benchmarks
+    emoji: "📊"
+    title_en: "Benchmarks & Evaluation"
+    title_zh: "评测基准"
+    intro_en: "Benchmarks organized by interaction layer. Always check whether evaluation uses real human audio, TTS, half-duplex S2T, or true full-duplex streaming."
+    intro_zh: "按交互层组织的评测基准。务必核对评测使用真人录音、TTS、半双工 S2T，还是真正的全双工流式设置。"
+    children:
+      - id: bench-timing
+        anchor: bench-timing
+        title_en: "Timing & Floor Management"
+        title_zh: "时机与发言权"
+      - id: bench-state
+        anchor: bench-state
+        title_en: "State Update & Recovery"
+        title_zh: "状态更新与恢复"
+      - id: bench-multiparty
+        anchor: bench-multiparty
+        title_en: "Multi-Party"
+        title_zh: "多方"
+      - id: bench-content
+        anchor: bench-content
+        title_en: "Spoken Content Quality"
+        title_zh: "口语内容质量"
+      - id: bench-paraling
+        anchor: bench-paraling
+        title_en: "Paralinguistics, Empathy & Role-Play"
+        title_zh: "副语言、共情与角色扮演"
+      - id: bench-agent
+        anchor: bench-agent
+        title_en: "Voice Agents & Tool Use"
+        title_zh: "语音 Agent 与工具调用"
+      - id: bench-proactive
+        anchor: bench-proactive
+        title_en: "Proactivity"
+        title_zh: "主动性"
+      - id: bench-omni
+        anchor: bench-omni
+        title_en: "Omni & Streaming Video"
+        title_zh: "Omni 与流式视频"
+      - id: bench-leaderboards
+        anchor: bench-leaderboards
+        title_en: "Arenas & Leaderboards"
+        title_zh: "Arena 与排行榜"
+      - id: bench-method
+        anchor: bench-method
+        title_en: "Evaluation Methodology"
+        title_zh: "评测方法论"
+
+  - id: datasets
+    anchor: datasets
+    emoji: "💾"
+    title_en: "Datasets"
+    title_zh: "数据集"
+    intro_en: "Training and evaluation corpora for interactive speech: real dual-channel dialogue, synthetic duplex data, S2S instruction sets, and preprocessing pipelines."
+    intro_zh: "交互语音的训练与评测语料：真实双通道对话、合成双工数据、S2S 指令集与预处理管线。"
+    children:
+      - id: data-real
+        anchor: data-real
+        title_en: "Real Dialogue Corpora"
+        title_zh: "真实对话语料"
+      - id: data-synthetic
+        anchor: data-synthetic
+        title_en: "Synthetic Duplex & S2S Data"
+        title_zh: "合成双工与 S2S 数据"
+      - id: data-pipelines
+        anchor: data-pipelines
+        title_en: "Data Pipelines"
+        title_zh: "数据处理管线"
+
+  - id: building-blocks
+    anchor: building-blocks
+    emoji: "🧱"
+    title_en: "Building Blocks (Boundary)"
+    title_zh: "底层组件（边界区）"
+    intro_en: "Components that interactive systems are built from—not full interaction models themselves. Included for navigation; not exhaustively surveyed."
+    intro_zh: "交互系统依赖的组件——本身不是完整交互模型。便于导航；不做穷尽收录。"
+    children:
+      - id: bb-codec
+        anchor: bb-codec
+        title_en: "Speech Tokenizers & Codecs"
+        title_zh: "语音 Tokenizer 与 Codec"
+      - id: bb-tts
+        anchor: bb-tts
+        title_en: "Streaming TTS"
+        title_zh: "流式 TTS"
+      - id: bb-asr
+        anchor: bb-asr
+        title_en: "Streaming ASR"
+        title_zh: "流式 ASR"
+      - id: bb-vad
+        anchor: bb-vad
+        title_en: "VAD & Turn Detection"
+        title_zh: "VAD 与轮次检测"
+      - id: bb-aec
+        anchor: bb-aec
+        title_en: "AEC & Speaker Separation"
+        title_zh: "回声消除与说话人分离"
+      - id: bb-serving
+        anchor: bb-serving
+        title_en: "Serving & Transport"
+        title_zh: "推理服务与传输"
+      - id: bb-audio-understanding
+        anchor: bb-audio-understanding
+        title_en: "Audio Understanding (Speech→Text)"
+        title_zh: "音频理解（语音→文本）"
+      - id: bb-platforms
+        anchor: bb-platforms
+        title_en: "Hosted Voice Agent Platforms"
+        title_zh: "托管 Voice Agent 平台"

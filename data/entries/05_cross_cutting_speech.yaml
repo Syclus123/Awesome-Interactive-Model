@@ -1,0 +1,1042 @@
+entries:
+- id: speechgpt
+  name: SpeechGPT
+  title: 'SpeechGPT: Empowering Large Language Models with Intrinsic Cross-Modal Conversational Abilities'
+  date: 2023-05
+  venue: ''
+  org: Fudan
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2305.11000
+    code: https://github.com/0nutation/SpeechGPT
+  sections:
+  - early-speech-lm
+  note_en: Early discrete speech–language LLM with cross-modal conversational ability.
+  note_zh: 早期离散语音–语言 LLM，具备跨模态对话能力。
+- id: audiopalm
+  name: AudioPaLM
+  title: 'AudioPaLM: A Large Language Model That Can Speak and Listen'
+  date: 2023-06
+  venue: ''
+  org: Google Research
+  status: closed
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2306.12925
+    web: https://google-research.github.io/seanet/audiopalm/examples/
+  sections:
+  - early-speech-lm
+  - duplex-tdm
+  note_en: PaLM-based model unifying speech understanding, generation, and translation.
+  note_zh: 基于 PaLM，统一语音理解、生成与翻译。
+- id: spiritlm
+  name: SpiritLM
+  title: 'Spirit LM: Interleaved Spoken and Written Language Model'
+  date: 2024-02
+  venue: TACL'25
+  org: Meta FAIR
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2402.05755
+    code: https://github.com/facebookresearch/spiritlm
+  sections:
+  - early-speech-lm
+  - omni-generation
+  note_en: Interleaved speech–text tokens (Base/Expressive) on Llama-2.
+  note_zh: Llama-2 上交错语音与文本 token。
+- id: anygpt
+  name: AnyGPT
+  title: 'AnyGPT: Unified Multimodal LLM with Discrete Sequence Modeling'
+  date: 2024-02
+  venue: ''
+  org: OpenMOSS
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/OpenMOSS/AnyGPT
+    hf: https://huggingface.co/fnlp/AnyGPT-chat
+  sections:
+  - early-speech-lm
+  - omni-generation
+  note_en: Discrete any-to-any multimodal generation including speech.
+  note_zh: 离散 any-to-any 多模态生成，含语音。
+- id: next-gpt
+  name: NExT-GPT
+  title: 'NExT-GPT: Any-to-Any Multimodal LLM'
+  date: 2023-09
+  venue: ''
+  org: NExT
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/NExT-GPT/NExT-GPT
+  sections:
+  - early-speech-lm
+  - omni-generation
+  note_en: Modular any-to-any multimodal LLM connecting diffusion experts.
+  note_zh: 模块化 any-to-any 多模态 LLM，连接扩散专家。
+- id: dgslm
+  name: dGSLM
+  title: Dual-tower Generative Spoken Language Model for Full-Duplex Dialogue
+  date: 2022-03
+  venue: ''
+  org: Meta FAIR
+  status: open_weights
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2203.16502
+    code: https://github.com/facebookresearch/fairseq/tree/main/examples/textless_nlp/dgslm
+  sections:
+  - early-speech-lm
+  - duplex-multistream
+  - duplex-tdm
+  note_en: Foundational dual-stream spoken dialogue LM for overlapping speech.
+  note_zh: 奠基性双流口语对话 LM，支持重叠语音。
+- id: glm-4-voice
+  name: GLM-4-Voice
+  title: 'GLM-4-Voice: Towards Versatile and Efficient End-to-End Speech Interaction'
+  date: 2024-10
+  venue: ''
+  org: Zhipu AI
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/THUDM/GLM-4-Voice
+    hf: https://huggingface.co/THUDM/glm-4-voice-9b
+  sections:
+  - e2e-speech-dialogue
+  - industry-others
+  - omni-generation
+  note_en: End-to-end spoken dialogue model with streaming speech generation.
+  note_zh: 端到端口语对话模型，支持流式语音生成。
+- id: mini-omni
+  name: Mini-Omni
+  title: 'Mini-Omni: Language Models Can Hear, Talk While Thinking in Streaming'
+  date: 2024-08
+  venue: ''
+  org: gpt-omni
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - e2e-speech-dialogue
+  note_en: Tiny end-to-end speech LM with streaming talk-while-thinking.
+  note_zh: 超小端到端语音 LM，流式边想边说。
+- id: llama-omni
+  name: LLaMA-Omni
+  title: 'LLaMA-Omni: Seamless Speech Interaction with Large Language Models'
+  date: 2024-09
+  venue: ''
+  org: ICTNLP
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/ictnlp/LLaMA-Omni
+    hf: https://huggingface.co/ICTNLP/Llama-3.1-8B-Omni
+  sections:
+  - e2e-speech-dialogue
+  - omni-generation
+  note_en: Speech instruction model with low-latency streaming speech responses.
+  note_zh: 语音指令模型，低延迟流式语音应答。
+- id: llama-omni2
+  name: LLaMA-Omni2
+  title: 'LLaMA-Omni2: Family of Streaming Speech Interaction Models'
+  date: 2025-04
+  venue: ''
+  org: ICTNLP
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/ictnlp/LLaMA-Omni2
+  sections:
+  - e2e-speech-dialogue
+  - omni-generation
+  note_en: 0.5B–32B streaming speech interaction model family.
+  note_zh: 0.5B–32B 流式语音交互模型族。
+- id: kimi-audio
+  name: Kimi-Audio
+  title: 'Kimi-Audio: Audio Foundation Models for Understanding and Generation'
+  date: 2025-04
+  venue: ''
+  org: Moonshot AI
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/MoonshotAI/Kimi-Audio
+    hf: https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct
+  sections:
+  - e2e-speech-dialogue
+  - omni-generation
+  note_en: Audio foundation models for speech understanding and generation.
+  note_zh: 面向语音理解与生成的音频基础模型。
+- id: step-audio
+  name: Step-Audio
+  title: 'Step-Audio / Step-Audio-Chat: End-to-End Speech Interaction'
+  date: 2025-02
+  venue: ''
+  org: StepFun
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - e2e-speech-dialogue
+  note_en: Large end-to-end speech chat model preceding Step-Audio 2.
+  note_zh: Step-Audio 2 之前的大型端到端语音聊天模型。
+- id: step-audio-2-mini
+  name: Step-Audio 2 mini
+  title: 'Step-Audio 2 mini: Compact Speech Understanding and Streaming Generation'
+  date: 2025-08
+  venue: ''
+  org: StepFun
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - e2e-speech-dialogue
+  note_en: Compact Step-Audio 2 variant for speech understanding and streaming TTS.
+  note_zh: 紧凑 Step-Audio 2 变体，语音理解与流式生成。
+- id: mimo-audio
+  name: MiMo-Audio
+  title: 'MiMo-Audio: End-to-End Audio Language Models from Xiaomi'
+  date: 2025-07
+  venue: ''
+  org: Xiaomi
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/XiaomiMiMo/MiMo-Audio
+    hf: https://huggingface.co/XiaomiMiMo/MiMo-Audio-7B-Instruct
+  sections:
+  - e2e-speech-dialogue
+  - omni-generation
+  note_en: End-to-end audio LM with in-context audio understanding/generation.
+  note_zh: 端到端音频 LM，支持上下文音频理解/生成。
+- id: fun-audio-chat
+  name: Fun-Audio-Chat
+  title: 'Fun-Audio-Chat: End-to-End Speech Chat from FunAudioLLM'
+  date: 2025-06
+  venue: ''
+  org: QwenAudio / FunAudioLLM
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/QwenAudio/Fun-Audio-Chat
+    hf: https://huggingface.co/FunAudioLLM/Fun-Audio-Chat-8B
+  sections:
+  - e2e-speech-dialogue
+  - omni-generation
+  note_en: End-to-end speech chat model in the FunAudioLLM / DrVoice line.
+  note_zh: FunAudioLLM / DrVoice 谱系端到端语音聊天模型。
+- id: baichuan-audio
+  name: Baichuan-Audio
+  title: 'Baichuan-Audio: End-to-End Audio Dialogue Models'
+  date: 2025-01
+  venue: ''
+  org: Baichuan
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/baichuan-inc
+    hf: https://huggingface.co/baichuan-inc/Baichuan-Audio-Instruct
+  sections:
+  - e2e-speech-dialogue
+  - industry-others
+  - omni-generation
+  note_en: End-to-end audio dialogue models from Baichuan.
+  note_zh: 百川端到端音频对话模型。
+- id: covo-audio-chat
+  name: Covo-Audio-Chat
+  title: 'Covo-Audio-Chat: Tencent End-to-End Speech Chat'
+  date: 2025-05
+  venue: ''
+  org: Tencent
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/Tencent/Covo-Audio
+    hf: https://huggingface.co/tencent/Covo-Audio-Chat
+  sections:
+  - e2e-speech-dialogue
+  - omni-generation
+  note_en: Turn-based/streaming end-to-end speech chat model from Tencent.
+  note_zh: 腾讯轮次式/流式端到端语音聊天模型。
+- id: vocalnet
+  name: VocalNet
+  title: 'VocalNet: Speech LLM with Multi-Token Prediction for Faster Inference'
+  date: 2025-04
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2504.04060
+  sections:
+  - e2e-speech-dialogue
+  - low-latency
+  note_en: Speech LLM using multi-token prediction to cut speech latency.
+  note_zh: 语音 LLM 用多 token 预测降低语音延迟。
+- id: osum-echat
+  name: OSUM-EChat
+  title: 'OSUM-EChat: Enhancing End-to-End Empathetic Spoken Chatbot'
+  date: 2025-08
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2508.09600
+  sections:
+  - e2e-speech-dialogue
+  - expressive
+  note_en: Empathetic end-to-end spoken chatbot with paralinguistic control.
+  note_zh: 共情端到端口语聊天机器人，含副语言控制。
+- id: opens2s
+  name: OpenS2S
+  title: 'OpenS2S: Fully Open-Source End-to-End Empathetic Speech-to-Speech'
+  date: 2025-07
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2507.05177
+  sections:
+  - e2e-speech-dialogue
+  - expressive
+  note_en: Fully open empathetic speech-to-speech dialogue stack.
+  note_zh: 完全开放的共情语音到语音对话栈。
+- id: lucy
+  name: LUCY
+  title: 'LUCY: Linguistic Understanding and Control Yielding Early Stage Empathy'
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2501.16327
+  sections:
+  - e2e-speech-dialogue
+  - expressive
+  note_en: Early-stage empathetic spoken dialogue with linguistic control.
+  note_zh: 早期共情口语对话，强调语言控制。
+- id: vita-audio
+  name: VITA-Audio
+  title: 'VITA-Audio: Fast Interleaved Cross-Modal Token Generation for Efficient S2S'
+  date: 2025-05
+  venue: ''
+  org: VITA
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.03739
+    code: https://github.com/VITA-MLLM/VITA-Audio
+  sections:
+  - e2e-speech-dialogue
+  - low-latency
+  - omni-generation
+  note_en: Interleaved cross-modal tokens for fast streaming speech responses.
+  note_zh: 交错跨模态 token，加速流式语音应答。
+- id: baichuan-omni-15
+  name: Baichuan-Omni-1.5
+  title: 'Baichuan-Omni-1.5: Multimodal Omni Models with Speech Generation'
+  date: 2025-01
+  venue: ''
+  org: Baichuan
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - omni-generation
+  note_en: Omni multimodal models with speech generation and streaming output.
+  note_zh: Omni 多模态模型，支持语音生成与流式输出。
+- id: ming-lite-omni
+  name: Ming-Lite-Omni
+  title: 'Ming-Lite-Omni / v1.5: Sparse Omni Generation'
+  date: 2025-03
+  venue: ''
+  org: inclusionAI / Ant
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - omni-generation
+  note_en: Sparse omni generation models in the Ming family.
+  note_zh: Ming 系列稀疏 Omni 生成模型。
+- id: longcat-next
+  name: LongCat-Next
+  title: 'LongCat-Next: Native Discrete Omni Generation'
+  date: 2026-02
+  venue: ''
+  org: Meituan
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/meituan-longcat/LongCat-Next
+    hf: https://huggingface.co/meituan-longcat/LongCat-Next
+  sections:
+  - omni-generation
+  note_en: Native discrete omni generation follow-up to LongCat-Flash-Omni.
+  note_zh: LongCat-Flash-Omni 之后的原生离散 Omni 生成。
+- id: emova
+  name: EMOVA
+  title: 'EMOVA: Empowering Language Models to See, Hear and Speak with Empathy'
+  date: 2024-09
+  venue: ''
+  org: EMOVA
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2409.18042
+    code: https://github.com/emova-ollm/EMOVA
+  sections:
+  - omni-generation
+  - expressive
+  note_en: Expressive omni models that see, hear, and speak with emotion control.
+  note_zh: 表达性 Omni，能看听说并控制情感。
+- id: uni-moe-2-omni
+  name: Uni-MoE-2.0-Omni
+  title: 'Uni-MoE 2.0 Omni: Mixture-of-Experts Omnimodal Generation'
+  date: 2025-06
+  venue: ''
+  org: HITsz-TMG
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/HITsz-TMG/Uni-MoE/tree/master/Uni-MoE-2
+    hf: https://huggingface.co/HIT-TMG/Uni-MoE-2.0-Omni
+  sections:
+  - omni-generation
+  note_en: MoE omnimodal generation model family from HITsz-TMG.
+  note_zh: HITsz-TMG 的 MoE Omni 生成模型族。
+- id: mio
+  name: MIO
+  title: 'MIO: A Foundation Model on Multimodal Tokens'
+  date: 2024-09
+  venue: ''
+  org: M-A-P
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/MIO-Team/MIO
+    hf: https://huggingface.co/m-a-p/MIO-7B-Instruct
+  sections:
+  - omni-generation
+  note_en: Interleaved multimodal token foundation model including speech.
+  note_zh: 交错多模态 token 基础模型，含语音。
+- id: turngpt
+  name: TurnGPT
+  title: 'TurnGPT: a Transformer-based Language Model for Predicting Turn-Taking'
+  date: 2020-10
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2010.10874
+  sections:
+  - turn-taking-methods
+  note_en: Classic transformer LM for projecting upcoming turn-taking events.
+  note_zh: 经典 Transformer LM，预测即将发生的轮次事件。
+- id: vap
+  name: VAP
+  title: 'Voice Activity Projection: Self-supervised Learning of Turn-taking'
+  date: 2022-05
+  venue: ''
+  org: ''
+  status: open_weights
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2205.09812
+    code: https://github.com/ErikEkstedt/VAP
+  sections:
+  - turn-taking-methods
+  - bb-vad
+  note_en: Self-supervised future voice-activity projection for turn-taking.
+  note_zh: 自监督未来语音活动投影，用于轮次预测。
+- id: vap-realtime
+  name: VAP-Realtime
+  title: Real-time Continuous Turn-taking Prediction Using Voice Activity Projection
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2401.04868
+  sections:
+  - turn-taking-methods
+  note_en: Realtime continuous VAP for live turn-taking decisions.
+  note_zh: 实时连续 VAP，用于现场轮次决策。
+- id: smart-turn-v3
+  name: Smart Turn v3
+  title: 'Pipecat Smart Turn v3: Semantic End-of-Turn Detection'
+  date: 2025-06
+  venue: ''
+  org: Pipecat
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/pipecat-ai/smart-turn
+    hf: https://huggingface.co/pipecat-ai/smart-turn-v3
+  sections:
+  - turn-taking-methods
+  - bb-vad
+  note_en: Tiny Whisper-based semantic VAD (~12ms) for pipeline duplex control.
+  note_zh: 微型 Whisper 语义 VAD（约 12ms），用于流水线双工控制。
+- id: livekit-turn-detector
+  name: LiveKit Turn Detector
+  title: 'LiveKit Turn Detector: Semantic Turn-Taking Model'
+  date: 2024-09
+  venue: ''
+  org: LiveKit
+  status: open_weights
+  star: false
+  links:
+    docs: https://docs.livekit.io/agents/
+    code: https://github.com/livekit/agents
+  sections:
+  - turn-taking-methods
+  - bb-vad
+  note_en: Semantic turn detector plugin for LiveKit voice agents.
+  note_zh: LiveKit 语音智能体的语义轮次检测插件。
+- id: easyturn
+  name: EasyTurn
+  title: 'EasyTurn: Acoustic + Semantic Four-State Turn Control'
+  date: 2025-09
+  venue: ''
+  org: ASLP Lab
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2509.23938
+    code: https://github.com/ASLP-lab/Easy-Turn
+  sections:
+  - turn-taking-methods
+  - bb-vad
+  note_en: Four-state acoustic–semantic controller for speak/listen decisions.
+  note_zh: 声学–语义四状态控制器，决策说/听。
+- id: x2-turn
+  name: X2-Turn
+  title: 'X2-Turn: Fine-Grained Turn Control Model'
+  date: 2026-08
+  venue: ''
+  org: X-Square Robot
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2608.10878
+    code: https://github.com/X-Square-Robot/X2-Turn
+    hf: https://huggingface.co/x-square-robot/X2-Turn-4B-0812
+  sections:
+  - turn-taking-methods
+  - bb-vad
+  note_en: Fine-grained turn-taking control model for interactive agents.
+  note_zh: 面向交互智能体的细粒度轮次控制模型。
+- id: soulx-duplug
+  name: SoulX-Duplug
+  title: 'SoulX-Duplug: Semantic VAD / Duplex Control Plugin'
+  date: 2026-03
+  venue: ''
+  org: Soul AI Lab
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2603.14877
+    code: https://github.com/Soul-AILab/SoulX-Duplug
+  sections:
+  - turn-taking-methods
+  - bb-vad
+  note_en: Semantic VAD duplex control plugin for cascaded voice systems.
+  note_zh: 面向级联语音系统的语义 VAD 双工控制插件。
+- id: turnsense
+  name: TurnSense
+  title: 'TurnSense / TurnSense 1.1: Turn and Interruption Control'
+  date: 2025-08
+  venue: ''
+  org: Bairong / Xdynamics
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - turn-taking-methods
+  note_en: Turn/interruption control models for production voice agents.
+  note_zh: 面向生产语音智能体的轮次/打断控制模型。
+- id: ten-turn-detection
+  name: TEN Turn Detection
+  title: TEN Turn Detection Module
+  date: 2025-01
+  venue: ''
+  org: TEN
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/TEN-framework
+  sections:
+  - turn-taking-methods
+  note_en: Turn detection component in the TEN realtime agent framework.
+  note_zh: TEN 实时智能体框架中的轮次检测组件。
+- id: semantic-vad
+  name: Semantic VAD
+  title: 'Semantic VAD: Low-Latency Voice Activity Detection for Speech Agents'
+  date: 2023-05
+  venue: Interspeech'23
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2305.12450
+  sections:
+  - turn-taking-methods
+  note_en: Low-latency semantic voice activity detection for dialogue agents.
+  note_zh: 面向对话智能体的低延迟语义语音活动检测。
+- id: bc-head
+  name: BC-Head
+  title: Controlling Backchannels in Streamable Full-duplex Models
+  date: 2026-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.29418
+  sections:
+  - turn-taking-methods
+  note_en: Dedicated head for controllable backchannels in streamable duplex models.
+  note_zh: 流式双工模型中可控 backchannel 的专用头。
+- id: dualturn
+  name: DualTurn
+  title: 'DualTurn: Learning Turn-Taking from Dual-Channel Generative Pretraining'
+  date: 2026-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2603.08216
+  sections:
+  - turn-taking-methods
+  note_en: Dual-channel generative pretraining outperforming classic VAP setups.
+  note_zh: 双通道生成式预训练，优于经典 VAP 设置。
+- id: moshi-align
+  name: Moshi-Align
+  title: Aligning Spoken Dialogue Models from User Interactions
+  date: 2025-06
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.21463
+  sections:
+  - duplex-alignment
+  note_en: DPO on timing preference pairs to align duplex spoken dialogue models.
+  note_zh: 基于时机偏好对的 DPO，对齐双工口语模型。
+- id: multi-faceted-rl
+  name: Multi-Faceted RL
+  title: Multi-Faceted Interactivity Alignment in Full-Duplex Speech Models
+  date: 2026-06
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2606.11167
+  sections:
+  - duplex-alignment
+  note_en: GRPO with axis-specific interactivity rewards for duplex SLMs.
+  note_zh: 按交互轴分解奖励的 GRPO，对齐双工语音模型。
+- id: aspirin
+  name: ASPIRin
+  title: 'ASPIRin: Action Space Projection for Interactivity-Optimized Duplex Models'
+  date: 2026-04
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2604.10065
+  sections:
+  - duplex-alignment
+  note_en: Projects speak/silence actions to optimize duplex interactivity.
+  note_zh: 投影说/静音动作空间，优化双工交互性。
+- id: orise
+  name: ORISE
+  title: 'ORISE: Reinforcement Learning Enhanced Full-Duplex Spoken Dialogue LMs'
+  date: 2025-10
+  venue: COLM'25
+  org: NVIDIA
+  status: paper_only
+  star: false
+  links:
+    docs: https://openreview.net/forum?id=QbLbXz8Idp
+  sections:
+  - duplex-alignment
+  - think-while
+  note_en: Online RL to improve duplex conversational behaviours (no public arXiv).
+  note_zh: 在线强化学习改善双工对话行为（无公开 arXiv）。
+- id: dualaxisrm
+  name: DualAxisRM
+  title: Dual-Axis Generative Reward Model for Semantic and Turn-taking Quality
+  date: 2026-04
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2604.14920
+  sections:
+  - duplex-alignment
+  note_en: Generative reward model scoring semantics and turn-taking jointly.
+  note_zh: 生成式奖励模型，联合打分语义与轮次质量。
+- id: wavreward
+  name: WavReward
+  title: 'WavReward: Spoken Dialogue Models with Generalist Reward Evaluation'
+  date: 2025-05
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.09558
+  sections:
+  - duplex-alignment
+  note_en: Generalist reward evaluation for training spoken dialogue models.
+  note_zh: 通用奖励评估，用于训练口语对话模型。
+- id: wavalign
+  name: WavAlign
+  title: 'WavAlign: Enhancing Intelligence and Expressiveness in Spoken Dialogue'
+  date: 2026-04
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2604.14932
+  sections:
+  - duplex-alignment
+  note_en: Alignment methods improving intelligence and expressiveness of SDMs.
+  note_zh: 对齐方法提升口语对话模型智能与表达力。
+- id: hibiki
+  name: Hibiki
+  title: 'Hibiki: High-Fidelity Simultaneous Speech-To-Speech Translation'
+  date: 2025-02
+  venue: ''
+  org: Kyutai
+  status: open_weights
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2502.03382
+    code: https://github.com/kyutai-labs/hibiki
+    blog: https://kyutai.org/
+  sections:
+  - simul-s2st
+  - blogs
+  note_en: High-fidelity simultaneous S2ST built on Moshi-style duplex stacks.
+  note_zh: 高保真同声传译，基于 Moshi 式双工栈。
+- id: hibiki-zero
+  name: Hibiki-Zero
+  title: 'Hibiki-Zero: Simultaneous S2ST Without Aligned Data'
+  date: 2026-02
+  venue: ''
+  org: Kyutai
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2602.11072
+  sections:
+  - simul-s2st
+  note_en: Simultaneous speech translation without aligned parallel speech data.
+  note_zh: 无需对齐平行语音数据的同声传译。
+- id: seed-liveinterpret-2
+  name: Seed LiveInterpret 2.0
+  title: 'Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation'
+  date: 2025-07
+  venue: ''
+  org: ByteDance Seed
+  status: closed
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2507.17527
+  sections:
+  - simul-s2st
+  - industry-bytedance
+  note_en: End-to-end simultaneous S2ST product/model from ByteDance Seed.
+  note_zh: 字节 Seed 端到端同声传译产品/模型。
+- id: streamspeech
+  name: StreamSpeech
+  title: 'StreamSpeech: Simultaneous Speech-to-Speech Translation with Multi-task Learning'
+  date: 2024-06
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2406.03049
+  sections:
+  - simul-s2st
+  note_en: Multi-task simultaneous S2ST with streaming policy learning.
+  note_zh: 多任务同声传译，含流式策略学习。
+- id: simuls2s-llm
+  name: SimulS2S-LLM
+  title: 'SimulS2S-LLM: Unlocking Simultaneous Inference of Speech LLMs for S2ST'
+  date: 2025-04
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2504.15509
+  sections:
+  - simul-s2st
+  note_en: Adapts speech LLMs for simultaneous speech-to-speech inference.
+  note_zh: 将语音 LLM 适配为同声语音到语音推理。
+- id: seamlessstreaming
+  name: SeamlessStreaming
+  title: 'Seamless: Multilingual Expressive and Streaming Speech Translation'
+  date: 2023-12
+  venue: ''
+  org: Meta
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2312.05187
+  sections:
+  - simul-s2st
+  note_en: Multilingual expressive streaming speech translation foundation.
+  note_zh: 多语表达性流式语音翻译基础模型。
+- id: clasi
+  name: CLASI
+  title: Towards Achieving Human Parity on End-to-end Simultaneous Speech Translation
+  date: 2024-07
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2407.21646
+  sections:
+  - simul-s2st
+  note_en: End-to-end simultaneous speech translation aiming at human parity.
+  note_zh: 端到端同声传译，目标逼近人类水平。
+- id: streamuni
+  name: StreamUni
+  title: 'StreamUni: Achieving Streaming Speech Translation with a Unified Model'
+  date: 2025-07
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2507.07803
+  sections:
+  - simul-s2st
+  note_en: Unified model for streaming speech translation across directions.
+  note_zh: 统一模型覆盖多方向流式语音翻译。
+- id: infinisst
+  name: InfiniSST
+  title: 'InfiniSST: Simultaneous Translation of Unbounded Speech'
+  date: 2025-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2503.02969
+  sections:
+  - simul-s2st
+  note_en: Simultaneous translation for unbounded/long-form speech streams.
+  note_zh: 面向无界/长语音流的同声翻译。
+- id: fast-cap
+  name: FAST-CAP
+  title: 'All In Good Time: Causality-Aware Framework for LLM-Based Simultaneous Translation'
+  date: 2026-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.30416
+  sections:
+  - simul-s2st
+  note_en: Causality-aware LLM framework for simultaneous speech translation.
+  note_zh: 因果感知 LLM 框架，用于同声语音翻译。
+- id: multitalk
+  name: MultiTalk
+  title: 'MultiTalk: Scaling Full-Duplex Speech Models to Long Multi-Party Dialogue'
+  date: 2026-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.36903
+  sections:
+  - multiparty
+  - duplex-multistream
+  note_en: Scales full-duplex speech models to long multi-party conversations.
+  note_zh: 将全双工语音模型扩展到长多方对话。
+- id: triadic-vap
+  name: Triadic VAP
+  title: Triadic Multi-party Voice Activity Projection for Turn-taking
+  date: 2025-07
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2507.07518
+  sections:
+  - multiparty
+  note_en: Extends VAP to triadic/multi-party turn-taking prediction.
+  note_zh: 将 VAP 扩展到三方/多方轮次预测。
+- id: dualtalk
+  name: DualTalk
+  title: 'DualTalk: Dual-Speaker Interaction for 3D Talking Head Conversations'
+  date: 2025-05
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.18096
+  sections:
+  - multiparty
+  note_en: Dual-speaker avatar interaction modeling overlapping conversational behaviour.
+  note_zh: 双说话人头像交互，建模重叠对话行为。
+- id: kyutai-dsm
+  name: Kyutai DSM
+  title: Streaming Sequence-to-Sequence Learning with Delayed Streams Modeling
+  date: 2025-09
+  venue: ''
+  org: Kyutai
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2509.08753
+  sections:
+  - low-latency
+  note_en: Delayed streams modeling for low-latency streaming sequence transduction.
+  note_zh: 延迟流建模，服务低延迟流式序列转换。
+- id: qwen25-omni
+  name: Qwen2.5-Omni
+  title: Qwen2.5-Omni Technical Report
+  date: 2025-03
+  venue: ''
+  org: Alibaba
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2503.20215
+    code: https://github.com/QwenLM/Qwen2.5-Omni
+    blog: https://qwenlm.github.io/
+    hf: https://huggingface.co/Qwen/Qwen2.5-Omni-7B
+  sections:
+  - streaming-omni-assistants
+  - omni-generation
+  - blogs
+  note_en: Omni model with Thinker–Talker streaming speech generation.
+  note_zh: Omni 模型，Thinker–Talker 流式语音生成。
+- id: qwen3-omni
+  name: Qwen3-Omni
+  title: Qwen3-Omni Technical Report
+  date: 2025-09
+  venue: ''
+  org: Alibaba
+  status: open_weights
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2509.17765
+    code: https://github.com/QwenLM/Qwen3-Omni
+    hf: https://huggingface.co/Qwen
+  sections:
+  - streaming-omni-assistants
+  - omni-generation
+  - blogs
+  - industry-alibaba
+  note_en: Strong open omni model with streaming speech and multimodal interaction.
+  note_zh: 强开放 Omni 模型，支持流式语音与多模态交互。
+- id: qwen35-omni
+  name: Qwen3.5-Omni
+  title: Qwen3.5-Omni Technical Report
+  date: 2026-04
+  venue: ''
+  org: Alibaba
+  status: closed
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2604.15804
+    docs: https://www.alibabacloud.com/help/en/model-studio/
+  sections:
+  - streaming-omni-assistants
+  - omni-generation
+  - blogs
+  note_en: Next Qwen omni generation with stronger realtime A/V interaction.
+  note_zh: 新一代 Qwen Omni，更强实时音视频交互。
+- id: interactiveomni
+  name: InteractiveOmni
+  title: 'InteractiveOmni: Multi-Turn Multimodal Speech Interaction Models'
+  date: 2025-06
+  venue: ''
+  org: SenseNova
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/OpenSenseNova/InteractiveOmni
+    hf: https://huggingface.co/sensenova/InteractiveOmni-8B
+  sections:
+  - streaming-omni-assistants
+  - omni-generation
+  note_en: Open omni models aimed at multi-turn multimodal speech interaction.
+  note_zh: 面向多轮多模态语音交互的开放 Omni 模型。
+- id: longcat-flash-omni
+  name: LongCat-Flash-Omni
+  title: LongCat-Flash-Omni Technical Report
+  date: 2025-10
+  venue: ''
+  org: Meituan
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2511.00279
+    code: https://github.com/meituan-longcat/LongCat-Flash-Omni
+    hf: https://huggingface.co/meituan-longcat/LongCat-Flash-Omni
+  sections:
+  - streaming-omni-assistants
+  - omni-generation
+  note_en: Large MoE omni model with realtime speech generation capabilities.
+  note_zh: 大规模 MoE Omni，具备实时语音生成能力。
+- id: ming-flash-omni
+  name: Ming-flash-omni
+  title: 'Ming-Flash-Omni: Large MoE Omni Generation Models'
+  date: 2025-08
+  venue: ''
+  org: inclusionAI / Ant
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - streaming-omni-assistants
+  - omni-generation
+  note_en: Sparse MoE omni models for multimodal generation and interaction.
+  note_zh: 稀疏 MoE Omni，面向多模态生成与交互。
+- id: stream-omni
+  name: Stream-Omni
+  title: 'Stream-Omni: Simultaneous Multimodal Interactions with Large Language Models'
+  date: 2025-06
+  venue: ''
+  org: ICTNLP
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.13642
+    code: https://github.com/ictnlp/Stream-Omni
+    hf: https://huggingface.co/ICTNLP/stream-omni-8b
+  sections:
+  - streaming-omni-assistants
+  - low-latency
+  - omni-generation
+  note_en: Text intermediate layer plus streaming speech interaction decoding.
+  note_zh: 文本中间层 + 流式语音交互解码。

@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local assistant project data (keep locally)
+.codebuddy/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Build and Python tooling caches
+.cache/
+research_cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+.coverage
+htmlcov/
+*.log
+
+# Temporary verification outputs
+scripts/_tmp/
+*.tmp
+/data/id_remap.yaml
+
+# Local backups
+*.bak
+*~
+/assets/banner copy.png
+
+/scripts/dedupe_entries.py

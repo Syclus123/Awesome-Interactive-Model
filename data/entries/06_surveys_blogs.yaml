@@ -1,0 +1,966 @@
+entries:
+- id: wavchat
+  name: WavChat
+  title: A survey of spoken dialogue models
+  date: 2024-11
+  venue: ''
+  org: CUHK / collaborators
+  status: paper_only
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2411.13577
+    code: https://github.com/jishengpeng/WavChat
+  sections:
+  - surveys-spoken
+  note_en: Landmark survey of cascaded vs end-to-end spoken dialogue, streaming/duplex, datasets and benchmarks.
+  note_zh: 口语对话模型综述里程碑，覆盖级联与端到端、流式/双工、数据与评测。
+- id: speechlm-survey
+  name: SpeechLM Survey
+  title: 'Recent advances in speech language models: a survey'
+  date: 2024-10
+  venue: ACL 2025
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2410.03751
+    code: https://github.com/dreamtheater123/Awesome-SpeechLM-Survey
+  sections:
+  - surveys-spoken
+  note_en: ACL 2025 survey of SpeechLMs that take/generate speech end-to-end.
+  note_zh: ACL 2025 SpeechLM 综述，聚焦端到端语音输入输出语言模型。
+- id: speechllm-survey
+  name: SpeechLLM Survey
+  title: A survey on speech large language models
+  date: 2024-10
+  venue: ''
+  org: SJTU / AISpeech
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2410.18908
+  sections:
+  - surveys-spoken
+  note_en: Broad SpeechLLM taxonomy spanning understanding and generation.
+  note_zh: 覆盖理解与生成的 SpeechLLM 分类综述。
+- id: slm-landscape
+  name: SLM Landscape
+  title: 'On the landscape of spoken language models: a comprehensive survey'
+  date: 2025-04
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2504.08528
+  sections:
+  - surveys-spoken
+  note_en: Landscape view of spoken LMs across architectures and interaction modes.
+  note_zh: 从架构与交互形态梳理口语语言模型全景。
+- id: llm-meets-speech
+  name: LLM-Meets-Speech
+  title: 'When LLMs meet speech: a survey on integration pathways'
+  date: 2025-02
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2502.19548
+  sections:
+  - surveys-spoken
+  note_en: Survey of how LLMs are integrated with speech understanding and generation.
+  note_zh: 综述大模型与语音理解/生成的融合路径。
+- id: tico-survey
+  name: TiCo Survey
+  title: Spoken dialogue model survey (TiCo / Spoken-Dialogue-Model-Survey)
+  date: 2026-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2603.22267
+    code: https://github.com/ga642381/Spoken-Dialogue-Model-Survey
+  sections:
+  - surveys-spoken
+  note_en: Updated spoken-dialogue survey companion to Speech-Trident resources.
+  note_zh: 口语对话模型更新综述，与 Speech-Trident 资源互补。
+- id: audio-reasoning
+  name: AudioReasoning
+  title: 'Audio reasoning with large models: a survey'
+  date: 2026-05
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2605.21008
+  sections:
+  - surveys-spoken
+  note_en: Survey of reasoning over audio beyond transcription-only QA.
+  note_zh: 超越纯转写问答的音频推理综述。
+- id: sparks-lam
+  name: Sparks-LAM
+  title: 'Sparks of large audio models: a survey and outlook'
+  date: 2023-08
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2308.12792
+  sections:
+  - surveys-spoken
+  note_en: Early large-audio-model survey that framed the post-AudioLM era.
+  note_zh: AudioLM 之后早期的大音频模型综述与展望。
+- id: fd-slm-survey
+  name: FD-SLM Survey
+  title: 'From turn-taking to synchronous dialogue: a survey of full-duplex spoken language models'
+  date: 2025-09
+  venue: ICASSP 2026 (under review)
+  org: ''
+  status: code_only
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2509.14515
+    code: https://github.com/elpsykongloo/FD-SLMs
+  sections:
+  - surveys-duplex
+  note_en: Defines engineered vs learned sync taxonomy for FD-SLMs; living GitHub list.
+  note_zh: 提出 FD-SLM 的 engineered/learned 同步分类，并维护持续更新仓库。
+- id: duplex-survey
+  name: DuplexSurvey
+  title: 'Speaking while listening: a survey and empirical audit of full-duplex spoken dialogue systems'
+  date: 2026-06
+  venue: EMNLP 2026
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2606.19453
+    code: https://github.com/MM-Speech/DuplexSurvey
+  sections:
+  - surveys-duplex
+  note_en: EMNLP 2026 survey with L0–L3 hierarchy, TxIxR ontology, and decision state machine.
+  note_zh: EMNLP 2026 全双工综述：架构层级、交互本体与决策状态机，并含实证审计。
+- id: turntaking-survey-iwsds
+  name: TurnTaking-Survey
+  title: Turn-taking survey for spoken dialogue systems (IWSDS 2025)
+  date: 2025-01
+  venue: IWSDS 2025
+  org: ''
+  status: paper_only
+  star: false
+  links: {}
+  sections:
+  - surveys-duplex
+  note_en: IWSDS 2025 survey focused on turn-taking mechanisms in SDS.
+  note_zh: IWSDS 2025 关于口语对话系统轮次机制的综述。
+- id: skantze-review
+  name: Skantze Review
+  title: 'Turn-taking in conversational systems and human-robot interaction: a review'
+  date: 2021-01
+  venue: Computer Speech & Language
+  org: KTH
+  status: paper_only
+  star: false
+  links:
+    web: https://doi.org/10.1016/j.csl.2020.101178
+  sections:
+  - surveys-duplex
+  note_en: Classic CSL review of turn-taking cues, EOT, interruptions, and HRI.
+  note_zh: Computer Speech & Language 经典轮次综述，覆盖线索、EOT、打断与 HRI。
+- id: rtva-eval-survey
+  name: RTVA-Eval
+  title: 'Evaluating real-time voice agents: methodology and pitfalls'
+  date: 2026-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.30798
+  sections:
+  - surveys-duplex
+  - bench-method
+  note_en: Evaluation methodology paper for real-time / full-duplex voice agents.
+  note_zh: 面向实时/全双工语音 Agent 的评测方法论与常见陷阱。
+- id: humdial
+  name: HumDial
+  title: 'HumDial: human-recorded dialogue challenge overview'
+  date: 2026-01
+  venue: ICASSP
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2601.05564
+    code: https://github.com/ASLP-lab/HumDial
+  sections:
+  - surveys-duplex
+  note_en: ICASSP HumDial challenge framing human-recorded interactive dialogue eval.
+  note_zh: ICASSP HumDial 挑战赛：基于真人录音的交互对话评测框架。
+- id: humdial-fd
+  name: HumDial-FD
+  title: HumDial full-duplex track and FDBench
+  date: 2026-04
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2604.21406
+    hf: https://huggingface.co/datasets/ASLP-lab/HumDial
+  sections:
+  - surveys-duplex
+  note_en: Full-duplex HumDial track with interruption/rejection metrics aligned to FDB v1.5.
+  note_zh: HumDial 全双工赛道与 FDBench；打断/拒识等指标对齐 Full-Duplex-Bench v1.5。
+- id: omni-mllm
+  name: Omni-MLLM
+  title: A survey of omni multimodal large language models
+  date: 2024-12
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2412.11694
+  sections:
+  - surveys-omni-stream
+  note_en: Survey of any-to-any / omni MLLMs spanning audio, vision, and text.
+  note_zh: 覆盖音/视/文任意到任意的 Omni 多模态大模型综述。
+- id: umm-survey
+  name: UMM Survey
+  title: 'Unified multimodal models: a survey'
+  date: 2025-05
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.02567
+  sections:
+  - surveys-omni-stream
+  note_en: Survey of unified multimodal model architectures and training recipes.
+  note_zh: 统一多模态模型架构与训练方案综述。
+- id: streaming-llm-survey
+  name: Streaming-LLM
+  title: 'From static inference to dynamic interaction: a survey of streaming LLMs'
+  date: 2026-03
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2603.04592
+    code: https://github.com/EIT-NLP/Awesome-Streaming-LLMs
+  sections:
+  - surveys-omni-stream
+  note_en: Taxonomy of output-streaming, sequential, and concurrent streaming LLMs.
+  note_zh: 将流式大模型分为输出流式、顺序流式与并发流式三类。
+- id: online-interactors
+  name: Online-Interactors
+  title: Survey of online / interactive multimodal agents
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links: {}
+  sections:
+  - surveys-omni-stream
+  note_en: Survey emphasis on online interactors that decide when to speak under streams.
+  note_zh: 关注在连续流下决定何时发言的在线交互体综述。
+- id: vidllm-survey
+  name: VidLLM Survey
+  title: 'Video-LLMs: a survey of large multimodal models for video understanding'
+  date: 2023-12
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2312.17432
+  sections:
+  - surveys-omni-stream
+  note_en: Foundational survey of video LLMs prior to streaming/proactive waves.
+  note_zh: 流式/主动交互兴起前的视频大模型基础综述。
+- id: proactive-convai-tois
+  name: ProactiveConvAI
+  title: 'Proactive conversational AI: a survey (TOIS)'
+  date: 2024-01
+  venue: TOIS
+  org: ''
+  status: paper_only
+  star: false
+  links: {}
+  sections:
+  - surveys-omni-stream
+  note_en: TOIS survey of proactivity in conversational agents (when/what to initiate).
+  note_zh: TOIS 主动对话综述：何时/说什么由系统发起。
+- id: lalm-eval
+  name: LALM-Eval
+  title: Towards holistic evaluation of large audio-language models
+  date: 2025-05
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.15957
+    code: https://github.com/ckyang1124/LALM-Evaluation-Survey
+  sections:
+  - surveys-omni-stream
+  note_en: Survey/framework for evaluating large audio-language models holistically.
+  note_zh: 面向大型音频语言模型的整体评测综述与框架。
+- id: dates-survey
+  name: DATES
+  title: Dialogue and agentic tool-use evaluation survey for speech systems
+  date: 2025-06
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links: {}
+  sections:
+  - surveys-omni-stream
+  note_en: Survey connecting dialogue evaluation with tool-use / agentic speech settings. Public source link pending verification.
+  note_zh: 连接对话评测与工具调用/Agent 语音场景的综述。公开来源链接待核验。
+- id: speech-tokens
+  name: SpeechTokens
+  title: 'Speech tokenization for generative models: a survey'
+  date: 2025-02
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2502.06490
+  sections:
+  - surveys-omni-stream
+  note_en: Survey of discrete speech tokens / codecs used by speech LMs.
+  note_zh: 面向生成式语音大模型的离散语音 token / codec 综述。
+- id: s1-to-s2
+  name: S1-to-S2
+  title: 'From System-1 to System-2 speech agents: a survey (verify arXiv)'
+  date: 2025-02
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links: {}
+  sections:
+  - surveys-omni-stream
+  note_en: Survey of fast interaction vs slow reasoning dual pathways in speech agents.
+  note_zh: 语音 Agent 中快交互（System-1）与慢推理（System-2）路径综述。
+- id: agentic-llm-survey
+  name: Agentic-LLM
+  title: 'Agentic large language models: a survey'
+  date: 2025-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2503.23037
+  sections:
+  - surveys-omni-stream
+  note_en: Broader agentic-LLM survey useful for tool-using voice agents.
+  note_zh: 更广的 Agentic LLM 综述，对带工具的语音 Agent 有参考价值。
+- id: tml-interaction-models
+  name: TML Interaction Models
+  title: 'Thinking Machines Lab: interaction models perspective'
+  date: 2025-01
+  venue: ''
+  org: Thinking Machines Lab
+  status: closed
+  star: false
+  links:
+    blog: https://thinkingmachines.ai/
+  sections:
+  - positions
+  - blogs
+  note_en: Influential blog framing interaction models beyond turn-based chat.
+  note_zh: 有影响力的博客，提出超越轮次聊天的 Interaction Models 视角。
+- id: thoughtful-ai
+  name: Thoughtful-AI
+  title: 'Towards thoughtful AI interaction: a position paper'
+  date: 2025-02
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2502.18676
+  sections:
+  - positions
+  note_en: Position on deliberate, thoughtful interaction rather than reflex replies.
+  note_zh: 主张深思熟虑式交互，而非反射式即时回复的立场文章。
+- id: speech-first-icml
+  name: Speech-First
+  title: Speech-first interaction models (ICML 2026 position)
+  date: 2026-01
+  venue: ICML 2026
+  org: ''
+  status: paper_only
+  star: false
+  links: {}
+  sections:
+  - positions
+  note_en: ICML 2026 position arguing speech-native modeling over text-cascades.
+  note_zh: ICML 2026 立场：主张语音原生建模，而非文本级联。
+- id: model-in-the-middle
+  name: Model-in-the-Middle
+  title: 'Model-in-the-middle: interaction harness as first-class design'
+  date: 2026-07
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2607.25792
+  sections:
+  - positions
+  note_en: Argues the runtime/harness between users and models is a first-class object.
+  note_zh: 主张用户与模型之间的运行时/harness 应作为一等设计对象。
+- id: hc-proactive-agents
+  name: HC-ProactiveAgents
+  title: 'Human-centered proactive agents: a position'
+  date: 2024-04
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2404.12670
+  sections:
+  - positions
+  note_en: Human-centered view of when agents should initiate actions or speech.
+  note_zh: 以人为中心讨论智能体何时应主动发起行为或发言。
+- id: blog-gpt-4o
+  name: GPT-4o
+  title: Hello GPT-4o — omni multimodal announcement
+  date: '2024-05-13'
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: false
+  links:
+    blog: https://openai.com/index/hello-gpt-4o/
+  sections:
+  - blogs
+  note_en: OpenAI GPT-4o launch post; catalyzed modern speech/omni interaction research.
+  note_zh: OpenAI GPT-4o 发布博文，推动现代语音/Omni 交互研究。
+- id: blog-realtime-api
+  name: Realtime API
+  title: OpenAI Realtime API announcement
+  date: '2024-10-01'
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: false
+  links:
+    blog: https://openai.com/index/introducing-the-realtime-api/
+    docs: https://platform.openai.com/docs/guides/realtime
+  sections:
+  - blogs
+  note_en: Introduced low-latency speech-to-speech over WebSocket for voice agents.
+  note_zh: 推出面向语音 Agent 的低延迟 WebSocket 语音到语音 Realtime API。
+- id: blog-gpt-realtime
+  name: gpt-realtime
+  title: gpt-realtime GA / model family notes
+  date: '2025-08-01'
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: false
+  links:
+    docs: https://developers.openai.com/api/docs/models/gpt-realtime
+  sections:
+  - blogs
+  - industry-openai
+  note_en: GA notes for first-generation gpt-realtime; check deprecation tables before use.
+  note_zh: 第一代 gpt-realtime GA 说明；接入前务必核对停用表。
+- id: blog-gpt-realtime-2
+  name: GPT-Realtime-2
+  title: GPT Realtime 2 series update
+  date: '2026-05-01'
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: false
+  links:
+    docs: https://developers.openai.com/api/docs/models/gpt-realtime-2
+  sections:
+  - blogs
+  - industry-openai
+  note_en: Realtime 2 generation with stronger tools/reasoning; migrate path from 1.x.
+  note_zh: Realtime 2 代更新，工具与推理更强；提供从 1.x 的迁移路径。
+- id: blog-turnbench
+  name: TurnBench Blog
+  title: 'TurnBench: measuring the timing of conversation'
+  date: '2026-08-01'
+  venue: ''
+  org: Sesame
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2608.25218
+    web: https://turnbench.sesame.com/
+    blog: https://www.sesame.com/blog/turnbench
+  sections:
+  - blogs
+  note_en: Sesame blog introducing TurnBench leaderboard for EOT/interruption timing.
+  note_zh: Sesame 介绍 TurnBench 排行榜的博客，评测 EOT/打断时机。
+- id: blog-astra
+  name: Project Astra
+  title: Google Project Astra demo / multimodal agent vision
+  date: '2024-05-14'
+  venue: ''
+  org: Google DeepMind
+  status: closed
+  star: false
+  links:
+    blog: https://deepmind.google/technologies/gemini/project-astra/
+  sections:
+  - blogs
+  note_en: Google I/O Astra demo shaped expectations for always-on multimodal agents.
+  note_zh: Google I/O Astra 演示塑造了对常在线多模态 Agent 的预期。
+- id: blog-gemini-25-native-audio
+  name: Gemini 2.5 Native Audio
+  title: Gemini 2.5 Flash native audio / Live API notes
+  date: '2025-04-01'
+  venue: ''
+  org: Google DeepMind
+  status: closed
+  star: false
+  links:
+    docs: https://ai.google.dev/gemini-api/docs/live
+  sections:
+  - blogs
+  note_en: Native-audio Live API generation before 3.x Flash Live.
+  note_zh: 3.x Flash Live 之前的原生音频 Live API 一代。
+- id: blog-gemini-31-flash-live
+  name: Gemini 3.1 Flash Live
+  title: Gemini 3.1 Flash Live announcement
+  date: '2026-01-01'
+  venue: ''
+  org: Google DeepMind
+  status: closed
+  star: false
+  links:
+    docs: https://ai.google.dev/gemini-api/docs/models
+  sections:
+  - blogs
+  - industry-google
+  note_en: Flash-tier live multimodal model in the Gemini Live lineage.
+  note_zh: Gemini Live 谱系中的 Flash 级实时多模态型号。
+- id: blog-gemini-38-live
+  name: Gemini 3.8 Live
+  title: Gemini 3.8 Live / Extended Thinking GA notes
+  date: '2026-09-15'
+  venue: ''
+  org: Google DeepMind
+  status: closed
+  star: false
+  links:
+    docs: https://ai.google.dev/gemini-api/docs/models/gemini-3.8-live
+  sections:
+  - blogs
+  - industry-google
+  note_en: GA notes for Gemini 3.8 Live with async tools and extended thinking.
+  note_zh: Gemini 3.8 Live GA：异步工具与 Extended Thinking。
+- id: blog-doubao-realtime-voice
+  name: Doubao Realtime Voice
+  title: Doubao / Volcano realtime voice product notes
+  date: '2025-06-01'
+  venue: ''
+  org: ByteDance
+  status: closed
+  star: false
+  links:
+    web: https://www.volcengine.com/
+  sections:
+  - blogs
+  note_en: ByteDance Doubao realtime voice product lineage before Seeduplex paper.
+  note_zh: 字节豆包实时语音产品线（Seeduplex 研究论文之前）。
+- id: blog-nova-sonic
+  name: Nova Sonic
+  title: Amazon Nova Sonic speech-to-speech announcement
+  date: '2025-04-01'
+  venue: ''
+  org: Amazon
+  status: closed
+  star: false
+  links:
+    docs: https://aws.amazon.com/ai/generative-ai/nova/
+  sections:
+  - blogs
+  - industry-others
+  note_en: AWS Nova Sonic realtime speech model family (check EOL for older SKUs).
+  note_zh: AWS Nova Sonic 实时语音型号族（旧 SKU 需核对停用）。
+- id: blog-livekit-eou
+  name: LiveKit EOU
+  title: LiveKit end-of-utterance / turn detector blog
+  date: '2024-11-01'
+  venue: ''
+  org: LiveKit
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/livekit/agents
+    blog: https://blog.livekit.io/
+  sections:
+  - blogs
+  note_en: Practical EOU/turn-detection guidance in the LiveKit Agents stack.
+  note_zh: LiveKit Agents 栈中实用的句末/轮次检测指南。
+- id: tut-is24-slm
+  name: IS24 SLM Tutorial
+  title: Interspeech 2024 tutorial on speech language models
+  date: '2024-09-01'
+  venue: Interspeech 2024
+  org: ''
+  status: paper_only
+  star: false
+  links: {}
+  sections:
+  - tutorials
+  note_en: IS 2024 tutorial introducing SLM architectures and training.
+  note_zh: Interspeech 2024 语音语言模型架构与训练教程。
+- id: tut-emnlp25-sca
+  name: EMNLP25 SCA
+  title: EMNLP 2025 tutorial on spoken conversational agents
+  date: '2025-11-01'
+  venue: EMNLP 2025
+  org: ''
+  status: paper_only
+  star: false
+  links: {}
+  sections:
+  - tutorials
+  note_en: EMNLP tutorial on building and evaluating spoken conversational agents.
+  note_zh: EMNLP 关于构建与评测口语对话 Agent 的教程。
+- id: tut-is26-slm
+  name: IS26 SLM Tutorial
+  title: Interspeech 2026 tutorial on speech / duplex LMs
+  date: '2026-09-01'
+  venue: Interspeech 2026
+  org: ''
+  status: paper_only
+  star: false
+  links: {}
+  sections:
+  - tutorials
+  note_en: IS 2026 tutorial covering duplex and interactive speech LMs.
+  note_zh: Interspeech 2026 覆盖双工与交互式语音大模型的教程。
+- id: tut-voice-ai-primer
+  name: Voice AI Primer
+  title: Practical Voice AI primer for builders
+  date: '2025-01-01'
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    web: https://docs.livekit.io/agents/
+  sections:
+  - tutorials
+  note_en: Practitioner primer covering VAD, turn-taking, STT/TTS, and realtime stacks.
+  note_zh: 面向实践者的 Voice AI 入门：VAD、轮次、STT/TTS 与实时栈。
+- id: tut-rtvoiceagent
+  name: RTVoiceAgent Tutorial
+  title: 'Building real-time voice agents: a tutorial'
+  date: 2026-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2603.05413
+  sections:
+  - tutorials
+  note_en: Paper tutorial walking through realtime voice-agent pipelines and pitfalls.
+  note_zh: 论文教程：梳理实时语音 Agent 流水线与常见坑。
+- id: tut-gpt-live-guide
+  name: GPT-Live Guide
+  title: OpenAI GPT-Live developer guide
+  date: '2026-01-01'
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: false
+  links:
+    docs: https://developers.openai.com/api/docs/guides/live
+  sections:
+  - tutorials
+  note_en: Official guide for GPT-Live sessions, delegation, and billing split.
+  note_zh: GPT-Live 官方指南：会话、委派与计费拆分。
+- id: list-speech-trident
+  name: Speech-Trident
+  title: Awesome speech/audio LLMs, codecs, and representation learning
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/ga642381/speech-trident
+  sections:
+  - related-lists
+  note_en: 'Curated trident list: representation, codec, and speech LM resources.'
+  note_zh: 三叉戟资源列表：表征、codec 与语音语言模型。
+- id: list-wavchat-repo
+  name: WavChat-repo
+  title: Companion repository for the WavChat survey
+  date: 2024-11
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/jishengpeng/WavChat
+  sections:
+  - related-lists
+  note_en: Living paper list accompanying WavChat.
+  note_zh: WavChat 综述配套的持续更新论文列表。
+- id: list-awesome-speechlm-survey
+  name: Awesome-SpeechLM-Survey
+  title: GitHub list for the SpeechLM survey (ACL 2025)
+  date: 2024-10
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/dreamtheater123/Awesome-SpeechLM-Survey
+  sections:
+  - related-lists
+  note_en: Paper list for end-to-end SpeechLMs and related LALMs.
+  note_zh: 端到端 SpeechLM 及相关 LALM 论文列表。
+- id: list-awesome-fd-sdm
+  name: Awesome-Full-Duplex-SDM
+  title: Curated list of full-duplex spoken dialogue models & benchmarks
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/Ruiqi-Yan/Awesome-Full-Duplex-SDM
+  sections:
+  - related-lists
+  note_en: Actively maintained FD-SDM models, datasets, and benchmarks.
+  note_zh: 持续维护的全双工口语对话模型、数据与基准列表。
+- id: list-duplexsurvey-repo
+  name: DuplexSurvey-repo
+  title: Official repo for the DuplexSurvey EMNLP paper
+  date: 2026-06
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/MM-Speech/DuplexSurvey
+  sections:
+  - related-lists
+  note_en: Models/datasets/benchmarks collected with the DuplexSurvey audit.
+  note_zh: 配合 DuplexSurvey 审计收集的模型/数据/基准。
+- id: list-fd-slms
+  name: FD-SLMs
+  title: Living repository for the FD-SLM survey
+  date: 2025-09
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/elpsykongloo/FD-SLMs
+  sections:
+  - related-lists
+  note_en: Engineered vs learned sync catalog from the FD-SLM survey.
+  note_zh: FD-SLM 综述的 engineered/learned 同步谱系列表。
+- id: list-awesome-audio-llm
+  name: Awesome-Audio-LLM
+  title: Awesome list of audio LLMs, datasets, and benchmarks
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/BinWang28/audio-ai-hub
+  sections:
+  - related-lists
+  note_en: Broad audio-LLM hub spanning papers, datasets, and evals.
+  note_zh: 覆盖论文、数据与评测的音频大模型资源汇集。
+- id: list-awesome-streaming-video
+  name: Awesome-Streaming-Video-Understanding
+  title: Curated streaming / online video understanding papers
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/sotayang/Awesome-Streaming-Video-Understanding
+  sections:
+  - related-lists
+  note_en: Proactive and reactive streaming video-LLM paper list.
+  note_zh: 主动/被动流式视频大模型论文列表。
+- id: list-awesome-streaming-llms
+  name: Awesome-Streaming-LLMs
+  title: Paper list for streaming LLMs/MLLMs
+  date: 2026-03
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/EIT-NLP/Awesome-Streaming-LLMs
+  sections:
+  - related-lists
+  note_en: Companion list to the Streaming-LLM survey (text/audio/video).
+  note_zh: Streaming-LLM 综述配套列表（文本/音频/视频）。
+- id: list-awesome-voice-agents
+  name: awesome-voice-agents
+  title: Curated voice agent frameworks, VAD, turn detection, STT/TTS
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/yzfly/awesome-voice-agents
+  sections:
+  - related-lists
+  note_en: Builder-oriented list of voice-agent stacks and components.
+  note_zh: 面向开发者的语音 Agent 框架与组件列表。
+- id: list-awesome-umm
+  name: Awesome-Unified-Multimodal-Models
+  title: Awesome list of unified multimodal / omni models
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/aidc-ai/awesome-unified-multimodal-models
+  sections:
+  - related-lists
+  note_en: Navigation list for unified multimodal model papers and releases.
+  note_zh: 统一多模态/Omni 模型论文与发布导航列表。
+- id: audiolm-survey
+  name: AudioLM-Survey
+  title: A survey on neural speech / audio language models
+  date: 2024-02
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2402.13236
+  sections:
+  - surveys-spoken
+  note_en: Earlier AudioLM-era survey useful as historical context.
+  note_zh: AudioLM 时代早期综述，可作历史背景。
+- id: blog-advanced-voice
+  name: Advanced Voice Mode
+  title: ChatGPT Advanced Voice Mode announcement
+  date: '2024-09-24'
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: false
+  links:
+    blog: https://openai.com/index/chatgpt-can-now-see-hear-and-speak/
+  sections:
+  - blogs
+  note_en: Consumer Advanced Voice Mode; distinct from Realtime API SKUs.
+  note_zh: 面向消费者的 Advanced Voice Mode；与 Realtime API 型号不同。
+- id: blog-gemini-live-api
+  name: Gemini Live API
+  title: Google Gemini Live API developer blog / docs launch
+  date: '2024-12-01'
+  venue: ''
+  org: Google DeepMind
+  status: closed
+  star: false
+  links:
+    docs: https://ai.google.dev/gemini-api/docs/live
+  sections:
+  - blogs
+  note_en: Developer-facing Live API notes for Gemini realtime multimodal.
+  note_zh: 面向开发者的 Gemini 实时多模态 Live API 说明。
+- id: blog-minicpm-o
+  name: MiniCPM-o Blog
+  title: MiniCPM-o omni / streaming release notes
+  date: '2025-01-01'
+  venue: ''
+  org: OpenBMB
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/OpenBMB/MiniCPM-o
+  sections:
+  - blogs
+  note_en: OpenBMB omni model release notes used widely as open baseline.
+  note_zh: OpenBMB Omni 发布说明，常用作开源基线。
+- id: list-large-audio-models
+  name: Large-Audio-Models
+  title: Curated large audio models paper list
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/liusongxiang/Large-Audio-Models
+  sections:
+  - related-lists
+  note_en: Companion list often cross-linked from Speech-Trident.
+  note_zh: 常与 Speech-Trident 交叉引用的大音频模型列表。
+- id: list-spoken-dialogue-survey
+  name: Spoken-Dialogue-Model-Survey
+  title: Repo for TiCo / spoken dialogue model survey
+  date: 2026-03
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/ga642381/Spoken-Dialogue-Model-Survey
+  sections:
+  - related-lists
+  note_en: Living list paired with arXiv 2603.22267.
+  note_zh: 与 arXiv 2603.22267 配套的持续更新列表。
+- id: tut-pipecat-docs
+  name: Pipecat Docs
+  title: Pipecat voice-agent builder documentation
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/pipecat-ai/pipecat
+    docs: https://docs.pipecat.ai/
+  sections:
+  - tutorials
+  note_en: Hands-on docs for composing VAD/STT/LLM/TTS pipelines.
+  note_zh: 组合 VAD/STT/LLM/TTS 流水线的实践文档。
+- id: tut-livekit-agents
+  name: LiveKit Agents Guide
+  title: LiveKit Agents documentation and recipes
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/livekit/agents
+    docs: https://docs.livekit.io/agents/
+  sections:
+  - tutorials
+  note_en: Production-oriented guide for LiveKit voice agents and EOU.
+  note_zh: 面向生产的 LiveKit 语音 Agent 与 EOU 指南。

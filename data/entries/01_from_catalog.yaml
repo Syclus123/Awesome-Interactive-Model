@@ -1,0 +1,1166 @@
+entries:
+- id: cat-A02
+  name: GPT Realtime 2.1 / 2.1 mini
+  title: GPT Realtime 2.1 / 2.1 mini
+  date: 2025-01
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: true
+  links:
+    docs: https://developers.openai.com/api/docs/models/gpt-realtime-2.1
+  sections:
+  - industry-openai
+  note_en: 应分别测试端点检测、语义打断和并发工具；不能仅由 WebSocket 双向通信推断与 GPT-Live 相同的原生双工架构。
+  note_zh: 应分别测试端点检测、语义打断和并发工具；不能仅由 WebSocket 双向通信推断与 GPT-Live 相同的原生双工架构。
+  license: 商业服务条款
+  modalities: A/I/T → A/T
+  source_group: A
+- id: cat-A03
+  name: GPT Realtime 2 / 1.5
+  title: GPT Realtime 2 / 1.5
+  date: 2025-01
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: false
+  links:
+    docs: https://developers.openai.com/api/docs/models/gpt-realtime-2
+  sections:
+  - industry-openai
+  note_en: 2 于 2026-05、1.5 于 2026-02 进入官方更新记录；新接入先检查 2.1 系列及迁移表。
+  note_zh: 2 于 2026-05、1.5 于 2026-02 进入官方更新记录；新接入先检查 2.1 系列及迁移表。
+  license: 商业服务条款
+  modalities: A/I/T → A/T
+  source_group: A
+- id: cat-A04
+  name: gpt-realtime
+  title: gpt-realtime / gpt-realtime-mini and GPT-4o Realtime preview lineage (deprecated path)
+  date: 2025-01
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: false
+  links:
+    docs: https://developers.openai.com/api/docs/models/gpt-realtime
+  sections:
+  - industry-openai
+  note_en: 原始 GA 家族有 2027-01-20 停用安排；较早的 realtime-preview 已于 2026-05 停用。应逐个核对快照，不能把家族全部写成仍可用。
+  note_zh: 原始 GA 家族有 2027-01-20 停用安排；较早的 realtime-preview 已于 2026-05 停用。应逐个核对快照，不能把家族全部写成仍可用。
+  license: 商业服务条款
+  modalities: A/T，部分版本 I → A/T
+  source_group: A
+- id: cat-A05
+  name: GPT Audio 1.5
+  title: GPT Audio 1.5 / GPT Audio family
+  date: 2025-01
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: false
+  links:
+    docs: https://developers.openai.com/api/docs/models/gpt-audio-1.5
+  sections:
+  - industry-openai
+  note_en: 不要把支持音频输入输出的 Chat Completions 与全双工 Realtime/Live 混为一类。
+  note_zh: 不要把支持音频输入输出的 Chat Completions 与全双工 Realtime/Live 混为一类。
+  license: 商业服务条款
+  modalities: A/T → A/T
+  source_group: A
+- id: cat-A07
+  name: Gemini 3.1 Flash Live / 2.5 Flash Native Audio
+  title: Gemini 3.1 Flash Live / 2.5 Flash Native Audio
+  date: 2025-01
+  venue: ''
+  org: Google DeepMind
+  status: closed
+  star: false
+  links:
+    docs: https://ai.google.dev/gemini-api/docs/deprecations
+  sections:
+  - industry-google
+  note_en: 部分旧 2.0/2.5 live-preview 端点已停用；3.1 与 native-audio-preview 需按精确 ID 查停用表，不能只看 Gemini 版本号。
+  note_zh: 部分旧 2.0/2.5 live-preview 端点已停用；3.1 与 native-audio-preview 需按精确 ID 查停用表，不能只看 Gemini 版本号。
+  license: 商业服务条款
+  modalities: A/V/T → A/T
+  source_group: A
+- id: cat-A09
+  name: Qwen-Audio 3.0 Realtime Plus / Flash
+  title: Qwen-Audio 3.0 Realtime Plus / Flash
+  date: 2025-01
+  venue: ''
+  org: 阿里巴巴 / QwenAudio
+  status: closed
+  star: false
+  links:
+    docs: https://www.alibabacloud.com/help/en/model-studio/qwen-audio-realtime-model-access
+  sections:
+  - industry-alibaba
+  note_en: 与 3.1 并列于接入文档；Plus/Flash、地域与传输协议的可用性应分别确认。
+  note_zh: 与 3.1 并列于接入文档；Plus/Flash、地域与传输协议的可用性应分别确认。
+  license: 商业服务条款
+  modalities: A/T → A/T
+  source_group: A
+- id: cat-A10
+  name: Qwen3.8-Omni-Flash-Realtime / Flash
+  title: 'Qwen3.8-Omni: Towards Native Omni-Modal Agents'
+  date: 2026-09
+  venue: ''
+  org: 阿里巴巴 / Qwen
+  status: code_only
+  star: false
+  links:
+    docs: https://docs.modelstudio.console.alibabacloud.com/en/model-studio/omni
+    arxiv: https://arxiv.org/abs/2609.25611
+    code: https://github.com/QwenLM/Qwen-Live-Harness
+  sections:
+  - industry-alibaba
+  note_en: 普通 qwen3.8-omni-flash 的 Chat/Responses 接口输出文本，不能因 Omni 名称推断带语音输出；未核实同名权重公开。
+  note_zh: 普通 qwen3.8-omni-flash 的 Chat/Responses 接口输出文本，不能因 Omni 名称推断带语音输出；未核实同名权重公开。
+  license: 商业服务条款；harness Apache-2.0
+  modalities: 'A/V/I/T → Realtime: A/T；普通版: T'
+  source_group: A
+- id: cat-A12
+  name: Qwen3-Omni-Flash / Realtime；Qwen-Omni-Turbo API
+  title: Qwen3-Omni-Flash / Realtime；Qwen-Omni-Turbo API
+  date: 2025-01
+  venue: ''
+  org: 阿里巴巴 / Qwen
+  status: open_weights
+  star: false
+  links:
+    docs: https://www.alibabacloud.com/help/en/model-studio/qwen-omni
+  sections:
+  - industry-alibaba
+  note_en: 云端模型 ID 与公开 30B-A3B checkpoint 不能假定一一对应；Turbo/旧版本维护状态参见模型目录。
+  note_zh: 云端模型 ID 与公开 30B-A3B checkpoint 不能假定一一对应；Turbo/旧版本维护状态参见模型目录。
+  license: 商业服务条款
+  modalities: A/V/I/T → A/T，依端点
+  source_group: A
+- id: cat-A13
+  name: Doubao Seeduplex
+  title: Doubao Seeduplex
+  date: 2025-01
+  venue: ''
+  org: 字节跳动 / Seed
+  status: closed
+  star: true
+  links:
+    web: https://research.doubao.com/en/seeduplex
+  sections:
+  - industry-bytedance
+  - duplex-multistream
+  note_en: 2026-04 官方研究发布。火山端到端语音 API 的存在不能证明其底层就是同一 Seeduplex checkpoint。
+  note_zh: 2026-04 官方研究发布。火山端到端语音 API 的存在不能证明其底层就是同一 Seeduplex checkpoint。
+  license: 未开放模型许可证
+  modalities: A → A/T
+  source_group: A
+- id: cat-A14
+  name: Doubao end-to-end realtime speech model
+  title: Doubao end-to-end realtime speech model / O2.0
+  date: 2025-01
+  venue: ''
+  org: 字节跳动 / 火山引擎
+  status: closed
+  star: false
+  links:
+    docs: https://docs.volcengine.com/docs/real_time_communication/Accessend-to-endreal-timespeechlargemodel?lang=zh
+  sections:
+  - industry-bytedance
+  note_en: 混合编排不自动拥有任务账本、持久记忆和后台工作恢复；不要直接称为完整 agent harness。
+  note_zh: 混合编排不自动拥有任务账本、持久记忆和后台工作恢复；不要直接称为完整 agent harness。
+  license: 商业服务条款
+  modalities: A/T → A/T；此 RTC 接入不含视觉
+  source_group: A
+- id: cat-A15
+  name: Seed / Doubao Realtime Voice（2025）
+  title: Seed / Doubao Realtime Voice（2025）
+  date: 2025-01
+  venue: ''
+  org: 字节跳动 / Seed
+  status: closed
+  star: false
+  links:
+    web: https://seed.bytedance.com/en/realtime_voice
+  sections:
+  - industry-bytedance
+  note_en: 单独保留以解释旧论文基线；发布页宣称的模型延迟不能当成今天 API 的端到端延迟。
+  note_zh: 单独保留以解释旧论文基线；发布页宣称的模型延迟不能当成今天 API 的端到端延迟。
+  license: 未开放模型许可证
+  modalities: A → A
+  source_group: A
+- id: cat-A17
+  name: Amazon Nova 2 Sonic / Nova Sonic
+  title: Amazon Nova 2 Sonic / Nova Sonic
+  date: 2025-01
+  venue: ''
+  org: Amazon
+  status: closed
+  star: false
+  links:
+    docs: https://docs.aws.amazon.com/en_en/bedrock/latest/userguide/model-card-amazon-nova-2-sonic.html
+  sections:
+  - industry-others
+  note_en: Nova 2 Sonic ID 为 amazon.nova-2-sonic-v1:0；2025-12 发布，2026 年有原位更新，复现实验还需记录调用日期。
+  note_zh: Nova 2 Sonic ID 为 amazon.nova-2-sonic-v1:0；2025-12 发布，2026 年有原位更新，复现实验还需记录调用日期。
+  license: 商业服务条款
+  modalities: A/T → A/T
+  source_group: A
+- id: cat-A18
+  name: Grok Voice Agent / grok-voice-latest
+  title: Grok Voice Agent / grok-voice-latest
+  date: 2025-01
+  venue: ''
+  org: xAI
+  status: closed
+  star: false
+  links:
+    docs: https://docs.x.ai/developers/model-capabilities/audio/voice
+  sections:
+  - industry-others
+  note_en: latest 是可变别名；未找到对应开放语音权重，不可套用 Grok 文本模型历史开放状态。
+  note_zh: latest 是可变别名；未找到对应开放语音权重，不可套用 Grok 文本模型历史开放状态。
+  license: 商业服务条款
+  modalities: A/T → A/T
+  source_group: A
+- id: cat-A19
+  name: Hume EVI 3 / EVI 4-mini
+  title: Hume EVI 3 / EVI 4-mini
+  date: 2025-01
+  venue: ''
+  org: Hume AI
+  status: closed
+  star: false
+  links:
+    docs: https://dev.hume.ai/docs/speech-to-speech-evi/configuration/evi-version
+  sections:
+  - industry-others
+  note_en: EVI 1/2 已退出支持；EVI 不是单纯 Octave TTS。不同 EVI 版本支持语言和配置有差异。
+  note_zh: EVI 1/2 已退出支持；EVI 不是单纯 Octave TTS。不同 EVI 版本支持语言和配置有差异。
+  license: 商业服务条款
+  modalities: A/T → A/T
+  source_group: A
+- id: cat-A20
+  name: SenseNova 5o
+  title: SenseNova 5o / SenseTime realtime audio-video model
+  date: 2025-01
+  venue: ''
+  org: 商汤科技
+  status: closed
+  star: false
+  links:
+    docs: https://sensenova5o_doc.sensetime.com/introduction/intro.html
+    web: https://www.sensetime.com/cn/news/51169319
+  sections:
+  - industry-others
+  note_en: 2025 年官方公告确认商用 API；旧接口文档域名本次不可解析，当前接入状态待复核。与 InteractiveOmni 分开。
+  note_zh: 2025 年官方公告确认商用 API；旧接口文档域名本次不可解析，当前接入状态待复核。与 InteractiveOmni 分开。
+  license: 商业服务条款
+  modalities: A/V/T → A/T
+  source_group: A
+- id: cat-A22
+  name: Baidu end-to-end speech-language model Pro
+  title: Baidu end-to-end speech-language model Pro / Lite
+  date: 2025-01
+  venue: ''
+  org: 百度智能云
+  status: closed
+  star: false
+  links:
+    docs: https://ai.baidu.com/ai-doc/SPEECH/nmcytnwei
+    web: https://ai.baidu.com/tech/speech/chatbot
+  sections:
+  - industry-others
+  note_en: 按官方语音文档归类；不把千帆通用文本模型或单独语音识别服务算作同一模型。
+  note_zh: 按官方语音文档归类；不把千帆通用文本模型或单独语音识别服务算作同一模型。
+  license: 商业服务条款
+  modalities: A/T → A/T
+  source_group: A
+- id: cat-A23
+  name: iFLYTEK Hyper-human interaction
+  title: iFLYTEK Hyper-human interaction / SparkOS interactive API
+  date: 2025-01
+  venue: ''
+  org: 科大讯飞
+  status: closed
+  star: false
+  links:
+    docs: https://www.xfyun.cn/doc/spark/sparkos_interactive.html
+    web: https://www.xfyun.cn/solutions/sparkos_interactive
+  sections:
+  - industry-others
+  note_en: 接口默认全双工是服务行为证据，不足以推断内部是单一原生双工基础模型；数字人视频输出也不是通用视频生成。
+  note_zh: 接口默认全双工是服务行为证据，不足以推断内部是单一原生双工基础模型；数字人视频输出也不是通用视频生成。
+  license: 商业服务条款
+  modalities: A → 合成 A / 数字人 V
+  source_group: A
+- id: cat-A25
+  name: Sesame Maya
+  title: Sesame Maya / Miles voice assistants
+  date: 2025-01
+  venue: ''
+  org: Sesame
+  status: closed
+  star: false
+  links:
+    web: https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice
+    code: https://github.com/sesameailabs/csm
+  sections:
+  - industry-others
+  note_en: 没有把演示产品列成可自部署模型，也未核实面向所有开发者的通用 Maya/Miles API。
+  note_zh: 没有把演示产品列成可自部署模型，也未核实面向所有开发者的通用 Maya/Miles API。
+  license: 产品条款；CSM 另见模型许可
+  modalities: A → A
+  source_group: A
+- id: cat-B01
+  name: Realtime-Venus-Audio / Omni
+  title: 'Realtime-Venus: A full-duplex interaction system with asynchronous delegation'
+  date: 2026-09
+  venue: ''
+  org: inclusionAI / Realtime-Venus 团队
+  status: open_weights
+  star: true
+  links:
+    code: https://github.com/inclusionAI/Realtime-Venus
+    hf: https://huggingface.co/inclusionAI/Realtime-Venus
+    arxiv: https://arxiv.org/abs/2609.13814
+  sections:
+  - dual-open
+  note_en: 源码发布重点是 Omni 集成与可复用 Harness；麦克风演示也用 Omni。不是一个 checkpoint 通过开关变成两种模型。
+  note_zh: 源码发布重点是 Omni 集成与可复用 Harness；麦克风演示也用 Omni。不是一个 checkpoint 通过开关变成两种模型。
+  license: Apache-2.0；第三方组件另计
+  modalities: 'Audio: A/T；Omni: A/V/T → A/T'
+  source_group: B
+- id: cat-B02
+  name: Gander / Omni-Interaction-Agent
+  title: Multimodal Duplex Interaction Agent
+  date: 2026-09
+  venue: ''
+  org: Gander 团队
+  status: open_weights
+  star: true
+  links:
+    code: https://github.com/Omni-Interaction-Gander/Omni-Interaction-Agent
+    hf: https://huggingface.co/Gander-Omni/Gander
+    arxiv: https://arxiv.org/abs/2609.08977
+  sections:
+  - dual-open
+  note_en: 截至检索日 README 仍注明数据集 coming soon；训练组件和冻结基座需按下载清单组合，不能称为全量数据完全开放。
+  note_zh: 截至检索日 README 仍注明数据集 coming soon；训练组件和冻结基座需按下载清单组合，不能称为全量数据完全开放。
+  license: 模型与代码 Apache-2.0；第三方依赖另计
+  modalities: A/V/T → A/T + 任务控制
+  source_group: B
+- id: cat-B04
+  name: Moshi / Moshiko / Moshika
+  title: 'Moshi: a speech-text foundation model for real-time dialogue'
+  date: 2024-10
+  venue: ''
+  org: Kyutai
+  status: open_weights
+  star: true
+  links:
+    code: https://github.com/kyutai-labs/moshi
+    hf: https://huggingface.co/kyutai/moshiko-pytorch-bf16
+    arxiv: https://arxiv.org/abs/2410.00037
+  sections:
+  - duplex-multistream
+  note_en: 模型并不自动提供完整工具代理；论文理论延迟和实际网络会话延迟不是同一指标。
+  note_zh: 模型并不自动提供完整工具代理；论文理论延迟和实际网络会话延迟不是同一指标。
+  license: 权重 CC-BY-4.0；Python MIT / Rust Apache-2.0
+  modalities: 用户 A/T → 助手 A/T
+  source_group: B
+- id: cat-B06
+  name: NVIDIA NemotronLabs VoiceChat
+  title: 'NemotronLabs VoiceChat: An Open Full-duplex Speech-to-Speech Model with Tool Calling Capabilities'
+  date: 2026-09
+  venue: ''
+  org: NVIDIA
+  status: open_weights
+  star: false
+  links:
+    hf: https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B
+    arxiv: https://arxiv.org/abs/2609.21967
+    docs: https://build.nvidia.com/nvidia/nemotron-voicechat/modelcard
+  sections:
+  - duplex-multistream
+  note_en: HF 名称为 11B；NIM 页另见 Nemotron 3 VoiceChat 12B，不强行当作同一尺寸/同一 artifact。训练数据描述公开不等于全部数据可下载。
+  note_zh: HF 名称为 11B；NIM 页另见 Nemotron 3 VoiceChat 12B，不强行当作同一尺寸/同一 artifact。训练数据描述公开不等于全部数据可下载。
+  license: 权重 OpenMDW-1.1
+  modalities: A/T → A/T + 工具通道
+  source_group: B
+- id: cat-B10
+  name: FLM-Audio / FLM-Ego
+  title: FLM-Audio / FLM-Ego (RoboEgo lineage)
+  date: 2025-09
+  venue: ''
+  org: Cofe AI 等
+  status: paper_only
+  star: false
+  links:
+    code: https://github.com/cofe-ai/flm-audio
+    arxiv: https://arxiv.org/abs/2509.02521
+  sections:
+  - duplex-tdm
+  note_en: README 的研究用途及声音授权声明不能被代码许可证覆盖；商用需联系作者，不能标记为无限制商用。
+  note_zh: README 的研究用途及声音授权声明不能被代码许可证覆盖；商用需联系作者，不能标记为无限制商用。
+  license: 代码 Apache-2.0/MIT 部分；项目声明限制商业使用和默认声音
+  modalities: A/T → A/T
+  source_group: B
+- id: cat-C03
+  name: MiniCPM-o 2.6
+  title: MiniCPM-o 2.6
+  date: 2025-01
+  venue: ''
+  org: OpenBMB
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/OpenBMB/MiniCPM-o
+    hf: https://huggingface.co/openbmb/MiniCPM-o-2_6
+  sections:
+  - omni-generation
+  note_en: 2.6 与 4.5 的原生全双工能力不要混用；许可证也应查当前模型卡而非早期转载。
+  note_zh: 2.6 与 4.5 的原生全双工能力不要混用；许可证也应查当前模型卡而非早期转载。
+  license: 当前 HF 模型卡 Apache-2.0
+  modalities: A/V/I/T → A/T
+  source_group: C
+- id: cat-C06
+  name: Step-Audio / Step-Audio-Chat
+  title: Step-Audio / Step-Audio-Chat
+  date: 2025-01
+  venue: ''
+  org: 阶跃星辰
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/stepfun-ai/Step-Audio
+    hf: https://huggingface.co/stepfun-ai/Step-Audio-Chat
+  sections:
+  - omni-generation
+  note_en: 首代仓库已声明停止维护；130B 部署成本与 7B mini 不可类比，各组件仍需分别查许可。
+  note_zh: 首代仓库已声明停止维护；130B 部署成本与 7B mini 不可类比，各组件仍需分别查许可。
+  license: 代码与 Chat 权重 Apache-2.0；其他组件分别核实
+  modalities: A/T → A/T
+  source_group: C
+- id: cat-C07
+  name: Step-Audio 2 mini / mini-Base / mini-Think
+  title: Step-Audio 2 mini / mini-Base / mini-Think
+  date: 2025-01
+  venue: ''
+  org: 阶跃星辰
+  status: paper_only
+  star: false
+  links:
+    code: https://github.com/stepfun-ai/Step-Audio2
+    hf: https://huggingface.co/stepfun-ai/Step-Audio-2-mini
+  sections:
+  - omni-generation
+  note_en: 开放 mini 不代表完整旗舰 Step-Audio 2 同尺寸权重已开放；Think 变体输出模式按模型卡选。
+  note_zh: 开放 mini 不代表完整旗舰 Step-Audio 2 同尺寸权重已开放；Think 变体输出模式按模型卡选。
+  license: 已核实 mini 权重 Apache-2.0
+  modalities: A/T → A/T，依变体
+  source_group: C
+- id: cat-C10
+  name: Baichuan-Omni / Omni-1.5
+  title: Baichuan-Omni / Omni-1.5
+  date: 2025-01
+  venue: ''
+  org: 百川智能
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/baichuan-inc/Baichuan-Omni-1.5
+    hf: https://huggingface.co/baichuan-inc/Baichuan-Omni-1d5
+  sections:
+  - omni-generation
+  note_en: 早期 Omni 与 1.5 的输出能力、许可证分别看，不能直接继承最新版本功能。
+  note_zh: 早期 Omni 与 1.5 的输出能力、许可证分别看，不能直接继承最新版本功能。
+  license: 1.5 权重 Apache-2.0
+  modalities: A/V/I/T → A/T（1.5）
+  source_group: C
+- id: cat-C13
+  name: VITA / VITA-1.5
+  title: VITA / VITA-1.5
+  date: 2025-01
+  venue: ''
+  org: VITA 团队 / 腾讯等
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/VITA-MLLM/VITA
+    hf: https://huggingface.co/VITA-MLLM/VITA-1.5
+  sections:
+  - omni-generation
+  - duplex-engineered
+  note_en: 初代外部语音链路与 1.5 原生输出不同；模型监听角色分工也不等同于后台任务 agent。
+  note_zh: 初代外部语音链路与 1.5 原生输出不同；模型监听角色分工也不等同于后台任务 agent。
+  license: 仓库与基座模型许可分别适用
+  modalities: A/V/I/T → T/A，依版本
+  source_group: C
+- id: cat-C18
+  name: Mini-Omni / Mini-Omni2
+  title: Mini-Omni / Mini-Omni2
+  date: 2025-01
+  venue: ''
+  org: gpt-omni 团队
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/gpt-omni/mini-omni
+  sections:
+  - omni-generation
+  note_en: Mini-Omni2 支持打断不代表与 Moshi 式多流建模完全等价；需看控制机制。
+  note_zh: Mini-Omni2 支持打断不代表与 Moshi 式多流建模完全等价；需看控制机制。
+  license: 仓库许可与 Qwen 基座许可分别适用
+  modalities: 一代 A/T；二代 A/I/T → A/T
+  source_group: C
+- id: cat-C22
+  name: Ming-Lite-Omni / v1.5
+  title: Ming-Lite-Omni / v1.5
+  date: 2025-01
+  venue: ''
+  org: inclusionAI / 蚂蚁
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/inclusionAI/Ming
+    hf: https://huggingface.co/inclusionAI/Ming-Lite-Omni
+  sections:
+  - omni-generation
+  note_en: 不同版本生成模态有差异；开放 Omni 生成不自动具备原生对话全双工。
+  note_zh: 不同版本生成模态有差异；开放 Omni 生成不自动具备原生对话全双工。
+  license: MIT（已核实模型卡）
+  modalities: A/V/I/T → T/图像/语音，依变体
+  source_group: C
+- id: cat-C23
+  name: Ming-Flash-Omni Preview / 2.0
+  title: Ming-Flash-Omni Preview / 2.0
+  date: 2025-01
+  venue: ''
+  org: inclusionAI / 蚂蚁
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/inclusionAI/Ming
+    hf: https://huggingface.co/inclusionAI/Ming-flash-omni-2.0
+  sections:
+  - omni-generation
+  note_en: 与 Realtime-Venus 是不同模型路线；不能把 Venus 的双工/Harness 功能套到所有 Ming checkpoint。
+  note_zh: 与 Realtime-Venus 是不同模型路线；不能把 Venus 的双工/Harness 功能套到所有 Ming checkpoint。
+  license: 2.0 权重 MIT
+  modalities: A/V/I/T → T/I/A
+  source_group: C
+- id: cat-C27
+  name: SpeechGPT / SpeechGPT-Gen
+  title: SpeechGPT / SpeechGPT-Gen lineage
+  date: 2023-05
+  venue: ''
+  org: 复旦 / SpeechGPT 团队
+  status: paper_only
+  star: false
+  links:
+    code: https://github.com/0nutation/SpeechGPT
+    arxiv: https://arxiv.org/abs/2305.11000
+  sections:
+  - omni-generation
+  note_en: 历史基础路线；不能将后来语音 agent 的功能回填到初版。
+  note_zh: 历史基础路线；不能将后来语音 agent 的功能回填到初版。
+  license: 依具体版本及 Llama 等基座许可
+  modalities: A/T → A/T
+  source_group: C
+- id: cat-D06
+  name: LSLM / Listening-while-Speaking Language Model
+  title: Language Model Can Listen While Speaking
+  date: 2024-08
+  venue: ''
+  org: LSLM 团队
+  status: paper_only
+  star: false
+  links:
+    web: https://ziyang.tech/LSLM/
+    arxiv: https://arxiv.org/abs/2408.02622
+  sections:
+  - duplex-tdm
+  note_en: 研究概念较早，不代表已提供生产级服务。
+  note_zh: 研究概念较早，不代表已提供生产级服务。
+  license: 未核实完整可下载权重许可
+  modalities: A → A
+  source_group: D
+- id: cat-D11
+  name: Neural-FSM
+  title: Neural-FSM full-duplex speech dialogue scheme
+  date: 2024-05
+  venue: ''
+  org: 相关研究团队
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2405.19487
+  sections:
+  - duplex-engineered
+  note_en: 论文题名为 A Full-duplex Speech Dialogue Scheme Based on Large Language Models；单列避免遗漏控制器路线。
+  note_zh: 论文题名为 A Full-duplex Speech Dialogue Scheme Based on Large Language Models；单列避免遗漏控制器路线。
+  license: 完整发布状态待确认
+  modalities: A/T + 状态 → A/T
+  source_group: D
+- id: cat-D12
+  name: Parrot（Full-Duplex Spoken Dialogue）
+  title: Parrot（Full-Duplex Spoken Dialogue）
+  date: 2025-01
+  venue: ''
+  org: Parrot 研究团队
+  status: paper_only
+  star: false
+  links:
+    docs: https://openreview.net/pdf?id=Ttndg2Jl5F
+  sections:
+  - duplex-tdm
+  note_en: 这里指早期 Parrot 双通道论文；相关正式发布 NTPP 另列 B16，避免把历史论文状态当成后续发布状态。
+  note_zh: 这里指早期 Parrot 双通道论文；相关正式发布 NTPP 另列 B16，避免把历史论文状态当成后续发布状态。
+  license: 完整发布状态待确认
+  modalities: A → A/T
+  source_group: D
+- id: cat-D13
+  name: Real-Time Textless Dialogue Generation / RTS2S-DG
+  title: Real-Time Textless Dialogue Generation
+  date: 2025-01
+  venue: ''
+  org: 作者项目
+  status: paper_only
+  star: false
+  links:
+    code: https://github.com/mailong25/rts2s-dg
+    arxiv: https://arxiv.org/abs/2501.04877
+  sections:
+  - duplex-tdm
+  note_en: 有研究代码不等于公开完成助手对齐的 checkpoint。
+  note_zh: 有研究代码不等于公开完成助手对齐的 checkpoint。
+  license: 见仓库；未概括为全部开放
+  modalities: A → A
+  source_group: D
+- id: cat-D14
+  name: Duplex Model（MiniCPM-Duplex）
+  title: Duplex Model（MiniCPM-Duplex）
+  date: 2025-01
+  venue: ''
+  org: THUNLP
+  status: paper_only
+  star: false
+  links:
+    code: https://github.com/thunlp/duplex-model
+    hf: https://huggingface.co/xinrongzhang2022/MiniCPM-duplex
+  sections:
+  - duplex-tdm
+  note_en: 不直接等同于自带音频编解码器的完整 S2S 模型。
+  note_zh: 不直接等同于自带音频编解码器的完整 S2S 模型。
+  license: HF checkpoint Apache-2.0；组件另计
+  modalities: 流式输入 → 流式输出，语音依系统
+  source_group: D
+- id: cat-D19
+  name: NExT-OMNI
+  title: NExT-OMNI
+  date: 2025-01
+  venue: ''
+  org: 论文作者团队
+  status: paper_only
+  star: false
+  links:
+    docs: https://openreview.net/pdf?id=odatOcBi61
+  sections:
+  - duplex-tdm
+  note_en: 本次未找到可可靠确认的完整官方仓库/权重；保留论文而不猜测 GitHub 地址。
+  note_zh: 本次未找到可可靠确认的完整官方仓库/权重；保留论文而不猜测 GitHub 地址。
+  license: 待确认
+  modalities: 多模态输入 → 多模态输出
+  source_group: D
+- id: cat-E02
+  name: ROMA
+  title: 'ROMA: Real-time Omni-Multimodal Assistant with Interactive Streaming Understanding'
+  date: 2026-01
+  venue: ''
+  org: ROMA 团队
+  status: paper_only
+  star: false
+  links:
+    code: https://github.com/Eureka-Maggie/ROMA
+    arxiv: https://arxiv.org/abs/2601.10323
+  sections:
+  - when-to-speak
+  - streaming-omni-assistants
+  note_en: 模型理解连续事件与原生音频波形生成是两回事；输出模态按部署链路确认。
+  note_zh: 模型理解连续事件与原生音频波形生成是两回事；输出模态按部署链路确认。
+  license: 依仓库、模型卡与基座许可
+  modalities: 连续 A/V/T → 事件/文本，语音依外部链路
+  source_group: E
+- id: cat-F04
+  name: Realtime-Venus Harness
+  title: Realtime-Venus Harness
+  date: 2025-01
+  venue: ''
+  org: inclusionAI / Venus 团队
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/inclusionAI/Realtime-Venus
+  sections:
+  - agentic-harness
+  note_en: 本行是 B01 的 runtime 视图，不额外计作一个基础模型。
+  note_zh: 本行是 B01 的 runtime 视图，不额外计作一个基础模型。
+  license: Apache-2.0
+  modalities: Venus 前台 ↔ 可替换任务后端
+  source_group: F
+- id: cat-F05
+  name: Gander Agent Orchestration Runtime
+  title: Gander Agent Orchestration Runtime
+  date: 2025-01
+  venue: ''
+  org: Gander 团队
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/Omni-Interaction-Gander/Omni-Interaction-Agent
+  sections:
+  - agentic-harness
+  note_en: 本行是 B02 的系统层；数据开放状态与代码开放状态独立。
+  note_zh: 本行是 B02 的系统层；数据开放状态与代码开放状态独立。
+  license: 见仓库 LICENSE 与组件声明
+  modalities: Cerebellum ↔ Brain / worker
+  source_group: F
+- id: cat-F08
+  name: TEN Framework / TEN Agent
+  title: TEN Framework / TEN Agent
+  date: 2025-01
+  venue: ''
+  org: TEN 团队
+  status: paper_only
+  star: false
+  links:
+    code: https://github.com/TEN-framework/ten-framework
+  sections:
+  - agentic-harness
+  - agentic-frameworks
+  note_en: 不能仅依据 Apache badge 忽略根目录或子组件附加条件。
+  note_zh: 不能仅依据 Apache badge 忽略根目录或子组件附加条件。
+  license: Apache-2.0 with additional conditions（按组件）
+  modalities: RTC + 语音/视觉/文本组件
+  source_group: F
+- id: cat-F10
+  name: Hugging Face speech-to-speech
+  title: Hugging Face speech-to-speech
+  date: 2025-01
+  venue: ''
+  org: Hugging Face 社区
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/huggingface/speech-to-speech
+  sections:
+  - agentic-harness
+  note_en: 名称 speech-to-speech 描述系统输入输出，不证明端到端单模型。
+  note_zh: 名称 speech-to-speech 描述系统输入输出，不证明端到端单模型。
+  license: Apache-2.0；模型另计
+  modalities: VAD → STT → LLM → TTS
+  source_group: F
+- id: cat-F15
+  name: Open-LLM-VTuber
+  title: Open-LLM-VTuber
+  date: 2025-01
+  venue: ''
+  org: 社区
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/Open-LLM-VTuber/Open-LLM-VTuber
+  sections:
+  - agentic-harness
+  - agentic-frameworks
+  note_en: 适合产品壳层研究，不是新的 speech foundation model。
+  note_zh: 适合产品壳层研究，不是新的 speech foundation model。
+  license: 代码 MIT；Live2D/头像/模型分别许可
+  modalities: 语音 + LLM + Live2D
+  source_group: F
+- id: cat-F17
+  name: OpenAI Agents SDK
+  title: OpenAI Agents SDK / Voice agents architecture
+  date: 2025-01
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: false
+  links:
+    docs: https://developers.openai.com/api/docs/guides/voice-agents
+  sections:
+  - agentic-harness
+  - agentic-frameworks
+  note_en: SDK 或示例架构开放，不意味着 GPT 模型开放；具体后端执行和业务状态仍由应用负责。
+  note_zh: SDK 或示例架构开放，不意味着 GPT 模型开放；具体后端执行和业务状态仍由应用负责。
+  license: SDK 许可与 API 服务条款分开
+  modalities: Live / Realtime / 级联语音 + agents
+  source_group: F
+- id: cat-F18
+  name: Google ADK Live / Streaming
+  title: Google ADK Live / Streaming
+  date: 2025-01
+  venue: ''
+  org: Google
+  status: code_only
+  star: false
+  links:
+    docs: https://adk.dev/live/
+    code: https://github.com/google/adk-docs
+  sections:
+  - agentic-harness
+  - agentic-frameworks
+  note_en: ADK Session 的持久化与 Live API 的临时会话、网络连接是不同层。
+  note_zh: ADK Session 的持久化与 Live API 的临时会话、网络连接是不同层。
+  license: ADK 项目许可与 Gemini 条款分开
+  modalities: Gemini Live 音视频 + 工具
+  source_group: F
+- id: cat-G02
+  name: Deepgram Voice Agent API
+  title: Deepgram Voice Agent API
+  date: 2025-01
+  venue: ''
+  org: Deepgram
+  status: closed
+  star: false
+  links:
+    docs: https://developers.deepgram.com/docs/voice-agent-llm-models
+  sections:
+  - bb-platforms
+  note_en: Deepgram 的识别模型、Voice Agent 服务和外接文本模型必须分层记账。
+  note_zh: Deepgram 的识别模型、Voice Agent 服务和外接文本模型必须分层记账。
+  license: 商业服务条款
+  modalities: Flux/Nova STT + think LLM + TTS
+  source_group: G
+- id: cat-G03
+  name: ElevenLabs ElevenAgents
+  title: ElevenLabs ElevenAgents
+  date: 2025-01
+  venue: ''
+  org: ElevenLabs
+  status: paper_only
+  star: false
+  links:
+    docs: https://elevenlabs.io/docs/eleven-agents/overview
+  sections:
+  - bb-platforms
+  note_en: ElevenLabs TTS 模型与 ElevenAgents 完整平台是不同对象。
+  note_zh: ElevenLabs TTS 模型与 ElevenAgents 完整平台是不同对象。
+  license: 商业服务条款
+  modalities: ASR / LLM / TTS / 工具
+  source_group: G
+- id: cat-G06
+  name: Retell AI
+  title: Retell AI
+  date: 2025-01
+  venue: ''
+  org: Retell
+  status: paper_only
+  star: false
+  links:
+    docs: https://docs.retellai.com/
+  sections:
+  - bb-platforms
+  note_en: 把平台的延迟/打断能力归为服务指标，不能推断每个底层模型架构。
+  note_zh: 把平台的延迟/打断能力归为服务指标，不能推断每个底层模型架构。
+  license: 商业服务条款
+  modalities: 语音 + LLM / 自定义 LLM + 电话
+  source_group: G
+- id: cat-G08
+  name: Agora Conversational AI / Voice Agent
+  title: Agora Conversational AI / Voice Agent
+  date: 2025-01
+  venue: ''
+  org: 声网 Agora
+  status: paper_only
+  star: false
+  links:
+    docs: https://docs.agora.io/en/ai
+  sections:
+  - bb-platforms
+  note_en: 可以接原生 S2S 或级联模型，平台本身不等于固定底座。
+  note_zh: 可以接原生 S2S 或级联模型，平台本身不等于固定底座。
+  license: 商业服务与 SDK 分开
+  modalities: RTC + runtime + 可选 AI models
+  source_group: G
+- id: cat-G09
+  name: Tencent Cloud TRTC Conversational AI
+  title: Tencent Cloud TRTC Conversational AI
+  date: 2025-01
+  venue: ''
+  org: 腾讯云
+  status: paper_only
+  star: false
+  links:
+    docs: https://trtc.io/document/conversational-ai-overview?product=conversationalai
+  sections:
+  - bb-platforms
+  note_en: 与腾讯开放 Covo-Audio 或 VITA-E 不属于同一模型 artifact。
+  note_zh: 与腾讯开放 Covo-Audio 或 VITA-E 不属于同一模型 artifact。
+  license: 商业服务条款
+  modalities: RTC 音视频 + 多种 LLM/语音组件
+  source_group: G
+- id: cat-G10
+  name: Volcengine RTC AI realtime interaction
+  title: Volcengine RTC AI realtime interaction / E2E speech access
+  date: 2025-01
+  venue: ''
+  org: 火山引擎
+  status: paper_only
+  star: false
+  links:
+    docs: https://docs.volcengine.com/docs/real_time_communication/Accessend-to-endreal-timespeechlargemodel?lang=zh
+  sections:
+  - bb-platforms
+  note_en: 与 A14 是服务层和模型服务层两个视图，统计时不视为两个独立基础模型。
+  note_zh: 与 A14 是服务层和模型服务层两个视图，统计时不视为两个独立基础模型。
+  license: 商业服务条款
+  modalities: RTC + 豆包 S2S / 混合 LLM
+  source_group: G
+- id: cat-H01
+  name: Qwen-Audio / Qwen2-Audio
+  title: Qwen-Audio / Qwen2-Audio
+  date: 2025-01
+  venue: ''
+  org: 阿里巴巴
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/QwenLM/Qwen-Audio
+  sections:
+  - bb-audio-understanding
+  note_en: 无原生语音输出；不能与 Qwen-Audio 3.1 Realtime 的闭源 S2S 服务混为同款。
+  note_zh: 无原生语音输出；不能与 Qwen-Audio 3.1 Realtime 的闭源 S2S 服务混为同款。
+  license: 初代 Qwen 专用许可；Qwen2 按模型卡
+  modalities: A/T → T
+  source_group: H
+- id: cat-H02
+  name: Step-Audio R1 / R1.1
+  title: Step-Audio R1 / R1.1
+  date: 2025-01
+  venue: ''
+  org: 阶跃星辰
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/stepfun-ai/Step-Audio-R1
+    hf: https://huggingface.co/stepfun-ai/Step-Audio-R1.1
+  sections:
+  - bb-audio-understanding
+  note_en: R1.1 pipeline 为 audio-text-to-text；不是原生语音输出或双工对话模型。
+  note_zh: R1.1 pipeline 为 audio-text-to-text；不是原生语音输出或双工对话模型。
+  license: Apache-2.0（已核实 R1.1 模型卡）
+  modalities: A/T → T
+  source_group: H
+- id: cat-H03
+  name: Audio Flamingo 1 / 2 / 3，AF3 Chat
+  title: Audio Flamingo 1 / 2 / 3，AF3 Chat
+  date: 2025-01
+  venue: ''
+  org: NVIDIA
+  status: paper_only
+  star: false
+  links:
+    code: https://github.com/NVIDIA/audio-flamingo
+  sections:
+  - bb-audio-understanding
+  note_en: 基础 AF3 的理解权重与附加 TTS 的完整系统应分层判断。
+  note_zh: 基础 AF3 的理解权重与附加 TTS 的完整系统应分层判断。
+  license: 各代模型条款不同；不可统称 Apache
+  modalities: A/T → T；Chat 系统可接流式 TTS
+  source_group: H
+- id: cat-H05
+  name: Voxtral / Voxtral Realtime + Voxtral TTS
+  title: Voxtral / Voxtral Realtime + Voxtral TTS
+  date: 2025-01
+  venue: ''
+  org: Mistral AI
+  status: open_weights
+  star: false
+  links:
+    docs: https://docs.mistral.ai/studio/audio/overview
+  sections:
+  - bb-tts
+  note_en: Voxtral Realtime 中的 Realtime 指实时转写，不能单独列成 S2S 原生全双工模型。
+  note_zh: Voxtral Realtime 中的 Realtime 指实时转写，不能单独列成 S2S 原生全双工模型。
+  license: 各模型卡许可不同
+  modalities: '理解/ASR: A→T；TTS: T→A'
+  source_group: H
+- id: cat-H06
+  name: SALMONN
+  title: SALMONN / video-SALMONN lineage
+  date: 2025-01
+  venue: ''
+  org: 字节 / 清华等
+  status: paper_only
+  star: false
+  links:
+    code: https://github.com/bytedance/SALMONN
+    hf: https://huggingface.co/tsinghua-ee/SALMONN-7B
+  sections:
+  - bb-audio-understanding
+  note_en: 开放 SALMONN 模型不能证明 SALMONN-omni 独立语音生成权重开放。
+  note_zh: 开放 SALMONN 模型不能证明 SALMONN-omni 独立语音生成权重开放。
+  license: 仓库及 Vicuna 等基座许可分别适用
+  modalities: A 或 A/V/T → T
+  source_group: H
+- id: cat-H08
+  name: Megrez-3B-Omni
+  title: Megrez-3B-Omni
+  date: 2025-01
+  venue: ''
+  org: 无问芯穹
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/infinigence/Infini-Megrez-Omni
+  sections:
+  - bb-audio-understanding
+  note_en: 不属于完整 S2S 语音生成模型。
+  note_zh: 不属于完整 S2S 语音生成模型。
+  license: Apache-2.0（模型发布）
+  modalities: A/I/T → T
+  source_group: H
+- id: cat-H09
+  name: Phi-4 Multimodal Instruct
+  title: Phi-4 Multimodal Instruct
+  date: 2025-01
+  venue: ''
+  org: Microsoft
+  status: open_weights
+  star: false
+  links:
+    hf: https://huggingface.co/microsoft/Phi-4-multimodal-instruct
+  sections:
+  - bb-audio-understanding
+  note_en: 不要与 Azure Voice Live 的 phi4-mm-realtime 服务选项视为相同完整会话 artifact。
+  note_zh: 不要与 Azure Voice Live 的 phi4-mm-realtime 服务选项视为相同完整会话 artifact。
+  license: MIT
+  modalities: A/I/T → T
+  source_group: H
+- id: cat-H10
+  name: Ichigo
+  title: Ichigo
+  date: 2025-01
+  venue: ''
+  org: Homebrew
+  status: paper_only
+  star: false
+  links:
+    code: https://github.com/homebrewltd/ichigo
+  sections:
+  - bb-audio-understanding
+  note_en: 输出为文本的能力需要另配 TTS 才能形成语音闭环。
+  note_zh: 输出为文本的能力需要另配 TTS 才能形成语音闭环。
+  license: 依 Llama 基座与项目许可
+  modalities: A/T → T
+  source_group: H
+- id: cat-H11
+  name: CSM
+  title: CSM
+  date: 2025-01
+  venue: ''
+  org: Sesame
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/sesameailabs/csm
+    hf: https://huggingface.co/sesame/csm-1b
+  sections:
+  - bb-tts
+  note_en: 不是完整 Maya/Miles 智能、语音理解、轮次管理和工具系统的全部权重。
+  note_zh: 不是完整 Maya/Miles 智能、语音理解、轮次管理和工具系统的全部权重。
+  license: Apache-2.0（模型卡）
+  modalities: T + 音频上下文 → A
+  source_group: H
+- id: cat-H17
+  name: TurnSense / TurnSense 1.1
+  title: TurnSense / TurnSense 1.1
+  date: 2025-01
+  venue: ''
+  org: 百融 / Xdynamics
+  status: paper_only
+  star: false
+  links:
+    code: https://github.com/Bairong-Xdynamics/TurnSense
+    hf: https://huggingface.co/brgroup/TurnSense
+  sections:
+  - bb-vad
+  - turn-taking-methods
+  note_en: 同名项目较多，本表仅指 Bairong-Xdynamics/TurnSense。
+  note_zh: 同名项目较多，本表仅指 Bairong-Xdynamics/TurnSense。
+  license: Apache-2.0（项目）
+  modalities: 中英 A → 交互状态
+  source_group: H
+- id: cat-H19
+  name: SLAM-LLM
+  title: SLAM-LLM / SLAM-Omni research framework
+  date: 2025-01
+  venue: ''
+  org: 上海交通大学 X-LANCE 等
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/X-LANCE/SLAM-LLM
+  sections:
+  - bb-audio-understanding
+  note_en: 是多个 recipe 的集合，不能统一标记为一个已完成全双工 checkpoint。
+  note_zh: 是多个 recipe 的集合，不能统一标记为一个已完成全双工 checkpoint。
+  license: 代码与各模型分别许可
+  modalities: 多模态输入 → T/A，依 recipe
+  source_group: H
+- id: cat-D21
+  name: MiniCPM-Duo / DUO
+  title: Enabling Real-Time Conversations with Minimal Training Costs
+  date: 2024-09
+  venue: ''
+  org: 清华 / 哈工大等
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2409.11727
+    docs: https://aclanthology.org/2025.ccl-1.85/
+  sections:
+  - duplex-tdm
+  note_en: 与 MiniCPM-Duplex 和 MiniCPM-o 是不同工作；文本通道模型不是完整声学 S2S 模型。
+  note_zh: 与 MiniCPM-Duplex 和 MiniCPM-o 是不同工作；文本通道模型不是完整声学 S2S 模型。
+  license: 独立权重和语音系统许可待核
+  modalities: 双通道文本流；语音依外围系统
+  source_group: D
+- id: cat-D22
+  name: CT-Duplex / CT-SDLM
+  title: Chronological Thinking in Full-Duplex Spoken Dialogue Language Models
+  date: 2025-10
+  venue: ''
+  org: Donghang Wu 等
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.05150
+  sections:
+  - think-while
+  note_en: 论文版本使用 CT-Duplex / CT-SDLM 名称；与延长回答前的普通 CoT 不是相同时间调度。
+  note_zh: 论文版本使用 CT-Duplex / CT-SDLM 名称；与延长回答前的普通 CoT 不是相同时间调度。
+  license: 代码/权重许可待核
+  modalities: A → A/T
+  source_group: D
+- id: cat-F23
+  name: NeMo Speech / SpeechLM2 Duplex
+  title: NeMo Speech / SpeechLM2 Duplex
+  date: 2025-01
+  venue: ''
+  org: NVIDIA NeMo
+  status: paper_only
+  star: false
+  links:
+    code: https://github.com/NVIDIA-NeMo/Speech
+    docs: https://docs.nvidia.com/nemo/speech/nightly/speechlm2/models.html
+  sections:
+  - agentic-harness
+  - bb-serving
+  note_en: 框架的 SALM 为音频输入文本输出；DuplexS2S 才添加语音生成，不能只看 SALM 名称判断能力。
+  note_zh: 框架的 SALM 为音频输入文本输出；DuplexS2S 才添加语音生成，不能只看 SALM 名称判断能力。
+  license: NeMo 项目许可；具体模型分别许可
+  modalities: 流式语音模型训练与服务组件
+  source_group: F

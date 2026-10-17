@@ -1,0 +1,1399 @@
+entries:
+- id: fdb-v1
+  name: Full-Duplex-Bench v1
+  title: Benchmarking turn-taking capabilities of full-duplex spoken dialogue models
+  date: 2025-03
+  venue: ''
+  org: ''
+  status: code_only
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2503.04721
+    code: https://github.com/DanielLin94144/Full-Duplex-Bench
+  sections:
+  - bench-timing
+  note_en: 'Landmark offline duplex bench: pause, backchannel, turn-taking, interruption.'
+  note_zh: 全双工评测里程碑：停顿、附和、接话与打断。
+- id: fdb-v1.5
+  name: Full-Duplex-Bench v1.5
+  title: Evaluating overlap handling for full-duplex speech models
+  date: 2025-07
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2507.23159
+    code: https://github.com/DanielLin94144/Full-Duplex-Bench
+  sections:
+  - bench-timing
+  note_en: Adds overlap-handling metrics (stop/response latency, RESPOND/RESUME).
+  note_zh: 增加重叠处理指标（停说/响应时延、RESPOND/RESUME）。
+- id: fdb-v2
+  name: Full-Duplex-Bench v2
+  title: Multi-turn duplex evaluation with an automated examiner
+  date: 2025-10
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.07838
+    code: https://github.com/DanielLin94144/Full-Duplex-Bench
+  sections:
+  - bench-timing
+  note_en: Realtime WebRTC/WebSocket orchestrator with AI examiner vs examinee.
+  note_zh: 实时 WebRTC/WebSocket 编排，AI 考官对考生的多轮评测。
+- id: talking-turns
+  name: Talking Turns
+  title: Benchmarking audio foundation models on turn-taking dynamics
+  date: 2025-03
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2503.01174
+  sections:
+  - bench-timing
+  note_en: Turn-taking dynamics bench for audio foundation models.
+  note_zh: 面向音频基础模型的轮次动态评测。
+- id: fd-bench
+  name: FD-Bench
+  title: A full-duplex benchmarking pipeline for spoken dialogue systems
+  date: 2025-07
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2507.19040
+  sections:
+  - bench-timing
+  note_en: End-to-end duplex benchmarking pipeline with released dataset links.
+  note_zh: 端到端全双工评测流水线，附数据链接。
+- id: mtr-duplexbench
+  name: MTR-DuplexBench
+  title: Multi-round conversation evaluation for duplex systems
+  date: 2025-11
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2511.10262
+  sections:
+  - bench-timing
+  note_en: Multi-round duplex scenarios; data often on Hugging Face.
+  note_zh: 多轮全双工场景；数据多在 Hugging Face 发布。
+- id: game-time
+  name: Game-Time
+  title: Game-Time duplex timing / interaction benchmark
+  date: 2025-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2509.26388
+  sections:
+  - bench-timing
+  note_en: Timing-focused duplex evaluation in game-like interactive settings.
+  note_zh: 游戏化交互设定下的双工时机评测。
+- id: flexi-bench
+  name: FLEXI
+  title: FLEXI duplex / flexible turn-taking benchmark
+  date: 2025-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2509.22243
+  sections:
+  - bench-timing
+  note_en: Flexible interaction timing benchmark for spoken agents.
+  note_zh: 面向语音 Agent 的灵活交互时机基准。
+- id: humdial-fdbench
+  name: HumDial-FDBench
+  title: HumDial full-duplex benchmark track
+  date: 2026-04
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2604.21406
+  sections:
+  - bench-timing
+  note_en: Human-recorded interruption/rejection track aligned with FDB-style metrics.
+  note_zh: 真人录音的打断/拒识赛道，指标对齐 FDB 风格。
+- id: turnbench
+  name: TurnBench
+  title: Measuring conversational turn-taking timing on dual-channel speech
+  date: 2026-08
+  venue: ''
+  org: Sesame
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2608.25218
+    web: https://turnbench.sesame.com/
+    blog: https://www.sesame.com/blog/turnbench
+  sections:
+  - bench-timing
+  - bench-leaderboards
+  note_en: 30h dual-channel EOT/interruption bench with public leaderboard.
+  note_zh: 30 小时双通道 EOT/打断基准，含公开排行榜。
+- id: duplexact-bench
+  name: DuplexAct-Bench
+  title: Benchmark for duplex action / interaction decisions
+  date: 2026-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.39446
+  sections:
+  - bench-timing
+  note_en: Evaluates action-level decisions under duplex listening/speaking.
+  note_zh: 在双工听说下评测动作级交互决策。
+- id: tact-bench
+  name: TACT
+  title: TACT timing and conversational turn benchmark
+  date: 2026-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.27372
+  sections:
+  - bench-timing
+  note_en: Timing-aware conversational turn evaluation suite.
+  note_zh: 关注时机的对话轮次评测套件。
+- id: easy-turn-testset
+  name: Easy Turn testset
+  title: Held-out turn-state test set for Easy Turn
+  date: 2025-09
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2509.23938
+    code: https://github.com/ASLP-lab/Easy-Turn
+    hf: https://huggingface.co/ASLP-lab/Easy-Turn
+  sections:
+  - bench-timing
+  note_en: 'Four-way turn states: complete / incomplete / backchannel / wait.'
+  note_zh: 四类轮次状态：完整/未完/附和/等待。
+- id: dsb-ifeval
+  name: DSB-IFEval
+  title: Duplex / spoken instruction-following evaluation set
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links: {}
+  sections:
+  - bench-timing
+  note_en: Instruction-following checks under duplex or spoken interactive settings.
+  note_zh: 双工或口语交互设定下的指令遵循检查。
+- id: echochain
+  name: EchoChain
+  title: State update and recovery under conversational revisions
+  date: 2026-04
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2604.16456
+  sections:
+  - bench-state
+  note_en: Stresses belief/state consistency when users revise mid-dialogue.
+  note_zh: 用户中途修订时检验信念/状态一致性。
+- id: ihbench
+  name: IHBench
+  title: Interactive history / state tracking benchmark
+  date: 2026-06
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2606.19595
+  sections:
+  - bench-state
+  note_en: Evaluates recovery and state tracking after interruptions and repairs.
+  note_zh: 评测打断与修复后的状态追踪与恢复。
+- id: duplex-mpe
+  name: Duplex-MPE
+  title: Multi-party evaluation for duplex spoken systems
+  date: 2026-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.31948
+  sections:
+  - bench-multiparty
+  note_en: 'Multi-party duplex scenarios: addressee, barge-in, side talk.'
+  note_zh: 多方双工场景：称呼对象、插话与旁谈。
+- id: mp-bench
+  name: MP-Bench
+  title: Multi-party spoken interaction benchmark
+  date: 2026-09
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.13076
+  sections:
+  - bench-multiparty
+  note_en: Benchmarking multi-party turn allocation and grounding.
+  note_zh: 评测多方轮次分配与共同接地。
+- id: voicebench
+  name: VoiceBench
+  title: Benchmarking LLM-based voice assistants
+  date: 2024-10
+  venue: ''
+  org: ''
+  status: code_only
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2410.17196
+    code: https://github.com/MatthewCYM/VoiceBench
+  sections:
+  - bench-content
+  note_en: Landmark spoken-assistant content bench across skills and voice conditions.
+  note_zh: 语音助手内容能力里程碑基准，覆盖多技能与声音条件。
+- id: uro-bench
+  name: URO-Bench
+  title: Under-explored reasoning opportunities for spoken LMs
+  date: 2025-02
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2502.17810
+  sections:
+  - bench-content
+  note_en: Harder spoken reasoning/content suite beyond simple QA.
+  note_zh: 超越简单问答的口语推理/内容评测。
+- id: vocalbench
+  name: VocalBench
+  title: Vocal / spoken LLM capability benchmark
+  date: 2025-05
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.15727
+  sections:
+  - bench-content
+  note_en: Broad vocal interaction capability evaluation.
+  note_zh: 较广的口语交互能力评测。
+- id: voxdialogue
+  name: VoxDialogue
+  title: Can spoken dialogue systems understand information beyond words?
+  date: 2025-01
+  venue: ICLR 2025
+  org: ''
+  status: code_only
+  star: false
+  links:
+    web: https://voxdialogue.github.io/
+    code: https://github.com/Exgc/VoxDialogue
+  sections:
+  - bench-content
+  note_en: 'ICLR 2025: 12 acoustic attributes beyond text in multi-turn speech.'
+  note_zh: ICLR 2025：多轮口语中 12 类超越文本的声学属性。
+- id: sd-eval
+  name: SD-Eval
+  title: Spoken dialogue evaluation benchmark
+  date: 2024-06
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2406.13340
+  sections:
+  - bench-content
+  note_en: Spoken dialogue eval covering style, emotion, and content facets.
+  note_zh: 口语对话评测，覆盖风格、情感与内容维度。
+- id: mtalk-bench
+  name: MTalk-Bench
+  title: Multi-turn talking / spoken dialogue benchmark
+  date: 2025-08
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2508.18240
+  sections:
+  - bench-content
+  note_en: Multi-turn spoken dialogue quality evaluation.
+  note_zh: 多轮口语对话质量评测。
+- id: big-bench-audio
+  name: Big Bench Audio
+  title: Audio extension of BIG-bench style tasks
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    web: https://github.com/google/BIG-bench
+  sections:
+  - bench-content
+  note_en: Audio-adapted BIG-bench style suite for LALMs.
+  note_zh: 面向 LALM 的音频版 BIG-bench 风格任务集。
+- id: voxeval
+  name: VoxEval
+  title: Evaluation suite for voice / speech LLMs
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2501.04962
+  sections:
+  - bench-content
+  note_en: General voice LLM evaluation across understanding tasks.
+  note_zh: 语音大模型通用理解任务评测。
+- id: wildspeech-bench
+  name: WildSpeech-Bench
+  title: In-the-wild speech interaction benchmark
+  date: 2025-06
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.21875
+  sections:
+  - bench-content
+  note_en: Stresses noisy, accented, and realistic speech conditions.
+  note_zh: 强调噪声、口音与真实语音条件。
+- id: c3-bench
+  name: C3
+  title: C3 spoken / conversational competence benchmark
+  date: 2025-07
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2507.22968
+  sections:
+  - bench-content
+  note_en: Conversational competence-oriented spoken evaluation.
+  note_zh: 面向会话能力的口语评测。
+- id: audio-multichallenge
+  name: Audio MultiChallenge
+  title: Multi-challenge audio LLM evaluation suite
+  date: 2025-12
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2512.14865
+  sections:
+  - bench-content
+  note_en: Aggregates diverse audio challenges for holistic scoring.
+  note_zh: 聚合多样音频挑战以做整体打分。
+- id: speech-ifeval
+  name: Speech-IFEval
+  title: Speech instruction-following evaluation
+  date: 2025-05
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.19037
+  sections:
+  - bench-content
+  note_en: IFEval-style constraints evaluated in the speech modality.
+  note_zh: 在语音模态上评测 IFEval 风格约束遵循。
+- id: s2s-arena
+  name: S2S-Arena
+  title: Speech-to-speech arena-style evaluation
+  date: 2025-03
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2503.05085
+  sections:
+  - bench-content
+  - bench-leaderboards
+  note_en: Pairwise S2S preference / arena protocol.
+  note_zh: 语音到语音的成对偏好 / Arena 协议。
+- id: talk-arena
+  name: Talk Arena
+  title: Human preference arena for talking / voice models
+  date: 2025-02
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2502.15919
+    web: https://huggingface.co/spaces
+  sections:
+  - bench-content
+  - bench-leaderboards
+  note_en: Arena leaderboard for conversational voice models.
+  note_zh: 对话语音模型的 Arena 排行榜。
+- id: adu-bench
+  name: ADU-Bench
+  title: Audio dialogue understanding benchmark
+  date: 2024-12
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2412.05167
+  sections:
+  - bench-content
+  note_en: Audio dialogue understanding across diverse skills.
+  note_zh: 多样技能上的音频对话理解评测。
+- id: mmsu
+  name: MMSU
+  title: Massive multi-task spoken understanding benchmark
+  date: 2025-06
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.04779
+  sections:
+  - bench-content
+  note_en: Large multi-task suite for spoken understanding.
+  note_zh: 大规模多任务口语理解评测集。
+- id: spoken-mqa
+  name: Spoken-MQA
+  title: Spoken multi-hop / multi-choice QA benchmark
+  date: 2025-05
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.15000
+  sections:
+  - bench-content
+  note_en: Spoken QA stressing multi-hop or multi-choice reasoning.
+  note_zh: 强调多跳或多选推理的口语问答。
+- id: paras2sbench
+  name: ParaS2SBench
+  title: Paralinguistic speech-to-speech benchmark
+  date: 2025-11
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2511.08723
+  sections:
+  - bench-paraling
+  note_en: Evaluates paralinguistic control in S2S generation.
+  note_zh: 评测语音到语音生成中的副语言控制。
+- id: echomind
+  name: EchoMind
+  title: Empathetic / mind-reading style speech benchmark
+  date: 2025-10
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.22758
+  sections:
+  - bench-paraling
+  note_en: Tests emotional understanding and empathetic responses in speech.
+  note_zh: 测试语音中的情绪理解与共情回复。
+- id: echat-eval
+  name: EChat-eval
+  title: Emotional chat evaluation for speech models
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/ASLP-lab/OSUM
+  sections:
+  - bench-paraling
+  note_en: Eval split paired with EChat-style emotional dialogue data.
+  note_zh: 与 EChat 类情感对话数据配套的评测划分。
+- id: emo-reasoning
+  name: EMO-Reasoning
+  title: Emotion reasoning benchmark for audio LMs
+  date: 2025-08
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2508.17623
+  sections:
+  - bench-paraling
+  note_en: Requires reasoning about emotions, not only classification.
+  note_zh: 要求对情绪做推理，而非仅分类。
+- id: speechrole
+  name: SpeechRole
+  title: Speech role-play / persona adherence benchmark
+  date: 2025-08
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2508.02013
+  sections:
+  - bench-paraling
+  note_en: Measures staying in character under spoken role-play.
+  note_zh: 衡量口语角色扮演中的人设保持。
+- id: voxrole
+  name: VoxRole
+  title: Voice role-playing benchmark
+  date: 2025-09
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2509.03940
+  sections:
+  - bench-paraling
+  note_en: Role consistency and style control for voice agents.
+  note_zh: 语音 Agent 的角色一致性与风格控制。
+- id: vstyle
+  name: VStyle
+  title: Voice style control benchmark
+  date: 2025-09
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2509.09716
+  sections:
+  - bench-paraling
+  note_en: Evaluates controllable speaking style / persona attributes.
+  note_zh: 评测可控说话风格/人设属性。
+- id: stepeval-audio-paraling
+  name: StepEval-Audio-Paralinguistic
+  title: StepFun audio paralinguistic evaluation track
+  date: 2025-01
+  venue: ''
+  org: StepFun
+  status: code_only
+  star: false
+  links:
+    code: https://github.com/stepfun-ai
+  sections:
+  - bench-paraling
+  note_en: Paralinguistic track in StepEval-Audio style suites.
+  note_zh: StepEval-Audio 系列中的副语言评测轨。
+- id: tau-voice
+  name: τ-Voice
+  title: Benchmarking full-duplex voice agents on real-world domains
+  date: 2026-03
+  venue: ''
+  org: ''
+  status: code_only
+  star: true
+  links:
+    arxiv: https://arxiv.org/abs/2603.13686
+  sections:
+  - bench-agent
+  note_en: 'Landmark: grounded tasks + duplex + realistic audio; extends τ²-bench.'
+  note_zh: 里程碑：落地任务 + 双工 + 真实音频；扩展自 τ²-bench。
+- id: fdb-v3
+  name: FDB-v3
+  title: 'Full-Duplex-Bench-v3: tool use under real-world disfluency'
+  date: 2026-04
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2604.04847
+    web: https://daniellin94144.github.io/FDB-v3-demo/
+    code: https://github.com/DanielLin94144/Full-Duplex-Bench
+  sections:
+  - bench-agent
+  note_en: Human-recorded disfluencies with multi-step tool calling.
+  note_zh: 真人录音不流利现象下的多步工具调用评测。
+- id: voiceagentbench
+  name: VoiceAgentBench
+  title: Are voice assistants ready for agentic tasks?
+  date: 2025-10
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.07978
+    code: https://github.com/ola-krutrim/VoiceAgentBench
+    hf: https://huggingface.co/datasets/krutrim-ai-labs/VoiceAgentBench
+  sections:
+  - bench-agent
+  note_en: Large speech agentic tool-use benchmark (HF dataset + eval code).
+  note_zh: 大规模语音 Agent 工具调用基准（HF 数据 + 评测代码）。
+- id: eva-bench
+  name: EVA-Bench
+  title: Evaluation of voice agents with tools / actions
+  date: 2026-05
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2605.13841
+  sections:
+  - bench-agent
+  note_en: Agentic voice evaluation emphasizing tool correctness.
+  note_zh: 强调工具正确性的语音 Agent 评测。
+- id: stepeval-audio-toolcall
+  name: StepEval-Audio-Toolcall
+  title: StepFun audio tool-calling evaluation
+  date: 2025-01
+  venue: ''
+  org: StepFun
+  status: code_only
+  star: false
+  links: {}
+  sections:
+  - bench-agent
+  note_en: Tool-call track for Step audio models.
+  note_zh: Step 音频模型的工具调用评测轨。
+- id: audio2tool
+  name: Audio2Tool
+  title: Speech-to-tool invocation benchmark
+  date: 2026-04
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2604.22821
+  sections:
+  - bench-agent
+  note_en: Maps spoken requests to structured tool calls.
+  note_zh: 将口语请求映射为结构化工具调用。
+- id: sfc-bench
+  name: SFC-Bench
+  title: Speech function-calling benchmark
+  date: 2026-08
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2608.05126
+  sections:
+  - bench-agent
+  note_en: Function-calling accuracy under speech input.
+  note_zh: 语音输入下的函数调用准确率评测。
+- id: mfcl-audio
+  name: MFCL-Audio
+  title: Multi-turn function calling for audio agents
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links: {}
+  sections:
+  - bench-agent
+  note_en: Multi-turn function-calling scenarios in audio.
+  note_zh: 音频场景下的多轮函数调用。
+- id: audiocrag
+  name: AudioCRAG
+  title: Audio retrieval-augmented generation benchmark
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links: {}
+  sections:
+  - bench-agent
+  note_en: RAG correctness/faithfulness for audio-grounded agents.
+  note_zh: 音频接地 Agent 的 RAG 正确性/忠实度评测。
+- id: toolvoice
+  name: ToolVoice
+  title: Tool use benchmark for voice agents
+  date: 2026-05
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2605.15104
+  sections:
+  - bench-agent
+  note_en: Focused tool-use metrics for realtime voice agents.
+  note_zh: 面向实时语音 Agent 的工具使用指标。
+- id: vamos
+  name: VAmoS
+  title: Voice agent multi-step orchestration suite
+  date: 2026-07
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2607.27453
+  sections:
+  - bench-agent
+  note_en: Multi-step orchestration and policy adherence in voice.
+  note_zh: 语音中的多步编排与策略遵循。
+- id: tau-elicitation
+  name: τ-Elicitation
+  title: Elicitation / information-gathering voice agent bench
+  date: 2026-09
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.13602
+  sections:
+  - bench-agent
+  note_en: Tests whether agents elicit missing slots under voice interaction.
+  note_zh: 测试语音交互下 Agent 是否会追问缺失槽位。
+- id: provoice-bench
+  name: ProVoice-Bench
+  title: Proactive voice agent benchmark
+  date: 2026-04
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2604.15037
+  sections:
+  - bench-proactive
+  note_en: When-to-speak / proactive initiation for voice agents.
+  note_zh: 语音 Agent 的何时发言/主动发起评测。
+- id: proactivevideoqa
+  name: ProactiveVideoQA
+  title: Proactive video question answering benchmark
+  date: 2025-07
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2507.09313
+  sections:
+  - bench-proactive
+  note_en: Video QA requiring timely proactive responses.
+  note_zh: 需要适时主动回复的视频问答。
+- id: omnipro
+  name: OmniPro
+  title: Omni proactive interaction benchmark
+  date: 2026-05
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2605.18577
+  sections:
+  - bench-proactive
+  note_en: Proactivity under omni (AV) streaming contexts.
+  note_zh: Omni（音视频）流式场景下的主动性评测。
+- id: proactivebench
+  name: ProactiveBench
+  title: General proactive agent benchmark
+  date: 2026-09
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2609.12658
+  sections:
+  - bench-proactive
+  note_en: Broader proactive decision benchmark including speech/video agents.
+  note_zh: 更广的主动决策基准，含语音/视频 Agent。
+- id: omnibench
+  name: OmniBench
+  title: Towards the holistic evaluation of omni-language models
+  date: 2024-09
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2409.15272
+  sections:
+  - bench-omni
+  note_en: Early omni-model holistic evaluation suite.
+  note_zh: 早期 Omni 模型整体评测套件。
+- id: worldsense
+  name: WorldSense
+  title: World-centric omni / video understanding benchmark
+  date: 2025-02
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2502.04326
+  sections:
+  - bench-omni
+  note_en: World knowledge and sensing-oriented multimodal eval.
+  note_zh: 面向世界知识与感知的多模态评测。
+- id: av-odyssey
+  name: AV-Odyssey
+  title: Audio-visual odyssey benchmark
+  date: 2024-12
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2412.02611
+  sections:
+  - bench-omni
+  note_en: Challenging audio-visual reasoning suite.
+  note_zh: 高难度音视频推理评测集。
+- id: daily-omni
+  name: Daily-Omni
+  title: Daily-life omni interaction benchmark
+  date: 2025-05
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.17862
+  sections:
+  - bench-omni
+  note_en: Everyday omni scenarios for AV assistants.
+  note_zh: 面向日常场景的音视频助手评测。
+- id: omnivideobench
+  name: OmniVideoBench
+  title: Omni video understanding / interaction bench
+  date: 2025-10
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.10689
+  sections:
+  - bench-omni
+  note_en: Video-centric omni evaluation with interaction facets.
+  note_zh: 以视频为中心、含交互维度的 Omni 评测。
+- id: streamingbench
+  name: StreamingBench
+  title: Evaluating streaming video understanding
+  date: 2024-11
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2411.03628
+  sections:
+  - bench-omni
+  note_en: Causal streaming video understanding benchmark.
+  note_zh: 因果流式视频理解基准。
+- id: ovo-bench
+  name: OVO-Bench
+  title: Online video omnibench / streaming eval
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2501.05510
+  sections:
+  - bench-omni
+  note_en: Online video understanding with temporal constraints.
+  note_zh: 带时间约束的在线视频理解评测。
+- id: omnimmi
+  name: OmniMMI
+  title: Multi-modal interaction benchmark in streaming video contexts
+  date: 2025-03
+  venue: CVPR 2025
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2503.22952
+    web: https://omnimmi.github.io/
+  sections:
+  - bench-omni
+  note_en: 'CVPR 2025: state grounding, planning, alerting, turn-taking.'
+  note_zh: CVPR 2025：状态接地、规划、告警与轮次。
+- id: videofdb
+  name: VideoFDB
+  title: Video full-duplex benchmark (nonverbal dynamics)
+  date: 2026-05
+  venue: ''
+  org: ''
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2605.30256
+    hf: https://huggingface.co/datasets/nvidia/video-full-duplex-benchmark
+  sections:
+  - bench-omni
+  note_en: NVIDIA video full-duplex bench; gated dataset license.
+  note_zh: NVIDIA 视频全双工基准；数据集许可需申请。
+- id: omniinteract
+  name: OmniInteract
+  title: Omni interactive AV agent benchmark
+  date: 2026-05
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2605.26485
+  sections:
+  - bench-omni
+  note_en: Interactive omni agents under continuous AV streams.
+  note_zh: 连续音视频流下的交互式 Omni Agent 评测。
+- id: svbench
+  name: SVBench
+  title: Streaming video benchmark with temporal multi-turn dialogues
+  date: 2025-02
+  venue: ICLR 2025
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2502.10810
+  sections:
+  - bench-omni
+  note_en: ICLR 2025 streaming video dialogues (StreamingChat).
+  note_zh: ICLR 2025 流式视频多轮对话（StreamingChat）。
+- id: rtv-bench
+  name: RTV-Bench
+  title: Real-time video interaction benchmark
+  date: 2025-05
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2505.02064
+  sections:
+  - bench-omni
+  note_en: Realtime video assistant timing and content eval.
+  note_zh: 实时视频助手的时机与内容评测。
+- id: aa-s2s-index
+  name: AA S2S Index
+  title: Artificial Analysis speech-to-speech index / leaderboard
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: closed
+  star: false
+  links:
+    web: https://artificialanalysis.ai/
+  sections:
+  - bench-leaderboards
+  note_en: Commercial S2S model index; methodology may differ from academic benches.
+  note_zh: 商业 S2S 指数；方法学可能与学术基准不同。
+- id: aa-speech-agent-arena
+  name: AA Speech Agent Arena
+  title: Artificial Analysis speech agent arena
+  date: 2025-06
+  venue: ''
+  org: ''
+  status: closed
+  star: false
+  links:
+    web: https://artificialanalysis.ai/
+  sections:
+  - bench-leaderboards
+  note_en: Arena-style ranking for speech agents from Artificial Analysis.
+  note_zh: Artificial Analysis 的语音 Agent Arena 排名。
+- id: scale-audiomc
+  name: Scale AudioMC
+  title: Scale AI Audio MultiChallenge leaderboard
+  date: 2025-12
+  venue: ''
+  org: ''
+  status: closed
+  star: false
+  links:
+    web: https://scale.com/
+  sections:
+  - bench-leaderboards
+  note_en: Hosted leaderboard related to Audio MultiChallenge.
+  note_zh: 与 Audio MultiChallenge 相关的托管排行榜。
+- id: talk-arena-lb
+  name: Talk Arena LB
+  title: Talk Arena public leaderboard
+  date: 2025-02
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2502.15919
+  sections:
+  - bench-leaderboards
+  note_en: Public preference leaderboard for talking models.
+  note_zh: 对话语音模型的公开偏好排行榜。
+- id: turnbench-lb
+  name: TurnBench LB
+  title: TurnBench public leaderboard
+  date: 2026-08
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    web: https://turnbench.sesame.com/
+  sections:
+  - bench-leaderboards
+  note_en: EOT/INT recall–FPR–latency leaderboard at turnbench.sesame.com.
+  note_zh: turnbench.sesame.com 上的 EOT/INT 召回–误报–时延榜。
+- id: humdial-lb
+  name: HumDial LB
+  title: HumDial challenge leaderboard
+  date: 2026-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    web: https://huggingface.co/spaces
+  sections:
+  - bench-leaderboards
+  note_en: Challenge leaderboard for HumDial tracks.
+  note_zh: HumDial 各赛道挑战赛排行榜。
+- id: audiobench-lb
+  name: AudioBench LB
+  title: AudioBench / audio LLM leaderboard hubs
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    web: https://huggingface.co/spaces
+  sections:
+  - bench-leaderboards
+  note_en: Aggregated audio LLM leaderboard portals.
+  note_zh: 音频大模型综合排行榜入口。
+- id: fisher
+  name: Fisher
+  title: Fisher English telephone conversation corpus
+  date: 2004-01
+  venue: ''
+  org: LDC
+  status: open_weights
+  star: false
+  links:
+    web: https://catalog.ldc.upenn.edu/
+  sections:
+  - data-real
+  note_en: Classic dual-channel telephone dialogues (LDC); licensing required.
+  note_zh: 经典双通道电话对话（LDC）；需许可。
+- id: switchboard
+  name: Switchboard
+  title: Switchboard telephone speech corpus
+  date: 1992-01
+  venue: ''
+  org: LDC
+  status: open_weights
+  star: false
+  links:
+    web: https://catalog.ldc.upenn.edu/
+  sections:
+  - data-real
+  note_en: Foundational conversational telephone speech; LDC license.
+  note_zh: 基础电话会话语料；LDC 许可。
+- id: candor
+  name: CANDOR
+  title: CANDOR naturalistic conversation corpus
+  date: 2023-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    web: https://betterup-data-requests.herokuapp.com/
+  sections:
+  - data-real
+  note_en: Naturalistic dyadic video/audio; used by Full-Duplex-Bench subsets.
+  note_zh: 自然双人视听对话；Full-Duplex-Bench 子集有使用。
+- id: ami
+  name: AMI
+  title: AMI Meeting Corpus
+  date: 2005-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    web: https://groups.inf.ed.ac.uk/ami/corpus/
+  sections:
+  - data-real
+  note_en: Multi-party meeting audio/video with annotations.
+  note_zh: 带标注的多方会议音视频语料。
+- id: magicdata-ramc
+  name: MagicData-RAMC
+  title: MagicData RAMC conversational Mandarin corpus
+  date: 2021-01
+  venue: ''
+  org: Magic Data
+  status: open_weights
+  star: false
+  links:
+    web: https://www.magicdatatech.com/
+  sections:
+  - data-real
+  note_en: Mandarin conversational speech often used in Chinese duplex work.
+  note_zh: 中文双工研究常用的普通话会话语料。
+- id: otospeech-fd
+  name: otoSpeech-FD
+  title: otoSpeech full-duplex conversational corpus
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - data-real
+  note_en: Full-duplex oriented real conversational speech resource.
+  note_zh: 面向全双工的真实会话语音资源。
+- id: seamless-interaction
+  name: Seamless Interaction
+  title: Seamless Interaction multimodal conversational dataset
+  date: 2025-06
+  venue: ''
+  org: Meta
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2506.22554
+    hf: https://huggingface.co/datasets/facebook/seamless-interaction
+  sections:
+  - data-real
+  note_en: Large multimodal human interaction dataset from Meta Seamless line.
+  note_zh: Meta Seamless 线的大规模多模态人类交互数据。
+- id: easy-turn-trainset
+  name: Easy Turn trainset
+  title: 1145-hour turn-state training set for Easy Turn
+  date: 2025-09
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2509.23938
+    code: https://github.com/ASLP-lab/Easy-Turn
+    hf: https://huggingface.co/ASLP-lab/Easy-Turn
+  sections:
+  - data-real
+  note_en: Large turn-taking training set (complete/incomplete/backchannel/wait).
+  note_zh: 大规模轮次训练数据（完整/未完/附和/等待）。
+- id: wildturn
+  name: WildTurn
+  title: In-the-wild turn-taking conversational data
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - data-real
+  note_en: Wild conversational turns for robust EOT models.
+  note_zh: 用于稳健 EOT 模型的野外会话轮次数据。
+- id: j-chat
+  name: J-CHAT
+  title: Japanese conversational chat corpus
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - data-real
+  note_en: Japanese conversational resource used in speech dialogue work.
+  note_zh: 日语会话资源，用于口语对话研究。
+- id: expresso
+  name: Expresso
+  title: Expresso expressive speech corpus
+  date: 2023-01
+  venue: ''
+  org: Meta
+  status: open_weights
+  star: false
+  links:
+    hf: https://huggingface.co/datasets/facebook/expresso
+  sections:
+  - data-real
+  note_en: Expressive styles for paralinguistic / TTS research.
+  note_zh: 面向副语言/TTS 的表现力语音语料。
+- id: dailytalk
+  name: DailyTalk
+  title: DailyTalk multi-turn spoken dialogue dataset
+  date: 2022-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/keonlee9420/DailyTalk
+  sections:
+  - data-real
+  note_en: Multi-turn daily spoken dialogues with annotations.
+  note_zh: 带标注的多轮日常口语对话。
+- id: behavior-sd
+  name: Behavior-SD
+  title: Synthetic spoken dialogue with behavior labels
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - data-synthetic
+  note_en: Synthetic dialogues labeled for interaction behaviors.
+  note_zh: 带交互行为标签的合成对话。
+- id: instructs2s-200k
+  name: InstructS2S-200K
+  title: 200K speech-to-speech instruction pairs
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - data-synthetic
+  note_en: Large synthetic S2S instruction-tuning set.
+  note_zh: 大规模合成语音到语音指令微调数据。
+- id: voiceassistant-400k
+  name: VoiceAssistant-400K
+  title: 400K voice assistant interaction samples
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - data-synthetic
+  note_en: Synthetic assistant-style spoken interactions.
+  note_zh: 助手风格的合成口语交互数据。
+- id: ultravoice
+  name: UltraVoice
+  title: UltraVoice large-scale synthetic voice interaction data
+  date: 2025-10
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2510.22588
+  sections:
+  - data-synthetic
+  note_en: Large synthetic voice corpus for assistant / duplex training.
+  note_zh: 面向助手/双工训练的大规模合成语音语料。
+- id: echat-200k
+  name: EChat-200K
+  title: 200K emotional chat speech samples
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/ASLP-lab/OSUM
+  sections:
+  - data-synthetic
+  note_en: Emotional spoken chat data used with OSUM-EChat line.
+  note_zh: OSUM-EChat 线使用的情感口语聊天数据。
+- id: interactspeech
+  name: InteractSpeech
+  title: Synthetic interactive / duplex speech dataset
+  date: 2025-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links: {}
+  sections:
+  - data-synthetic
+  note_en: Synthesized interactive speech for duplex training.
+  note_zh: 用于双工训练的合成交互语音。
+- id: emilia
+  name: Emilia
+  title: Emilia large-scale multilingual speech generation corpus
+  date: 2024-01
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    code: https://github.com/open-mmlab/Amphion
+    hf: https://huggingface.co/datasets/amphion/Emilia-Dataset
+  sections:
+  - data-synthetic
+  note_en: Large in-the-wild speech corpus widely used for TTS/SLM training.
+  note_zh: 大规模野外语音语料，广泛用于 TTS/SLM 训练。
+- id: sommelier
+  name: Sommelier
+  title: Scalable open multi-turn audio preprocessing for full-duplex SLMs
+  date: 2026-03
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2603.25750
+  sections:
+  - data-pipelines
+  note_en: Pipeline to curate multi-turn duplex audio from open sources.
+  note_zh: 从开放来源整理多轮双工音频的预处理管线。
+- id: covomix
+  name: CoVoMix
+  title: Mixing of human conversations for duplex-style training
+  date: 2024-04
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2404.06690
+  sections:
+  - data-pipelines
+  note_en: Conversation mixing pipeline creating overlapping/duplex-like audio.
+  note_zh: 通过会话混合构造重叠/类双工音频的管线。
