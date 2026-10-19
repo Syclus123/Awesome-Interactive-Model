@@ -13,7 +13,7 @@
 A curated map of <b>voice / Omni interactive models</b> organized by <b>how interaction is realized</b>—timing, think/speak scheduling, and effect scope—not by a cascade→E2E→dual-system “evolution ladder”.
 </p>
 
-<p align="center">**585 curated entries** (🔓 open weights: 165, 🧩 code / runtime: 147, 🔒 closed API / product: 92, 📄 paper only / unreleased: 181). Verified sources as of 2026-10-06.</p>
+<p align="center"><strong>585 curated entries</strong> (🔓 open weights: 165, 🧩 code / runtime: 147, 🔒 closed API / product: 92, 📄 paper only / unreleased: 181). Verified sources as of 2026-10-06.</p>
 
 ---
 

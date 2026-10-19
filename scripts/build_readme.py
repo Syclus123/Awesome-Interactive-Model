@@ -238,13 +238,13 @@ def stats_text(entries: list, lang: str) -> str:
             for k in STATUS_ICON
             if by_status[k]
         )
-        return f"**{n} curated entries** ({bits}). Verified sources as of 2026-10-06."
+        return f"<strong>{n} curated entries</strong> ({bits}). Verified sources as of 2026-10-06."
     bits = "，".join(
         f"{STATUS_ICON[k]} {STATUS_LABEL['zh'][k]}：{by_status[k]}"
         for k in STATUS_ICON
         if by_status[k]
     )
-    return f"**收录 {n} 条**（{bits}）。公开资料核验截至 2026-10-06。"
+    return f"<strong>收录 {n} 条</strong>（{bits}）。公开资料核验截至 2026-10-06。"
 
 
 def load_all_entries(section_ids: set[str]) -> tuple[list[dict], list[str]]:
