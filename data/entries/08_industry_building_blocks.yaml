@@ -1,23 +1,8 @@
 entries:
-- id: ind-gpt-live-1
-  name: gpt-live-1
-  title: OpenAI GPT-Live 1 front-end voice model
-  date: 2026-01
-  venue: ''
-  org: OpenAI
-  status: closed
-  star: true
-  links:
-    docs: https://developers.openai.com/api/docs/models/gpt-live-1
-  sections:
-  - industry-openai
-  - dual-closed
-  note_en: Live front-end with Responses/client delegation; audio/text, no image/video.
-  note_zh: 实时前台，支持 Responses/客户端委派；音频/文本，不含图像/视频。
 - id: ind-gpt-live-1-mini
   name: gpt-live-1-mini
   title: OpenAI GPT-Live 1 mini
-  date: 2026-01
+  date: 2026-07
   venue: ''
   org: OpenAI
   status: closed
@@ -35,17 +20,19 @@ entries:
   venue: ''
   org: OpenAI
   status: closed
-  star: false
+  star: true
   links:
     docs: https://developers.openai.com/api/docs/models/gpt-realtime-2.1
   sections:
   - industry-openai
   note_en: Realtime session with configurable reasoning and tools; not identical to Live.
   note_zh: Realtime 会话，可配推理与工具；架构不等于 GPT-Live。
+  license: Commercial terms of service
+  modalities: A/I/T → A/T
 - id: ind-gpt-realtime-translate
   name: GPT-Realtime-Translate
   title: OpenAI realtime speech translation SKU
-  date: 2025-01
+  date: 2026-05
   venue: ''
   org: OpenAI
   status: closed
@@ -70,6 +57,8 @@ entries:
   - industry-openai
   note_en: Audio QA/generation via Chat Completions — not full-duplex Live/Realtime.
   note_zh: Chat Completions 音频问答/生成——不是全双工 Live/Realtime。
+  license: Commercial terms of service
+  modalities: A/T → A/T
 - id: ind-gemini-38-live-thinking
   name: Gemini 3.8 Live Extended Thinking
   title: Gemini 3.8 Live with Extended Thinking
@@ -97,12 +86,14 @@ entries:
     docs: https://ai.google.dev/gemini-api/docs/live
   sections:
   - industry-google
-  note_en: Native-audio preview generation; some live-preview endpoints retired.
-  note_zh: 原生音频预览代；部分 live-preview 端点已退役。
+  note_en: Native-audio preview generation; some live-preview endpoints are retired, so look up exact model IDs in the deprecation table.
+  note_zh: 原生音频预览代；部分 live-preview 端点已退役，需按精确模型 ID 查停用表。
+  license: Commercial terms of service
+  modalities: A/V/T → A/T
 - id: ind-gemini-35-live-translate
   name: Gemini 3.5 Live Translate
   title: Gemini Live speech translation SKU
-  date: 2026-01
+  date: 2026-06
   venue: ''
   org: Google DeepMind
   status: closed
@@ -113,54 +104,44 @@ entries:
   - industry-google
   note_en: Live translation-oriented Gemini SKU; separate from general Live chat.
   note_zh: 面向实时翻译的 Gemini SKU；与通用 Live 闲聊分开。
-- id: ind-qwen-audio-31-realtime-plus
-  name: Qwen-Audio 3.1 Realtime Plus
-  title: Qwen-Audio 3.1 Realtime Plus (Think/Act/Speak)
-  date: 2026-09
-  venue: ''
-  org: Alibaba / QwenAudio
-  status: closed
-  star: true
-  links:
-    arxiv: https://arxiv.org/abs/2609.25176
-    web: https://qwenaudio.github.io/qwen-audio-3.1-realtime/
-    docs: https://www.alibabacloud.com/help/en/model-studio/qwen-audio-realtime-model-access
-  sections:
-  - industry-alibaba
-  note_en: Closed realtime API; not a small version of open Qwen3-Omni-30B.
-  note_zh: 闭源实时 API；不是开源 Qwen3-Omni-30B 的小版本。
 - id: ind-qwen-audio-30
   name: Qwen-Audio 3.0
   title: Qwen-Audio 3.0 Realtime Plus / Flash
-  date: 2026-01
+  date: 2026-07
   venue: ''
   org: Alibaba / QwenAudio
   status: closed
   star: false
   links:
-    docs: https://www.alibabacloud.com/help/en/model-studio/
+    docs: https://www.alibabacloud.com/help/en/model-studio/qwen-audio-realtime-model-access
   sections:
   - industry-alibaba
   note_en: Prior realtime audio series with function calling and search.
   note_zh: 前代实时音频系列，支持函数调用与搜索。
+  license: Commercial terms of service
+  modalities: A/T → A/T
 - id: ind-qwen38-omni-flash-realtime
   name: Qwen3.8-Omni-Flash-Realtime
   title: Qwen3.8 Omni Flash Realtime API
-  date: 2026-01
+  date: 2026-09
   venue: ''
   org: Alibaba / Qwen
   status: closed
   star: false
   links:
-    docs: https://www.alibabacloud.com/help/en/model-studio/
+    docs: https://docs.modelstudio.console.alibabacloud.com/en/model-studio/omni
+    arxiv: https://arxiv.org/abs/2609.25611
+    code: https://github.com/QwenLM/Qwen-Live-Harness
   sections:
   - industry-alibaba
-  note_en: Flash realtime omni API SKU in the Qwen3.8 line.
-  note_zh: Qwen3.8 线的 Flash 实时 Omni API。
+  note_en: Flash realtime omni API in the Qwen3.8 line; the regular qwen3.8-omni-flash Chat/Responses endpoint outputs text only.
+  note_zh: Qwen3.8 线的 Flash 实时 Omni API；普通 qwen3.8-omni-flash 的 Chat/Responses 接口只输出文本。
+  license: Commercial terms of service; harness Apache-2.0
+  modalities: 'A/V/I/T → Realtime: A/T; standard: T'
 - id: ind-qwen35-omni-plus-realtime
   name: Qwen3.5-Omni-Plus-Realtime
   title: Qwen3.5 Omni Plus Realtime API
-  date: 2026-01
+  date: 2026-03
   venue: ''
   org: Alibaba / Qwen
   status: closed
@@ -175,7 +156,7 @@ entries:
 - id: ind-qwen3-livetranslate
   name: qwen3-livetranslate
   title: Qwen3 live speech translation model/API
-  date: 2025-01
+  date: 2025-09
   venue: ''
   org: Alibaba / Qwen
   status: closed
@@ -189,17 +170,20 @@ entries:
 - id: ind-doubao-o20
   name: Doubao O2.0
   title: Doubao O2.0 omni / voice product line
-  date: 2025-01
+  date: 2025-12
   venue: ''
   org: ByteDance
   status: closed
   star: false
   links:
     web: https://www.volcengine.com/
+    docs: https://docs.volcengine.com/docs/real_time_communication/Accessend-to-endreal-timespeechlargemodel?lang=zh
   sections:
   - industry-bytedance
   note_en: Doubao omni/voice product naming; verify against current console IDs.
   note_zh: 豆包 Omni/语音产品命名；以控制台当前 ID 为准。
+  license: Commercial terms of service
+  modalities: A/T → A/T; this RTC integration has no vision
 - id: ind-seed-realtime-voice-2025
   name: Seed Realtime Voice 2025
   title: Seed realtime voice model (2025)
@@ -208,11 +192,14 @@ entries:
   org: ByteDance / Seed
   status: closed
   star: false
-  links: {}
+  links:
+    web: https://seed.bytedance.com/en/realtime_voice
   sections:
   - industry-bytedance
   note_en: 2025 official realtime voice lineage before Seeduplex research post.
   note_zh: 2025 官方实时语音谱系，早于 Seeduplex 研究发布。
+  license: No open model license
+  modalities: A → A
 - id: ind-seedrealtime-2026-08
   name: SeedRealtime 2026-08
   title: Seed Realtime voice update (2026-08)
@@ -229,7 +216,7 @@ entries:
 - id: ind-nova-25-sonic
   name: Nova 2.5 Sonic
   title: Amazon Nova 2.5 Sonic
-  date: 2026-01
+  date: 2026-10
   venue: ''
   org: Amazon
   status: closed
@@ -243,30 +230,35 @@ entries:
 - id: ind-hume-evi
   name: Hume EVI 3 / 4-mini
   title: Hume Empathic Voice Interface 3 and 4-mini
-  date: 2025-01
+  date: 2025-05
   venue: ''
   org: Hume
   status: closed
   star: false
   links:
-    docs: https://dev.hume.ai/
+    docs: https://dev.hume.ai/docs/speech-to-speech-evi/configuration/evi-version
   sections:
   - industry-others
-  note_en: Empathic voice API focused on expressive/emotional interaction.
-  note_zh: 强调表达/情绪交互的共情语音 API。
+  note_en: Empathic voice API focused on expressive/emotional interaction; EVI 1/2 are no longer supported.
+  note_zh: 强调表达/情绪交互的共情语音 API；EVI 1/2 已停止支持。
+  license: Commercial terms of service
+  modalities: A/T → A/T
 - id: ind-sensenova-omni
   name: SenseNova 5o / V6 Omni
   title: SenseTime SenseNova omni realtime models
-  date: 2025-01
+  date: 2024-07
   venue: ''
   org: SenseTime
   status: closed
   star: false
-  links: {}
+  links:
+    web: https://www.sensetime.com/cn/news/51169319
   sections:
   - industry-others
   note_en: SenseNova omni/realtime product line (5o / V6 naming).
   note_zh: 商汤 SenseNova Omni/实时产品线（5o / V6 命名）。
+  license: Commercial terms of service
+  modalities: A/V/T → A/T
 - id: ind-glm-realtime
   name: GLM-Realtime
   title: Zhipu GLM-Realtime audiovisual API
@@ -284,42 +276,37 @@ entries:
 - id: ind-baidu-speech-llm
   name: Baidu Speech LLM
   title: Baidu Qianfan / speech LLM realtime offerings
-  date: 2025-01
+  date: 2025-03
   venue: ''
   org: Baidu
   status: closed
   star: false
-  links: {}
+  links:
+    docs: https://ai.baidu.com/ai-doc/SPEECH/nmcytnwei
+    web: https://ai.baidu.com/tech/speech/chatbot
   sections:
   - industry-others
   note_en: Baidu cloud speech LLM / realtime voice products.
   note_zh: 百度云语音大模型/实时语音产品。
+  license: Commercial terms of service
+  modalities: A/T → A/T
 - id: ind-iflytek-sparkos
   name: iFlytek SparkOS
   title: iFlytek SparkOS voice agent OS / runtime
-  date: 2025-01
+  date: 2024-08
   venue: ''
   org: iFlytek
   status: closed
   star: false
-  links: {}
+  links:
+    docs: https://www.xfyun.cn/doc/spark/sparkos_interactive.html
+    web: https://www.xfyun.cn/solutions/sparkos_interactive
   sections:
   - industry-others
   note_en: iFlytek Spark-oriented voice OS / agent runtime.
   note_zh: 科大讯飞星火方向的语音 OS / Agent 运行时。
-- id: ind-tml-interaction-small
-  name: TML Interaction-Small
-  title: Thinking Machines Lab Interaction-Small model
-  date: 2025-01
-  venue: ''
-  org: Thinking Machines Lab
-  status: closed
-  star: false
-  links: {}
-  sections:
-  - industry-others
-  note_en: Small interaction-model SKU referenced in TML materials.
-  note_zh: TML 材料中提及的小型 Interaction Model。
+  license: Commercial terms of service
+  modalities: A → synthesized A / digital-human V
 - id: ind-sesame-maya-miles
   name: Sesame Maya / Miles
   title: Sesame conversational voice personas Maya and Miles
@@ -334,72 +321,12 @@ entries:
   - industry-others
   note_en: Product personas demoing Sesame conversational speech tech.
   note_zh: 展示 Sesame 对话语音技术的产品人设。
-- id: ind-step-audio-3-realtime
-  name: Step-Audio 3 Realtime
-  title: StepFun Step-Audio 3 realtime speech model
-  date: 2025-01
-  venue: ''
-  org: StepFun
-  status: closed
-  star: false
-  links:
-    code: https://github.com/stepfun-ai/Step-Audio
-    blog: https://static.stepfun.com/blog/stepaudio3/realtime/
-    web: https://platform.stepfun.com/
-  sections:
-  - industry-others
-  note_en: StepFun realtime audio model line.
-  note_zh: 阶跃星辰实时音频模型线。
-- id: ind-kyutai-moshi
-  name: Kyutai Moshi
-  title: Moshi / Moshiko / Moshika full-duplex models
-  date: 2024-09
-  venue: ''
-  org: Kyutai
-  status: open_weights
-  star: false
-  links:
-    arxiv: https://arxiv.org/abs/2410.00037
-    code: https://github.com/kyutai-labs/moshi
-    hf: https://huggingface.co/kyutai/moshiko-pytorch-bf16
-  sections:
-  - industry-others
-  note_en: Open full-duplex baseline with multi-stream audio + inner monologue.
-  note_zh: 开放全双工基线：多音频流 + 内部独白。
-- id: ind-kyutai-unmute
-  name: Kyutai Unmute
-  title: Unmute open voice assistant stack
-  date: 2025-01
-  venue: ''
-  org: Kyutai
-  status: open_weights
-  star: false
-  links:
-    code: https://github.com/kyutai-labs/unmute
-  sections:
-  - industry-others
-  - agentic-harness
-  - agentic-frameworks
-  note_en: Composable open voice assistant using Kyutai components.
-  note_zh: 基于 Kyutai 组件的可组合开源语音助手。
-- id: ind-kyutai-hibiki
-  name: Kyutai Hibiki
-  title: Hibiki simultaneous speech translation
-  date: 2025-01
-  venue: ''
-  org: Kyutai
-  status: open_weights
-  star: false
-  links:
-    code: https://github.com/kyutai-labs/hibiki
-  sections:
-  - industry-others
-  note_en: Kyutai streaming / simultaneous speech translation model.
-  note_zh: Kyutai 流式/同声传译模型。
+  license: Product terms; CSM has its own model license
+  modalities: A → A
 - id: ind-liquid-lfm25-audio
   name: LFM2.5-Audio
   title: Liquid LFM2.5-Audio model
-  date: 2025-01
+  date: 2026-01
   venue: ''
   org: Liquid AI
   status: open_weights
@@ -413,7 +340,7 @@ entries:
 - id: ind-talkingmachines
   name: TalkingMachines
   title: Character.AI TalkingMachines voice stack
-  date: 2025-01
+  date: 2025-06
   venue: ''
   org: Character.AI
   status: closed
@@ -426,7 +353,7 @@ entries:
 - id: ind-ernie-50
   name: ERNIE 5.0
   title: Baidu ERNIE 5.0 multimodal / voice capabilities
-  date: 2025-01
+  date: 2025-11
   venue: ''
   org: Baidu
   status: closed
@@ -439,7 +366,7 @@ entries:
 - id: ind-apple-live-translation
   name: Apple Live Translation / Siri AI
   title: Apple Live Translation and Siri AI voice features
-  date: 2025-01
+  date: 2025-06
   venue: ''
   org: Apple
   status: closed
@@ -452,7 +379,7 @@ entries:
 - id: ind-claude-voice
   name: Claude Voice Mode
   title: Anthropic Claude voice mode
-  date: 2024-01
+  date: 2025-05
   venue: ''
   org: Anthropic
   status: closed
@@ -466,7 +393,7 @@ entries:
 - id: ind-meta-ai-voice
   name: Meta AI Voice
   title: Meta AI voice / conversational speech features
-  date: 2024-01
+  date: 2024-09
   venue: ''
   org: Meta
   status: closed
@@ -479,33 +406,38 @@ entries:
 - id: ind-elevenagents
   name: ElevenAgents
   title: ElevenLabs conversational / agent platform
-  date: 2025-01
+  date: 2024-11
   venue: ''
   org: ElevenLabs
   status: closed
   star: false
   links:
-    docs: https://elevenlabs.io/docs
+    docs: https://elevenlabs.io/docs/eleven-agents/overview
   sections:
   - industry-others
   - bb-platforms
   note_en: ElevenLabs agents for conversational voice apps.
   note_zh: ElevenLabs 对话式语音 Agent 平台。
+  license: Commercial terms of service
+  modalities: ASR / LLM / TTS / tools
 - id: ind-deepgram-voice-agent
   name: Deepgram Voice Agent
   title: Deepgram Voice Agent API
-  date: 2025-01
+  date: 2024-09
   venue: ''
   org: Deepgram
   status: closed
   star: false
   links:
-    docs: https://developers.deepgram.com/
+    docs: https://developers.deepgram.com/docs/voice-agent-llm-models
   sections:
   - industry-others
   - bb-platforms
-  note_en: Hosted voice agent with STT-centric realtime stack.
-  note_zh: 以 STT 为中心的托管实时语音 Agent。
+  - dual-cascade
+  note_en: 'Hosted listen–think–speak voice agent: STT-centric realtime stack with an external LLM as the thinking stage.'
+  note_zh: 托管的听–想–说语音 Agent：以 STT 为中心的实时栈，外接 LLM 作为思考环节。
+  license: Commercial terms of service
+  modalities: Flux/Nova STT + think LLM + TTS
 - id: bb-mimi
   name: Mimi
   title: Kyutai Mimi neural audio codec for Moshi
@@ -525,7 +457,7 @@ entries:
 - id: bb-snac
   name: SNAC
   title: Multi-scale neural audio codec
-  date: 2024-01
+  date: 2024-02
   venue: ''
   org: ''
   status: open_weights
@@ -554,7 +486,7 @@ entries:
 - id: bb-dac
   name: DAC
   title: Descript Audio Codec
-  date: 2023-01
+  date: 2023-06
   venue: ''
   org: ''
   status: open_weights
@@ -568,7 +500,7 @@ entries:
 - id: bb-speechtokenizer
   name: SpeechTokenizer
   title: Unified speech tokenizer with semantic+acoustic tokens
-  date: 2023-01
+  date: 2023-08
   venue: ''
   org: ''
   status: open_weights
@@ -583,7 +515,7 @@ entries:
 - id: bb-wavtokenizer
   name: WavTokenizer
   title: Acoustic codec / tokenizer for speech LMs
-  date: 2024-01
+  date: 2024-08
   venue: ''
   org: ''
   status: open_weights
@@ -597,7 +529,7 @@ entries:
 - id: bb-xcodec2
   name: X-Codec2
   title: X-Codec2 speech codec
-  date: 2024-01
+  date: 2025-02
   venue: ''
   org: ''
   status: open_weights
@@ -611,7 +543,7 @@ entries:
 - id: bb-bicodec
   name: BiCodec
   title: BiCodec dual-stream speech tokenizer
-  date: 2025-01
+  date: 2025-03
   venue: ''
   org: ''
   status: open_weights
@@ -638,7 +570,7 @@ entries:
 - id: bb-cosyvoice-s3
   name: CosyVoice S3
   title: CosyVoice S3 speech tokenizer / codec
-  date: 2024-01
+  date: 2024-07
   venue: ''
   org: ''
   status: open_weights
@@ -652,7 +584,7 @@ entries:
 - id: bb-qwen3-tts-tok
   name: Qwen3-TTS-Tokenizer
   title: Qwen3 TTS speech tokenizer
-  date: 2025-01
+  date: 2026-01
   venue: ''
   org: Alibaba / Qwen
   status: open_weights
@@ -681,7 +613,7 @@ entries:
 - id: bb-dasb
   name: DASB
   title: Discrete audio / speech benchmark for tokenizers
-  date: 2024-01
+  date: 2024-06
   venue: ''
   org: ''
   status: code_only
@@ -694,7 +626,7 @@ entries:
 - id: bb-cosyvoice-2-3
   name: CosyVoice 2/3
   title: FunAudioLLM CosyVoice 2 and 3 streaming TTS
-  date: 2024-01
+  date: 2024-12
   venue: ''
   org: FunAudioLLM
   status: open_weights
@@ -708,7 +640,7 @@ entries:
 - id: bb-kyutai-tts
   name: Kyutai TTS
   title: Kyutai streaming TTS models
-  date: 2025-01
+  date: 2025-07
   venue: ''
   org: Kyutai
   status: open_weights
@@ -736,10 +668,12 @@ entries:
   - blogs
   note_en: Open conversational speech generator (CSM-1B).
   note_zh: 开放对话式语音生成（CSM-1B）。
+  license: Apache-2.0 (model card)
+  modalities: T + audio context → A
 - id: bb-spark-tts
   name: Spark-TTS
   title: Spark-TTS efficient speech synthesis
-  date: 2025-01
+  date: 2025-03
   venue: ''
   org: ''
   status: open_weights
@@ -753,7 +687,7 @@ entries:
 - id: bb-qwen3-tts
   name: Qwen3-TTS
   title: Qwen3 text-to-speech models
-  date: 2025-01
+  date: 2026-01
   venue: ''
   org: Alibaba / Qwen
   status: open_weights
@@ -767,7 +701,7 @@ entries:
 - id: bb-orpheus
   name: Orpheus
   title: Orpheus TTS / speech LM
-  date: 2025-01
+  date: 2025-03
   venue: ''
   org: ''
   status: open_weights
@@ -781,7 +715,7 @@ entries:
 - id: bb-fireredtts-2
   name: FireRedTTS-2
   title: FireRedTeam TTS 2
-  date: 2025-01
+  date: 2025-09
   venue: ''
   org: FireRedTeam
   status: open_weights
@@ -795,7 +729,7 @@ entries:
 - id: bb-vibevoice-realtime
   name: VibeVoice-Realtime
   title: VibeVoice realtime TTS
-  date: 2025-01
+  date: 2025-12
   venue: ''
   org: ''
   status: open_weights
@@ -808,7 +742,7 @@ entries:
 - id: bb-f5-tts
   name: F5-TTS
   title: F5-TTS flow-matching TTS
-  date: 2024-01
+  date: 2024-10
   venue: ''
   org: ''
   status: open_weights
@@ -837,7 +771,7 @@ entries:
 - id: bb-kyutai-stt
   name: Kyutai STT
   title: Kyutai streaming speech-to-text
-  date: 2025-01
+  date: 2025-06
   venue: ''
   org: Kyutai
   status: open_weights
@@ -851,10 +785,10 @@ entries:
 - id: bb-voxtral-asr
   name: Voxtral Realtime
   title: Mistral Voxtral realtime ASR / audio understanding
-  date: 2025-01
+  date: 2026-02
   venue: ''
   org: Mistral
-  status: closed
+  status: open_weights
   star: false
   links:
     docs: https://docs.mistral.ai/
@@ -866,7 +800,7 @@ entries:
 - id: bb-qwen3-asr
   name: Qwen3-ASR
   title: Qwen3 automatic speech recognition
-  date: 2025-01
+  date: 2026-01
   venue: ''
   org: Alibaba / Qwen
   status: open_weights
@@ -880,7 +814,7 @@ entries:
 - id: bb-nemotron-speech-streaming
   name: Nemotron Speech Streaming
   title: NVIDIA Nemotron streaming speech recognition
-  date: 2025-01
+  date: 2026-01
   venue: ''
   org: NVIDIA
   status: open_weights
@@ -894,7 +828,7 @@ entries:
 - id: bb-sensevoice
   name: SenseVoice
   title: FunAudioLLM SenseVoice ASR
-  date: 2024-01
+  date: 2024-07
   venue: ''
   org: ''
   status: open_weights
@@ -922,7 +856,7 @@ entries:
 - id: bb-moonshine-v2
   name: Moonshine v2
   title: Useful Sensors Moonshine v2 efficient ASR
-  date: 2025-01
+  date: 2026-02
   venue: ''
   org: ''
   status: open_weights
@@ -964,7 +898,7 @@ entries:
 - id: bb-ten-vad
   name: TEN VAD
   title: TEN Framework voice activity detection
-  date: 2024-01
+  date: 2025-05
   venue: ''
   org: ''
   status: open_weights
@@ -978,7 +912,7 @@ entries:
 - id: bb-deepgram-flux
   name: Deepgram Flux
   title: Deepgram Flux endpointing / turn features
-  date: 2025-01
+  date: 2025-10
   venue: ''
   org: Deepgram
   status: closed
@@ -993,7 +927,7 @@ entries:
 - id: bb-parakeet-realtime-eou
   name: Parakeet-Realtime-EOU
   title: NVIDIA Parakeet realtime end-of-utterance
-  date: 2025-01
+  date: 2025-11
   venue: ''
   org: NVIDIA
   status: open_weights
@@ -1035,7 +969,7 @@ entries:
 - id: bb-wesep
   name: WeSep
   title: Speaker separation toolkit
-  date: 2024-01
+  date: 2024-09
   venue: ''
   org: ''
   status: open_weights
@@ -1049,7 +983,7 @@ entries:
 - id: bb-streaming-sortformer
   name: Streaming Sortformer
   title: Streaming Sortformer diarization / separation
-  date: 2024-01
+  date: 2025-07
   venue: ''
   org: NVIDIA
   status: open_weights
@@ -1063,9 +997,9 @@ entries:
 - id: bb-vllm-omni
   name: vLLM-Omni
   title: vLLM serving extensions for omni / multimodal models
-  date: 2025-01
+  date: 2025-11
   venue: ''
-  org: vLLM 社区
+  org: vLLM Community
   status: code_only
   star: false
   links:
@@ -1078,9 +1012,9 @@ entries:
 - id: bb-sglang-omni
   name: SGLang-Omni
   title: SGLang serving for omni / speech models
-  date: 2025-01
+  date: 2026-06
   venue: ''
-  org: SGLang 社区
+  org: SGLang Community
   status: code_only
   star: false
   links:
@@ -1093,7 +1027,7 @@ entries:
 - id: bb-livekit
   name: LiveKit
   title: LiveKit realtime transport and Agents framework
-  date: 2023-01
+  date: 2021-07
   venue: ''
   org: ''
   status: code_only
@@ -1105,20 +1039,6 @@ entries:
   - bb-serving
   note_en: WebRTC transport + Agents SDK for production voice apps.
   note_zh: 面向生产语音应用的 WebRTC 传输 + Agents SDK。
-- id: bb-ten-framework
-  name: TEN Framework
-  title: TEN conversational AI framework
-  date: 2024-01
-  venue: ''
-  org: ''
-  status: code_only
-  star: false
-  links:
-    code: https://github.com/TEN-framework/ten-framework
-  sections:
-  - bb-serving
-  note_en: Open framework for realtime multimodal voice agents.
-  note_zh: 面向实时多模态语音 Agent 的开源框架。
 - id: bb-moshi-server
   name: moshi-server
   title: Kyutai Moshi realtime server
@@ -1136,7 +1056,7 @@ entries:
 - id: bb-nemo-voice-agent
   name: NeMo Voice Agent
   title: NVIDIA NeMo voice agent recipes / runtime
-  date: 2025-01
+  date: 2025-09
   venue: ''
   org: NVIDIA
   status: code_only
@@ -1150,7 +1070,7 @@ entries:
 - id: bb-qwen2-audio
   name: Qwen2-Audio
   title: Qwen2-Audio large audio language model
-  date: 2024-01
+  date: 2024-07
   venue: ''
   org: Alibaba / Qwen
   status: open_weights
@@ -1162,20 +1082,25 @@ entries:
   - bb-audio-understanding
   note_en: Strong open audio→text LALM baseline.
   note_zh: 强力开源音频→文本 LALM 基线。
+  license: 'Original: Qwen-specific license; Qwen2: per model card'
+  modalities: A/T → T
 - id: bb-audio-flamingo-3
   name: Audio Flamingo 3
   title: NVIDIA Audio Flamingo 3
-  date: 2025-01
+  date: 2025-07
   venue: ''
   org: NVIDIA
   status: open_weights
   star: false
   links:
     hf: https://huggingface.co/nvidia
+    code: https://github.com/NVIDIA/audio-flamingo
   sections:
   - bb-audio-understanding
   note_en: Audio understanding LALM from NVIDIA.
   note_zh: NVIDIA 音频理解 LALM。
+  license: Terms differ by generation; not uniformly Apache
+  modalities: A/T → T; Chat system can add streaming TTS
 - id: bb-salmonn
   name: SALMONN
   title: SALMONN speech audio language model
@@ -1187,14 +1112,17 @@ entries:
   links:
     arxiv: https://arxiv.org/abs/2310.13289
     code: https://github.com/bytedance/SALMONN
+    hf: https://huggingface.co/tsinghua-ee/SALMONN-7B
   sections:
   - bb-audio-understanding
   note_en: Early influential open audio LLM (ByteDance).
   note_zh: 早期有影响力的开源音频大模型（字节）。
+  license: Repo and base-model licenses (e.g., Vicuna) apply separately
+  modalities: A or A/V/T → T
 - id: bb-ultravox-understand
   name: Ultravox
   title: Ultravox speech-aware LLM (understanding)
-  date: 2024-01
+  date: 2024-06
   venue: ''
   org: Fixie
   status: open_weights
@@ -1212,23 +1140,25 @@ entries:
 - id: bb-phi4-multimodal
   name: Phi-4 Multimodal
   title: Microsoft Phi-4 Multimodal
-  date: 2025-01
+  date: 2025-02
   venue: ''
   org: Microsoft
   status: open_weights
   star: false
   links:
-    hf: https://huggingface.co/microsoft
+    hf: https://huggingface.co/microsoft/Phi-4-multimodal-instruct
   sections:
   - bb-audio-understanding
   note_en: Small multimodal model with audio understanding.
   note_zh: 含音频理解的小尺寸多模态模型。
+  license: MIT
+  modalities: A/I/T → T
 - id: bb-ola
   name: Ola
   title: Ola omni / audio understanding model
-  date: 2025-01
+  date: 2025-02
   venue: ''
-  org: Ola 团队
+  org: Ola Team
   status: open_weights
   star: false
   links:
@@ -1239,36 +1169,42 @@ entries:
   note_en: Open omni-style understanding model used in AV stacks.
   note_zh: 开源 Omni 风格理解模型，用于音视频栈。
 - id: bb-megrez-omni
-  name: Megrez-Omni
+  name: Megrez-3B-Omni
   title: Megrez Omni audio-visual understanding
-  date: 2025-01
+  date: 2024-12
   venue: ''
-  org: ''
+  org: Infinigence AI
   status: open_weights
   star: false
-  links: {}
+  links:
+    code: https://github.com/infinigence/Infini-Megrez-Omni
   sections:
   - bb-audio-understanding
   note_en: Omni understanding model from Megrez line.
   note_zh: Megrez 线的 Omni 理解模型。
+  license: Apache-2.0 (model release)
+  modalities: A/I/T → T
 - id: bb-step-audio-r1
-  name: Step-Audio R1
-  title: StepFun Step-Audio R1 reasoning audio model
-  date: 2025-01
+  name: Step-Audio R1 / R1.1
+  title: StepFun Step-Audio R1 / R1.1 reasoning audio models
+  date: 2025-11
   venue: ''
   org: StepFun
   status: open_weights
   star: false
   links:
     code: https://github.com/stepfun-ai/Step-Audio-R1
+    hf: https://huggingface.co/stepfun-ai/Step-Audio-R1.1
   sections:
   - bb-audio-understanding
   note_en: Audio reasoning / understanding model in Step-Audio series.
   note_zh: Step-Audio 系列中的音频推理/理解模型。
+  license: Apache-2.0 (verified on R1.1 model card)
+  modalities: A/T → T
 - id: bb-azure-voice-live
   name: Azure Voice Live
   title: Microsoft Azure Voice Live API
-  date: 2025-01
+  date: 2025-05
   venue: ''
   org: Microsoft
   status: closed
@@ -1282,7 +1218,7 @@ entries:
 - id: bb-vapi
   name: Vapi
   title: Vapi hosted voice agent platform
-  date: 2023-01
+  date: 2023-11
   venue: ''
   org: Vapi
   status: closed
@@ -1296,7 +1232,7 @@ entries:
 - id: bb-retell
   name: Retell
   title: Retell AI phone voice agents
-  date: 2023-01
+  date: 2024-02
   venue: ''
   org: Retell
   status: closed
@@ -1307,10 +1243,12 @@ entries:
   - bb-platforms
   note_en: Phone-centric voice agent platform with tool calling.
   note_zh: 以电话为中心的语音 Agent 平台，支持工具调用。
+  license: Commercial terms of service
+  modalities: Speech + LLM / custom LLM + telephony
 - id: bb-twilio-conversationrelay
   name: Twilio ConversationRelay
   title: Twilio ConversationRelay voice AI connector
-  date: 2024-01
+  date: 2024-11
   venue: ''
   org: Twilio
   status: closed
@@ -1324,42 +1262,48 @@ entries:
 - id: bb-agora-conversational-ai
   name: Agora Conversational AI
   title: Agora conversational AI / RTC agent toolkit
-  date: 2024-01
+  date: 2025-03
   venue: ''
   org: Agora
   status: closed
   star: false
   links:
-    docs: https://docs.agora.io/
+    docs: https://docs.agora.io/en/ai
   sections:
   - bb-platforms
   note_en: RTC-native conversational AI building blocks.
   note_zh: 基于 RTC 的对话式 AI 构建块。
+  license: Commercial service and SDK licensed separately
+  modalities: RTC + runtime + optional AI models
 - id: bb-tencent-trtc-ai
   name: Tencent TRTC AI
   title: Tencent TRTC conversational AI
-  date: 2024-01
+  date: 2024-05
   venue: ''
   org: Tencent
   status: closed
   star: false
   links:
-    docs: https://cloud.tencent.com/document/product/647
+    docs: https://trtc.io/document/conversational-ai-overview?product=conversationalai
   sections:
   - bb-platforms
   note_en: Tencent real-time communication AI agent features.
   note_zh: 腾讯实时通信 AI Agent 能力。
+  license: Commercial terms of service
+  modalities: RTC audio/video + multiple LLM/speech components
 - id: bb-volcano-rtc-ai
   name: Volcano RTC AI
   title: ByteDance Volcano Engine RTC AI
-  date: 2024-01
+  date: 2024-08
   venue: ''
   org: ByteDance
   status: closed
   star: false
   links:
-    docs: https://www.volcengine.com/
+    docs: https://docs.volcengine.com/docs/real_time_communication/Accessend-to-endreal-timespeechlargemodel?lang=zh
   sections:
   - bb-platforms
   note_en: Volcano RTC AI for realtime conversational experiences.
   note_zh: 火山 RTC AI，用于实时对话体验。
+  license: Commercial terms of service
+  modalities: RTC + Doubao S2S / hybrid LLM

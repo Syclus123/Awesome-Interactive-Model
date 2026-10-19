@@ -5,14 +5,14 @@ entries:
   date: 2025-07
   venue: ''
   org: StepFun
-  status: open_weights
+  status: closed
   star: false
   links:
     arxiv: https://arxiv.org/abs/2507.16632
   sections:
   - agentic-native
-  note_en: End-to-end speech model with native tool-calling channels during dialogue.
-  note_zh: 端到端语音模型，对话中原生工具调用通道。
+  note_en: End-to-end speech model with native tool-calling channels during dialogue; the full model is API-only, while the mini variants are open (listed separately).
+  note_zh: 端到端语音模型，对话中具备原生工具调用通道；完整版仅提供 API，开放的是 mini 系列（另列）。
 - id: voxmind
   name: VoxMind
   title: 'VoxMind: An End-to-End Agentic Spoken Dialogue System'
@@ -209,11 +209,14 @@ entries:
   org: inclusionAI
   status: code_only
   star: false
-  links: {}
+  links:
+    code: https://github.com/inclusionAI/Realtime-Venus
   sections:
   - agentic-harness
   note_en: Runtime organizing Venus task loops, permissions, and speech delivery.
   note_zh: 组织 Venus 任务循环、权限与语音投递的运行时。
+  license: Apache-2.0
+  modalities: Venus front-end ↔ pluggable task back-end
 - id: gander-runtime
   name: Gander Runtime
   title: Gander Agent Orchestration Runtime
@@ -222,11 +225,14 @@ entries:
   org: Gander
   status: code_only
   star: false
-  links: {}
+  links:
+    code: https://github.com/Omni-Interaction-Gander/Omni-Interaction-Agent
   sections:
   - agentic-harness
   note_en: Task state machine, permissions, context, and delivery for Gander.
   note_zh: Gander 的任务状态机、权限、上下文与投递运行时。
+  license: See repo LICENSE and component notices
+  modalities: Cerebellum ↔ Brain / worker
 - id: async-tool-fsm
   name: Async-Tool FSM
   title: Asynchronous Tool Usage for Real-Time Agents
@@ -239,8 +245,9 @@ entries:
     arxiv: https://arxiv.org/abs/2410.21620
   sections:
   - agentic-harness
-  note_en: Event-driven FSM runtime for non-blocking tools in realtime agents.
-  note_zh: 实时智能体非阻塞工具的事件驱动状态机运行时。
+  - dual-concepts
+  note_en: Event-driven FSM runtime for non-blocking tools in realtime agents, effectively a System-2 running beside the talker.
+  note_zh: 实时智能体非阻塞工具的事件驱动状态机运行时，相当于在 Talker 旁运行的 System-2。
 - id: openai-chat-supervisor
   name: OpenAI Chat-Supervisor
   title: 'OpenAI Realtime Agents: Chat-Supervisor Pattern'
@@ -261,7 +268,7 @@ entries:
   date: 2025-06
   venue: ''
   org: Cartesia
-  status: closed
+  status: code_only
   star: false
   links:
     code: https://github.com/cartesia-ai/line
@@ -270,6 +277,7 @@ entries:
   - agentic-harness
   - industry-others
   - bb-platforms
+  - dual-open
   note_en: SDK where background tools survive interruptions during speech.
   note_zh: SDK：后台工具在语音打断后仍可继续。
 - id: genai-processors
@@ -318,7 +326,7 @@ entries:
 - id: cicero
   name: Cicero
   title: 'Cicero: Self-Hosted Voice Client for Coding Agent Harnesses'
-  date: 2026-01
+  date: 2026-07
   venue: ''
   org: ''
   status: code_only
@@ -361,7 +369,7 @@ entries:
 - id: livekit-agents
   name: LiveKit Agents
   title: 'LiveKit Agents: Realtime Voice Agent Framework'
-  date: 2024-06
+  date: 2024-01
   venue: ''
   org: LiveKit
   status: code_only
@@ -377,7 +385,7 @@ entries:
 - id: pipecat
   name: Pipecat
   title: 'Pipecat: Composable Realtime Voice & Multimodal Agent Framework'
-  date: 2024-03
+  date: 2024-05
   venue: ''
   org: Daily
   status: code_only
@@ -400,11 +408,15 @@ entries:
   status: code_only
   star: false
   links:
-    code: https://github.com/TEN-framework/TEN-Agent
+    code: https://github.com/TEN-framework/ten-framework
   sections:
   - agentic-frameworks
+  - agentic-harness
+  - bb-serving
   note_en: Composable realtime multimodal agent framework and reference agents.
   note_zh: 可组合实时多模态智能体框架与参考智能体。
+  license: Apache-2.0 with additional conditions (per component)
+  modalities: RTC + speech/vision/text components
 - id: unmute
   name: Unmute
   title: 'Kyutai Unmute: Low-Latency Modular Speech Interaction Stack'
@@ -421,8 +433,10 @@ entries:
   - agentic-frameworks
   - duplex-engineered
   - blogs
-  note_en: Modular low-latency speech stack wrapping Moshi-family duplex models.
-  note_zh: 模块化低延迟语音栈，封装 Moshi 系双工模型。
+  - industry-others
+  - agentic-harness
+  note_en: Composable low-latency voice stack that wraps a text LLM with Kyutai streaming STT/TTS.
+  note_zh: 可组合的低延迟语音栈，用 Kyutai 流式 STT/TTS 包裹文本 LLM。
 - id: hf-speech-to-speech
   name: HF speech-to-speech
   title: Hugging Face speech-to-speech Realtime Pipeline
@@ -435,8 +449,11 @@ entries:
     code: https://github.com/huggingface/speech-to-speech
   sections:
   - agentic-frameworks
+  - agentic-harness
   note_en: Community modular realtime speech-to-speech pipeline templates.
   note_zh: 社区模块化实时语音到语音流水线模板。
+  license: Apache-2.0; models licensed separately
+  modalities: VAD → STT → LLM → TTS
 - id: openai-agents-sdk-voice
   name: OpenAI Agents SDK Voice
   title: OpenAI Agents SDK Voice Workflows
@@ -449,8 +466,11 @@ entries:
     docs: https://openai.github.io/openai-agents-python/
   sections:
   - agentic-frameworks
+  - agentic-harness
   note_en: Agents SDK patterns for voice sessions, handoffs, and tools.
   note_zh: Agents SDK 语音会话、交接与工具模式。
+  license: SDK license separate from API terms of service
+  modalities: Live / Realtime / cascaded speech + agents
 - id: google-adk-live
   name: Google ADK Live
   title: Google ADK Live / Streaming Agent Runtime
@@ -463,8 +483,11 @@ entries:
     docs: https://google.github.io/adk-docs/
   sections:
   - agentic-frameworks
+  - agentic-harness
   note_en: Bidirectional streaming agent runtime in Google Agent Development Kit.
   note_zh: Google ADK 中的双向流式智能体运行时。
+  license: ADK project license separate from Gemini terms
+  modalities: Gemini Live audio/video + tools
 - id: strands-bidiagent
   name: Strands BidiAgent
   title: AWS Strands BidiAgent for Bidirectional Voice Agents
@@ -483,7 +506,7 @@ entries:
 - id: fastrtc
   name: FastRTC
   title: 'FastRTC: Interactive Audio/Video Transport for Agents'
-  date: 2025-01
+  date: 2025-02
   venue: ''
   org: Gradio
   status: code_only
@@ -951,7 +974,7 @@ entries:
   date: 2025-10
   venue: ''
   org: Tsinghua / ByteDance
-  status: paper_only
+  status: open_weights
   star: false
   links:
     code: https://github.com/bytedance/SALMONN/tree/ELLSA
@@ -966,7 +989,7 @@ entries:
   date: 2025-10
   venue: ''
   org: Tencent / VITA
-  status: paper_only
+  status: open_weights
   star: false
   links:
     arxiv: https://arxiv.org/abs/2510.21817

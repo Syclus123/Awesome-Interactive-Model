@@ -13,10 +13,9 @@
 A curated map of <b>voice / Omni interactive models</b> organized by <b>how interaction is realized</b>—timing, think/speak scheduling, and effect scope—not by a cascade→E2E→dual-system “evolution ladder”.
 </p>
 
-<p align="center"><strong>585 curated entries</strong> (🔓 open weights: 165, 🧩 code / runtime: 147, 🔒 closed API / product: 92, 📄 paper only / unreleased: 181). Verified sources as of 2026-10-06.</p>
+<p align="center"><strong>509 curated entries</strong> (🔓 open weights: 150, 🧩 code / runtime: 141, 🔒 closed API / product: 70, 📄 paper only / unreleased: 148). Verified sources as of 2026-10-06.</p>
 
 ---
-
 
 ## 📰 News & Updates
 
@@ -24,7 +23,7 @@ A curated map of <b>voice / Omni interactive models</b> organized by <b>how inte
 - **2026-10-05** — Amazon **Nova 2.5 Sonic** GA (speech-to-speech realtime).
 - **2026-09-10** — OpenAI **GPT-Live** API GA; **gpt-realtime** / **gpt-realtime-mini** announced for deprecation.
 - **2026-09** — SeedRealtime, Grok Voice Think Fast, Hibiki-Zero, MiniCPM-o 4.5, PersonaPlex, and many duplex / dual-system papers.
-- **2026-10-06** — This list launched (585 curated entries). Long-form survey: [docs/survey.md](docs/survey.md).
+- **2026-10-06** — This list launched (509 curated entries). Long-form survey: [docs/survey.md](docs/survey.md).
 
 ---
 
@@ -246,15 +245,15 @@ Surveys, taxonomies, and position papers that map spoken dialogue, full-duplex S
 
 - **[2026-05]** **AudioReasoning** - Audio reasoning with large models: a survey. [![arXiv-2605.21008](https://img.shields.io/badge/arXiv--2605.21008-b31b1b.svg)](https://arxiv.org/abs/2605.21008) 📄
   - _Survey of reasoning over audio beyond transcription-only QA._
-- **[2026-03]** **TiCo Survey** - Spoken dialogue model survey (TiCo / Spoken-Dialogue-Model-Survey). [![arXiv-2603.22267](https://img.shields.io/badge/arXiv--2603.22267-b31b1b.svg)](https://arxiv.org/abs/2603.22267) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ga642381/Spoken-Dialogue-Model-Survey) 📄
+- **[2026-03]** **TiCo Survey** - Spoken dialogue model survey (TiCo / Spoken-Dialogue-Model-Survey). [![arXiv-2603.22267](https://img.shields.io/badge/arXiv--2603.22267-b31b1b.svg)](https://arxiv.org/abs/2603.22267) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ga642381/Spoken-Dialogue-Model-Survey) 🧩
   - _Updated spoken-dialogue survey companion to Speech-Trident resources._
 - **[2025-04]** **SLM Landscape** - On the landscape of spoken language models: a comprehensive survey. [![arXiv-2504.08528](https://img.shields.io/badge/arXiv--2504.08528-b31b1b.svg)](https://arxiv.org/abs/2504.08528) 📄
   - _Landscape view of spoken LMs across architectures and interaction modes._
 - **[2025-02]** **LLM-Meets-Speech** - When LLMs meet speech: a survey on integration pathways. [![arXiv-2502.19548](https://img.shields.io/badge/arXiv--2502.19548-b31b1b.svg)](https://arxiv.org/abs/2502.19548) 📄
   - _Survey of how LLMs are integrated with speech understanding and generation._
-- [⭐️] **[2024-11]** **WavChat** - A survey of spoken dialogue models. [![arXiv-2411.13577](https://img.shields.io/badge/arXiv--2411.13577-b31b1b.svg)](https://arxiv.org/abs/2411.13577) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/jishengpeng/WavChat) 📄
+- [⭐️] **[2024-11]** **WavChat** - A survey of spoken dialogue models. [![arXiv-2411.13577](https://img.shields.io/badge/arXiv--2411.13577-b31b1b.svg)](https://arxiv.org/abs/2411.13577) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/jishengpeng/WavChat) 🧩
   - _Landmark survey of cascaded vs end-to-end spoken dialogue, streaming/duplex, datasets and benchmarks._
-- **[2024-10] [ACL 2025]** **SpeechLM Survey** - Recent advances in speech language models: a survey. [![arXiv-2410.03751](https://img.shields.io/badge/arXiv--2410.03751-b31b1b.svg)](https://arxiv.org/abs/2410.03751) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/dreamtheater123/Awesome-SpeechLM-Survey) 📄
+- **[2024-10] [ACL 2025]** **SpeechLM Survey** - Recent advances in speech language models: a survey. [![arXiv-2410.03751](https://img.shields.io/badge/arXiv--2410.03751-b31b1b.svg)](https://arxiv.org/abs/2410.03751) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/dreamtheater123/Awesome-SpeechLM-Survey) 🧩
   - _ACL 2025 survey of SpeechLMs that take/generate speech end-to-end._
 - **[2024-10]** **SpeechLLM Survey** - A survey on speech large language models. [![arXiv-2410.18908](https://img.shields.io/badge/arXiv--2410.18908-b31b1b.svg)](https://arxiv.org/abs/2410.18908) 📄
   - _Broad SpeechLLM taxonomy spanning understanding and generation._
@@ -270,13 +269,13 @@ Surveys, taxonomies, and position papers that map spoken dialogue, full-duplex S
   - _Evaluation methodology paper for real-time / full-duplex voice agents._
 - **[2026-06] [EMNLP 2026]** **DuplexSurvey** - Speaking while listening: a survey and empirical audit of full-duplex spoken dialogue systems. [![arXiv-2606.19453](https://img.shields.io/badge/arXiv--2606.19453-b31b1b.svg)](https://arxiv.org/abs/2606.19453) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/MM-Speech/DuplexSurvey) 🧩
   - _EMNLP 2026 survey with L0–L3 hierarchy, TxIxR ontology, and decision state machine._
-- **[2026-04]** **HumDial-FD** - HumDial full-duplex track and FDBench. [![arXiv-2604.21406](https://img.shields.io/badge/arXiv--2604.21406-b31b1b.svg)](https://arxiv.org/abs/2604.21406) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/datasets/ASLP-lab/HumDial) 🧩
-  - _Full-duplex HumDial track with interruption/rejection metrics aligned to FDB v1.5._
+- **[2026-04]** **HumDial-FDBench** - HumDial full-duplex benchmark track. [![arXiv-2604.21406](https://img.shields.io/badge/arXiv--2604.21406-b31b1b.svg)](https://arxiv.org/abs/2604.21406) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/datasets/ASLP-lab/HumDial) 🧩
+  - _Human-recorded interruption/rejection track aligned with FDB-style metrics._
 - **[2026-01] [ICASSP]** **HumDial** - HumDial: human-recorded dialogue challenge overview. [![arXiv-2601.05564](https://img.shields.io/badge/arXiv--2601.05564-b31b1b.svg)](https://arxiv.org/abs/2601.05564) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ASLP-lab/HumDial) 🧩
   - _ICASSP HumDial challenge framing human-recorded interactive dialogue eval._
 - [⭐️] **[2025-09] [ICASSP 2026 (under review)]** **FD-SLM Survey** - From turn-taking to synchronous dialogue: a survey of full-duplex spoken language models. [![arXiv-2509.14515](https://img.shields.io/badge/arXiv--2509.14515-b31b1b.svg)](https://arxiv.org/abs/2509.14515) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/elpsykongloo/FD-SLMs) 🧩
   - _Defines engineered vs learned sync taxonomy for FD-SLMs; living GitHub list._
-- **[2025-01] [IWSDS 2025]** **TurnTaking-Survey** - Turn-taking survey for spoken dialogue systems (IWSDS 2025). 📄
+- **[2025-05] [IWSDS 2025]** **TurnTaking-Survey** - Turn-taking survey for spoken dialogue systems (IWSDS 2025). [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://aclanthology.org/2025.iwsds-1.27/) 📄
   - _IWSDS 2025 survey focused on turn-taking mechanisms in SDS._
 - **[2021-01] [Computer Speech & Language]** **Skantze Review** - Turn-taking in conversational systems and human-robot interaction: a review. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://doi.org/10.1016/j.csl.2020.101178) 📄
   - _Classic CSL review of turn-taking cues, EOT, interruptions, and HRI._
@@ -284,6 +283,8 @@ Surveys, taxonomies, and position papers that map spoken dialogue, full-duplex S
 <a id="surveys-omni-stream"></a>
 ### Omni, Streaming & Proactive Agents
 
+- **[2026-06]** **Online-Interactors** - Survey of online / interactive multimodal agents. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://github.com/sotayang/Awesome-Streaming-Video-Understanding) 📄
+  - _Survey emphasis on online interactors that decide when to speak under streams._
 - **[2026-03]** **Streaming-LLM** - From static inference to dynamic interaction: a survey of streaming LLMs. [![arXiv-2603.04592](https://img.shields.io/badge/arXiv--2603.04592-b31b1b.svg)](https://arxiv.org/abs/2603.04592) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/EIT-NLP/Awesome-Streaming-LLMs) 🧩
   - _Taxonomy of output-streaming, sequential, and concurrent streaming LLMs._
 - **[2025-06]** **DATES** - Dialogue and agentic tool-use evaluation survey for speech systems. 📄
@@ -298,12 +299,10 @@ Surveys, taxonomies, and position papers that map spoken dialogue, full-duplex S
   - _Survey of discrete speech tokens / codecs used by speech LMs._
 - **[2025-02]** **S1-to-S2** - From System-1 to System-2 speech agents: a survey (verify arXiv). 📄
   - _Survey of fast interaction vs slow reasoning dual pathways in speech agents._
-- **[2025-01]** **Online-Interactors** - Survey of online / interactive multimodal agents. 📄
-  - _Survey emphasis on online interactors that decide when to speak under streams._
+- **[2025-01] [TOIS]** **ProactiveConvAI** - Proactive conversational AI: a survey (TOIS). [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://doi.org/10.1145/3715097) 📄
+  - _TOIS survey of proactivity in conversational agents (when/what to initiate)._
 - **[2024-12]** **Omni-MLLM** - A survey of omni multimodal large language models. [![arXiv-2412.11694](https://img.shields.io/badge/arXiv--2412.11694-b31b1b.svg)](https://arxiv.org/abs/2412.11694) 📄
   - _Survey of any-to-any / omni MLLMs spanning audio, vision, and text._
-- **[2024-01] [TOIS]** **ProactiveConvAI** - Proactive conversational AI: a survey (TOIS). 📄
-  - _TOIS survey of proactivity in conversational agents (when/what to initiate)._
 - **[2023-12]** **VidLLM Survey** - Video-LLMs: a survey of large multimodal models for video understanding. [![arXiv-2312.17432](https://img.shields.io/badge/arXiv--2312.17432-b31b1b.svg)](https://arxiv.org/abs/2312.17432) 📄
   - _Foundational survey of video LLMs prior to streaming/proactive waves._
 
@@ -312,12 +311,12 @@ Surveys, taxonomies, and position papers that map spoken dialogue, full-duplex S
 
 - **[2026-07]** **Model-in-the-Middle** - Model-in-the-middle: interaction harness as first-class design. [![arXiv-2607.25792](https://img.shields.io/badge/arXiv--2607.25792-b31b1b.svg)](https://arxiv.org/abs/2607.25792) 📄
   - _Argues the runtime/harness between users and models is a first-class object._
-- **[2026-01] [ICML 2026]** **Speech-First** - Speech-first interaction models (ICML 2026 position). 📄
+- **[2026-05]** **TML Interaction Models** - Thinking Machines Lab: interaction models perspective. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://thinkingmachines.ai/) 🔒
+  - _Influential blog framing interaction models beyond turn-based chat._
+- **[2026-01] [ICML 2026]** **Speech-First** - Speech-first interaction models (ICML 2026 position). [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://icml.cc/virtual/2026/poster/67080) 📄
   - _ICML 2026 position arguing speech-native modeling over text-cascades._
 - **[2025-02]** **Thoughtful-AI** - Towards thoughtful AI interaction: a position paper. [![arXiv-2502.18676](https://img.shields.io/badge/arXiv--2502.18676-b31b1b.svg)](https://arxiv.org/abs/2502.18676) 📄
   - _Position on deliberate, thoughtful interaction rather than reflex replies._
-- **[2025-01]** **TML Interaction Models** - Thinking Machines Lab: interaction models perspective. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://thinkingmachines.ai/) 🔒
-  - _Influential blog framing interaction models beyond turn-based chat._
 - [⭐️] **[2024-10] [NeurIPS'24 Workshop]** **Talker-Reasoner** - Agents Thinking Fast and Slow: A Talker-Reasoner Architecture. [![arXiv-2410.08328](https://img.shields.io/badge/arXiv--2410.08328-b31b1b.svg)](https://arxiv.org/abs/2410.08328) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://openreview.net/forum?id=xPhcP6rbI4) 📄
   - _Canonical fast Talker + slow Reasoner dual-system for conversational agents._
 - **[2024-04]** **HC-ProactiveAgents** - Human-centered proactive agents: a position. [![arXiv-2404.12670](https://img.shields.io/badge/arXiv--2404.12670-b31b1b.svg)](https://arxiv.org/abs/2404.12670) 📄
@@ -330,24 +329,26 @@ Surveys, taxonomies, and position papers that map spoken dialogue, full-duplex S
   - _GA notes for Gemini 3.8 Live with async tools and extended thinking._
 - **[2026-08]** **TurnBench Blog** - TurnBench: measuring the timing of conversation. [![arXiv-2608.25218](https://img.shields.io/badge/arXiv--2608.25218-b31b1b.svg)](https://arxiv.org/abs/2608.25218) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://turnbench.sesame.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://www.sesame.com/blog/turnbench) 🧩
   - _Sesame blog introducing TurnBench leaderboard for EOT/interruption timing._
+- [⭐️] **[2026-07]** **GPT-Live** - GPT-Live 1: Native Full-Duplex Voice with Backend Delegation. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://openai.com/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-live-1) 🔒
+  - _Native duplex voice front-end with Responses/client delegation to agents; audio/text only, no image/video._
 - **[2026-05]** **GPT-Realtime-2** - GPT Realtime 2 series update. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-realtime-2) 🔒
   - _Realtime 2 generation with stronger tools/reasoning; migrate path from 1.x._
-- [⭐️] **[2026-05]** **GPT-Live** - GPT-Live 1: Native Full-Duplex Voice with Backend Delegation. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://openai.com/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-live-1) 🔒
-  - _Native duplex voice front-end with Responses/client delegation to agents._
+- **[2026-05]** **TML Interaction Models** - Thinking Machines Lab: interaction models perspective. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://thinkingmachines.ai/) 🔒
+  - _Influential blog framing interaction models beyond turn-based chat._
+- [⭐️] **[2026-04]** **Seeduplex** - Doubao Seeduplex: Native Full-Duplex Speech Interaction Model. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.volcengine.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://research.doubao.com/en/seeduplex) 🔒
+  - _ByteDance native full-duplex speech model for continuous bidirectional talk._
 - **[2026-04]** **Qwen3.5-Omni** - Qwen3.5-Omni Technical Report. [![arXiv-2604.15804](https://img.shields.io/badge/arXiv--2604.15804-b31b1b.svg)](https://arxiv.org/abs/2604.15804) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.alibabacloud.com/help/en/model-studio/) 🔒
   - _Next Qwen omni generation with stronger realtime A/V interaction._
+- **[2026-03]** **Gemini 3.1 Flash Live** - Gemini 3.1 Flash Live announcement. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.google.dev/gemini-api/docs/models) 🔒
+  - _Flash-tier live multimodal model in the Gemini Live lineage._
 - [⭐️] **[2026-02]** **PersonaPlex** - PersonaPlex: Controllable Persona and Style for Full-Duplex Speech Dialogue. [![arXiv-2602.06053](https://img.shields.io/badge/arXiv--2602.06053-b31b1b.svg)](https://arxiv.org/abs/2602.06053) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/personaplex) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nvidia/personaplex-7b-v1) 🔓
   - _Moshi-style dual-channel model with controllable persona and conversational style._
-- **[2026-01]** **Gemini 3.1 Flash Live** - Gemini 3.1 Flash Live announcement. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.google.dev/gemini-api/docs/models) 🔒
-  - _Flash-tier live multimodal model in the Gemini Live lineage._
-- [⭐️] **[2025-12]** **Seeduplex** - Doubao Seeduplex: Native Full-Duplex Speech Interaction Model. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.volcengine.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://research.doubao.com/en/seeduplex) 🔒
-  - _ByteDance native full-duplex speech model for continuous bidirectional talk._
 - [⭐️] **[2025-09]** **Qwen3-Omni** - Qwen3-Omni Technical Report. [![arXiv-2509.17765](https://img.shields.io/badge/arXiv--2509.17765-b31b1b.svg)](https://arxiv.org/abs/2509.17765) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM/Qwen3-Omni) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Qwen) 🔓
   - _Strong open omni model with streaming speech and multimodal interaction._
 - **[2025-09]** **FireRedChat** - FireRedChat: A Pluggable, Full-Duplex Voice Interaction System. [![arXiv-2509.06502](https://img.shields.io/badge/arXiv--2509.06502-b31b1b.svg)](https://arxiv.org/abs/2509.06502) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://fireredteam.github.io/demos/firered_chat/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/FireRedTeam/FireRedChat) 🧩
   - _Cascaded/semi-cascaded duplex with turn controller, tools, and LiveKit hosting._
 - **[2025-08]** **gpt-realtime** - gpt-realtime GA / model family notes. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-realtime) 🔒
-  - _GA notes for first-generation gpt-realtime; check deprecation tables before use._
+  - _GA notes for first-generation gpt-realtime. The GA family is scheduled for deprecation on 2027-01-20; the older realtime-preview models were retired in 2026-05._
 - **[2025-06]** **Doubao Realtime Voice** - Doubao / Volcano realtime voice product notes. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.volcengine.com/) 🔒
   - _ByteDance Doubao realtime voice product lineage before Seeduplex paper._
 - **[2025-04]** **Nova Sonic** - Amazon Nova Sonic speech-to-speech announcement. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://aws.amazon.com/ai/generative-ai/nova/) 🔒
@@ -357,15 +358,13 @@ Surveys, taxonomies, and position papers that map spoken dialogue, full-duplex S
 - **[2025-03]** **Qwen2.5-Omni** - Qwen2.5-Omni Technical Report. [![arXiv-2503.20215](https://img.shields.io/badge/arXiv--2503.20215-b31b1b.svg)](https://arxiv.org/abs/2503.20215) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM/Qwen2.5-Omni) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Qwen/Qwen2.5-Omni-7B) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://qwenlm.github.io/) 🔓
   - _Omni model with Thinker–Talker streaming speech generation._
 - **[2025-02]** **Unmute** - Kyutai Unmute: Low-Latency Modular Speech Interaction Stack. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://unmute.sh/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/unmute) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://kyutai.org/) 🧩
-  - _Modular low-latency speech stack wrapping Moshi-family duplex models._
+  - _Composable low-latency voice stack that wraps a text LLM with Kyutai streaming STT/TTS._
 - **[2025-02]** **Sesame CSM** - Sesame Conversational Speech Model. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/SesameAILabs/csm) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/sesame/csm-1b) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice) 🔓
   - _Open conversational speech generator (CSM-1B)._
 - [⭐️] **[2025-02]** **Hibiki** - Hibiki: High-Fidelity Simultaneous Speech-To-Speech Translation. [![arXiv-2502.03382](https://img.shields.io/badge/arXiv--2502.03382-b31b1b.svg)](https://arxiv.org/abs/2502.03382) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/hibiki) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://kyutai.org/) 🔓
   - _High-fidelity simultaneous S2ST built on Moshi-style duplex stacks._
 - **[2025-01]** **MiniCPM-o Blog** - MiniCPM-o omni / streaming release notes. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/OpenBMB/MiniCPM-o) 🔓
   - _OpenBMB omni model release notes used widely as open baseline._
-- **[2025-01]** **TML Interaction Models** - Thinking Machines Lab: interaction models perspective. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://thinkingmachines.ai/) 🔒
-  - _Influential blog framing interaction models beyond turn-based chat._
 - **[2024-12]** **Gemini Live API** - Google Gemini Live API developer blog / docs launch. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.google.dev/gemini-api/docs/live) 🔒
   - _Developer-facing Live API notes for Gemini realtime multimodal._
 - **[2024-11]** **LiveKit EOU** - LiveKit end-of-utterance / turn detector blog. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/livekit/agents) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://blog.livekit.io/) 🧩
@@ -375,7 +374,7 @@ Surveys, taxonomies, and position papers that map spoken dialogue, full-duplex S
 - **[2024-09]** **Advanced Voice Mode** - ChatGPT Advanced Voice Mode announcement. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://openai.com/index/chatgpt-can-now-see-hear-and-speak/) 🔒
   - _Consumer Advanced Voice Mode; distinct from Realtime API SKUs._
 - [⭐️] **[2024-09] [ICLR'25]** **Moshi** - Moshi: a speech-text foundation model for real-time dialogue. [![arXiv-2410.00037](https://img.shields.io/badge/arXiv--2410.00037-b31b1b.svg)](https://arxiv.org/abs/2410.00037) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://moshi.chat/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/moshi) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/kyutai/moshiko-pytorch-bf16) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://kyutai.org/2024/09/17/moshi.html) 🔓
-  - _Hierarchical RQ-Transformer with parallel user/system audio streams for native duplex._
+  - _Hierarchical RQ-Transformer with parallel user/system audio streams for native duplex; released as Moshiko (male) and Moshika (female) voice checkpoints._
 - **[2024-05]** **Project Astra** - Google Project Astra demo / multimodal agent vision. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://deepmind.google/technologies/gemini/project-astra/) 🔒
   - _Google I/O Astra demo shaped expectations for always-on multimodal agents._
 - **[2024-05]** **GPT-4o** - Hello GPT-4o — omni multimodal announcement. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://openai.com/index/hello-gpt-4o/) 🔒
@@ -384,19 +383,19 @@ Surveys, taxonomies, and position papers that map spoken dialogue, full-duplex S
 <a id="tutorials"></a>
 ### Tutorials & Primers
 
+- **[2026-09]** **GPT-Live Guide** - OpenAI GPT-Live developer guide. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/guides/live) 🔒
+  - _Official guide for GPT-Live sessions, delegation, and billing split._
 - **[2026-09] [Interspeech 2026]** **IS26 SLM Tutorial** - Interspeech 2026 tutorial on speech / duplex LMs. 📄
   - _IS 2026 tutorial covering duplex and interactive speech LMs._
 - **[2026-03]** **RTVoiceAgent Tutorial** - Building real-time voice agents: a tutorial. [![arXiv-2603.05413](https://img.shields.io/badge/arXiv--2603.05413-b31b1b.svg)](https://arxiv.org/abs/2603.05413) 📄
   - _Paper tutorial walking through realtime voice-agent pipelines and pitfalls._
-- **[2026-01]** **GPT-Live Guide** - OpenAI GPT-Live developer guide. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/guides/live) 🔒
-  - _Official guide for GPT-Live sessions, delegation, and billing split._
 - **[2025-11] [EMNLP 2025]** **EMNLP25 SCA** - EMNLP 2025 tutorial on spoken conversational agents. 📄
   - _EMNLP tutorial on building and evaluating spoken conversational agents._
-- **[2025-01]** **Voice AI Primer** - Practical Voice AI primer for builders. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://docs.livekit.io/agents/) 🧩
+- **[2025-02]** **Voice AI Primer** - Practical Voice AI primer for builders. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://voiceaiandvoiceagents.com/) 🧩
   - _Practitioner primer covering VAD, turn-taking, STT/TTS, and realtime stacks._
 - **[2024-09] [Interspeech 2024]** **IS24 SLM Tutorial** - Interspeech 2024 tutorial on speech language models. 📄
   - _IS 2024 tutorial introducing SLM architectures and training._
-- **[2024-01]** **Pipecat Docs** - Pipecat voice-agent builder documentation. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/pipecat-ai/pipecat) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.pipecat.ai/) 🧩
+- **[2024-05]** **Pipecat Docs** - Pipecat voice-agent builder documentation. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/pipecat-ai/pipecat) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.pipecat.ai/) 🧩
   - _Hands-on docs for composing VAD/STT/LLM/TTS pipelines._
 - **[2024-01]** **LiveKit Agents Guide** - LiveKit Agents documentation and recipes. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/livekit/agents) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.livekit.io/agents/) 🧩
   - _Production-oriented guide for LiveKit voice agents and EOU._
@@ -410,26 +409,26 @@ Surveys, taxonomies, and position papers that map spoken dialogue, full-duplex S
   - _Living list paired with arXiv 2603.22267._
 - **[2026-03]** **Awesome-Streaming-LLMs** - Paper list for streaming LLMs/MLLMs. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/EIT-NLP/Awesome-Streaming-LLMs) 🧩
   - _Companion list to the Streaming-LLM survey (text/audio/video)._
+- **[2025-12]** **Awesome-Streaming-Video-Understanding** - Curated streaming / online video understanding papers. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/sotayang/Awesome-Streaming-Video-Understanding) 🧩
+  - _Proactive and reactive streaming video-LLM paper list._
+- **[2025-11]** **awesome-voice-agents** - Curated voice agent frameworks, VAD, turn detection, STT/TTS. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/yzfly/awesome-voice-agents) 🧩
+  - _Builder-oriented list of voice-agent stacks and components._
 - **[2025-09]** **FD-SLMs** - Living repository for the FD-SLM survey. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/elpsykongloo/FD-SLMs) 🧩
   - _Engineered vs learned sync catalog from the FD-SLM survey._
-- **[2025-01]** **awesome-voice-agents** - Curated voice agent frameworks, VAD, turn detection, STT/TTS. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/yzfly/awesome-voice-agents) 🧩
-  - _Builder-oriented list of voice-agent stacks and components._
-- **[2025-01]** **Awesome-Unified-Multimodal-Models** - Awesome list of unified multimodal / omni models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/aidc-ai/awesome-unified-multimodal-models) 🧩
-  - _Navigation list for unified multimodal model papers and releases._
-- **[2025-01]** **Awesome-Streaming-Video-Understanding** - Curated streaming / online video understanding papers. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/sotayang/Awesome-Streaming-Video-Understanding) 🧩
-  - _Proactive and reactive streaming video-LLM paper list._
-- **[2025-01]** **Awesome-Full-Duplex-SDM** - Curated list of full-duplex spoken dialogue models & benchmarks. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Ruiqi-Yan/Awesome-Full-Duplex-SDM) 🧩
+- **[2025-07]** **Awesome-Full-Duplex-SDM** - Curated list of full-duplex spoken dialogue models & benchmarks. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Ruiqi-Yan/Awesome-Full-Duplex-SDM) 🧩
   - _Actively maintained FD-SDM models, datasets, and benchmarks._
+- **[2025-05]** **Awesome-Unified-Multimodal-Models** - Awesome list of unified multimodal / omni models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/aidc-ai/awesome-unified-multimodal-models) 🧩
+  - _Navigation list for unified multimodal model papers and releases._
 - **[2024-11]** **WavChat-repo** - Companion repository for the WavChat survey. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/jishengpeng/WavChat) 🧩
   - _Living paper list accompanying WavChat._
 - **[2024-10]** **Awesome-SpeechLM-Survey** - GitHub list for the SpeechLM survey (ACL 2025). [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/dreamtheater123/Awesome-SpeechLM-Survey) 🧩
   - _Paper list for end-to-end SpeechLMs and related LALMs._
-- **[2024-01]** **Speech-Trident** - Awesome speech/audio LLMs, codecs, and representation learning. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ga642381/speech-trident) 🧩
-  - _Curated trident list: representation, codec, and speech LM resources._
-- **[2024-01]** **Large-Audio-Models** - Curated large audio models paper list. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/liusongxiang/Large-Audio-Models) 🧩
-  - _Companion list often cross-linked from Speech-Trident._
-- **[2024-01]** **Awesome-Audio-LLM** - Awesome list of audio LLMs, datasets, and benchmarks. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/BinWang28/audio-ai-hub) 🧩
+- **[2024-06]** **Awesome-Audio-LLM** - Awesome list of audio LLMs, datasets, and benchmarks. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/BinWang28/audio-ai-hub) 🧩
   - _Broad audio-LLM hub spanning papers, datasets, and evals._
+- **[2024-04]** **Speech-Trident** - Awesome speech/audio LLMs, codecs, and representation learning. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ga642381/speech-trident) 🧩
+  - _Curated trident list: representation, codec, and speech LM resources._
+- **[2023-03]** **Large-Audio-Models** - Curated large audio models paper list. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/liusongxiang/Large-Audio-Models) 🧩
+  - _Companion list often cross-linked from Speech-Trident._
 
 <a id="turn-based"></a>
 ## 🎙️ 1. Turn-based Speech & Omni LLMs
@@ -455,7 +454,7 @@ Half-duplex or request–response speech/Omni models that understand audio (and 
 <a id="e2e-speech-dialogue"></a>
 ### End-to-End Spoken Dialogue Models
 
-- **[2025-08]** **Step-Audio 2 mini** - Step-Audio 2 mini: Compact Speech Understanding and Streaming Generation. 🔓
+- **[2025-08]** **Step-Audio 2 mini** - Step-Audio 2 mini: Compact Speech Understanding and Streaming Generation. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/stepfun-ai/Step-Audio2) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/stepfun-ai/Step-Audio-2-mini) 🔓
   - _Compact Step-Audio 2 variant for speech understanding and streaming TTS._
 - **[2025-08]** **OSUM-EChat** - OSUM-EChat: Enhancing End-to-End Empathetic Spoken Chatbot. [![arXiv-2508.09600](https://img.shields.io/badge/arXiv--2508.09600-b31b1b.svg)](https://arxiv.org/abs/2508.09600) 🔓
   - _Empathetic end-to-end spoken chatbot with paralinguistic control._
@@ -475,12 +474,12 @@ Half-duplex or request–response speech/Omni models that understand audio (and 
   - _0.5B–32B streaming speech interaction model family._
 - **[2025-04]** **Kimi-Audio** - Kimi-Audio: Audio Foundation Models for Understanding and Generation. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/MoonshotAI/Kimi-Audio) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct) 🔓
   - _Audio foundation models for speech understanding and generation._
-- **[2025-02]** **Step-Audio** - Step-Audio / Step-Audio-Chat: End-to-End Speech Interaction. 🔓
+- **[2025-02]** **Step-Audio** - Step-Audio / Step-Audio-Chat: End-to-End Speech Interaction. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/stepfun-ai/Step-Audio) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/stepfun-ai/Step-Audio-Chat) 🔓
   - _Large end-to-end speech chat model preceding Step-Audio 2._
+- **[2025-02]** **Baichuan-Audio** - Baichuan-Audio: End-to-End Audio Dialogue Models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/baichuan-inc) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/baichuan-inc/Baichuan-Audio-Instruct) 🔓
+  - _End-to-end audio dialogue models from Baichuan._
 - **[2025-01]** **LUCY** - LUCY: Linguistic Understanding and Control Yielding Early Stage Empathy. [![arXiv-2501.16327](https://img.shields.io/badge/arXiv--2501.16327-b31b1b.svg)](https://arxiv.org/abs/2501.16327) 📄
   - _Early-stage empathetic spoken dialogue with linguistic control._
-- **[2025-01]** **Baichuan-Audio** - Baichuan-Audio: End-to-End Audio Dialogue Models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/baichuan-inc) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/baichuan-inc/Baichuan-Audio-Instruct) 🔓
-  - _End-to-end audio dialogue models from Baichuan._
 - **[2024-10]** **GLM-4-Voice** - GLM-4-Voice: Towards Versatile and Efficient End-to-End Speech Interaction. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/THUDM/GLM-4-Voice) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/THUDM/glm-4-voice-9b) 🔓
   - _End-to-end spoken dialogue model with streaming speech generation._
 - **[2024-09]** **LLaMA-Omni** - LLaMA-Omni: Seamless Speech Interaction with Large Language Models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ictnlp/LLaMA-Omni) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/ICTNLP/Llama-3.1-8B-Omni) 🔓
@@ -499,7 +498,7 @@ Half-duplex or request–response speech/Omni models that understand audio (and 
   - _Large MoE omni model with realtime speech generation capabilities._
 - [⭐️] **[2025-09]** **Qwen3-Omni** - Qwen3-Omni Technical Report. [![arXiv-2509.17765](https://img.shields.io/badge/arXiv--2509.17765-b31b1b.svg)](https://arxiv.org/abs/2509.17765) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM/Qwen3-Omni) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Qwen) 🔓
   - _Strong open omni model with streaming speech and multimodal interaction._
-- **[2025-08]** **Ming-flash-omni** - Ming-Flash-Omni: Large MoE Omni Generation Models. 🔓
+- **[2025-08]** **Ming-flash-omni** - Ming-Flash-Omni: Large MoE Omni Generation Models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Ming) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI/Ming-flash-omni-2.0) 🔓
   - _Sparse MoE omni models for multimodal generation and interaction._
 - **[2025-07]** **MiMo-Audio** - MiMo-Audio: End-to-End Audio Language Models from Xiaomi. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/XiaomiMiMo/MiMo-Audio) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/XiaomiMiMo/MiMo-Audio-7B-Instruct) 🔓
   - _End-to-end audio LM with in-context audio understanding/generation._
@@ -521,30 +520,20 @@ Half-duplex or request–response speech/Omni models that understand audio (and 
   - _Audio foundation models for speech understanding and generation._
 - **[2025-03]** **Qwen2.5-Omni** - Qwen2.5-Omni Technical Report. [![arXiv-2503.20215](https://img.shields.io/badge/arXiv--2503.20215-b31b1b.svg)](https://arxiv.org/abs/2503.20215) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM/Qwen2.5-Omni) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Qwen/Qwen2.5-Omni-7B) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://qwenlm.github.io/) 🔓
   - _Omni model with Thinker–Talker streaming speech generation._
-- **[2025-03]** **Ming-Lite-Omni** - Ming-Lite-Omni / v1.5: Sparse Omni Generation. 🔓
+- **[2025-03]** **Ming-Lite-Omni** - Ming-Lite-Omni / v1.5: Sparse Omni Generation. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Ming) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI/Ming-Lite-Omni) 🔓
   - _Sparse omni generation models in the Ming family._
-- **[2025-01]** **VITA / VITA-1.5** - VITA / VITA-1.5. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/VITA-MLLM/VITA) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/VITA-MLLM/VITA-1.5) 🔓
-  - _初代外部语音链路与 1.5 原生输出不同；模型监听角色分工也不等同于后台任务 agent。_
-- **[2025-01]** **Step-Audio 2 mini / mini-Base / mini-Think** - Step-Audio 2 mini / mini-Base / mini-Think. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/stepfun-ai/Step-Audio2) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/stepfun-ai/Step-Audio-2-mini) 📄
-  - _开放 mini 不代表完整旗舰 Step-Audio 2 同尺寸权重已开放；Think 变体输出模式按模型卡选。_
-- **[2025-01]** **Step-Audio / Step-Audio-Chat** - Step-Audio / Step-Audio-Chat. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/stepfun-ai/Step-Audio) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/stepfun-ai/Step-Audio-Chat) 🔓
-  - _首代仓库已声明停止维护；130B 部署成本与 7B mini 不可类比，各组件仍需分别查许可。_
-- **[2025-01]** **MiniCPM-o 2.6** - MiniCPM-o 2.6. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/OpenBMB/MiniCPM-o) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/openbmb/MiniCPM-o-2_6) 🔓
-  - _2.6 与 4.5 的原生全双工能力不要混用；许可证也应查当前模型卡而非早期转载。_
-- **[2025-01]** **Mini-Omni / Mini-Omni2** - Mini-Omni / Mini-Omni2. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/gpt-omni/mini-omni) 🔓
-  - _Mini-Omni2 支持打断不代表与 Moshi 式多流建模完全等价；需看控制机制。_
-- **[2025-01]** **Ming-Lite-Omni / v1.5** - Ming-Lite-Omni / v1.5. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Ming) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI/Ming-Lite-Omni) 🔓
-  - _不同版本生成模态有差异；开放 Omni 生成不自动具备原生对话全双工。_
-- **[2025-01]** **Ming-Flash-Omni Preview / 2.0** - Ming-Flash-Omni Preview / 2.0. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Ming) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI/Ming-flash-omni-2.0) 🔓
-  - _与 Realtime-Venus 是不同模型路线；不能把 Venus 的双工/Harness 功能套到所有 Ming checkpoint。_
-- **[2025-01]** **Baichuan-Omni-1.5** - Baichuan-Omni-1.5: Multimodal Omni Models with Speech Generation. 🔓
-  - _Omni multimodal models with speech generation and streaming output._
-- **[2025-01]** **Baichuan-Omni / Omni-1.5** - Baichuan-Omni / Omni-1.5. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/baichuan-inc/Baichuan-Omni-1.5) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/baichuan-inc/Baichuan-Omni-1d5) 🔓
-  - _早期 Omni 与 1.5 的输出能力、许可证分别看，不能直接继承最新版本功能。_
-- **[2025-01]** **Baichuan-Audio** - Baichuan-Audio: End-to-End Audio Dialogue Models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/baichuan-inc) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/baichuan-inc/Baichuan-Audio-Instruct) 🔓
+- **[2025-02]** **Baichuan-Audio** - Baichuan-Audio: End-to-End Audio Dialogue Models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/baichuan-inc) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/baichuan-inc/Baichuan-Audio-Instruct) 🔓
   - _End-to-end audio dialogue models from Baichuan._
+- **[2025-01]** **VITA-1.5** - VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction. [![arXiv-2501.01957](https://img.shields.io/badge/arXiv--2501.01957-b31b1b.svg)](https://arxiv.org/abs/2501.01957) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/VITA-MLLM/VITA) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/VITA-MLLM/VITA-1.5) 🔓
+  - _Upgraded dual-model omni interaction with streaming speech and vision._
+- **[2025-01]** **MiniCPM-o 2.6** - MiniCPM-o 2.6. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/OpenBMB/MiniCPM-o) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/openbmb/MiniCPM-o-2_6) 🔓
+  - _Do not conflate 2.6 with the native full-duplex capability of 4.5; check the license on the current model card rather than early reposts._
+- **[2025-01]** **Baichuan-Omni-1.5** - Baichuan-Omni-1.5: Multimodal Omni Models with Speech Generation. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/baichuan-inc/Baichuan-Omni-1.5) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/baichuan-inc/Baichuan-Omni-1d5) 🔓
+  - _Omni multimodal models with speech generation and streaming output._
 - **[2024-11]** **Freeze-Omni** - Freeze-Omni: A Smart and Low Computational Cost Speech-to-Speech Dialogue Model. [![arXiv-2411.00774](https://img.shields.io/badge/arXiv--2411.00774-b31b1b.svg)](https://arxiv.org/abs/2411.00774) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/VITA-MLLM/Freeze-Omni) 🔓
   - _Frozen text backbone plus speech modules and an external duplex controller._
+- **[2024-10]** **Mini-Omni2** - Mini-Omni2: Towards Open-source GPT-4o Mini with Vision, Speech and Duplex. [![arXiv-2410.11190](https://img.shields.io/badge/arXiv--2410.11190-b31b1b.svg)](https://arxiv.org/abs/2410.11190) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/gpt-omni/mini-omni2) 🔓
+  - _Small end-to-end omni model with interruption-aware duplex mechanisms._
 - **[2024-10]** **GLM-4-Voice** - GLM-4-Voice: Towards Versatile and Efficient End-to-End Speech Interaction. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/THUDM/GLM-4-Voice) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/THUDM/glm-4-voice-9b) 🔓
   - _End-to-end spoken dialogue model with streaming speech generation._
 - **[2024-09]** **MIO** - MIO: A Foundation Model on Multimodal Tokens. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/MIO-Team/MIO) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/m-a-p/MIO-7B-Instruct) 🔓
@@ -559,8 +548,6 @@ Half-duplex or request–response speech/Omni models that understand audio (and 
   - _Discrete any-to-any multimodal generation including speech._
 - **[2023-09]** **NExT-GPT** - NExT-GPT: Any-to-Any Multimodal LLM. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NExT-GPT/NExT-GPT) 🔓
   - _Modular any-to-any multimodal LLM connecting diffusion experts._
-- **[2023-05]** **SpeechGPT / SpeechGPT-Gen** - SpeechGPT / SpeechGPT-Gen lineage. [![arXiv-2305.11000](https://img.shields.io/badge/arXiv--2305.11000-b31b1b.svg)](https://arxiv.org/abs/2305.11000) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/0nutation/SpeechGPT) 📄
-  - _历史基础路线；不能将后来语音 agent 的功能回填到初版。_
 
 <a id="full-duplex"></a>
 ## 🔄 2. Full-Duplex Interaction Models
@@ -572,7 +559,7 @@ Systems whose time axis supports (or explicitly coordinates) listening and speak
 
 - **[2026-08]** **LPS-TC** - Enabling Proactive Spoken Turns via a Generalized Style-Aware Turn Controller. [![arXiv-2608.28630](https://img.shields.io/badge/arXiv--2608.28630-b31b1b.svg)](https://arxiv.org/abs/2608.28630) 📄
   - _Style-aware turn controller for proactive spoken turns with stereo data._
-- **[2026-03]** **DuplexCascade** - DuplexCascade: VAD-free System Duplex with Micro-Turn Control. [![arXiv-2603.09180](https://img.shields.io/badge/arXiv--2603.09180-b31b1b.svg)](https://arxiv.org/abs/2603.09180) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/sbintuitions/DuplexCascade) 📄
+- **[2026-03]** **DuplexCascade** - DuplexCascade: VAD-free System Duplex with Micro-Turn Control. [![arXiv-2603.09180](https://img.shields.io/badge/arXiv--2603.09180-b31b1b.svg)](https://arxiv.org/abs/2603.09180) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/sbintuitions/DuplexCascade) 🧩
   - _VAD-free cascaded duplex system using micro-turn control policies._
 - **[2025-12]** **XTalk** - XTalk: A System-Level Full-Duplex Voice Interaction Framework. [![arXiv-2512.18706](https://img.shields.io/badge/arXiv--2512.18706-b31b1b.svg)](https://arxiv.org/abs/2512.18706) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/xcc-zach/xtalk) 🧩
   - _System-level full-duplex voice interaction with engineered sync layers._
@@ -582,7 +569,7 @@ Systems whose time axis supports (or explicitly coordinates) listening and speak
   - _Neural audio codec streaming endpointer cutting cutoff errors ~40%._
 - **[2025-06]** **CleanS2S** - CleanS2S: An Open Pipeline for Active Real-Time Speech-to-Speech Agents. [![arXiv-2506.01268](https://img.shields.io/badge/arXiv--2506.01268-b31b1b.svg)](https://arxiv.org/abs/2506.01268) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/opendilab/CleanS2S) 🧩
   - _Open active/real-time speech-to-speech pipeline with duplex control modules._
-- **[2025-05]** **NeMo SpeechLM2 Duplex** - NeMo SpeechLM2: SALM, DuplexS2S, DuplexSTT and EAR TTS Recipes. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/NeMo) 🧩
+- **[2025-05]** **NeMo SpeechLM2 Duplex** - NeMo SpeechLM2: SALM, DuplexS2S, DuplexSTT and EAR TTS Recipes. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/NeMo) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.nvidia.com/nemo/speech/nightly/speechlm2/models.html) 🧩
   - _NeMo recipes for duplex S2S/STT pipelines and speech-language agents._
 - **[2025-05]** **EAR-TTS** - EAR TTS Streaming Synthesis for Duplex Pipelines. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/NeMo) 🧩
   - _Streaming TTS component used inside NeMo duplex speech pipelines._
@@ -591,23 +578,19 @@ Systems whose time axis supports (or explicitly coordinates) listening and speak
 - **[2025-03]** **SpeculativeETD** - Speculative End-Turn Detector for Efficient Speech Chatbot Assistants. [![arXiv-2503.23439](https://img.shields.io/badge/arXiv--2503.23439-b31b1b.svg)](https://arxiv.org/abs/2503.23439) 📄
   - _Collaborative on-device/server end-turn detection for duplex pipelines._
 - **[2025-02]** **Unmute** - Kyutai Unmute: Low-Latency Modular Speech Interaction Stack. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://unmute.sh/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/unmute) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://kyutai.org/) 🧩
-  - _Modular low-latency speech stack wrapping Moshi-family duplex models._
+  - _Composable low-latency voice stack that wraps a text LLM with Kyutai streaming STT/TTS._
 - **[2025-02]** **LLM-DM** - LLM-Enhanced Dialogue Management for Full-Duplex Spoken Dialogue Systems. [![arXiv-2502.14145](https://img.shields.io/badge/arXiv--2502.14145-b31b1b.svg)](https://arxiv.org/abs/2502.14145) 📄
   - _0.5B dialogue manager predicts speak/listen tokens for barge-in decisions._
 - **[2025-02]** **FlexDuo** - FlexDuo: A Pluggable System for Flexible Full-Duplex Speech Interaction. [![arXiv-2502.13472](https://img.shields.io/badge/arXiv--2502.13472-b31b1b.svg)](https://arxiv.org/abs/2502.13472) 📄
   - _Pluggable duplex controller decoupled from the underlying dialogue model._
-- **[2025-01]** **VITA-1.5** - VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction. [![arXiv-2501.01957](https://img.shields.io/badge/arXiv--2501.01957-b31b1b.svg)](https://arxiv.org/abs/2501.01957) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/VITA-MLLM/VITA) 🔓
+- **[2025-01]** **VITA-1.5** - VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction. [![arXiv-2501.01957](https://img.shields.io/badge/arXiv--2501.01957-b31b1b.svg)](https://arxiv.org/abs/2501.01957) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/VITA-MLLM/VITA) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/VITA-MLLM/VITA-1.5) 🔓
   - _Upgraded dual-model omni interaction with streaming speech and vision._
-- **[2025-01]** **VITA / VITA-1.5** - VITA / VITA-1.5. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/VITA-MLLM/VITA) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/VITA-MLLM/VITA-1.5) 🔓
-  - _初代外部语音链路与 1.5 原生输出不同；模型监听角色分工也不等同于后台任务 agent。_
 - **[2025-01]** **Interrupt Handling** - Interruption Handling for Conversational Robots. [![arXiv-2501.01568](https://img.shields.io/badge/arXiv--2501.01568-b31b1b.svg)](https://arxiv.org/abs/2501.01568) 📄
   - _LLM interruption classifier for engineered duplex robot dialogue._
 - **[2024-11]** **Freeze-Omni** - Freeze-Omni: A Smart and Low Computational Cost Speech-to-Speech Dialogue Model. [![arXiv-2411.00774](https://img.shields.io/badge/arXiv--2411.00774-b31b1b.svg)](https://arxiv.org/abs/2411.00774) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/VITA-MLLM/Freeze-Omni) 🔓
   - _Frozen text backbone plus speech modules and an external duplex controller._
 - **[2024-08]** **VITA** - VITA: Towards Open-Source Interactive Omni Assistant. [![arXiv-2408.05211](https://img.shields.io/badge/arXiv--2408.05211-b31b1b.svg)](https://arxiv.org/abs/2408.05211) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/VITA-MLLM/VITA) 🔓
   - _Dual-model interactive omni assistant with controller-mediated duplex._
-- **[2024-05]** **Neural-FSM** - Neural-FSM full-duplex speech dialogue scheme. [![arXiv-2405.19487](https://img.shields.io/badge/arXiv--2405.19487-b31b1b.svg)](https://arxiv.org/abs/2405.19487) 📄
-  - _论文题名为 A Full-duplex Speech Dialogue Scheme Based on Large Language Models；单列避免遗漏控制器路线。_
 - **[2024-05] [NeurIPS'24]** **Neural-FSM** - Full-Duplex Speech Dialogue via Neural Finite-State Machines. [![arXiv-2405.19487](https://img.shields.io/badge/arXiv--2405.19487-b31b1b.svg)](https://arxiv.org/abs/2405.19487) 📄
   - _Neural FSM controller coordinates speak/listen states over cascaded modules._
 - **[2022-05] [KDD'22]** **Duplex Conversation** - Duplex Conversation: Towards Human-like Interaction in Spoken Dialogue Systems. [![arXiv-2205.15060](https://img.shields.io/badge/arXiv--2205.15060-b31b1b.svg)](https://arxiv.org/abs/2205.15060) 📄
@@ -616,37 +599,35 @@ Systems whose time axis supports (or explicitly coordinates) listening and speak
 <a id="duplex-multistream"></a>
 ### 2.2 Learned Sync: Multi-Stream / Dual-Channel
 
-- **[2026-09]** **VoiceChat** - NemotronLabs VoiceChat: An Open Full-Duplex Spoken Dialogue Model. [![arXiv-2609.21967](https://img.shields.io/badge/arXiv--2609.21967-b31b1b.svg)](https://arxiv.org/abs/2609.21967) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B) 🔓
+- **[2026-09]** **VoiceChat** - NemotronLabs VoiceChat: An Open Full-Duplex Spoken Dialogue Model. [![arXiv-2609.21967](https://img.shields.io/badge/arXiv--2609.21967-b31b1b.svg)](https://arxiv.org/abs/2609.21967) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://build.nvidia.com/nvidia/nemotron-voicechat/modelcard) 🔓
   - _11B dual-channel duplex SLM with a separate tool-calling output channel._
 - **[2026-09]** **SteerDuplex** - SteerDuplex: Controllable Moshi-style Full-Duplex Spoken Dialogue. [![arXiv-2609.12623](https://img.shields.io/badge/arXiv--2609.12623-b31b1b.svg)](https://arxiv.org/abs/2609.12623) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Utkarsh4430/SteerDuplex) 📄
   - _Controllable Moshi-family duplex model with steered conversational behaviours._
-- [⭐️] **[2026-09]** **Realtime-Venus** - Realtime-Venus: Full-Duplex Interaction with Asynchronous Task Delegation. [![arXiv-2609.13814](https://img.shields.io/badge/arXiv--2609.13814-b31b1b.svg)](https://arxiv.org/abs/2609.13814) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI) 🔓
+- [⭐️] **[2026-09]** **Realtime-Venus** - Realtime-Venus: Full-Duplex Interaction with Asynchronous Task Delegation. [![arXiv-2609.13814](https://img.shields.io/badge/arXiv--2609.13814-b31b1b.svg)](https://arxiv.org/abs/2609.13814) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Realtime-Venus) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI/Realtime-Venus) 🔓
   - _MiniCPM-o-based duplex front-end with dual-loop async tool/brain delegation._
-- **[2026-09]** **NVIDIA NemotronLabs VoiceChat** - NemotronLabs VoiceChat: An Open Full-duplex Speech-to-Speech Model with Tool Calling Capabilities. [![arXiv-2609.21967](https://img.shields.io/badge/arXiv--2609.21967-b31b1b.svg)](https://arxiv.org/abs/2609.21967) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://build.nvidia.com/nvidia/nemotron-voicechat/modelcard) 🔓
-  - _HF 名称为 11B；NIM 页另见 Nemotron 3 VoiceChat 12B，不强行当作同一尺寸/同一 artifact。训练数据描述公开不等于全部数据可下载。_
 - **[2026-09]** **MultiTalk** - MultiTalk: Scaling Full-Duplex Speech Models to Long Multi-Party Dialogue. [![arXiv-2609.36903](https://img.shields.io/badge/arXiv--2609.36903-b31b1b.svg)](https://arxiv.org/abs/2609.36903) 📄
   - _Scales full-duplex speech models to long multi-party conversations._
 - **[2026-08]** **JoyAI-Talker** - JoyAI-Talker: Full-Duplex Speech Interactive Large Model for Empathetic Agents. [![arXiv-2608.01119](https://img.shields.io/badge/arXiv--2608.01119-b31b1b.svg)](https://arxiv.org/abs/2608.01119) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://research.joyai.com/joyai-talker) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/jd-opensource/JoyAI-VL-Interaction) 📄
   - _Modular Thinker–Talker full-duplex speech model for empathetic agents._
 - **[2026-07] [ACL'26]** **Lychee-FD** - Lychee-FD: Full-Duplex Spoken Dialogue with Dual-Stream Modeling. [![arXiv-2607.06540](https://img.shields.io/badge/arXiv--2607.06540-b31b1b.svg)](https://arxiv.org/abs/2607.06540) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/HITsz-TMG/Lychee-FD) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/HIT-TMG/Lychee-FD) 🔓
   - _Open dual-stream full-duplex spoken dialogue model from HITsz-TMG._
-- **[2026-06]** **Step-Audio 3 RT** - Step-Audio 3 Realtime: Official Full-Duplex Speech Product. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.stepfun.com/) 🔒
+- **[2026-06]** **Step-Audio 3 RT** - Step-Audio 3 Realtime: Official Full-Duplex Speech Product. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.stepfun.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://static.stepfun.com/blog/stepaudio3/realtime/) 🔒
   - _Official full-duplex realtime speech product with dual-system service hooks._
 - **[2026-06]** **BayLing-Duplex** - BayLing-Duplex: Native Full-Duplex Spoken Dialogue without External Controllers. [![arXiv-2606.14528](https://img.shields.io/badge/arXiv--2606.14528-b31b1b.svg)](https://arxiv.org/abs/2606.14528) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/BayLing-Models/BayLing-Duplex) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/BayLing-Models/BayLing-Duplex) 🔓
   - _Native full-duplex SLM without independent VAD or turn controller._
+- [⭐️] **[2026-04]** **Seeduplex** - Doubao Seeduplex: Native Full-Duplex Speech Interaction Model. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.volcengine.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://research.doubao.com/en/seeduplex) 🔒
+  - _ByteDance native full-duplex speech model for continuous bidirectional talk._
 - [⭐️] **[2026-02]** **PersonaPlex** - PersonaPlex: Controllable Persona and Style for Full-Duplex Speech Dialogue. [![arXiv-2602.06053](https://img.shields.io/badge/arXiv--2602.06053-b31b1b.svg)](https://arxiv.org/abs/2602.06053) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/personaplex) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nvidia/personaplex-7b-v1) 🔓
   - _Moshi-style dual-channel model with controllable persona and conversational style._
 - **[2026-01] [ACL Findings'26]** **F-Actor** - F-Actor: Controllable Conversational Behaviour in Full-Duplex Spoken Dialogue. [![arXiv-2601.11329](https://img.shields.io/badge/arXiv--2601.11329-b31b1b.svg)](https://arxiv.org/abs/2601.11329) 🔓
   - _Instruction-following duplex model controlling voice and conversational behaviours._
-- [⭐️] **[2025-12]** **Seeduplex** - Doubao Seeduplex: Native Full-Duplex Speech Interaction Model. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.volcengine.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://research.doubao.com/en/seeduplex) 🔒
-  - _ByteDance native full-duplex speech model for continuous bidirectional talk._
 - **[2025-11]** **AV-Dialog** - AV-Dialog: Spoken Dialogue Models with Audio-Visual Input. [![arXiv-2511.11124](https://img.shields.io/badge/arXiv--2511.11124-b31b1b.svg)](https://arxiv.org/abs/2511.11124) 📄
   - _Audio-visual spoken dialogue extending duplex listening with visual cues._
-- **[2025-10]** **KAME** - KAME: Moshi Front-End with Asynchronous Oracle Reasoning. [![arXiv-2510.02327](https://img.shields.io/badge/arXiv--2510.02327-b31b1b.svg)](https://arxiv.org/abs/2510.02327) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/SakanaAI/kame) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/SakanaAI/kame) 📄
+- **[2025-10]** **KAME** - KAME: Moshi Front-End with Asynchronous Oracle Reasoning. [![arXiv-2510.02327](https://img.shields.io/badge/arXiv--2510.02327-b31b1b.svg)](https://arxiv.org/abs/2510.02327) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/SakanaAI/kame) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/SakanaAI/kame) 🔓
   - _Moshi duplex front-end paired with an asynchronous oracle reasoner._
 - **[2025-09]** **Open FD Data** - Open-Source Full-Duplex Conversational Datasets for Native Duplex Training. [![arXiv-2509.04093](https://img.shields.io/badge/arXiv--2509.04093-b31b1b.svg)](https://arxiv.org/abs/2509.04093) 📄
   - _Open stereo duplex corpora used to train multi-stream duplex SLMs._
-- **[2025-06] [ICML'25]** **NTPP** - Next Token Pair Prediction: Dual-Channel Spoken Dialogue Generation. [![arXiv-2506.00975](https://img.shields.io/badge/arXiv--2506.00975-b31b1b.svg)](https://arxiv.org/abs/2506.00975) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Chaos96/NTPP) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/aigc-x/NTPP-0.5B) 📄
+- **[2025-06] [ICML'25]** **NTPP** - Next Token Pair Prediction: Dual-Channel Spoken Dialogue Generation. [![arXiv-2506.00975](https://img.shields.io/badge/arXiv--2506.00975-b31b1b.svg)](https://arxiv.org/abs/2506.00975) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Chaos96/NTPP) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/aigc-x/NTPP-0.5B) 🔓
   - _Next-token-pair objective jointly predicts dual-channel speech tokens._
 - **[2025-06]** **MoshiRAG** - MoshiRAG: Full-Duplex Front-End with Retrieval Backend. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://github.com/kyutai-labs) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/moshi-rag) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/kyutai/moshika-rag-pytorch-bf16) 🧩
   - _Moshi duplex talker with asynchronous retrieval/reasoner backend._
@@ -658,26 +639,18 @@ Systems whose time axis supports (or explicitly coordinates) listening and speak
   - _Direct duplex SpeechLM with asymmetric user/assistant audio channels._
 - **[2025-03]** **J-Moshi** - J-Moshi: Japanese Adaptation of Moshi for Full-Duplex Dialogue. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/nu-dialogue/j-moshi) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nu-dialogue/j-moshi) 🔓
   - _Japanese Moshi-family dual-stream full-duplex speech dialogue model._
-- **[2025-02]** **DuplexMamba** - DuplexMamba: State-Space Modeling for Full-Duplex Spoken Dialogue. [![arXiv-2502.11123](https://img.shields.io/badge/arXiv--2502.11123-b31b1b.svg)](https://arxiv.org/abs/2502.11123) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/khfs/DuplexMamba) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Xiangyu1/DuplexMamba) 📄
+- **[2025-02]** **DuplexMamba** - DuplexMamba: State-Space Modeling for Full-Duplex Spoken Dialogue. [![arXiv-2502.11123](https://img.shields.io/badge/arXiv--2502.11123-b31b1b.svg)](https://arxiv.org/abs/2502.11123) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/khfs/DuplexMamba) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Xiangyu1/DuplexMamba) 🔓
   - _State-space duplex speech dialogue with efficient dual-stream processing._
 - **[2025-01]** **RTS2S-DG** - Real-Time Textless Dialogue Generation with Dual-Stream Speech Models. [![arXiv-2501.04877](https://img.shields.io/badge/arXiv--2501.04877-b31b1b.svg)](https://arxiv.org/abs/2501.04877) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/mailong25/rts2s-dg) 🧩
   - _Textless real-time dual-stream speech dialogue generation system._
-- **[2025-01]** **Parrot** - Parrot: Full-Duplex Spoken Dialogue Generation. 📄
-  - _Research prototype for full-duplex spoken dialogue generation._
-- **[2025-01]** **Hertz-dev** - Hertz-dev: An Open Full-Duplex Audio Foundation Model. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://github.com/Standard-Intelligence/hertz-dev) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Standard-Intelligence/hertz-dev) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Standard-Intelligence/hertz-dev) 🔓
+- **[2024-11]** **Hertz-dev** - Hertz-dev: An Open Full-Duplex Audio Foundation Model. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://github.com/Standard-Intelligence/hertz-dev) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Standard-Intelligence/hertz-dev) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Standard-Intelligence/hertz-dev) 🔓
   - _Open duplex audio foundation model for continuous bidirectional speech._
-- [⭐️] **[2025-01]** **Doubao Seeduplex** - Doubao Seeduplex. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://research.doubao.com/en/seeduplex) 🔒
-  - _2026-04 官方研究发布。火山端到端语音 API 的存在不能证明其底层就是同一 Seeduplex checkpoint。_
-- [⭐️] **[2024-10]** **Moshi / Moshiko / Moshika** - Moshi: a speech-text foundation model for real-time dialogue. [![arXiv-2410.00037](https://img.shields.io/badge/arXiv--2410.00037-b31b1b.svg)](https://arxiv.org/abs/2410.00037) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/moshi) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/kyutai/moshiko-pytorch-bf16) 🔓
-  - _模型并不自动提供完整工具代理；论文理论延迟和实际网络会话延迟不是同一指标。_
+- **[2024-10] [NeurIPS 2024 Workshop]** **Parrot** - Parrot: Autoregressive Spoken Dialogue Language Modeling with Decoder-only Transformers. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://openreview.net/pdf?id=Ttndg2Jl5F) 📄
+  - _Early dual-channel spoken dialogue LM trained with next-token-pair prediction; its later formal version is NTPP (listed separately)._
 - **[2024-10]** **IntrinsicVoice** - IntrinsicVoice: Empowering LLMs with Intrinsic Real-time Voice Interaction Abilities. [![arXiv-2410.08035](https://img.shields.io/badge/arXiv--2410.08035-b31b1b.svg)](https://arxiv.org/abs/2410.08035) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://instrinsicvoice.github.io/) 📄
   - _Injects real-time voice interaction ability into LLM decoding timelines._
-- **[2024-09]** **Moshiko** - Moshiko: Kyutai Moshi Male-Voice Full-Duplex Checkpoint. [![arXiv-2410.00037](https://img.shields.io/badge/arXiv--2410.00037-b31b1b.svg)](https://arxiv.org/abs/2410.00037) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/kyutai/moshiko-pytorch-bf16) 🔓
-  - _Official Moshi male-voice dual-stream duplex checkpoint release._
-- **[2024-09]** **Moshika** - Moshika: Kyutai Moshi Female-Voice Full-Duplex Checkpoint. [![arXiv-2410.00037](https://img.shields.io/badge/arXiv--2410.00037-b31b1b.svg)](https://arxiv.org/abs/2410.00037) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/kyutai/moshika-pytorch-bf16) 🔓
-  - _Official Moshi female-voice dual-stream duplex checkpoint release._
 - [⭐️] **[2024-09] [ICLR'25]** **Moshi** - Moshi: a speech-text foundation model for real-time dialogue. [![arXiv-2410.00037](https://img.shields.io/badge/arXiv--2410.00037-b31b1b.svg)](https://arxiv.org/abs/2410.00037) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://moshi.chat/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/moshi) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/kyutai/moshiko-pytorch-bf16) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://kyutai.org/2024/09/17/moshi.html) 🔓
-  - _Hierarchical RQ-Transformer with parallel user/system audio streams for native duplex._
+  - _Hierarchical RQ-Transformer with parallel user/system audio streams for native duplex; released as Moshiko (male) and Moshika (female) voice checkpoints._
 - [⭐️] **[2022-03]** **dGSLM** - Dual-tower Generative Spoken Language Model for Full-Duplex Dialogue. [![arXiv-2203.16502](https://img.shields.io/badge/arXiv--2203.16502-b31b1b.svg)](https://arxiv.org/abs/2203.16502) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/facebookresearch/fairseq/tree/main/examples/textless_nlp/dgslm) 🔓
   - _Foundational dual-stream spoken dialogue LM for overlapping speech._
 
@@ -696,11 +669,11 @@ Systems whose time axis supports (or explicitly coordinates) listening and speak
   - _160ms chunk-level joint duplex with native tool/action channels._
 - [⭐️] **[2026-04]** **MiniCPM-o 4.5** - MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction. [![arXiv-2604.27393](https://img.shields.io/badge/arXiv--2604.27393-b31b1b.svg)](https://arxiv.org/abs/2604.27393) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/OpenBMB/MiniCPM-o) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/openbmb/MiniCPM-o-4_5) 🔓
   - _9B omni model with time-multiplexed audio/video/output streams on device._
+- **[2025-10]** **NExT-OMNI** - NExT-OMNI. [![arXiv-2510.13721](https://img.shields.io/badge/arXiv--2510.13721-b31b1b.svg)](https://arxiv.org/abs/2510.13721) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://openreview.net/pdf?id=odatOcBi61) 📄
+  - _No reliably confirmed official repo or weights were found at last check; the paper is kept without guessing a GitHub URL._
 - **[2025-09]** **Llama-Mimi** - Llama-Mimi: Speech LMs with Interleaved Semantic and Acoustic Tokens. [![arXiv-2509.14882](https://img.shields.io/badge/arXiv--2509.14882-b31b1b.svg)](https://arxiv.org/abs/2509.14882) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/llm-jp/llama-mimi) 🔓
   - _Single Llama decoder over flattened Mimi tokens for duplex-style speech._
-- **[2025-09]** **FLM-Audio / FLM-Ego** - FLM-Audio / FLM-Ego (RoboEgo lineage). [![arXiv-2509.02521](https://img.shields.io/badge/arXiv--2509.02521-b31b1b.svg)](https://arxiv.org/abs/2509.02521) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/cofe-ai/flm-audio) 📄
-  - _README 的研究用途及声音授权声明不能被代码许可证覆盖；商用需联系作者，不能标记为无限制商用。_
-- **[2025-09]** **FLM-Audio** - FLM-Audio: Full-Duplex Speech with Intrinsic Monologue. [![arXiv-2509.02521](https://img.shields.io/badge/arXiv--2509.02521-b31b1b.svg)](https://arxiv.org/abs/2509.02521) 🔓
+- **[2025-09]** **FLM-Audio** - FLM-Audio: Full-Duplex Speech with Intrinsic Monologue. [![arXiv-2509.02521](https://img.shields.io/badge/arXiv--2509.02521-b31b1b.svg)](https://arxiv.org/abs/2509.02521) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/cofe-ai/flm-audio) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/CofeAI/FLM-Audio) 🔓
   - _Native duplex speech model with intrinsic monologue for planning._
 - **[2025-08]** **TurnGuide** - TurnGuide: Enhancing Meaningful Full Duplex Spoken Interaction via Turn-level Guidance. [![arXiv-2508.07375](https://img.shields.io/badge/arXiv--2508.07375-b31b1b.svg)](https://arxiv.org/abs/2508.07375) 📄
   - _GLM-4-Voice dual-channel model with 400ms chunk interleaving and text guidance._
@@ -712,18 +685,10 @@ Systems whose time axis supports (or explicitly coordinates) listening and speak
   - _Codec-free speech LLM research for native full-duplex dialogue._
 - **[2025-05]** **SALM-Duplex** - SALM-Duplex: Direct Full-Duplex Modeling with Asymmetric Channels. [![arXiv-2505.15670](https://img.shields.io/badge/arXiv--2505.15670-b31b1b.svg)](https://arxiv.org/abs/2505.15670) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/NeMo) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.nvidia.com/nemo/speech/nightly/speechlm2/models.html) 🧩
   - _Direct duplex SpeechLM with asymmetric user/assistant audio channels._
-- **[2025-02]** **DuplexMamba** - DuplexMamba: State-Space Modeling for Full-Duplex Spoken Dialogue. [![arXiv-2502.11123](https://img.shields.io/badge/arXiv--2502.11123-b31b1b.svg)](https://arxiv.org/abs/2502.11123) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/khfs/DuplexMamba) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Xiangyu1/DuplexMamba) 📄
+- **[2025-02]** **DuplexMamba** - DuplexMamba: State-Space Modeling for Full-Duplex Spoken Dialogue. [![arXiv-2502.11123](https://img.shields.io/badge/arXiv--2502.11123-b31b1b.svg)](https://arxiv.org/abs/2502.11123) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/khfs/DuplexMamba) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Xiangyu1/DuplexMamba) 🔓
   - _State-space duplex speech dialogue with efficient dual-stream processing._
-- **[2025-01]** **Real-Time Textless Dialogue Generation / RTS2S-DG** - Real-Time Textless Dialogue Generation. [![arXiv-2501.04877](https://img.shields.io/badge/arXiv--2501.04877-b31b1b.svg)](https://arxiv.org/abs/2501.04877) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/mailong25/rts2s-dg) 📄
-  - _有研究代码不等于公开完成助手对齐的 checkpoint。_
-- **[2025-01]** **Parrot（Full-Duplex Spoken Dialogue）** - Parrot（Full-Duplex Spoken Dialogue）. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://openreview.net/pdf?id=Ttndg2Jl5F) 📄
-  - _这里指早期 Parrot 双通道论文；相关正式发布 NTPP 另列 B16，避免把历史论文状态当成后续发布状态。_
-- **[2025-01]** **NExT-OMNI** - NExT-OMNI. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://openreview.net/pdf?id=odatOcBi61) 📄
-  - _本次未找到可可靠确认的完整官方仓库/权重；保留论文而不猜测 GitHub 地址。_
 - **[2025-01]** **MinMo** - MinMo: A Multimodal Large Language Model for Seamless Voice Interaction. [![arXiv-2501.06282](https://img.shields.io/badge/arXiv--2501.06282-b31b1b.svg)](https://arxiv.org/abs/2501.06282) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://qwenaudio.github.io/minmo/) 📄
   - _Multimodal SLM paper exploring full-duplex voice interaction regimes._
-- **[2025-01]** **Duplex Model（MiniCPM-Duplex）** - Duplex Model（MiniCPM-Duplex）. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/thunlp/duplex-model) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/xinrongzhang2022/MiniCPM-duplex) 📄
-  - _不直接等同于自带音频编解码器的完整 S2S 模型。_
 - **[2024-10] [ACL'25]** **OmniFlatten** - OmniFlatten: An End-to-end GPT Model for Seamless Voice Conversation. [![arXiv-2410.17799](https://img.shields.io/badge/arXiv--2410.17799-b31b1b.svg)](https://arxiv.org/abs/2410.17799) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://omniflatten.github.io/) 📄
   - _Flattens speech conversation into a single sequence for duplex GPT modeling._
 - **[2024-10]** **Mini-Omni2** - Mini-Omni2: Towards Open-source GPT-4o Mini with Vision, Speech and Duplex. [![arXiv-2410.11190](https://img.shields.io/badge/arXiv--2410.11190-b31b1b.svg)](https://arxiv.org/abs/2410.11190) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/gpt-omni/mini-omni2) 🔓
@@ -732,14 +697,12 @@ Systems whose time axis supports (or explicitly coordinates) listening and speak
   - _Injects real-time voice interaction ability into LLM decoding timelines._
 - **[2024-09] [EMNLP'24]** **SyncLLM** - Beyond Turn-Based Interfaces: Synchronous LLMs as Full-Duplex Dialogue Agents. [![arXiv-2409.15594](https://img.shields.io/badge/arXiv--2409.15594-b31b1b.svg)](https://arxiv.org/abs/2409.15594) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://syncllm.cs.washington.edu/) 📄
   - _Synchronous timeline tokens coordinate listening and speaking jointly._
-- **[2024-09] [EMNLP'24]** **MiniCPM-Duplex** - Beyond the Turn-Based Game: Enabling Real-Time Conversations with Duplex Models. [![arXiv-2409.11727](https://img.shields.io/badge/arXiv--2409.11727-b31b1b.svg)](https://arxiv.org/abs/2409.11727) 📄
-  - _Parallel decoding with channel switching for duplex language modeling._
 - **[2024-09]** **MiniCPM-Duo / DUO** - Enabling Real-Time Conversations with Minimal Training Costs. [![arXiv-2409.11727](https://img.shields.io/badge/arXiv--2409.11727-b31b1b.svg)](https://arxiv.org/abs/2409.11727) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://aclanthology.org/2025.ccl-1.85/) 📄
-  - _与 MiniCPM-Duplex 和 MiniCPM-o 是不同工作；文本通道模型不是完整声学 S2S 模型。_
-- **[2024-08]** **LSLM / Listening-while-Speaking Language Model** - Language Model Can Listen While Speaking. [![arXiv-2408.02622](https://img.shields.io/badge/arXiv--2408.02622-b31b1b.svg)](https://arxiv.org/abs/2408.02622) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://ziyang.tech/LSLM/) 📄
-  - _研究概念较早，不代表已提供生产级服务。_
-- **[2024-08]** **LSLM** - LSLM: Listening-while-Speaking Language Model. [![arXiv-2408.02622](https://img.shields.io/badge/arXiv--2408.02622-b31b1b.svg)](https://arxiv.org/abs/2408.02622) 📄
+  - _Parallel decoding branches with channel switching via state tokens, at minimal training cost; a text-channel model separate from MiniCPM-Duplex and MiniCPM-o._
+- **[2024-08]** **LSLM** - LSLM: Listening-while-Speaking Language Model. [![arXiv-2408.02622](https://img.shields.io/badge/arXiv--2408.02622-b31b1b.svg)](https://arxiv.org/abs/2408.02622) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://ziyang.tech/LSLM/) 📄
   - _Interleaves listen/speak states so the model hears while generating speech._
+- **[2024-06] [EMNLP'24]** **MiniCPM-Duplex** - Beyond the Turn-Based Game: Enabling Real-Time Conversations with Duplex Models. [![arXiv-2406.15718](https://img.shields.io/badge/arXiv--2406.15718-b31b1b.svg)](https://arxiv.org/abs/2406.15718) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/thunlp/duplex-model) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/xinrongzhang2022/MiniCPM-duplex) 🔓
+  - _Time-division multiplexing over time slices lets a text LLM take new input while generating; not a complete S2S model with a built-in audio codec._
 - **[2023-06]** **AudioPaLM** - AudioPaLM: A Large Language Model That Can Speak and Listen. [![arXiv-2306.12925](https://img.shields.io/badge/arXiv--2306.12925-b31b1b.svg)](https://arxiv.org/abs/2306.12925) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://google-research.github.io/seanet/audiopalm/examples/) 🔒
   - _PaLM-based model unifying speech understanding, generation, and translation._
 - [⭐️] **[2022-03]** **dGSLM** - Dual-tower Generative Spoken Language Model for Full-Duplex Dialogue. [![arXiv-2203.16502](https://img.shields.io/badge/arXiv--2203.16502-b31b1b.svg)](https://arxiv.org/abs/2203.16502) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/facebookresearch/fairseq/tree/main/examples/textless_nlp/dgslm) 🔓
@@ -759,9 +722,9 @@ Fast front-end interaction (cerebellum / System 1 / Talker) runs concurrently wi
   - _Dual-process theory agent with System-1/System-2 paths for real-time collaboration._
 - [⭐️] **[2024-10] [NeurIPS'24 Workshop]** **Talker-Reasoner** - Agents Thinking Fast and Slow: A Talker-Reasoner Architecture. [![arXiv-2410.08328](https://img.shields.io/badge/arXiv--2410.08328-b31b1b.svg)](https://arxiv.org/abs/2410.08328) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://openreview.net/forum?id=xPhcP6rbI4) 📄
   - _Canonical fast Talker + slow Reasoner dual-system for conversational agents._
-- **[2024-10]** **Async Tool Dual** - Asynchronous Tool Usage as Dual-System Runtime Primitive. [![arXiv-2410.21620](https://img.shields.io/badge/arXiv--2410.21620-b31b1b.svg)](https://arxiv.org/abs/2410.21620) 📄
-  - _Treats non-blocking tools as System-2 running beside a talker._
-- **[2023-01]** **SOFAI** - SOFAI: A Dual-Process Cognitive Architecture for AI Systems. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://research.ibm.com/) 📄
+- **[2024-10]** **Async-Tool FSM** - Asynchronous Tool Usage for Real-Time Agents. [![arXiv-2410.21620](https://img.shields.io/badge/arXiv--2410.21620-b31b1b.svg)](https://arxiv.org/abs/2410.21620) 📄
+  - _Event-driven FSM runtime for non-blocking tools in realtime agents, effectively a System-2 running beside the talker._
+- **[2021-10]** **SOFAI** - SOFAI: A Dual-Process Cognitive Architecture for AI Systems. [![arXiv-2110.01834](https://img.shields.io/badge/arXiv--2110.01834-b31b1b.svg)](https://arxiv.org/abs/2110.01834) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://research.ibm.com/) 📄
   - _Cognitive dual-process architecture motivating fast/slow AI system designs._
 
 <a id="dual-open"></a>
@@ -771,30 +734,24 @@ Fast front-end interaction (cerebellum / System 1 / Talker) runs concurrently wi
   - _Dual-system coordination harness for Jarvis-Audio/Omni; JEV selects typed, version-bound task operations, while code validates execution and result delivery._
 - **[2026-09]** **SALMONN-duo** - SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents. [![arXiv-2609.34247](https://img.shields.io/badge/arXiv--2609.34247-b31b1b.svg)](https://arxiv.org/abs/2609.34247) 📄
   - _Adaptive coordination between duplex front-end and slow reasoner agent._
-- [⭐️] **[2026-09]** **Realtime-Venus-Audio / Omni** - Realtime-Venus: A full-duplex interaction system with asynchronous delegation. [![arXiv-2609.13814](https://img.shields.io/badge/arXiv--2609.13814-b31b1b.svg)](https://arxiv.org/abs/2609.13814) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Realtime-Venus) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI/Realtime-Venus) 🔓
-  - _源码发布重点是 Omni 集成与可复用 Harness；麦克风演示也用 Omni。不是一个 checkpoint 通过开关变成两种模型。_
-- [⭐️] **[2026-09]** **Realtime-Venus** - Realtime-Venus: Full-Duplex Interaction with Asynchronous Task Delegation. [![arXiv-2609.13814](https://img.shields.io/badge/arXiv--2609.13814-b31b1b.svg)](https://arxiv.org/abs/2609.13814) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI) 🔓
+- [⭐️] **[2026-09]** **Realtime-Venus** - Realtime-Venus: Full-Duplex Interaction with Asynchronous Task Delegation. [![arXiv-2609.13814](https://img.shields.io/badge/arXiv--2609.13814-b31b1b.svg)](https://arxiv.org/abs/2609.13814) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Realtime-Venus) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI/Realtime-Venus) 🔓
   - _MiniCPM-o-based duplex front-end with dual-loop async tool/brain delegation._
 - **[2026-09]** **NVIDIA FB Tools** - Frontend–Backend Cascaded Voice Agents with Asynchronous Tools. [![arXiv-2609.19334](https://img.shields.io/badge/arXiv--2609.19334-b31b1b.svg)](https://arxiv.org/abs/2609.19334) 📄
   - _Cascaded speech front-end and text backend with async tool orchestration._
-- [⭐️] **[2026-09]** **Gander / Omni-Interaction-Agent** - Multimodal Duplex Interaction Agent. [![arXiv-2609.08977](https://img.shields.io/badge/arXiv--2609.08977-b31b1b.svg)](https://arxiv.org/abs/2609.08977) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Omni-Interaction-Gander/Omni-Interaction-Agent) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Gander-Omni/Gander) 🔓
-  - _截至检索日 README 仍注明数据集 coming soon；训练组件和冻结基座需按下载清单组合，不能称为全量数据完全开放。_
-- [⭐️] **[2026-09]** **Gander** - Gander / Omni-Interaction-Agent: Native Duplex with Asynchronous Brain. [![arXiv-2609.08977](https://img.shields.io/badge/arXiv--2609.08977-b31b1b.svg)](https://arxiv.org/abs/2609.08977) 🔓
+- [⭐️] **[2026-09]** **Gander** - Gander / Omni-Interaction-Agent: Native Duplex with Asynchronous Brain. [![arXiv-2609.08977](https://img.shields.io/badge/arXiv--2609.08977-b31b1b.svg)](https://arxiv.org/abs/2609.08977) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Omni-Interaction-Gander/Omni-Interaction-Agent) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Gander-Omni/Gander) 🔓
   - _Native duplex front-end plus asynchronous Brain agent orchestration runtime._
 - **[2026-06]** **JoyAI-VL-Interaction** - JoyAI-VL-Interaction: Proactive Interaction with Background Delegation. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/jd-opensource/JoyAI-VL-Interaction) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/jdopensource/JoyAI-VL-Interaction) 🔓
   - _Proactive VL interaction model with background task delegation harness._
 - **[2026-06]** **DuplexOmni** - DuplexOmni: Real-Time Listening, Seeing, Thinking, and Speaking. [![arXiv-2606.09186](https://img.shields.io/badge/arXiv--2606.09186-b31b1b.svg)](https://arxiv.org/abs/2606.09186) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/MuyeHuang/DuplexOmni) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/MuyeHuang/DuplexOmni) 🔓
   - _Duplex omni interaction with a pluggable System-2 reasoner backend._
-- **[2025-10]** **Step-Audio R1.1** - Step-Audio R1.1 as Mind-Paced Dual-Brain Spoken Reasoner. [![arXiv-2510.09592](https://img.shields.io/badge/arXiv--2510.09592-b31b1b.svg)](https://arxiv.org/abs/2510.09592) 🔓
-  - _Productized mind-paced speaking dual-brain speech reasoner release._
 - **[2025-10]** **Mind-Paced Speaking** - Mind-Paced Speaking: A Dual-Brain Approach to Real-Time Reasoning in Spoken LMs. [![arXiv-2510.09592](https://img.shields.io/badge/arXiv--2510.09592-b31b1b.svg)](https://arxiv.org/abs/2510.09592) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/stepfun-ai) 🔓
   - _Dual-brain pacing so slow reasoning guides real-time spoken responses (Step-Audio R1.1)._
-- **[2025-10]** **KAME** - KAME: Moshi Front-End with Asynchronous Oracle Reasoning. [![arXiv-2510.02327](https://img.shields.io/badge/arXiv--2510.02327-b31b1b.svg)](https://arxiv.org/abs/2510.02327) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/SakanaAI/kame) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/SakanaAI/kame) 📄
+- **[2025-10]** **KAME** - KAME: Moshi Front-End with Asynchronous Oracle Reasoning. [![arXiv-2510.02327](https://img.shields.io/badge/arXiv--2510.02327-b31b1b.svg)](https://arxiv.org/abs/2510.02327) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/SakanaAI/kame) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/SakanaAI/kame) 🔓
   - _Moshi duplex front-end paired with an asynchronous oracle reasoner._
 - **[2025-06]** **MoshiRAG** - MoshiRAG: Full-Duplex Front-End with Retrieval Backend. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://github.com/kyutai-labs) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/moshi-rag) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/kyutai/moshika-rag-pytorch-bf16) 🧩
   - _Moshi duplex talker with asynchronous retrieval/reasoner backend._
-- **[2025-06]** **Cartesia BG Reason** - Cartesia Line Background Reasoning Dual-System Pattern. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/cartesia-ai/line) 🧩
-  - _Voice SDK pattern keeping background reasoning across barge-ins._
+- **[2025-06]** **Cartesia Line** - Cartesia Line SDK for Background Reasoning Voice Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/cartesia-ai/line) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.cartesia.ai/line/sdk/overview) 🧩
+  - _SDK where background tools survive interruptions during speech._
 
 <a id="dual-cascade"></a>
 ### 3.3 Fast–Slow Cascades & Speculative Handoff
@@ -813,38 +770,36 @@ Fast front-end interaction (cerebellum / System 1 / Talker) runs concurrently wi
   - _Fills speaking time with backend reasoning transferred into the live reply._
 - **[2025-10] [ASRU'25]** **AsyncVoice Agent** - AsyncVoice Agent: Real-Time Explanation for LLM Planning and Reasoning. [![arXiv-2510.16156](https://img.shields.io/badge/arXiv--2510.16156-b31b1b.svg)](https://arxiv.org/abs/2510.16156) 📄
   - _Streaming explanation voice track over a slower planning/reasoning backend._
-- **[2025-09]** **FireRed Dual View** - FireRedChat Dialogue Manager as Dual-System Harness View. [![arXiv-2509.06502](https://img.shields.io/badge/arXiv--2509.06502-b31b1b.svg)](https://arxiv.org/abs/2509.06502) 🧩
-  - _Cascaded duplex controller plus dialogue manager tool backend._
+- **[2025-09]** **FireRedChat** - FireRedChat: A Pluggable, Full-Duplex Voice Interaction System. [![arXiv-2509.06502](https://img.shields.io/badge/arXiv--2509.06502-b31b1b.svg)](https://arxiv.org/abs/2509.06502) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://fireredteam.github.io/demos/firered_chat/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/FireRedTeam/FireRedChat) 🧩
+  - _Cascaded/semi-cascaded duplex with turn controller, tools, and LiveKit hosting._
 - **[2025-08]** **Speech Fillers Dual** - Using Conversational Fillers while Backend Reasoning Completes. 📄
   - _Front-end emits fillers/connectives while slow reasoner finishes._
 - **[2025-06]** **PredGen** - PredGen: Input-Time Speculation for Real-Time Speech Interaction. [![arXiv-2506.15556](https://img.shields.io/badge/arXiv--2506.15556-b31b1b.svg)](https://arxiv.org/abs/2506.15556) 🧩
   - _Speculates LLM computation during user speech to hide end-to-end latency._
-- **[2025-06]** **Deepgram LTS** - Deepgram Voice Agent Listen–Think–Speak Pipeline. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.deepgram.com/) 🔒
-  - _Hosted listen–think–speak cascade with external LLM thinking stage._
+- **[2024-09]** **Deepgram Voice Agent** - Deepgram Voice Agent API. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.deepgram.com/docs/voice-agent-llm-models) 🔒
+  - _Hosted listen–think–speak voice agent: STT-centric realtime stack with an external LLM as the thinking stage._
 - **[2024-06]** **LiveMind** - LiveMind: Low-latency Large Language Models with Simultaneous Inference. [![arXiv-2406.14319](https://img.shields.io/badge/arXiv--2406.14319-b31b1b.svg)](https://arxiv.org/abs/2406.14319) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ChuangtaoChen-TUM/LiveMind) 🧩
   - _Simultaneous inference during streaming input for low-latency responses._
 
 <a id="dual-closed"></a>
 ### 3.4 Closed Dual-System Products
 
-- **[2026-09]** **Qwen-Audio 3.1** - Qwen-Audio 3.1 Realtime Plus: Duplex Speech with Dual-System Services. [![arXiv-2609.25176](https://img.shields.io/badge/arXiv--2609.25176-b31b1b.svg)](https://arxiv.org/abs/2609.25176) 🔒
-  - _Realtime duplex speech API with backend reasoning/tool services._
+- [⭐️] **[2026-09]** **Qwen-Audio 3.1** - Qwen-Audio 3.1 Realtime Plus: Duplex Speech with Dual-System Services. [![arXiv-2609.25176](https://img.shields.io/badge/arXiv--2609.25176-b31b1b.svg)](https://arxiv.org/abs/2609.25176) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://qwenaudio.github.io/qwen-audio-3.1-realtime/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.alibabacloud.com/help/en/model-studio/qwen-audio-realtime-model-access) 🔒
+  - _Closed realtime duplex speech API with backend reasoning/tool services; not a small version of open Qwen3-Omni-30B._
 - [⭐️] **[2026-09]** **Gemini 3.8 Live Extended Thinking** - Gemini 3.8 Live with Extended Thinking. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.google.dev/gemini-api/docs/live-api/thinking) 🔒
   - _Keeps interaction while backend extended thinking runs._
 - **[2026-08]** **Interaction-Small** - Thinking Machines Lab Interaction-Small Preview. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://thinkingmachines.ai/news/introducing-inkling/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://thinkingmachines.ai/blog/interaction-models/) 🔒
   - _Research preview for continuous interaction with background agents._
-- **[2026-06]** **Step-Audio 3 RT** - Step-Audio 3 Realtime: Official Full-Duplex Speech Product. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.stepfun.com/) 🔒
+- [⭐️] **[2026-07]** **GPT-Live** - GPT-Live 1: Native Full-Duplex Voice with Backend Delegation. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://openai.com/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-live-1) 🔒
+  - _Native duplex voice front-end with Responses/client delegation to agents; audio/text only, no image/video._
+- **[2026-06]** **Step-Audio 3 RT** - Step-Audio 3 Realtime: Official Full-Duplex Speech Product. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.stepfun.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://static.stepfun.com/blog/stepaudio3/realtime/) 🔒
   - _Official full-duplex realtime speech product with dual-system service hooks._
 - **[2026-06]** **Grok Voice Think Fast** - Grok Voice Agent with Fast Thinking Modes. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://x.ai/) 🔒
   - _Realtime voice agent with configurable fast/slow thinking pathways._
-- [⭐️] **[2026-05]** **GPT-Live** - GPT-Live 1: Native Full-Duplex Voice with Backend Delegation. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://openai.com/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-live-1) 🔒
-  - _Native duplex voice front-end with Responses/client delegation to agents._
-- **[2026-04]** **Nova 2 Sonic** - Amazon Nova 2 Sonic: Bidirectional Speech with Async Tools. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.aws.amazon.com/nova/) 🔒
-  - _Bidirectional speech streaming with asynchronous Bedrock tool calling._
 - **[2026-03]** **Gemini Live ET** - Gemini Live with Extended Thinking and Async Tools. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.google.dev/gemini-api/docs/live) 🔒
   - _Live bidirectional audio with extended thinking and non-blocking tools._
-- [⭐️] **[2026-01]** **gpt-live-1** - OpenAI GPT-Live 1 front-end voice model. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-live-1) 🔒
-  - _Live front-end with Responses/client delegation; audio/text, no image/video._
+- **[2025-12]** **Nova 2 Sonic** - Amazon Nova 2 Sonic: Bidirectional Speech with Async Tools. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.aws.amazon.com/nova/) 🔒
+  - _Bidirectional speech streaming with asynchronous Bedrock tool calling._
 
 <a id="think-while"></a>
 ## 💭 4. Think-while-Listening / Speaking
@@ -867,12 +822,8 @@ Methods that use listening or speaking time for causal reasoning—within one mo
   - _Thinks while listening to enable timely interruptions and mid-utterance answers._
 - **[2025-10] [COLM'25]** **ORISE** - ORISE: Reinforcement Learning Enhanced Full-Duplex Spoken Dialogue LMs. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://openreview.net/forum?id=QbLbXz8Idp) 📄
   - _Online RL to improve duplex conversational behaviours (no public arXiv)._
-- **[2025-10] [ICLR'26]** **CoT-while-listening** - Can Speech LLMs Think while Listening? (CoT-while-listening formulation). [![arXiv-2510.07497](https://img.shields.io/badge/arXiv--2510.07497-b31b1b.svg)](https://arxiv.org/abs/2510.07497) 📄
-  - _Formulates listening-time chain-of-thought for speech LLMs (same line as TwL)._
 - **[2025-10] [SIGDIAL'26]** **CT-SDLM** - Chronological Thinking in Full-Duplex Spoken Dialogue Language Models. [![arXiv-2510.05150](https://img.shields.io/badge/arXiv--2510.05150-b31b1b.svg)](https://arxiv.org/abs/2510.05150) 📄
   - _Explicit chronological thinking tokens during full-duplex listening._
-- **[2025-10]** **CT-Duplex / CT-SDLM** - Chronological Thinking in Full-Duplex Spoken Dialogue Language Models. [![arXiv-2510.05150](https://img.shields.io/badge/arXiv--2510.05150-b31b1b.svg)](https://arxiv.org/abs/2510.05150) 📄
-  - _论文版本使用 CT-Duplex / CT-SDLM 名称；与延长回答前的普通 CoT 不是相同时间调度。_
 - **[2025-08]** **Mini-Omni-Reasoner** - Mini-Omni-Reasoner: Token-Level Thinking-in-Speaking in Large Speech Models. [![arXiv-2508.15827](https://img.shields.io/badge/arXiv--2508.15827-b31b1b.svg)](https://arxiv.org/abs/2508.15827) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/xzf-thu/Mini-Omni-Reasoner) 🧩
   - _Interleaves silent thinking tokens with spoken tokens during generation._
 - **[2025-07] [ICLR'26]** **STITCH** - STITCH: Simultaneous Thinking and Talking with Chunked Reasoning for Spoken LMs. [![arXiv-2507.15375](https://img.shields.io/badge/arXiv--2507.15375-b31b1b.svg)](https://arxiv.org/abs/2507.15375) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://d223302.github.io/STITCH/) 📄
@@ -886,7 +837,7 @@ Interactive systems that call tools, retrieve knowledge, or run long tasks while
 <a id="agentic-native"></a>
 ### 5.1 Native Tool / RAG / Action Channels
 
-- **[2026-09]** **VoiceChat** - NemotronLabs VoiceChat: An Open Full-Duplex Spoken Dialogue Model. [![arXiv-2609.21967](https://img.shields.io/badge/arXiv--2609.21967-b31b1b.svg)](https://arxiv.org/abs/2609.21967) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B) 🔓
+- **[2026-09]** **VoiceChat** - NemotronLabs VoiceChat: An Open Full-Duplex Spoken Dialogue Model. [![arXiv-2609.21967](https://img.shields.io/badge/arXiv--2609.21967-b31b1b.svg)](https://arxiv.org/abs/2609.21967) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://build.nvidia.com/nvidia/nemotron-voicechat/modelcard) 🔓
   - _11B dual-channel duplex SLM with a separate tool-calling output channel._
 - **[2026-07]** **AnovaX** - AnovaX: Local Multi-Agent Voice Assistant with LLM Planning. [![arXiv-2607.15367](https://img.shields.io/badge/arXiv--2607.15367-b31b1b.svg)](https://arxiv.org/abs/2607.15367) 📄
   - _Local multi-agent voice assistant with typed executors and adaptive recovery._
@@ -898,8 +849,8 @@ Interactive systems that call tools, retrieve knowledge, or run long tasks while
   - _Streams tool/RAG usage during speech so answers arrive with low latency._
 - **[2025-07]** **Voxtral** - Voxtral: Open Speech Understanding Models with Function Calling. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://mistral.ai/news/voxtral) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/mistralai) 🔓
   - _Speech understanding models exposing native function-calling interfaces._
-- **[2025-07]** **Step-Audio 2** - Step-Audio 2: Native Tool-Calling End-to-End Speech Agent. [![arXiv-2507.16632](https://img.shields.io/badge/arXiv--2507.16632-b31b1b.svg)](https://arxiv.org/abs/2507.16632) 🔓
-  - _End-to-end speech model with native tool-calling channels during dialogue._
+- **[2025-07]** **Step-Audio 2** - Step-Audio 2: Native Tool-Calling End-to-End Speech Agent. [![arXiv-2507.16632](https://img.shields.io/badge/arXiv--2507.16632-b31b1b.svg)](https://arxiv.org/abs/2507.16632) 🔒
+  - _End-to-end speech model with native tool-calling channels during dialogue; the full model is API-only, while the mini variants are open (listed separately)._
 - **[2025-06]** **UITron-Speech** - UITron-Speech: Automated GUI Agents Based on Speech Instructions. [![arXiv-2506.11127](https://img.shields.io/badge/arXiv--2506.11127-b31b1b.svg)](https://arxiv.org/abs/2506.11127) 🔓
   - _Speech-instructed GUI agent that acts on screens while conversation continues._
 - **[2025-06]** **AURA** - AURA: Agent for Understanding, Reasoning, and Automated Tool Use in Voice Tasks. [![arXiv-2506.23049](https://img.shields.io/badge/arXiv--2506.23049-b31b1b.svg)](https://arxiv.org/abs/2506.23049) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Sentientia/Aura) 🧩
@@ -920,24 +871,28 @@ Interactive systems that call tools, retrieve knowledge, or run long tasks while
   - _Dual-system coordination harness for Jarvis-Audio/Omni; JEV selects typed, version-bound task operations, while code validates execution and result delivery._
 - [⭐️] **[2026-09]** **qwen-audio-agent** - qwen-audio-agent v2: Front-End Dialogue with Persistent Background Tasks. [![arXiv-2609.25195](https://img.shields.io/badge/arXiv--2609.25195-b31b1b.svg)](https://arxiv.org/abs/2609.25195) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenAudio/qwen-audio-agent) 🧩
   - _Harness for continuous background tasks beside a speech front-end._
-- **[2026-09]** **Venus Harness** - Realtime-Venus Harness: Dual-Loop Task Execution and Speech Delivery. 🧩
+- **[2026-09]** **Venus Harness** - Realtime-Venus Harness: Dual-Loop Task Execution and Speech Delivery. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Realtime-Venus) 🧩
   - _Runtime organizing Venus task loops, permissions, and speech delivery._
-- **[2026-09]** **Gander Runtime** - Gander Agent Orchestration Runtime. 🧩
+- **[2026-09]** **Gander Runtime** - Gander Agent Orchestration Runtime. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Omni-Interaction-Gander/Omni-Interaction-Agent) 🧩
   - _Task state machine, permissions, context, and delivery for Gander._
 - [⭐️] **[2026-08]** **Qwen-Live-Harness** - Qwen-Live-Harness: Realtime Perception, Watch, and Task Delegation. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM/Qwen-Live-Harness) 🧩
   - _Realtime perception + proactive watch + task delegation runtime._
 - **[2026-07]** **Qwen-MM-Plugins** - Qwen-MM-Plugins: Multimodal Tools for Existing Agent Harnesses. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM/Qwen-MM-Plugins) 🧩
   - _Plugin pack adding multimodal tools into existing agent harnesses._
-- **[2026-03]** **DuplexCascade** - DuplexCascade: VAD-free System Duplex with Micro-Turn Control. [![arXiv-2603.09180](https://img.shields.io/badge/arXiv--2603.09180-b31b1b.svg)](https://arxiv.org/abs/2603.09180) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/sbintuitions/DuplexCascade) 📄
+- **[2026-07]** **Cicero** - Cicero: Self-Hosted Voice Client for Coding Agent Harnesses. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/5uck1ess/cicero) 🧩
+  - _Local voice client for Claude Code, Codex, Gemini, or ACP harnesses._
+- **[2026-06]** **SGLang-Omni** - SGLang serving for omni / speech models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/sgl-project/sglang) 🧩
+  - _SGLang runtime used for fast omni/speech serving._
+- **[2026-03]** **DuplexCascade** - DuplexCascade: VAD-free System Duplex with Micro-Turn Control. [![arXiv-2603.09180](https://img.shields.io/badge/arXiv--2603.09180-b31b1b.svg)](https://arxiv.org/abs/2603.09180) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/sbintuitions/DuplexCascade) 🧩
   - _VAD-free cascaded duplex system using micro-turn control policies._
 - **[2026-02]** **Aiden** - Aiden Foreground/Background Voice Agents. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://aidenai.io/docs/agent/foreground-background-agents/) 🔒
   - _Realtime foreground voice agent with background task loop APIs._
-- **[2026-01]** **Cicero** - Cicero: Self-Hosted Voice Client for Coding Agent Harnesses. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/5uck1ess/cicero) 🧩
-  - _Local voice client for Claude Code, Codex, Gemini, or ACP harnesses._
 - **[2025-12]** **gamechat** - gamechat: Voice Supervisor for Coding Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/zdql/gamechat) 🧩
   - _Realtime voice front-end delegates named tasks to Claude Code/Codex._
 - **[2025-12]** **XTalk** - XTalk: A System-Level Full-Duplex Voice Interaction Framework. [![arXiv-2512.18706](https://img.shields.io/badge/arXiv--2512.18706-b31b1b.svg)](https://arxiv.org/abs/2512.18706) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/xcc-zach/xtalk) 🧩
   - _System-level full-duplex voice interaction with engineered sync layers._
+- **[2025-11]** **vLLM-Omni** - vLLM serving extensions for omni / multimodal models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/vllm-project/vllm) 🧩
+  - _High-throughput serving path for omni checkpoints._
 - **[2025-10]** **VoiceMode** - VoiceMode: MCP Voice Tools for Coding Agents. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://voicemode.dev) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/mbailey/voicemode) 🧩
   - _MCP server/plugin adding voice conversation tools to coding agents._
 - **[2025-09]** **Strands BidiAgent** - AWS Strands BidiAgent for Bidirectional Voice Agents. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://strandsagents.com/) 🧩
@@ -948,44 +903,34 @@ Interactive systems that call tools, retrieve knowledge, or run long tasks while
   - _Cascaded/semi-cascaded duplex with turn controller, tools, and LiveKit hosting._
 - **[2025-06]** **CleanS2S** - CleanS2S: An Open Pipeline for Active Real-Time Speech-to-Speech Agents. [![arXiv-2506.01268](https://img.shields.io/badge/arXiv--2506.01268-b31b1b.svg)](https://arxiv.org/abs/2506.01268) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/opendilab/CleanS2S) 🧩
   - _Open active/real-time speech-to-speech pipeline with duplex control modules._
-- **[2025-06]** **Cartesia Line** - Cartesia Line SDK for Background Reasoning Voice Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/cartesia-ai/line) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.cartesia.ai/line/sdk/overview) 🔒
+- **[2025-06]** **Cartesia Line** - Cartesia Line SDK for Background Reasoning Voice Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/cartesia-ai/line) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.cartesia.ai/line/sdk/overview) 🧩
   - _SDK where background tools survive interruptions during speech._
+- **[2025-05]** **Google ADK Live** - Google ADK Live / Streaming Agent Runtime. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://google.github.io/adk-docs/) 🧩
+  - _Bidirectional streaming agent runtime in Google Agent Development Kit._
 - **[2025-05]** **GenAI Processors** - Google GenAI Processors for Live Async Function Calling. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/google-gemini/genai-processors) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://google-gemini.github.io/genai-processors/) 🧩
   - _Open library for composing Live API streams with async function calling._
 - **[2025-04]** **OpenAI Chat-Supervisor** - OpenAI Realtime Agents: Chat-Supervisor Pattern. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/openai/openai-realtime-agents) 🧩
   - _Realtime model handles talk; text supervisor runs tools/workflows._
 - **[2025-03]** **OpenAvatarChat** - OpenAvatarChat: Real-Time Digital Human Interaction System. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/HumanAIGC-Engineering/OpenAvatarChat) 🧩
   - _Open realtime digital-human conversational interaction system._
-- **[2025-01]** **vLLM-Omni** - vLLM serving extensions for omni / multimodal models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/vllm-project/vllm) 🧩
-  - _High-throughput serving path for omni checkpoints._
-- **[2025-01]** **TEN Framework / TEN Agent** - TEN Framework / TEN Agent. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/TEN-framework/ten-framework) 📄
-  - _不能仅依据 Apache badge 忽略根目录或子组件附加条件。_
-- **[2025-01]** **SGLang-Omni** - SGLang serving for omni / speech models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/sgl-project/sglang) 🧩
-  - _SGLang runtime used for fast omni/speech serving._
-- **[2025-01]** **Realtime-Venus Harness** - Realtime-Venus Harness. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Realtime-Venus) 🧩
-  - _本行是 B01 的 runtime 视图，不额外计作一个基础模型。_
-- **[2025-01]** **OpenAI Agents SDK** - OpenAI Agents SDK / Voice agents architecture. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/guides/voice-agents) 🔒
-  - _SDK 或示例架构开放，不意味着 GPT 模型开放；具体后端执行和业务状态仍由应用负责。_
-- **[2025-01]** **Open-LLM-VTuber** - Open-LLM-VTuber. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) 🧩
-  - _适合产品壳层研究，不是新的 speech foundation model。_
-- **[2025-01]** **NeMo Speech / SpeechLM2 Duplex** - NeMo Speech / SpeechLM2 Duplex. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA-NeMo/Speech) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.nvidia.com/nemo/speech/nightly/speechlm2/models.html) 📄
-  - _框架的 SALM 为音频输入文本输出；DuplexS2S 才添加语音生成，不能只看 SALM 名称判断能力。_
-- **[2025-01]** **Kyutai Unmute** - Unmute open voice assistant stack. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/unmute) 🔓
-  - _Composable open voice assistant using Kyutai components._
-- **[2025-01]** **Hugging Face speech-to-speech** - Hugging Face speech-to-speech. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/huggingface/speech-to-speech) 🧩
-  - _名称 speech-to-speech 描述系统输入输出，不证明端到端单模型。_
-- **[2025-01]** **Google ADK Live / Streaming** - Google ADK Live / Streaming. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/google/adk-docs) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://adk.dev/live/) 🧩
-  - _ADK Session 的持久化与 Live API 的临时会话、网络连接是不同层。_
-- **[2025-01]** **Gander Agent Orchestration Runtime** - Gander Agent Orchestration Runtime. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Omni-Interaction-Gander/Omni-Interaction-Agent) 🧩
-  - _本行是 B02 的系统层；数据开放状态与代码开放状态独立。_
-- **[2025-01]** **FastRTC** - FastRTC: Interactive Audio/Video Transport for Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/gradio-app/fastrtc) 🧩
+- **[2025-03]** **OpenAI Agents SDK Voice** - OpenAI Agents SDK Voice Workflows. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://openai.github.io/openai-agents-python/) 🧩
+  - _Agents SDK patterns for voice sessions, handoffs, and tools._
+- **[2025-02]** **Unmute** - Kyutai Unmute: Low-Latency Modular Speech Interaction Stack. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://unmute.sh/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/unmute) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://kyutai.org/) 🧩
+  - _Composable low-latency voice stack that wraps a text LLM with Kyutai streaming STT/TTS._
+- **[2025-02]** **FastRTC** - FastRTC: Interactive Audio/Video Transport for Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/gradio-app/fastrtc) 🧩
   - _Interactive audio/video transport and callback layer for voice agents._
+- **[2024-10]** **HF speech-to-speech** - Hugging Face speech-to-speech Realtime Pipeline. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/huggingface/speech-to-speech) 🧩
+  - _Community modular realtime speech-to-speech pipeline templates._
 - **[2024-10]** **Async-Tool FSM** - Asynchronous Tool Usage for Real-Time Agents. [![arXiv-2410.21620](https://img.shields.io/badge/arXiv--2410.21620-b31b1b.svg)](https://arxiv.org/abs/2410.21620) 📄
-  - _Event-driven FSM runtime for non-blocking tools in realtime agents._
-- **[2024-06]** **LiveKit Agents** - LiveKit Agents: Realtime Voice Agent Framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/livekit/agents) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.livekit.io/agents/) 🧩
-  - _Framework for realtime voice/video agents with jobs, tools, and RTC._
-- **[2024-03]** **Pipecat** - Pipecat: Composable Realtime Voice & Multimodal Agent Framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/pipecat-ai/pipecat) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.pipecat.ai/) 🧩
+  - _Event-driven FSM runtime for non-blocking tools in realtime agents, effectively a System-2 running beside the talker._
+- **[2024-08]** **TEN** - TEN Framework / TEN Agent: Realtime Multimodal Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/TEN-framework/ten-framework) 🧩
+  - _Composable realtime multimodal agent framework and reference agents._
+- **[2024-05]** **Pipecat** - Pipecat: Composable Realtime Voice & Multimodal Agent Framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/pipecat-ai/pipecat) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.pipecat.ai/) 🧩
   - _Composable pipeline framework for realtime voice and multimodal agents._
+- **[2024-01]** **LiveKit Agents** - LiveKit Agents: Realtime Voice Agent Framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/livekit/agents) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.livekit.io/agents/) 🧩
+  - _Framework for realtime voice/video agents with jobs, tools, and RTC._
+- **[2023-11]** **Open-LLM-VTuber** - Open-LLM-VTuber. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) 🧩
+  - _Useful for studying the product shell; not a new speech foundation model._
 
 <a id="agentic-frameworks"></a>
 ### 5.3 Voice Agent Frameworks & SDKs
@@ -1005,27 +950,19 @@ Interactive systems that call tools, retrieve knowledge, or run long tasks while
 - **[2025-03]** **OpenAI Agents SDK Voice** - OpenAI Agents SDK Voice Workflows. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://openai.github.io/openai-agents-python/) 🧩
   - _Agents SDK patterns for voice sessions, handoffs, and tools._
 - **[2025-02]** **Unmute** - Kyutai Unmute: Low-Latency Modular Speech Interaction Stack. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://unmute.sh/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/unmute) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://kyutai.org/) 🧩
-  - _Modular low-latency speech stack wrapping Moshi-family duplex models._
-- **[2025-01]** **TEN Framework / TEN Agent** - TEN Framework / TEN Agent. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/TEN-framework/ten-framework) 📄
-  - _不能仅依据 Apache badge 忽略根目录或子组件附加条件。_
-- **[2025-01]** **OpenAI Agents SDK** - OpenAI Agents SDK / Voice agents architecture. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/guides/voice-agents) 🔒
-  - _SDK 或示例架构开放，不意味着 GPT 模型开放；具体后端执行和业务状态仍由应用负责。_
-- **[2025-01]** **Open-LLM-VTuber** - Open-LLM-VTuber. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) 🧩
-  - _适合产品壳层研究，不是新的 speech foundation model。_
-- **[2025-01]** **Kyutai Unmute** - Unmute open voice assistant stack. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/unmute) 🔓
-  - _Composable open voice assistant using Kyutai components._
-- **[2025-01]** **Google ADK Live / Streaming** - Google ADK Live / Streaming. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/google/adk-docs) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://adk.dev/live/) 🧩
-  - _ADK Session 的持久化与 Live API 的临时会话、网络连接是不同层。_
-- **[2025-01]** **FastRTC** - FastRTC: Interactive Audio/Video Transport for Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/gradio-app/fastrtc) 🧩
+  - _Composable low-latency voice stack that wraps a text LLM with Kyutai streaming STT/TTS._
+- **[2025-02]** **FastRTC** - FastRTC: Interactive Audio/Video Transport for Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/gradio-app/fastrtc) 🧩
   - _Interactive audio/video transport and callback layer for voice agents._
 - **[2024-10]** **HF speech-to-speech** - Hugging Face speech-to-speech Realtime Pipeline. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/huggingface/speech-to-speech) 🧩
   - _Community modular realtime speech-to-speech pipeline templates._
-- **[2024-08]** **TEN** - TEN Framework / TEN Agent: Realtime Multimodal Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/TEN-framework/TEN-Agent) 🧩
+- **[2024-08]** **TEN** - TEN Framework / TEN Agent: Realtime Multimodal Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/TEN-framework/ten-framework) 🧩
   - _Composable realtime multimodal agent framework and reference agents._
-- **[2024-06]** **LiveKit Agents** - LiveKit Agents: Realtime Voice Agent Framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/livekit/agents) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.livekit.io/agents/) 🧩
-  - _Framework for realtime voice/video agents with jobs, tools, and RTC._
-- **[2024-03]** **Pipecat** - Pipecat: Composable Realtime Voice & Multimodal Agent Framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/pipecat-ai/pipecat) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.pipecat.ai/) 🧩
+- **[2024-05]** **Pipecat** - Pipecat: Composable Realtime Voice & Multimodal Agent Framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/pipecat-ai/pipecat) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.pipecat.ai/) 🧩
   - _Composable pipeline framework for realtime voice and multimodal agents._
+- **[2024-01]** **LiveKit Agents** - LiveKit Agents: Realtime Voice Agent Framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/livekit/agents) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.livekit.io/agents/) 🧩
+  - _Framework for realtime voice/video agents with jobs, tools, and RTC._
+- **[2023-11]** **Open-LLM-VTuber** - Open-LLM-VTuber. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) 🧩
+  - _Useful for studying the product shell; not a new speech foundation model._
 
 <a id="agentic-memory"></a>
 ### 5.4 Memory for Interactive Agents
@@ -1043,9 +980,9 @@ Audio–visual assistants that process continuous video, decide when to speak, a
 <a id="streaming-omni-assistants"></a>
 ### 6.1 Streaming / Duplex Omni Assistants
 
-- [⭐️] **[2026-09]** **Realtime-Venus** - Realtime-Venus: Full-Duplex Interaction with Asynchronous Task Delegation. [![arXiv-2609.13814](https://img.shields.io/badge/arXiv--2609.13814-b31b1b.svg)](https://arxiv.org/abs/2609.13814) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI) 🔓
+- [⭐️] **[2026-09]** **Realtime-Venus** - Realtime-Venus: Full-Duplex Interaction with Asynchronous Task Delegation. [![arXiv-2609.13814](https://img.shields.io/badge/arXiv--2609.13814-b31b1b.svg)](https://arxiv.org/abs/2609.13814) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Realtime-Venus) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI/Realtime-Venus) 🔓
   - _MiniCPM-o-based duplex front-end with dual-loop async tool/brain delegation._
-- [⭐️] **[2026-09]** **Gander** - Gander / Omni-Interaction-Agent: Native Duplex with Asynchronous Brain. [![arXiv-2609.08977](https://img.shields.io/badge/arXiv--2609.08977-b31b1b.svg)](https://arxiv.org/abs/2609.08977) 🔓
+- [⭐️] **[2026-09]** **Gander** - Gander / Omni-Interaction-Agent: Native Duplex with Asynchronous Brain. [![arXiv-2609.08977](https://img.shields.io/badge/arXiv--2609.08977-b31b1b.svg)](https://arxiv.org/abs/2609.08977) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Omni-Interaction-Gander/Omni-Interaction-Agent) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Gander-Omni/Gander) 🔓
   - _Native duplex front-end plus asynchronous Brain agent orchestration runtime._
 - **[2026-06]** **Wan-Streamer** - Wan-Streamer v0.1: End-to-end Real-time Interactive Omni Streaming. [![arXiv-2606.25041](https://img.shields.io/badge/arXiv--2606.25041-b31b1b.svg)](https://arxiv.org/abs/2606.25041) 📄
   - _End-to-end realtime interactive omni streaming prototype._
@@ -1057,8 +994,8 @@ Audio–visual assistants that process continuous video, decide when to speak, a
   - _Next Qwen omni generation with stronger realtime A/V interaction._
 - [⭐️] **[2026-04]** **MiniCPM-o 4.5** - MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction. [![arXiv-2604.27393](https://img.shields.io/badge/arXiv--2604.27393-b31b1b.svg)](https://arxiv.org/abs/2604.27393) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/OpenBMB/MiniCPM-o) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/openbmb/MiniCPM-o-4_5) 🔓
   - _9B omni model with time-multiplexed audio/video/output streams on device._
-- **[2026-01]** **ROMA** - ROMA: Real-time Omni-Multimodal Assistant with Interactive Streaming Understanding. [![arXiv-2601.10323](https://img.shields.io/badge/arXiv--2601.10323-b31b1b.svg)](https://arxiv.org/abs/2601.10323) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Eureka-Maggie/ROMA) 📄
-  - _模型理解连续事件与原生音频波形生成是两回事；输出模态按部署链路确认。_
+- **[2026-01]** **ROMA** - ROMA: Real-time Omni-Multimodal Assistant with Interactive Streaming Understanding. [![arXiv-2601.10323](https://img.shields.io/badge/arXiv--2601.10323-b31b1b.svg)](https://arxiv.org/abs/2601.10323) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Eureka-Maggie/ROMA) 🧩
+  - _Understanding continuous events is distinct from native audio waveform generation; confirm the output modality per deployment pipeline._
 - **[2025-10]** **video-SALMONN S** - video-SALMONN S: Memory-Enhanced Streaming Audio-Visual LLM. [![arXiv-2510.11129](https://img.shields.io/badge/arXiv--2510.11129-b31b1b.svg)](https://arxiv.org/abs/2510.11129) 📄
   - _Memory-enhanced streaming audio-visual LLM for continuous video._
 - **[2025-10]** **LongCat-Flash-Omni** - LongCat-Flash-Omni Technical Report. [![arXiv-2511.00279](https://img.shields.io/badge/arXiv--2511.00279-b31b1b.svg)](https://arxiv.org/abs/2511.00279) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/meituan-longcat/LongCat-Flash-Omni) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/meituan-longcat/LongCat-Flash-Omni) 🔓
@@ -1067,7 +1004,7 @@ Audio–visual assistants that process continuous video, decide when to speak, a
   - _Unified audio-visual streaming world model for interactive agents._
 - [⭐️] **[2025-09]** **Qwen3-Omni** - Qwen3-Omni Technical Report. [![arXiv-2509.17765](https://img.shields.io/badge/arXiv--2509.17765-b31b1b.svg)](https://arxiv.org/abs/2509.17765) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM/Qwen3-Omni) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Qwen) 🔓
   - _Strong open omni model with streaming speech and multimodal interaction._
-- **[2025-08]** **Ming-flash-omni** - Ming-Flash-Omni: Large MoE Omni Generation Models. 🔓
+- **[2025-08]** **Ming-flash-omni** - Ming-Flash-Omni: Large MoE Omni Generation Models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Ming) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI/Ming-flash-omni-2.0) 🔓
   - _Sparse MoE omni models for multimodal generation and interaction._
 - **[2025-06]** **Stream-Omni** - Stream-Omni: Simultaneous Multimodal Interactions with Large Language Models. [![arXiv-2506.13642](https://img.shields.io/badge/arXiv--2506.13642-b31b1b.svg)](https://arxiv.org/abs/2506.13642) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ictnlp/Stream-Omni) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/ICTNLP/stream-omni-8b) 🔓
   - _Text intermediate layer plus streaming speech interaction decoding._
@@ -1077,7 +1014,7 @@ Audio–visual assistants that process continuous video, decide when to speak, a
   - _Omni model with Thinker–Talker streaming speech generation._
 - **[2025-03]** **MoshiVis** - MoshiVis: Teaching Speech Models to Converse about Vision. [![arXiv-2503.15633](https://img.shields.io/badge/arXiv--2503.15633-b31b1b.svg)](https://arxiv.org/abs/2503.15633) 🔓
   - _Vision-conditioned Moshi enabling duplex speech about visual scenes._
-- **[2025-01]** **VITA-1.5** - VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction. [![arXiv-2501.01957](https://img.shields.io/badge/arXiv--2501.01957-b31b1b.svg)](https://arxiv.org/abs/2501.01957) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/VITA-MLLM/VITA) 🔓
+- **[2025-01]** **VITA-1.5** - VITA-1.5: Towards GPT-4o Level Real-Time Vision and Speech Interaction. [![arXiv-2501.01957](https://img.shields.io/badge/arXiv--2501.01957-b31b1b.svg)](https://arxiv.org/abs/2501.01957) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/VITA-MLLM/VITA) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/VITA-MLLM/VITA-1.5) 🔓
   - _Upgraded dual-model omni interaction with streaming speech and vision._
 - **[2025-01]** **OpenOmni** - OpenOmni: Advancing Open-Source Omnimodal Large Language Models. [![arXiv-2501.04561](https://img.shields.io/badge/arXiv--2501.04561-b31b1b.svg)](https://arxiv.org/abs/2501.04561) 🔓
   - _Open omnimodal LLM stack for interactive speech–vision assistants._
@@ -1093,8 +1030,8 @@ Audio–visual assistants that process continuous video, decide when to speak, a
   - _Proactive VL interaction model with background task delegation harness._
 - **[2026-03]** **Proact-VL** - Proact-VL: A Proactive VideoLLM for Real-Time AI Companions. [![arXiv-2603.03447](https://img.shields.io/badge/arXiv--2603.03447-b31b1b.svg)](https://arxiv.org/abs/2603.03447) 📄
   - _Proactive VideoLLM tuned for realtime companion interventions._
-- **[2026-01]** **ROMA** - ROMA: Real-time Omni-Multimodal Assistant with Interactive Streaming Understanding. [![arXiv-2601.10323](https://img.shields.io/badge/arXiv--2601.10323-b31b1b.svg)](https://arxiv.org/abs/2601.10323) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Eureka-Maggie/ROMA) 📄
-  - _模型理解连续事件与原生音频波形生成是两回事；输出模态按部署链路确认。_
+- **[2026-01]** **ROMA** - ROMA: Real-time Omni-Multimodal Assistant with Interactive Streaming Understanding. [![arXiv-2601.10323](https://img.shields.io/badge/arXiv--2601.10323-b31b1b.svg)](https://arxiv.org/abs/2601.10323) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Eureka-Maggie/ROMA) 🧩
+  - _Understanding continuous events is distinct from native audio waveform generation; confirm the output modality per deployment pipeline._
 - **[2025-12]** **Streamo** - Streamo: Streaming Video Instruction Tuning. [![arXiv-2512.21334](https://img.shields.io/badge/arXiv--2512.21334-b31b1b.svg)](https://arxiv.org/abs/2512.21334) 📄
   - _Instruction tuning recipe for streaming video interaction models._
 - **[2025-12]** **MMDuet2** - MMDuet2: Enhancing Proactive Interaction of Video LLMs. [![arXiv-2512.06810](https://img.shields.io/badge/arXiv--2512.06810-b31b1b.svg)](https://arxiv.org/abs/2512.06810) 📄
@@ -1152,11 +1089,11 @@ Robots and embodied agents that talk and act under continuous sensory streams, i
   - _Streaming embodied agent technical report for continuous interaction._
 - **[2026-03]** **HEAR** - HEAR: Towards the Vision-Sound-Language-Action Paradigm. [![arXiv-2603.16086](https://img.shields.io/badge/arXiv--2603.16086-b31b1b.svg)](https://arxiv.org/abs/2603.16086) 📄
   - _Vision–sound–language–action paradigm for duplex embodied agents._
-- **[2025-10]** **VITA-E** - VITA-E: Embodied Dual-Model Active/Listening Interaction. [![arXiv-2510.21817](https://img.shields.io/badge/arXiv--2510.21817-b31b1b.svg)](https://arxiv.org/abs/2510.21817) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Tencent/VITA/tree/VITA-E) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/VITA-MLLM/VITA-E) 📄
+- **[2025-10]** **VITA-E** - VITA-E: Embodied Dual-Model Active/Listening Interaction. [![arXiv-2510.21817](https://img.shields.io/badge/arXiv--2510.21817-b31b1b.svg)](https://arxiv.org/abs/2510.21817) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Tencent/VITA/tree/VITA-E) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/VITA-MLLM/VITA-E) 🔓
   - _Active/Listening dual models with model-as-controller for robots._
 - **[2025-10]** **RoboOmni** - RoboOmni: Proactive Robot Manipulation in Omni-modal Streams. [![arXiv-2510.23763](https://img.shields.io/badge/arXiv--2510.23763-b31b1b.svg)](https://arxiv.org/abs/2510.23763) 📄
   - _Proactive robot manipulation under continuous omni-modal streams._
-- **[2025-10]** **ELLSA** - ELLSA: Native Multimodal Full-Duplex Speech and Action. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/bytedance/SALMONN/tree/ELLSA) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/tsinghua-ee/ELLSA) 📄
+- **[2025-10]** **ELLSA** - ELLSA: Native Multimodal Full-Duplex Speech and Action. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/bytedance/SALMONN/tree/ELLSA) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/tsinghua-ee/ELLSA) 🔓
   - _Native multimodal full-duplex model coupling speech with actions._
 - **[2025-06]** **RoboEgo** - RoboEgo System Card: Omnimodal Model with Native Ego Interaction. [![arXiv-2506.01934](https://img.shields.io/badge/arXiv--2506.01934-b31b1b.svg)](https://arxiv.org/abs/2506.01934) 📄
   - _Omnimodal ego robot model with native interactive speech–action loops._
@@ -1203,18 +1140,16 @@ Methods that cut across model families: turn-taking, RL alignment for duplex beh
   - _Semantic VAD duplex control plugin for cascaded voice systems._
 - **[2026-03]** **DualTurn** - DualTurn: Learning Turn-Taking from Dual-Channel Generative Pretraining. [![arXiv-2603.08216](https://img.shields.io/badge/arXiv--2603.08216-b31b1b.svg)](https://arxiv.org/abs/2603.08216) 📄
   - _Dual-channel generative pretraining outperforming classic VAP setups._
+- **[2025-10]** **Deepgram Flux** - Deepgram Flux endpointing / turn features. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.deepgram.com/) 🔒
+  - _Hosted endpointing features in Deepgram realtime APIs._
 - **[2025-09]** **EasyTurn** - EasyTurn: Acoustic + Semantic Four-State Turn Control. [![arXiv-2509.23938](https://img.shields.io/badge/arXiv--2509.23938-b31b1b.svg)](https://arxiv.org/abs/2509.23938) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ASLP-lab/Easy-Turn) 🔓
   - _Four-state acoustic–semantic controller for speak/listen decisions._
-- **[2025-08]** **TurnSense** - TurnSense / TurnSense 1.1: Turn and Interruption Control. 🔓
+- **[2025-08]** **TurnSense** - TurnSense / TurnSense 1.1: Turn and Interruption Control. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Bairong-Xdynamics/TurnSense) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/brgroup/TurnSense) 🔓
   - _Turn/interruption control models for production voice agents._
 - **[2025-06]** **Smart Turn v3** - Pipecat Smart Turn v3: Semantic End-of-Turn Detection. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/pipecat-ai/smart-turn) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/pipecat-ai/smart-turn-v3) 🔓
   - _Tiny Whisper-based semantic VAD (~12ms) for pipeline duplex control._
-- **[2025-01]** **TurnSense / TurnSense 1.1** - TurnSense / TurnSense 1.1. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Bairong-Xdynamics/TurnSense) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/brgroup/TurnSense) 📄
-  - _同名项目较多，本表仅指 Bairong-Xdynamics/TurnSense。_
-- **[2025-01]** **TEN Turn Detection** - TEN Turn Detection Module. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/TEN-framework) 🧩
+- **[2025-04]** **TEN Turn Detection** - TEN Turn Detection Module. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/TEN-framework) 🧩
   - _Turn detection component in the TEN realtime agent framework._
-- **[2025-01]** **Deepgram Flux** - Deepgram Flux endpointing / turn features. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.deepgram.com/) 🔒
-  - _Hosted endpointing features in Deepgram realtime APIs._
 - **[2024-09]** **LiveKit Turn Detector** - LiveKit Turn Detector: Semantic Turn-Taking Model. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/livekit/agents) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.livekit.io/agents/) 🔓
   - _Semantic turn detector plugin for LiveKit voice agents._
 - **[2024-01]** **VAP-Realtime** - Real-time Continuous Turn-taking Prediction Using Voice Activity Projection. [![arXiv-2401.04868](https://img.shields.io/badge/arXiv--2401.04868-b31b1b.svg)](https://arxiv.org/abs/2401.04868) 🧩
@@ -1314,28 +1249,20 @@ Closed APIs, product demos, and open-weight releases by vendor (as of 2026-10-06
 <a id="industry-openai"></a>
 ### OpenAI
 
+- **[2026-07]** **gpt-live-1-mini** - OpenAI GPT-Live 1 mini. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-live-1) 🔒
+  - _Smaller/cheaper Live tier; verify modality and delegation parity with full._
+- [⭐️] **[2026-07]** **GPT-Live** - GPT-Live 1: Native Full-Duplex Voice with Backend Delegation. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://openai.com/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-live-1) 🔒
+  - _Native duplex voice front-end with Responses/client delegation to agents; audio/text only, no image/video._
 - **[2026-05]** **GPT-Realtime-2** - GPT Realtime 2 series update. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-realtime-2) 🔒
   - _Realtime 2 generation with stronger tools/reasoning; migrate path from 1.x._
-- **[2026-05]** **gpt-realtime-2.1** - OpenAI GPT Realtime 2.1 / 2.1 mini. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-realtime-2.1) 🔒
+- [⭐️] **[2026-05]** **gpt-realtime-2.1** - OpenAI GPT Realtime 2.1 / 2.1 mini. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-realtime-2.1) 🔒
   - _Realtime session with configurable reasoning and tools; not identical to Live._
+- **[2026-05]** **GPT-Realtime-Translate** - OpenAI realtime speech translation SKU. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/) 🔒
+  - _Realtime translation-oriented endpoint; not a general duplex chat model._
 - **[2026-02]** **GPT Audio 1.5** - OpenAI GPT Audio 1.5 family. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-audio-1.5) 🔒
   - _Audio QA/generation via Chat Completions — not full-duplex Live/Realtime._
-- **[2026-01]** **gpt-live-1-mini** - OpenAI GPT-Live 1 mini. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-live-1) 🔒
-  - _Smaller/cheaper Live tier; verify modality and delegation parity with full._
-- [⭐️] **[2026-01]** **gpt-live-1** - OpenAI GPT-Live 1 front-end voice model. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-live-1) 🔒
-  - _Live front-end with Responses/client delegation; audio/text, no image/video._
 - **[2025-08]** **gpt-realtime** - gpt-realtime GA / model family notes. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-realtime) 🔒
-  - _GA notes for first-generation gpt-realtime; check deprecation tables before use._
-- **[2025-01]** **gpt-realtime** - gpt-realtime / gpt-realtime-mini and GPT-4o Realtime preview lineage (deprecated path). [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-realtime) 🔒
-  - _原始 GA 家族有 2027-01-20 停用安排；较早的 realtime-preview 已于 2026-05 停用。应逐个核对快照，不能把家族全部写成仍可用。_
-- **[2025-01]** **GPT-Realtime-Translate** - OpenAI realtime speech translation SKU. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/) 🔒
-  - _Realtime translation-oriented endpoint; not a general duplex chat model._
-- [⭐️] **[2025-01]** **GPT Realtime 2.1 / 2.1 mini** - GPT Realtime 2.1 / 2.1 mini. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-realtime-2.1) 🔒
-  - _应分别测试端点检测、语义打断和并发工具；不能仅由 WebSocket 双向通信推断与 GPT-Live 相同的原生双工架构。_
-- **[2025-01]** **GPT Realtime 2 / 1.5** - GPT Realtime 2 / 1.5. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-realtime-2) 🔒
-  - _2 于 2026-05、1.5 于 2026-02 进入官方更新记录；新接入先检查 2.1 系列及迁移表。_
-- **[2025-01]** **GPT Audio 1.5** - GPT Audio 1.5 / GPT Audio family. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-audio-1.5) 🔒
-  - _不要把支持音频输入输出的 Chat Completions 与全双工 Realtime/Live 混为一类。_
+  - _GA notes for first-generation gpt-realtime. The GA family is scheduled for deprecation on 2027-01-20; the older realtime-preview models were retired in 2026-05._
 
 <a id="industry-google"></a>
 ### Google DeepMind
@@ -1344,140 +1271,114 @@ Closed APIs, product demos, and open-weight releases by vendor (as of 2026-10-06
   - _GA notes for Gemini 3.8 Live with async tools and extended thinking._
 - [⭐️] **[2026-09]** **Gemini 3.8 Live Extended Thinking** - Gemini 3.8 Live with Extended Thinking. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.google.dev/gemini-api/docs/live-api/thinking) 🔒
   - _Keeps interaction while backend extended thinking runs._
-- **[2026-01]** **Gemini 3.1 Flash Live** - Gemini 3.1 Flash Live announcement. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.google.dev/gemini-api/docs/models) 🔒
-  - _Flash-tier live multimodal model in the Gemini Live lineage._
-- **[2026-01]** **Gemini 3.5 Live Translate** - Gemini Live speech translation SKU. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.google.dev/gemini-api/docs/) 🔒
+- **[2026-06]** **Gemini 3.5 Live Translate** - Gemini Live speech translation SKU. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.google.dev/gemini-api/docs/) 🔒
   - _Live translation-oriented Gemini SKU; separate from general Live chat._
+- **[2026-03]** **Gemini 3.1 Flash Live** - Gemini 3.1 Flash Live announcement. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.google.dev/gemini-api/docs/models) 🔒
+  - _Flash-tier live multimodal model in the Gemini Live lineage._
 - **[2025-04]** **Gemini 2.5 Flash Native Audio** - Gemini 2.5 Flash native audio Live preview lineage. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.google.dev/gemini-api/docs/live) 🔒
-  - _Native-audio preview generation; some live-preview endpoints retired._
-- **[2025-01]** **Gemini 3.1 Flash Live / 2.5 Flash Native Audio** - Gemini 3.1 Flash Live / 2.5 Flash Native Audio. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.google.dev/gemini-api/docs/deprecations) 🔒
-  - _部分旧 2.0/2.5 live-preview 端点已停用；3.1 与 native-audio-preview 需按精确 ID 查停用表，不能只看 Gemini 版本号。_
+  - _Native-audio preview generation; some live-preview endpoints are retired, so look up exact model IDs in the deprecation table._
 
 <a id="industry-alibaba"></a>
 ### Alibaba / Qwen
 
-- **[2026-09]** **Qwen3.8-Omni-Flash-Realtime / Flash** - Qwen3.8-Omni: Towards Native Omni-Modal Agents. [![arXiv-2609.25611](https://img.shields.io/badge/arXiv--2609.25611-b31b1b.svg)](https://arxiv.org/abs/2609.25611) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM/Qwen-Live-Harness) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.modelstudio.console.alibabacloud.com/en/model-studio/omni) 🧩
-  - _普通 qwen3.8-omni-flash 的 Chat/Responses 接口输出文本，不能因 Omni 名称推断带语音输出；未核实同名权重公开。_
-- [⭐️] **[2026-09]** **Qwen-Audio 3.1 Realtime Plus** - Qwen-Audio 3.1 Realtime Plus (Think/Act/Speak). [![arXiv-2609.25176](https://img.shields.io/badge/arXiv--2609.25176-b31b1b.svg)](https://arxiv.org/abs/2609.25176) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://qwenaudio.github.io/qwen-audio-3.1-realtime/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.alibabacloud.com/help/en/model-studio/qwen-audio-realtime-model-access) 🔒
-  - _Closed realtime API; not a small version of open Qwen3-Omni-30B._
-- **[2026-01]** **Qwen3.8-Omni-Flash-Realtime** - Qwen3.8 Omni Flash Realtime API. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.alibabacloud.com/help/en/model-studio/) 🔒
-  - _Flash realtime omni API SKU in the Qwen3.8 line._
-- **[2026-01]** **Qwen3.5-Omni-Plus-Realtime** - Qwen3.5 Omni Plus Realtime API. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenAudio/qwen-audio-agent) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.alibabacloud.com/help/en/model-studio/) 🔒
-  - _Plus-tier realtime omni API; distinct from open-weight Omni checkpoints._
-- **[2026-01]** **Qwen-Audio 3.0** - Qwen-Audio 3.0 Realtime Plus / Flash. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.alibabacloud.com/help/en/model-studio/) 🔒
+- **[2026-09]** **Qwen3.8-Omni-Flash-Realtime** - Qwen3.8 Omni Flash Realtime API. [![arXiv-2609.25611](https://img.shields.io/badge/arXiv--2609.25611-b31b1b.svg)](https://arxiv.org/abs/2609.25611) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM/Qwen-Live-Harness) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.modelstudio.console.alibabacloud.com/en/model-studio/omni) 🔒
+  - _Flash realtime omni API in the Qwen3.8 line; the regular qwen3.8-omni-flash Chat/Responses endpoint outputs text only._
+- [⭐️] **[2026-09]** **Qwen-Audio 3.1** - Qwen-Audio 3.1 Realtime Plus: Duplex Speech with Dual-System Services. [![arXiv-2609.25176](https://img.shields.io/badge/arXiv--2609.25176-b31b1b.svg)](https://arxiv.org/abs/2609.25176) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://qwenaudio.github.io/qwen-audio-3.1-realtime/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.alibabacloud.com/help/en/model-studio/qwen-audio-realtime-model-access) 🔒
+  - _Closed realtime duplex speech API with backend reasoning/tool services; not a small version of open Qwen3-Omni-30B._
+- **[2026-07]** **Qwen-Audio 3.0** - Qwen-Audio 3.0 Realtime Plus / Flash. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.alibabacloud.com/help/en/model-studio/qwen-audio-realtime-model-access) 🔒
   - _Prior realtime audio series with function calling and search._
+- **[2026-03]** **Qwen3.5-Omni-Plus-Realtime** - Qwen3.5 Omni Plus Realtime API. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenAudio/qwen-audio-agent) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.alibabacloud.com/help/en/model-studio/) 🔒
+  - _Plus-tier realtime omni API; distinct from open-weight Omni checkpoints._
+- **[2025-09]** **qwen3-livetranslate** - Qwen3 live speech translation model/API. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.alibabacloud.com/help/en/model-studio/) 🔒
+  - _Live translation SKU; not a general duplex assistant._
 - [⭐️] **[2025-09]** **Qwen3-Omni** - Qwen3-Omni Technical Report. [![arXiv-2509.17765](https://img.shields.io/badge/arXiv--2509.17765-b31b1b.svg)](https://arxiv.org/abs/2509.17765) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM/Qwen3-Omni) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Qwen) 🔓
   - _Strong open omni model with streaming speech and multimodal interaction._
-- **[2025-01]** **qwen3-livetranslate** - Qwen3 live speech translation model/API. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.alibabacloud.com/help/en/model-studio/) 🔒
-  - _Live translation SKU; not a general duplex assistant._
-- **[2025-01]** **Qwen3-Omni-Flash / Realtime；Qwen-Omni-Turbo API** - Qwen3-Omni-Flash / Realtime；Qwen-Omni-Turbo API. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.alibabacloud.com/help/en/model-studio/qwen-omni) 🔓
-  - _云端模型 ID 与公开 30B-A3B checkpoint 不能假定一一对应；Turbo/旧版本维护状态参见模型目录。_
-- **[2025-01]** **Qwen-Audio 3.0 Realtime Plus / Flash** - Qwen-Audio 3.0 Realtime Plus / Flash. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.alibabacloud.com/help/en/model-studio/qwen-audio-realtime-model-access) 🔒
-  - _与 3.1 并列于接入文档；Plus/Flash、地域与传输协议的可用性应分别确认。_
+- **[2025-01]** **Qwen3-Omni-Flash / Realtime; Qwen-Omni-Turbo API** - Qwen3-Omni-Flash (incl. Realtime) and Qwen-Omni-Turbo cloud APIs. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.alibabacloud.com/help/en/model-studio/qwen-omni) 🔒
+  - _Cloud model IDs do not necessarily map one-to-one to the public 30B-A3B checkpoint; see the model catalog for Turbo/legacy maintenance status._
 
 <a id="industry-bytedance"></a>
 ### ByteDance / Seed
 
 - **[2026-08]** **SeedRealtime 2026-08** - Seed Realtime voice update (2026-08). 🔒
   - _2026-08 Seed realtime voice refresh; check Volcano console for SKU._
-- [⭐️] **[2025-12]** **Seeduplex** - Doubao Seeduplex: Native Full-Duplex Speech Interaction Model. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.volcengine.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://research.doubao.com/en/seeduplex) 🔒
+- [⭐️] **[2026-04]** **Seeduplex** - Doubao Seeduplex: Native Full-Duplex Speech Interaction Model. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.volcengine.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://research.doubao.com/en/seeduplex) 🔒
   - _ByteDance native full-duplex speech model for continuous bidirectional talk._
+- **[2025-12]** **Doubao O2.0** - Doubao O2.0 omni / voice product line. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.volcengine.com/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.volcengine.com/docs/real_time_communication/Accessend-to-endreal-timespeechlargemodel?lang=zh) 🔒
+  - _Doubao omni/voice product naming; verify against current console IDs._
 - **[2025-07]** **Seed LiveInterpret 2.0** - Seed LiveInterpret 2.0: End-to-end Simultaneous Speech-to-speech Translation. [![arXiv-2507.17527](https://img.shields.io/badge/arXiv--2507.17527-b31b1b.svg)](https://arxiv.org/abs/2507.17527) 🔒
   - _End-to-end simultaneous S2ST product/model from ByteDance Seed._
-- **[2025-01]** **Seed Realtime Voice 2025** - Seed realtime voice model (2025). 🔒
+- **[2025-01]** **Seed Realtime Voice 2025** - Seed realtime voice model (2025). [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://seed.bytedance.com/en/realtime_voice) 🔒
   - _2025 official realtime voice lineage before Seeduplex research post._
-- **[2025-01]** **Seed / Doubao Realtime Voice（2025）** - Seed / Doubao Realtime Voice（2025）. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://seed.bytedance.com/en/realtime_voice) 🔒
-  - _单独保留以解释旧论文基线；发布页宣称的模型延迟不能当成今天 API 的端到端延迟。_
-- **[2025-01]** **Doubao end-to-end realtime speech model** - Doubao end-to-end realtime speech model / O2.0. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.volcengine.com/docs/real_time_communication/Accessend-to-endreal-timespeechlargemodel?lang=zh) 🔒
-  - _混合编排不自动拥有任务账本、持久记忆和后台工作恢复；不要直接称为完整 agent harness。_
-- [⭐️] **[2025-01]** **Doubao Seeduplex** - Doubao Seeduplex. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://research.doubao.com/en/seeduplex) 🔒
-  - _2026-04 官方研究发布。火山端到端语音 API 的存在不能证明其底层就是同一 Seeduplex checkpoint。_
-- **[2025-01]** **Doubao O2.0** - Doubao O2.0 omni / voice product line. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.volcengine.com/) 🔒
-  - _Doubao omni/voice product naming; verify against current console IDs._
 
 <a id="industry-others"></a>
 ### Other Vendors
 
-- **[2026-09]** **VoiceChat** - NemotronLabs VoiceChat: An Open Full-Duplex Spoken Dialogue Model. [![arXiv-2609.21967](https://img.shields.io/badge/arXiv--2609.21967-b31b1b.svg)](https://arxiv.org/abs/2609.21967) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B) 🔓
+- **[2026-10]** **Nova 2.5 Sonic** - Amazon Nova 2.5 Sonic. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://aws.amazon.com/ai/generative-ai/nova/) 🔒
+  - _2.5 Sonic tier; confirm region/feature matrix in AWS docs._
+- **[2026-09]** **VoiceChat** - NemotronLabs VoiceChat: An Open Full-Duplex Spoken Dialogue Model. [![arXiv-2609.21967](https://img.shields.io/badge/arXiv--2609.21967-b31b1b.svg)](https://arxiv.org/abs/2609.21967) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://build.nvidia.com/nvidia/nemotron-voicechat/modelcard) 🔓
   - _11B dual-channel duplex SLM with a separate tool-calling output channel._
 - **[2026-08]** **JoyAI-Talker** - JoyAI-Talker: Full-Duplex Speech Interactive Large Model for Empathetic Agents. [![arXiv-2608.01119](https://img.shields.io/badge/arXiv--2608.01119-b31b1b.svg)](https://arxiv.org/abs/2608.01119) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://research.joyai.com/joyai-talker) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/jd-opensource/JoyAI-VL-Interaction) 📄
   - _Modular Thinker–Talker full-duplex speech model for empathetic agents._
 - **[2026-08]** **Interaction-Small** - Thinking Machines Lab Interaction-Small Preview. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://thinkingmachines.ai/news/introducing-inkling/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://thinkingmachines.ai/blog/interaction-models/) 🔒
   - _Research preview for continuous interaction with background agents._
+- **[2026-06]** **Step-Audio 3 RT** - Step-Audio 3 Realtime: Official Full-Duplex Speech Product. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.stepfun.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://static.stepfun.com/blog/stepaudio3/realtime/) 🔒
+  - _Official full-duplex realtime speech product with dual-system service hooks._
 - **[2026-06]** **Grok Voice Think Fast** - Grok Voice Agent with Fast Thinking Modes. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://x.ai/) 🔒
   - _Realtime voice agent with configurable fast/slow thinking pathways._
-- **[2026-04]** **Nova 2 Sonic** - Amazon Nova 2 Sonic: Bidirectional Speech with Async Tools. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.aws.amazon.com/nova/) 🔒
-  - _Bidirectional speech streaming with asynchronous Bedrock tool calling._
 - [⭐️] **[2026-04]** **MiniCPM-o 4.5** - MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction. [![arXiv-2604.27393](https://img.shields.io/badge/arXiv--2604.27393-b31b1b.svg)](https://arxiv.org/abs/2604.27393) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/OpenBMB/MiniCPM-o) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/openbmb/MiniCPM-o-4_5) 🔓
   - _9B omni model with time-multiplexed audio/video/output streams on device._
+- **[2026-02]** **Voxtral Realtime** - Mistral Voxtral realtime ASR / audio understanding. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.mistral.ai/) 🔓
+  - _Realtime audio understanding API useful as ASR front-end._
 - [⭐️] **[2026-02]** **PersonaPlex** - PersonaPlex: Controllable Persona and Style for Full-Duplex Speech Dialogue. [![arXiv-2602.06053](https://img.shields.io/badge/arXiv--2602.06053-b31b1b.svg)](https://arxiv.org/abs/2602.06053) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/personaplex) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nvidia/personaplex-7b-v1) 🔓
   - _Moshi-style dual-channel model with controllable persona and conversational style._
-- **[2026-01]** **Nova 2.5 Sonic** - Amazon Nova 2.5 Sonic. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://aws.amazon.com/ai/generative-ai/nova/) 🔒
-  - _2.5 Sonic tier; confirm region/feature matrix in AWS docs._
-- **[2025-06]** **Cartesia Line** - Cartesia Line SDK for Background Reasoning Voice Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/cartesia-ai/line) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.cartesia.ai/line/sdk/overview) 🔒
+- **[2026-01]** **LFM2.5-Audio** - Liquid LFM2.5-Audio model. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.liquid.ai/) 🔓
+  - _Liquid Foundation Models audio variant._
+- **[2025-12]** **Nova 2 Sonic** - Amazon Nova 2 Sonic: Bidirectional Speech with Async Tools. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.aws.amazon.com/nova/) 🔒
+  - _Bidirectional speech streaming with asynchronous Bedrock tool calling._
+- **[2025-12]** **Grok Voice Agent / grok-voice-latest** - Grok Voice Agent / grok-voice-latest. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.x.ai/developers/model-capabilities/audio/voice) 🔒
+  - _grok-voice-latest is a moving alias; no corresponding open voice weights were found, so the past open releases of Grok text models do not apply._
+- **[2025-11]** **ERNIE 5.0** - Baidu ERNIE 5.0 multimodal / voice capabilities. 🔒
+  - _ERNIE 5.0 product multimodal/voice features via Qianfan._
+- **[2025-06]** **TalkingMachines** - Character.AI TalkingMachines voice stack. 🔒
+  - _Character.AI conversational voice / talking machines product line._
+- **[2025-06]** **Cartesia Line** - Cartesia Line SDK for Background Reasoning Voice Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/cartesia-ai/line) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.cartesia.ai/line/sdk/overview) 🧩
   - _SDK where background tools survive interruptions during speech._
+- **[2025-06]** **Apple Live Translation / Siri AI** - Apple Live Translation and Siri AI voice features. 🔒
+  - _On-device/OS-integrated live translation and Siri AI voice._
+- **[2025-05]** **Hume EVI 3 / 4-mini** - Hume Empathic Voice Interface 3 and 4-mini. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://dev.hume.ai/docs/speech-to-speech-evi/configuration/evi-version) 🔒
+  - _Empathic voice API focused on expressive/emotional interaction; EVI 1/2 are no longer supported._
+- **[2025-05]** **Claude Voice Mode** - Anthropic Claude voice mode. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.anthropic.com/) 🔒
+  - _Claude app voice mode; cascade vs native duplex not fully public._
 - **[2025-04]** **Nova Sonic** - Amazon Nova Sonic speech-to-speech announcement. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://aws.amazon.com/ai/generative-ai/nova/) 🔒
   - _AWS Nova Sonic realtime speech model family (check EOL for older SKUs)._
+- **[2025-03]** **Baidu Speech LLM** - Baidu Qianfan / speech LLM realtime offerings. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://ai.baidu.com/tech/speech/chatbot) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.baidu.com/ai-doc/SPEECH/nmcytnwei) 🔒
+  - _Baidu cloud speech LLM / realtime voice products._
+- **[2025-02]** **Unmute** - Kyutai Unmute: Low-Latency Modular Speech Interaction Stack. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://unmute.sh/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/unmute) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://kyutai.org/) 🧩
+  - _Composable low-latency voice stack that wraps a text LLM with Kyutai streaming STT/TTS._
 - **[2025-02]** **Sesame Maya / Miles** - Sesame conversational voice personas Maya and Miles. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.sesame.com/) 🔒
   - _Product personas demoing Sesame conversational speech tech._
-- **[2025-01]** **iFlytek SparkOS** - iFlytek SparkOS voice agent OS / runtime. 🔒
-  - _iFlytek Spark-oriented voice OS / agent runtime._
-- **[2025-01]** **iFLYTEK Hyper-human interaction** - iFLYTEK Hyper-human interaction / SparkOS interactive API. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.xfyun.cn/solutions/sparkos_interactive) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.xfyun.cn/doc/spark/sparkos_interactive.html) 🔒
-  - _接口默认全双工是服务行为证据，不足以推断内部是单一原生双工基础模型；数字人视频输出也不是通用视频生成。_
-- **[2025-01]** **Voxtral Realtime** - Mistral Voxtral realtime ASR / audio understanding. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.mistral.ai/) 🔒
-  - _Realtime audio understanding API useful as ASR front-end._
-- **[2025-01]** **TalkingMachines** - Character.AI TalkingMachines voice stack. 🔒
-  - _Character.AI conversational voice / talking machines product line._
-- **[2025-01]** **TML Interaction-Small** - Thinking Machines Lab Interaction-Small model. 🔒
-  - _Small interaction-model SKU referenced in TML materials._
-- **[2025-01]** **Step-Audio 3 Realtime** - StepFun Step-Audio 3 realtime speech model. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://platform.stepfun.com/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/stepfun-ai/Step-Audio) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://static.stepfun.com/blog/stepaudio3/realtime/) 🔒
-  - _StepFun realtime audio model line._
-- **[2025-01]** **Sesame Maya** - Sesame Maya / Miles voice assistants. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/sesameailabs/csm) 🔒
-  - _没有把演示产品列成可自部署模型，也未核实面向所有开发者的通用 Maya/Miles API。_
-- **[2025-01]** **SenseNova 5o / V6 Omni** - SenseTime SenseNova omni realtime models. 🔒
-  - _SenseNova omni/realtime product line (5o / V6 naming)._
-- **[2025-01]** **SenseNova 5o** - SenseNova 5o / SenseTime realtime audio-video model. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.sensetime.com/cn/news/51169319) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://sensenova5o_doc.sensetime.com/introduction/intro.html) 🔒
-  - _2025 年官方公告确认商用 API；旧接口文档域名本次不可解析，当前接入状态待复核。与 InteractiveOmni 分开。_
-- **[2025-01]** **LFM2.5-Audio** - Liquid LFM2.5-Audio model. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.liquid.ai/) 🔓
-  - _Liquid Foundation Models audio variant._
-- **[2025-01]** **Kyutai Unmute** - Unmute open voice assistant stack. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/unmute) 🔓
-  - _Composable open voice assistant using Kyutai components._
-- **[2025-01]** **Kyutai Hibiki** - Hibiki simultaneous speech translation. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/hibiki) 🔓
-  - _Kyutai streaming / simultaneous speech translation model._
-- **[2025-01]** **Hume EVI 3 / EVI 4-mini** - Hume EVI 3 / EVI 4-mini. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://dev.hume.ai/docs/speech-to-speech-evi/configuration/evi-version) 🔒
-  - _EVI 1/2 已退出支持；EVI 不是单纯 Octave TTS。不同 EVI 版本支持语言和配置有差异。_
-- **[2025-01]** **Hume EVI 3 / 4-mini** - Hume Empathic Voice Interface 3 and 4-mini. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://dev.hume.ai/) 🔒
-  - _Empathic voice API focused on expressive/emotional interaction._
-- **[2025-01]** **Grok Voice Agent / grok-voice-latest** - Grok Voice Agent / grok-voice-latest. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.x.ai/developers/model-capabilities/audio/voice) 🔒
-  - _latest 是可变别名；未找到对应开放语音权重，不可套用 Grok 文本模型历史开放状态。_
+- [⭐️] **[2025-02]** **Hibiki** - Hibiki: High-Fidelity Simultaneous Speech-To-Speech Translation. [![arXiv-2502.03382](https://img.shields.io/badge/arXiv--2502.03382-b31b1b.svg)](https://arxiv.org/abs/2502.03382) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/hibiki) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://kyutai.org/) 🔓
+  - _High-fidelity simultaneous S2ST built on Moshi-style duplex stacks._
+- **[2025-02]** **Baichuan-Audio** - Baichuan-Audio: End-to-End Audio Dialogue Models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/baichuan-inc) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/baichuan-inc/Baichuan-Audio-Instruct) 🔓
+  - _End-to-end audio dialogue models from Baichuan._
 - **[2025-01]** **GLM-Realtime** - Zhipu GLM-Realtime audiovisual API. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://open.bigmodel.cn/dev/api/rtav/GLM-Realtime) 🔒
   - _Closed realtime AV API; distinct from open GLM-4-Voice weights._
-- **[2025-01]** **ElevenAgents** - ElevenLabs conversational / agent platform. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://elevenlabs.io/docs) 🔒
+- **[2024-11]** **ElevenAgents** - ElevenLabs conversational / agent platform. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://elevenlabs.io/docs/eleven-agents/overview) 🔒
   - _ElevenLabs agents for conversational voice apps._
-- **[2025-01]** **ERNIE 5.0** - Baidu ERNIE 5.0 multimodal / voice capabilities. 🔒
-  - _ERNIE 5.0 product multimodal/voice features via Qianfan._
-- **[2025-01]** **Deepgram Voice Agent** - Deepgram Voice Agent API. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.deepgram.com/) 🔒
-  - _Hosted voice agent with STT-centric realtime stack._
-- **[2025-01]** **Baidu end-to-end speech-language model Pro** - Baidu end-to-end speech-language model Pro / Lite. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://ai.baidu.com/tech/speech/chatbot) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.baidu.com/ai-doc/SPEECH/nmcytnwei) 🔒
-  - _按官方语音文档归类；不把千帆通用文本模型或单独语音识别服务算作同一模型。_
-- **[2025-01]** **Baidu Speech LLM** - Baidu Qianfan / speech LLM realtime offerings. 🔒
-  - _Baidu cloud speech LLM / realtime voice products._
-- **[2025-01]** **Baichuan-Audio** - Baichuan-Audio: End-to-End Audio Dialogue Models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/baichuan-inc) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/baichuan-inc/Baichuan-Audio-Instruct) 🔓
-  - _End-to-end audio dialogue models from Baichuan._
-- **[2025-01]** **Apple Live Translation / Siri AI** - Apple Live Translation and Siri AI voice features. 🔒
-  - _On-device/OS-integrated live translation and Siri AI voice._
-- **[2025-01]** **Amazon Nova 2 Sonic / Nova Sonic** - Amazon Nova 2 Sonic / Nova Sonic. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.aws.amazon.com/en_en/bedrock/latest/userguide/model-card-amazon-nova-2-sonic.html) 🔒
-  - _Nova 2 Sonic ID 为 amazon.nova-2-sonic-v1:0；2025-12 发布，2026 年有原位更新，复现实验还需记录调用日期。_
 - **[2024-10]** **GLM-4-Voice** - GLM-4-Voice: Towards Versatile and Efficient End-to-End Speech Interaction. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/THUDM/GLM-4-Voice) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/THUDM/glm-4-voice-9b) 🔓
   - _End-to-end spoken dialogue model with streaming speech generation._
-- **[2024-09]** **Kyutai Moshi** - Moshi / Moshiko / Moshika full-duplex models. [![arXiv-2410.00037](https://img.shields.io/badge/arXiv--2410.00037-b31b1b.svg)](https://arxiv.org/abs/2410.00037) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/moshi) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/kyutai/moshiko-pytorch-bf16) 🔓
-  - _Open full-duplex baseline with multi-stream audio + inner monologue._
-- **[2024-01]** **Ultravox** - Ultravox speech-aware LLM (understanding). [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/fixie-ai/ultravox) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/fixieai) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.ultravox.ai/) 🔓
-  - _Speech→text LLM often paired with external TTS._
-- **[2024-01]** **Meta AI Voice** - Meta AI voice / conversational speech features. 🔒
+- [⭐️] **[2024-09] [ICLR'25]** **Moshi** - Moshi: a speech-text foundation model for real-time dialogue. [![arXiv-2410.00037](https://img.shields.io/badge/arXiv--2410.00037-b31b1b.svg)](https://arxiv.org/abs/2410.00037) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://moshi.chat/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/moshi) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/kyutai/moshiko-pytorch-bf16) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://kyutai.org/2024/09/17/moshi.html) 🔓
+  - _Hierarchical RQ-Transformer with parallel user/system audio streams for native duplex; released as Moshiko (male) and Moshika (female) voice checkpoints._
+- **[2024-09]** **Meta AI Voice** - Meta AI voice / conversational speech features. 🔒
   - _Meta AI assistant voice experiences across apps/devices._
-- **[2024-01]** **Claude Voice Mode** - Anthropic Claude voice mode. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.anthropic.com/) 🔒
-  - _Claude app voice mode; cascade vs native duplex not fully public._
+- **[2024-09]** **Deepgram Voice Agent** - Deepgram Voice Agent API. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.deepgram.com/docs/voice-agent-llm-models) 🔒
+  - _Hosted listen–think–speak voice agent: STT-centric realtime stack with an external LLM as the thinking stage._
+- **[2024-08]** **iFlytek SparkOS** - iFlytek SparkOS voice agent OS / runtime. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.xfyun.cn/solutions/sparkos_interactive) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.xfyun.cn/doc/spark/sparkos_interactive.html) 🔒
+  - _iFlytek Spark-oriented voice OS / agent runtime._
+- **[2024-07]** **SenseNova 5o / V6 Omni** - SenseTime SenseNova omni realtime models. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.sensetime.com/cn/news/51169319) 🔒
+  - _SenseNova omni/realtime product line (5o / V6 naming)._
+- **[2024-06]** **Ultravox** - Ultravox speech-aware LLM (understanding). [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/fixie-ai/ultravox) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/fixieai) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.ultravox.ai/) 🔓
+  - _Speech→text LLM often paired with external TTS._
 
 <a id="benchmarks"></a>
 ## 📊 Benchmarks & Evaluation
@@ -1491,9 +1392,11 @@ Benchmarks organized by interaction layer. Always check whether evaluation uses 
   - _Timing-aware conversational turn evaluation suite._
 - **[2026-09]** **DuplexAct-Bench** - Benchmark for duplex action / interaction decisions. [![arXiv-2609.39446](https://img.shields.io/badge/arXiv--2609.39446-b31b1b.svg)](https://arxiv.org/abs/2609.39446) 📄
   - _Evaluates action-level decisions under duplex listening/speaking._
+- **[2026-09]** **DSB-IFEval** - Duplex / spoken instruction-following evaluation set. [![arXiv-2609.03423](https://img.shields.io/badge/arXiv--2609.03423-b31b1b.svg)](https://arxiv.org/abs/2609.03423) 📄
+  - _Instruction-following checks under duplex or spoken interactive settings._
 - **[2026-08]** **TurnBench** - Measuring conversational turn-taking timing on dual-channel speech. [![arXiv-2608.25218](https://img.shields.io/badge/arXiv--2608.25218-b31b1b.svg)](https://arxiv.org/abs/2608.25218) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://turnbench.sesame.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://www.sesame.com/blog/turnbench) 🧩
   - _30h dual-channel EOT/interruption bench with public leaderboard._
-- **[2026-04]** **HumDial-FDBench** - HumDial full-duplex benchmark track. [![arXiv-2604.21406](https://img.shields.io/badge/arXiv--2604.21406-b31b1b.svg)](https://arxiv.org/abs/2604.21406) 🧩
+- **[2026-04]** **HumDial-FDBench** - HumDial full-duplex benchmark track. [![arXiv-2604.21406](https://img.shields.io/badge/arXiv--2604.21406-b31b1b.svg)](https://arxiv.org/abs/2604.21406) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/datasets/ASLP-lab/HumDial) 🧩
   - _Human-recorded interruption/rejection track aligned with FDB-style metrics._
 - **[2025-11]** **MTR-DuplexBench** - Multi-round conversation evaluation for duplex systems. [![arXiv-2511.10262](https://img.shields.io/badge/arXiv--2511.10262-b31b1b.svg)](https://arxiv.org/abs/2511.10262) 🔓
   - _Multi-round duplex scenarios; data often on Hugging Face._
@@ -1513,8 +1416,6 @@ Benchmarks organized by interaction layer. Always check whether evaluation uses 
   - _Turn-taking dynamics bench for audio foundation models._
 - [⭐️] **[2025-03]** **Full-Duplex-Bench v1** - Benchmarking turn-taking capabilities of full-duplex spoken dialogue models. [![arXiv-2503.04721](https://img.shields.io/badge/arXiv--2503.04721-b31b1b.svg)](https://arxiv.org/abs/2503.04721) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/DanielLin94144/Full-Duplex-Bench) 🧩
   - _Landmark offline duplex bench: pause, backchannel, turn-taking, interruption._
-- **[2025-01]** **DSB-IFEval** - Duplex / spoken instruction-following evaluation set. 📄
-  - _Instruction-following checks under duplex or spoken interactive settings._
 
 <a id="bench-state"></a>
 ### State Update & Recovery
@@ -1559,16 +1460,16 @@ Benchmarks organized by interaction layer. Always check whether evaluation uses 
   - _Arena leaderboard for conversational voice models._
 - **[2025-01]** **VoxEval** - Evaluation suite for voice / speech LLMs. [![arXiv-2501.04962](https://img.shields.io/badge/arXiv--2501.04962-b31b1b.svg)](https://arxiv.org/abs/2501.04962) 🧩
   - _General voice LLM evaluation across understanding tasks._
-- **[2025-01] [ICLR 2025]** **VoxDialogue** - Can spoken dialogue systems understand information beyond words?. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://voxdialogue.github.io/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Exgc/VoxDialogue) 🧩
-  - _ICLR 2025: 12 acoustic attributes beyond text in multi-turn speech._
+- **[2024-12]** **Big Bench Audio** - Audio extension of BIG-bench style tasks. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://huggingface.co/datasets/ArtificialAnalysis/big_bench_audio) 🧩
+  - _Audio-adapted BIG-bench style suite for LALMs._
 - **[2024-12]** **ADU-Bench** - Audio dialogue understanding benchmark. [![arXiv-2412.05167](https://img.shields.io/badge/arXiv--2412.05167-b31b1b.svg)](https://arxiv.org/abs/2412.05167) 🧩
   - _Audio dialogue understanding across diverse skills._
+- **[2024-10] [ICLR 2025]** **VoxDialogue** - Can spoken dialogue systems understand information beyond words?. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://voxdialogue.github.io/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Exgc/VoxDialogue) 🧩
+  - _ICLR 2025: 12 acoustic attributes beyond text in multi-turn speech._
 - [⭐️] **[2024-10]** **VoiceBench** - Benchmarking LLM-based voice assistants. [![arXiv-2410.17196](https://img.shields.io/badge/arXiv--2410.17196-b31b1b.svg)](https://arxiv.org/abs/2410.17196) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/MatthewCYM/VoiceBench) 🧩
   - _Landmark spoken-assistant content bench across skills and voice conditions._
 - **[2024-06]** **SD-Eval** - Spoken dialogue evaluation benchmark. [![arXiv-2406.13340](https://img.shields.io/badge/arXiv--2406.13340-b31b1b.svg)](https://arxiv.org/abs/2406.13340) 🧩
   - _Spoken dialogue eval covering style, emotion, and content facets._
-- **[2024-01]** **Big Bench Audio** - Audio extension of BIG-bench style tasks. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://github.com/google/BIG-bench) 🧩
-  - _Audio-adapted BIG-bench style suite for LALMs._
 
 <a id="bench-paraling"></a>
 ### Paralinguistics, Empathy & Role-Play
@@ -1585,10 +1486,10 @@ Benchmarks organized by interaction layer. Always check whether evaluation uses 
   - _Measures staying in character under spoken role-play._
 - **[2025-08]** **EMO-Reasoning** - Emotion reasoning benchmark for audio LMs. [![arXiv-2508.17623](https://img.shields.io/badge/arXiv--2508.17623-b31b1b.svg)](https://arxiv.org/abs/2508.17623) 🧩
   - _Requires reasoning about emotions, not only classification._
-- **[2025-01]** **StepEval-Audio-Paralinguistic** - StepFun audio paralinguistic evaluation track. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/stepfun-ai) 🧩
-  - _Paralinguistic track in StepEval-Audio style suites._
-- **[2025-01]** **EChat-eval** - Emotional chat evaluation for speech models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ASLP-lab/OSUM) 🧩
+- **[2025-08]** **EChat-eval** - Emotional chat evaluation for speech models. [![arXiv-2508.09600](https://img.shields.io/badge/arXiv--2508.09600-b31b1b.svg)](https://arxiv.org/abs/2508.09600) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ASLP-lab/OSUM) 🧩
   - _Eval split paired with EChat-style emotional dialogue data._
+- **[2025-07]** **StepEval-Audio-Paralinguistic** - StepFun audio paralinguistic evaluation track. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/stepfun-ai) 🧩
+  - _Paralinguistic track in StepEval-Audio style suites._
 
 <a id="bench-agent"></a>
 ### Voice Agents & Tool Use
@@ -1611,12 +1512,12 @@ Benchmarks organized by interaction layer. Always check whether evaluation uses 
   - _Landmark: grounded tasks + duplex + realistic audio; extends τ²-bench._
 - **[2025-10]** **VoiceAgentBench** - Are voice assistants ready for agentic tasks?. [![arXiv-2510.07978](https://img.shields.io/badge/arXiv--2510.07978-b31b1b.svg)](https://arxiv.org/abs/2510.07978) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ola-krutrim/VoiceAgentBench) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/datasets/krutrim-ai-labs/VoiceAgentBench) 🔓
   - _Large speech agentic tool-use benchmark (HF dataset + eval code)._
-- **[2025-01]** **StepEval-Audio-Toolcall** - StepFun audio tool-calling evaluation. 🧩
-  - _Tool-call track for Step audio models._
-- **[2025-01]** **MFCL-Audio** - Multi-turn function calling for audio agents. 🧩
-  - _Multi-turn function-calling scenarios in audio._
-- **[2025-01]** **AudioCRAG** - Audio retrieval-augmented generation benchmark. 🧩
+- **[2025-10]** **AudioCRAG** - Audio retrieval-augmented generation benchmark. [![arXiv-2510.02044](https://img.shields.io/badge/arXiv--2510.02044-b31b1b.svg)](https://arxiv.org/abs/2510.02044) 🧩
   - _RAG correctness/faithfulness for audio-grounded agents._
+- **[2025-09]** **MFCL-Audio** - Multi-turn function calling for audio agents. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://icml.cc/virtual/2026/poster/61489) 🧩
+  - _Multi-turn function-calling scenarios in audio._
+- **[2025-07]** **StepEval-Audio-Toolcall** - StepFun audio tool-calling evaluation. 🧩
+  - _Tool-call track for Step audio models._
 
 <a id="bench-proactive"></a>
 ### Proactivity
@@ -1661,25 +1562,21 @@ Benchmarks organized by interaction layer. Always check whether evaluation uses 
 <a id="bench-leaderboards"></a>
 ### Arenas & Leaderboards
 
-- **[2026-08]** **TurnBench LB** - TurnBench public leaderboard. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://turnbench.sesame.com/) 🧩
-  - _EOT/INT recall–FPR–latency leaderboard at turnbench.sesame.com._
 - **[2026-08]** **TurnBench** - Measuring conversational turn-taking timing on dual-channel speech. [![arXiv-2608.25218](https://img.shields.io/badge/arXiv--2608.25218-b31b1b.svg)](https://arxiv.org/abs/2608.25218) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://turnbench.sesame.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://www.sesame.com/blog/turnbench) 🧩
   - _30h dual-channel EOT/interruption bench with public leaderboard._
-- **[2026-01]** **HumDial LB** - HumDial challenge leaderboard. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://huggingface.co/spaces) 🧩
-  - _Challenge leaderboard for HumDial tracks._
+- **[2026-01] [ICASSP]** **HumDial** - HumDial: human-recorded dialogue challenge overview. [![arXiv-2601.05564](https://img.shields.io/badge/arXiv--2601.05564-b31b1b.svg)](https://arxiv.org/abs/2601.05564) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ASLP-lab/HumDial) 🧩
+  - _ICASSP HumDial challenge framing human-recorded interactive dialogue eval._
 - **[2025-12]** **Scale AudioMC** - Scale AI Audio MultiChallenge leaderboard. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://scale.com/) 🔒
   - _Hosted leaderboard related to Audio MultiChallenge._
 - **[2025-06]** **AA Speech Agent Arena** - Artificial Analysis speech agent arena. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://artificialanalysis.ai/) 🔒
   - _Arena-style ranking for speech agents from Artificial Analysis._
 - **[2025-03]** **S2S-Arena** - Speech-to-speech arena-style evaluation. [![arXiv-2503.05085](https://img.shields.io/badge/arXiv--2503.05085-b31b1b.svg)](https://arxiv.org/abs/2503.05085) 🧩
   - _Pairwise S2S preference / arena protocol._
-- **[2025-02]** **Talk Arena LB** - Talk Arena public leaderboard. [![arXiv-2502.15919](https://img.shields.io/badge/arXiv--2502.15919-b31b1b.svg)](https://arxiv.org/abs/2502.15919) 🧩
-  - _Public preference leaderboard for talking models._
 - **[2025-02]** **Talk Arena** - Human preference arena for talking / voice models. [![arXiv-2502.15919](https://img.shields.io/badge/arXiv--2502.15919-b31b1b.svg)](https://arxiv.org/abs/2502.15919) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://huggingface.co/spaces) 🧩
   - _Arena leaderboard for conversational voice models._
-- **[2025-01]** **AA S2S Index** - Artificial Analysis speech-to-speech index / leaderboard. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://artificialanalysis.ai/) 🔒
+- **[2024-12]** **AA S2S Index** - Artificial Analysis speech-to-speech index / leaderboard. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://artificialanalysis.ai/) 🔒
   - _Commercial S2S model index; methodology may differ from academic benches._
-- **[2024-01]** **AudioBench LB** - AudioBench / audio LLM leaderboard hubs. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://huggingface.co/spaces) 🧩
+- **[2024-06]** **AudioBench LB** - AudioBench / audio LLM leaderboard hubs. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://huggingface.co/spaces) 🧩
   - _Aggregated audio LLM leaderboard portals._
 
 <a id="bench-method"></a>
@@ -1696,19 +1593,19 @@ Training and evaluation corpora for interactive speech: real dual-channel dialog
 <a id="data-real"></a>
 ### Real Dialogue Corpora
 
+- **[2026-08]** **WildTurn** - In-the-wild turn-taking conversational data. [![arXiv-2608.28630](https://img.shields.io/badge/arXiv--2608.28630-b31b1b.svg)](https://arxiv.org/abs/2608.28630) 🔓
+  - _Wild conversational turns for robust EOT models._
+- **[2026-02]** **otoSpeech-FD** - otoSpeech full-duplex conversational corpus. [![Data-Link](https://img.shields.io/badge/Data--Link-9b59b6.svg)](https://huggingface.co/datasets/otoearth/otoSpeech-full-duplex-280h) 🔓
+  - _Full-duplex oriented real conversational speech resource._
 - **[2025-09]** **Easy Turn trainset** - 1145-hour turn-state training set for Easy Turn. [![arXiv-2509.23938](https://img.shields.io/badge/arXiv--2509.23938-b31b1b.svg)](https://arxiv.org/abs/2509.23938) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ASLP-lab/Easy-Turn) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/ASLP-lab/Easy-Turn) 🔓
   - _Large turn-taking training set (complete/incomplete/backchannel/wait)._
 - **[2025-06]** **Seamless Interaction** - Seamless Interaction multimodal conversational dataset. [![arXiv-2506.22554](https://img.shields.io/badge/arXiv--2506.22554-b31b1b.svg)](https://arxiv.org/abs/2506.22554) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/datasets/facebook/seamless-interaction) 🔓
   - _Large multimodal human interaction dataset from Meta Seamless line._
-- **[2025-01]** **otoSpeech-FD** - otoSpeech full-duplex conversational corpus. 🔓
-  - _Full-duplex oriented real conversational speech resource._
-- **[2025-01]** **WildTurn** - In-the-wild turn-taking conversational data. 🔓
-  - _Wild conversational turns for robust EOT models._
-- **[2024-01]** **J-CHAT** - Japanese conversational chat corpus. 🔓
+- **[2024-07]** **J-CHAT** - Japanese conversational chat corpus. 🔓
   - _Japanese conversational resource used in speech dialogue work._
-- **[2023-01]** **Expresso** - Expresso expressive speech corpus. [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/datasets/facebook/expresso) 🔓
+- **[2023-08]** **Expresso** - Expresso expressive speech corpus. [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/datasets/facebook/expresso) 🔓
   - _Expressive styles for paralinguistic / TTS research._
-- **[2023-01]** **CANDOR** - CANDOR naturalistic conversation corpus. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://betterup-data-requests.herokuapp.com/) 🔓
+- **[2023-03]** **CANDOR** - CANDOR naturalistic conversation corpus. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://betterup-data-requests.herokuapp.com/) 🔓
   - _Naturalistic dyadic video/audio; used by Full-Duplex-Bench subsets._
 - **[2022-01]** **DailyTalk** - DailyTalk multi-turn spoken dialogue dataset. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/keonlee9420/DailyTalk) 🔓
   - _Multi-turn daily spoken dialogues with annotations._
@@ -1724,20 +1621,20 @@ Training and evaluation corpora for interactive speech: real dual-channel dialog
 <a id="data-synthetic"></a>
 ### Synthetic Duplex & S2S Data
 
+- **[2025-11]** **InteractSpeech** - Synthetic interactive / duplex speech dataset. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://aclanthology.org/2025.findings-emnlp.424/) 🔓
+  - _Synthesized interactive speech for duplex training._
 - **[2025-10]** **UltraVoice** - UltraVoice large-scale synthetic voice interaction data. [![arXiv-2510.22588](https://img.shields.io/badge/arXiv--2510.22588-b31b1b.svg)](https://arxiv.org/abs/2510.22588) 🔓
   - _Large synthetic voice corpus for assistant / duplex training._
-- **[2025-01]** **InteractSpeech** - Synthetic interactive / duplex speech dataset. 🔓
-  - _Synthesized interactive speech for duplex training._
-- **[2025-01]** **EChat-200K** - 200K emotional chat speech samples. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ASLP-lab/OSUM) 🔓
+- **[2025-08]** **EChat-200K** - 200K emotional chat speech samples. [![arXiv-2508.09600](https://img.shields.io/badge/arXiv--2508.09600-b31b1b.svg)](https://arxiv.org/abs/2508.09600) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ASLP-lab/OSUM) 🔓
   - _Emotional spoken chat data used with OSUM-EChat line._
-- **[2024-01]** **VoiceAssistant-400K** - 400K voice assistant interaction samples. 🔓
-  - _Synthetic assistant-style spoken interactions._
-- **[2024-01]** **InstructS2S-200K** - 200K speech-to-speech instruction pairs. 🔓
-  - _Large synthetic S2S instruction-tuning set._
-- **[2024-01]** **Emilia** - Emilia large-scale multilingual speech generation corpus. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/open-mmlab/Amphion) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/datasets/amphion/Emilia-Dataset) 🔓
-  - _Large in-the-wild speech corpus widely used for TTS/SLM training._
-- **[2024-01]** **Behavior-SD** - Synthetic spoken dialogue with behavior labels. 🔓
+- **[2025-04]** **Behavior-SD** - Synthetic spoken dialogue with behavior labels. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://aclanthology.org/2025.naacl-long.484/) 🔓
   - _Synthetic dialogues labeled for interaction behaviors._
+- **[2024-09]** **InstructS2S-200K** - 200K speech-to-speech instruction pairs. 🔓
+  - _Large synthetic S2S instruction-tuning set._
+- **[2024-08]** **VoiceAssistant-400K** - 400K voice assistant interaction samples. 🔓
+  - _Synthetic assistant-style spoken interactions._
+- **[2024-07]** **Emilia** - Emilia large-scale multilingual speech generation corpus. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/open-mmlab/Amphion) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/datasets/amphion/Emilia-Dataset) 🔓
+  - _Large in-the-wild speech corpus widely used for TTS/SLM training._
 
 <a id="data-pipelines"></a>
 ### Data Pipelines
@@ -1755,29 +1652,29 @@ Components that interactive systems are built from—not full interaction models
 <a id="bb-codec"></a>
 ### Speech Tokenizers & Codecs
 
-- **[2025-01]** **Qwen3-TTS-Tokenizer** - Qwen3 TTS speech tokenizer. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM) 🔓
+- **[2026-01]** **Qwen3-TTS-Tokenizer** - Qwen3 TTS speech tokenizer. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM) 🔓
   - _Tokenizer used by Qwen3-TTS models._
-- **[2025-01]** **BiCodec** - BiCodec dual-stream speech tokenizer. 🔓
+- **[2025-03]** **BiCodec** - BiCodec dual-stream speech tokenizer. 🔓
   - _Dual-stream codec design for speech generation._
+- **[2025-02]** **X-Codec2** - X-Codec2 speech codec. [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/HKUSTAudio/xcodec2) 🔓
+  - _Improved X-Codec family tokenizer for SLMs._
 - **[2024-10]** **GLM-4-Voice tokenizer** - Tokenizer stack from GLM-4-Voice. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/THUDM/GLM-4-Voice) 🔓
   - _Speech tokenizer released with GLM-4-Voice._
 - [⭐️] **[2024-09]** **Mimi** - Kyutai Mimi neural audio codec for Moshi. [![arXiv-2410.00037](https://img.shields.io/badge/arXiv--2410.00037-b31b1b.svg)](https://arxiv.org/abs/2410.00037) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/moshi) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/kyutai/mimi) 🔓
   - _Landmark streaming codec used by Moshi full-duplex models._
+- **[2024-08]** **WavTokenizer** - Acoustic codec / tokenizer for speech LMs. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/jishengpeng/WavTokenizer) 🔓
+  - _Compact wav tokenizer for generative speech models._
+- **[2024-07]** **CosyVoice S3** - CosyVoice S3 speech tokenizer / codec. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/FunAudioLLM/CosyVoice) 🔓
+  - _Tokenizer component in the CosyVoice TTS lineage._
+- **[2024-06]** **DASB** - Discrete audio / speech benchmark for tokenizers. 🧩
+  - _Evaluation harness for discrete audio representations._
+- **[2024-02]** **SNAC** - Multi-scale neural audio codec. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/hubertsiuzdak/snac) 🔓
+  - _Multi-resolution codec popular in open TTS/SLM stacks._
 - **[2024-02]** **Codec-SUPERB** - SUPERB-style evaluation for neural codecs. [![arXiv-2402.13071](https://img.shields.io/badge/arXiv--2402.13071-b31b1b.svg)](https://arxiv.org/abs/2402.13071) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/voidful/Codec-SUPERB) 🧩
   - _Benchmark suite for comparing speech codecs/tokenizers._
-- **[2024-01]** **X-Codec2** - X-Codec2 speech codec. [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/HKUSTAudio/xcodec2) 🔓
-  - _Improved X-Codec family tokenizer for SLMs._
-- **[2024-01]** **WavTokenizer** - Acoustic codec / tokenizer for speech LMs. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/jishengpeng/WavTokenizer) 🔓
-  - _Compact wav tokenizer for generative speech models._
-- **[2024-01]** **SNAC** - Multi-scale neural audio codec. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/hubertsiuzdak/snac) 🔓
-  - _Multi-resolution codec popular in open TTS/SLM stacks._
-- **[2024-01]** **DASB** - Discrete audio / speech benchmark for tokenizers. 🧩
-  - _Evaluation harness for discrete audio representations._
-- **[2024-01]** **CosyVoice S3** - CosyVoice S3 speech tokenizer / codec. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/FunAudioLLM/CosyVoice) 🔓
-  - _Tokenizer component in the CosyVoice TTS lineage._
-- **[2023-01]** **SpeechTokenizer** - Unified speech tokenizer with semantic+acoustic tokens. [![arXiv-2308.16692](https://img.shields.io/badge/arXiv--2308.16692-b31b1b.svg)](https://arxiv.org/abs/2308.16692) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ZhangXInFD/SpeechTokenizer) 🔓
+- **[2023-08]** **SpeechTokenizer** - Unified speech tokenizer with semantic+acoustic tokens. [![arXiv-2308.16692](https://img.shields.io/badge/arXiv--2308.16692-b31b1b.svg)](https://arxiv.org/abs/2308.16692) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ZhangXInFD/SpeechTokenizer) 🔓
   - _Supervised semantic + acoustic residual tokenization._
-- **[2023-01]** **DAC** - Descript Audio Codec. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/descriptinc/descript-audio-codec) 🔓
+- **[2023-06]** **DAC** - Descript Audio Codec. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/descriptinc/descript-audio-codec) 🔓
   - _High-quality neural audio codec (Descript)._
 - **[2022-10]** **EnCodec** - Meta EnCodec neural audio codec. [![arXiv-2210.13438](https://img.shields.io/badge/arXiv--2210.13438-b31b1b.svg)](https://arxiv.org/abs/2210.13438) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/facebookresearch/encodec) 🔓
   - _Widely used RVQ audio codec baseline._
@@ -1785,47 +1682,45 @@ Components that interactive systems are built from—not full interaction models
 <a id="bb-tts"></a>
 ### Streaming TTS
 
+- **[2026-01]** **Qwen3-TTS** - Qwen3 text-to-speech models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM) 🔓
+  - _Qwen TTS line for streaming / controllable speech._
+- **[2025-12]** **VibeVoice-Realtime** - VibeVoice realtime TTS. 🔓
+  - _Realtime-oriented VibeVoice synthesis._
+- **[2025-09]** **FireRedTTS-2** - FireRedTeam TTS 2. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/FireRedTeam/FireRedTTS) 🔓
+  - _TTS component in FireRedChat full-duplex stacks._
+- **[2025-07]** **Voxtral / Voxtral Realtime + Voxtral TTS** - Voxtral / Voxtral Realtime + Voxtral TTS. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.mistral.ai/studio/audio/overview) 🔓
+  - _Realtime in Voxtral Realtime refers to live transcription; it should not be listed as a native full-duplex S2S model._
+- **[2025-07]** **Kyutai TTS** - Kyutai streaming TTS models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs) 🔓
+  - _Streaming TTS components from Kyutai._
+- **[2025-03]** **Spark-TTS** - Spark-TTS efficient speech synthesis. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/SparkAudio/Spark-TTS) 🔓
+  - _Open TTS model aimed at efficient high-quality synthesis._
+- **[2025-03]** **Orpheus** - Orpheus TTS / speech LM. [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/canopylabs) 🔓
+  - _Open Orpheus TTS models on Hugging Face._
 - **[2025-02]** **Sesame CSM** - Sesame Conversational Speech Model. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/SesameAILabs/csm) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/sesame/csm-1b) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice) 🔓
   - _Open conversational speech generator (CSM-1B)._
-- **[2025-01]** **Voxtral / Voxtral Realtime + Voxtral TTS** - Voxtral / Voxtral Realtime + Voxtral TTS. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.mistral.ai/studio/audio/overview) 🔓
-  - _Voxtral Realtime 中的 Realtime 指实时转写，不能单独列成 S2S 原生全双工模型。_
-- **[2025-01]** **VibeVoice-Realtime** - VibeVoice realtime TTS. 🔓
-  - _Realtime-oriented VibeVoice synthesis._
-- **[2025-01]** **Spark-TTS** - Spark-TTS efficient speech synthesis. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/SparkAudio/Spark-TTS) 🔓
-  - _Open TTS model aimed at efficient high-quality synthesis._
-- **[2025-01]** **Qwen3-TTS** - Qwen3 text-to-speech models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM) 🔓
-  - _Qwen TTS line for streaming / controllable speech._
-- **[2025-01]** **Orpheus** - Orpheus TTS / speech LM. [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/canopylabs) 🔓
-  - _Open Orpheus TTS models on Hugging Face._
-- **[2025-01]** **Kyutai TTS** - Kyutai streaming TTS models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs) 🔓
-  - _Streaming TTS components from Kyutai._
-- **[2025-01]** **FireRedTTS-2** - FireRedTeam TTS 2. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/FireRedTeam/FireRedTTS) 🔓
-  - _TTS component in FireRedChat full-duplex stacks._
-- **[2025-01]** **CSM** - CSM. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/sesameailabs/csm) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/sesame/csm-1b) 🔓
-  - _不是完整 Maya/Miles 智能、语音理解、轮次管理和工具系统的全部权重。_
-- **[2024-01]** **Ultravox** - Ultravox speech-aware LLM (understanding). [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/fixie-ai/ultravox) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/fixieai) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.ultravox.ai/) 🔓
-  - _Speech→text LLM often paired with external TTS._
-- **[2024-01]** **F5-TTS** - F5-TTS flow-matching TTS. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/SWivid/F5-TTS) 🔓
-  - _Popular open non-autoregressive TTS baseline._
-- **[2024-01]** **CosyVoice 2/3** - FunAudioLLM CosyVoice 2 and 3 streaming TTS. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/FunAudioLLM/CosyVoice) 🔓
+- **[2024-12]** **CosyVoice 2/3** - FunAudioLLM CosyVoice 2 and 3 streaming TTS. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/FunAudioLLM/CosyVoice) 🔓
   - _Strong open streaming/zero-shot TTS lineage._
+- **[2024-10]** **F5-TTS** - F5-TTS flow-matching TTS. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/SWivid/F5-TTS) 🔓
+  - _Popular open non-autoregressive TTS baseline._
+- **[2024-06]** **Ultravox** - Ultravox speech-aware LLM (understanding). [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/fixie-ai/ultravox) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/fixieai) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.ultravox.ai/) 🔓
+  - _Speech→text LLM often paired with external TTS._
 
 <a id="bb-asr"></a>
 ### Streaming ASR
 
-- **[2025-01]** **Voxtral Realtime** - Mistral Voxtral realtime ASR / audio understanding. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.mistral.ai/) 🔒
+- **[2026-02]** **Voxtral Realtime** - Mistral Voxtral realtime ASR / audio understanding. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.mistral.ai/) 🔓
   - _Realtime audio understanding API useful as ASR front-end._
-- **[2025-01]** **Qwen3-ASR** - Qwen3 automatic speech recognition. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM) 🔓
-  - _Qwen ASR models for multilingual recognition._
-- **[2025-01]** **Nemotron Speech Streaming** - NVIDIA Nemotron streaming speech recognition. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/NeMo) 🔓
-  - _NVIDIA streaming ASR / speech models for agents._
-- **[2025-01]** **Moonshine v2** - Useful Sensors Moonshine v2 efficient ASR. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/usefulsensors/moonshine) 🔓
+- **[2026-02]** **Moonshine v2** - Useful Sensors Moonshine v2 efficient ASR. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/usefulsensors/moonshine) 🔓
   - _Edge-friendly open ASR models._
-- **[2025-01]** **Kyutai STT** - Kyutai streaming speech-to-text. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs) 🔓
+- **[2026-01]** **Qwen3-ASR** - Qwen3 automatic speech recognition. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM) 🔓
+  - _Qwen ASR models for multilingual recognition._
+- **[2026-01]** **Nemotron Speech Streaming** - NVIDIA Nemotron streaming speech recognition. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/NeMo) 🔓
+  - _NVIDIA streaming ASR / speech models for agents._
+- **[2025-06]** **Kyutai STT** - Kyutai streaming speech-to-text. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs) 🔓
   - _Streaming STT models from Kyutai._
 - **[2025-01]** **FireRedASR** - FireRedTeam ASR models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/FireRedTeam) 🔓
   - _ASR component released with FireRedChat stack._
-- **[2024-01]** **SenseVoice** - FunAudioLLM SenseVoice ASR. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/FunAudioLLM/SenseVoice) 🔓
+- **[2024-07]** **SenseVoice** - FunAudioLLM SenseVoice ASR. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/FunAudioLLM/SenseVoice) 🔓
   - _Multilingual ASR with emotion/event tags._
 - **[2022-09]** **Whisper** - OpenAI Whisper ASR family. [![arXiv-2212.04356](https://img.shields.io/badge/arXiv--2212.04356-b31b1b.svg)](https://arxiv.org/abs/2212.04356) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/openai/whisper) 🔓
   - _Ubiquitous open ASR; streaming needs chunked/VAD wrappers._
@@ -1839,20 +1734,20 @@ Components that interactive systems are built from—not full interaction models
   - _Fine-grained turn-taking control model for interactive agents._
 - **[2026-03]** **SoulX-Duplug** - SoulX-Duplug: Semantic VAD / Duplex Control Plugin. [![arXiv-2603.14877](https://img.shields.io/badge/arXiv--2603.14877-b31b1b.svg)](https://arxiv.org/abs/2603.14877) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Soul-AILab/SoulX-Duplug) 🔓
   - _Semantic VAD duplex control plugin for cascaded voice systems._
+- **[2025-11]** **Parakeet-Realtime-EOU** - NVIDIA Parakeet realtime end-of-utterance. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/NeMo) 🔓
+  - _Realtime EOU models in the NeMo / Parakeet line._
+- **[2025-10]** **Deepgram Flux** - Deepgram Flux endpointing / turn features. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.deepgram.com/) 🔒
+  - _Hosted endpointing features in Deepgram realtime APIs._
 - **[2025-09]** **EasyTurn** - EasyTurn: Acoustic + Semantic Four-State Turn Control. [![arXiv-2509.23938](https://img.shields.io/badge/arXiv--2509.23938-b31b1b.svg)](https://arxiv.org/abs/2509.23938) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ASLP-lab/Easy-Turn) 🔓
   - _Four-state acoustic–semantic controller for speak/listen decisions._
+- **[2025-08]** **TurnSense** - TurnSense / TurnSense 1.1: Turn and Interruption Control. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Bairong-Xdynamics/TurnSense) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/brgroup/TurnSense) 🔓
+  - _Turn/interruption control models for production voice agents._
 - **[2025-06]** **Smart Turn v3** - Pipecat Smart Turn v3: Semantic End-of-Turn Detection. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/pipecat-ai/smart-turn) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/pipecat-ai/smart-turn-v3) 🔓
   - _Tiny Whisper-based semantic VAD (~12ms) for pipeline duplex control._
-- **[2025-01]** **TurnSense / TurnSense 1.1** - TurnSense / TurnSense 1.1. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Bairong-Xdynamics/TurnSense) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/brgroup/TurnSense) 📄
-  - _同名项目较多，本表仅指 Bairong-Xdynamics/TurnSense。_
-- **[2025-01]** **Parakeet-Realtime-EOU** - NVIDIA Parakeet realtime end-of-utterance. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/NeMo) 🔓
-  - _Realtime EOU models in the NeMo / Parakeet line._
-- **[2025-01]** **Deepgram Flux** - Deepgram Flux endpointing / turn features. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.deepgram.com/) 🔒
-  - _Hosted endpointing features in Deepgram realtime APIs._
+- **[2025-05]** **TEN VAD** - TEN Framework voice activity detection. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/TEN-framework/ten-vad) 🔓
+  - _VAD module in the TEN conversational framework._
 - **[2024-09]** **LiveKit Turn Detector** - LiveKit Turn Detector: Semantic Turn-Taking Model. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/livekit/agents) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.livekit.io/agents/) 🔓
   - _Semantic turn detector plugin for LiveKit voice agents._
-- **[2024-01]** **TEN VAD** - TEN Framework voice activity detection. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/TEN-framework/ten-vad) 🔓
-  - _VAD module in the TEN conversational framework._
 - [⭐️] **[2022-05]** **VAP** - Voice Activity Projection: Self-supervised Learning of Turn-taking. [![arXiv-2205.09812](https://img.shields.io/badge/arXiv--2205.09812-b31b1b.svg)](https://arxiv.org/abs/2205.09812) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ErikEkstedt/VAP) 🔓
   - _Self-supervised future voice-activity projection for turn-taking._
 - **[2021-01]** **Silero VAD** - Silero Voice Activity Detection. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/snakers4/silero-vad) 🔓
@@ -1863,106 +1758,82 @@ Components that interactive systems are built from—not full interaction models
 
 - **[2025-09]** **FireRedChat pVAD** - FireRedChat personalized / duplex VAD. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/FireRedTeam/FireRedChat) 🔓
   - _pVAD component for full-duplex self-hosted voice stacks._
-- **[2024-01]** **WeSep** - Speaker separation toolkit. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/wenet-e2e/wesep) 🔓
-  - _Open speaker separation useful before duplex ASR._
-- **[2024-01]** **Streaming Sortformer** - Streaming Sortformer diarization / separation. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/NeMo) 🔓
+- **[2025-07]** **Streaming Sortformer** - Streaming Sortformer diarization / separation. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/NeMo) 🔓
   - _Streaming diarization/separation for multi-speaker clients._
+- **[2024-09]** **WeSep** - Speaker separation toolkit. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/wenet-e2e/wesep) 🔓
+  - _Open speaker separation useful before duplex ASR._
 - **[2011-01]** **WebRTC APM** - WebRTC Audio Processing Module (AEC/NS/AGC). [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://webrtc.googlesource.com/src) 🧩
   - _Industry-standard AEC/NS building block for voice clients._
 
 <a id="bb-serving"></a>
 ### Serving & Transport
 
-- **[2025-01]** **vLLM-Omni** - vLLM serving extensions for omni / multimodal models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/vllm-project/vllm) 🧩
-  - _High-throughput serving path for omni checkpoints._
-- **[2025-01]** **SGLang-Omni** - SGLang serving for omni / speech models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/sgl-project/sglang) 🧩
+- **[2026-06]** **SGLang-Omni** - SGLang serving for omni / speech models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/sgl-project/sglang) 🧩
   - _SGLang runtime used for fast omni/speech serving._
-- **[2025-01]** **NeMo Voice Agent** - NVIDIA NeMo voice agent recipes / runtime. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/NeMo) 🧩
+- **[2025-11]** **vLLM-Omni** - vLLM serving extensions for omni / multimodal models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/vllm-project/vllm) 🧩
+  - _High-throughput serving path for omni checkpoints._
+- **[2025-09]** **NeMo Voice Agent** - NVIDIA NeMo voice agent recipes / runtime. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/NeMo) 🧩
   - _NeMo components and recipes for speech agents._
-- **[2025-01]** **NeMo Speech / SpeechLM2 Duplex** - NeMo Speech / SpeechLM2 Duplex. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA-NeMo/Speech) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.nvidia.com/nemo/speech/nightly/speechlm2/models.html) 📄
-  - _框架的 SALM 为音频输入文本输出；DuplexS2S 才添加语音生成，不能只看 SALM 名称判断能力。_
-- **[2025-01]** **FastRTC** - FastRTC: Interactive Audio/Video Transport for Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/gradio-app/fastrtc) 🧩
+- **[2025-05]** **NeMo SpeechLM2 Duplex** - NeMo SpeechLM2: SALM, DuplexS2S, DuplexSTT and EAR TTS Recipes. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/NeMo) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.nvidia.com/nemo/speech/nightly/speechlm2/models.html) 🧩
+  - _NeMo recipes for duplex S2S/STT pipelines and speech-language agents._
+- **[2025-02]** **FastRTC** - FastRTC: Interactive Audio/Video Transport for Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/gradio-app/fastrtc) 🧩
   - _Interactive audio/video transport and callback layer for voice agents._
 - **[2024-09]** **moshi-server** - Kyutai Moshi realtime server. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/kyutai-labs/moshi) 🧩
   - _Official Moshi server for full-duplex sessions._
-- **[2024-03]** **Pipecat** - Pipecat: Composable Realtime Voice & Multimodal Agent Framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/pipecat-ai/pipecat) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.pipecat.ai/) 🧩
+- **[2024-08]** **TEN** - TEN Framework / TEN Agent: Realtime Multimodal Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/TEN-framework/ten-framework) 🧩
+  - _Composable realtime multimodal agent framework and reference agents._
+- **[2024-05]** **Pipecat** - Pipecat: Composable Realtime Voice & Multimodal Agent Framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/pipecat-ai/pipecat) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.pipecat.ai/) 🧩
   - _Composable pipeline framework for realtime voice and multimodal agents._
-- **[2024-01]** **TEN Framework** - TEN conversational AI framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/TEN-framework/ten-framework) 🧩
-  - _Open framework for realtime multimodal voice agents._
-- **[2023-01]** **LiveKit** - LiveKit realtime transport and Agents framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/livekit/agents) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.livekit.io/agents/) 🧩
+- **[2021-07]** **LiveKit** - LiveKit realtime transport and Agents framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/livekit/agents) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.livekit.io/agents/) 🧩
   - _WebRTC transport + Agents SDK for production voice apps._
 
 <a id="bb-audio-understanding"></a>
 ### Audio Understanding (Speech→Text)
 
-- **[2025-01]** **Step-Audio R1 / R1.1** - Step-Audio R1 / R1.1. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/stepfun-ai/Step-Audio-R1) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/stepfun-ai/Step-Audio-R1.1) 🔓
-  - _R1.1 pipeline 为 audio-text-to-text；不是原生语音输出或双工对话模型。_
-- **[2025-01]** **Step-Audio R1** - StepFun Step-Audio R1 reasoning audio model. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/stepfun-ai/Step-Audio-R1) 🔓
+- **[2025-11]** **Step-Audio R1 / R1.1** - StepFun Step-Audio R1 / R1.1 reasoning audio models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/stepfun-ai/Step-Audio-R1) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/stepfun-ai/Step-Audio-R1.1) 🔓
   - _Audio reasoning / understanding model in Step-Audio series._
-- **[2025-01]** **SLAM-LLM** - SLAM-LLM / SLAM-Omni research framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/X-LANCE/SLAM-LLM) 🧩
-  - _是多个 recipe 的集合，不能统一标记为一个已完成全双工 checkpoint。_
-- **[2025-01]** **SALMONN** - SALMONN / video-SALMONN lineage. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/bytedance/SALMONN) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/tsinghua-ee/SALMONN-7B) 📄
-  - _开放 SALMONN 模型不能证明 SALMONN-omni 独立语音生成权重开放。_
-- **[2025-01]** **Qwen-Audio / Qwen2-Audio** - Qwen-Audio / Qwen2-Audio. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM/Qwen-Audio) 🔓
-  - _无原生语音输出；不能与 Qwen-Audio 3.1 Realtime 的闭源 S2S 服务混为同款。_
-- **[2025-01]** **Phi-4 Multimodal Instruct** - Phi-4 Multimodal Instruct. [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) 🔓
-  - _不要与 Azure Voice Live 的 phi4-mm-realtime 服务选项视为相同完整会话 artifact。_
-- **[2025-01]** **Phi-4 Multimodal** - Microsoft Phi-4 Multimodal. [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/microsoft) 🔓
-  - _Small multimodal model with audio understanding._
-- **[2025-01]** **Ola** - Ola omni / audio understanding model. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Ola-Omni/Ola) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/THUdyh/Ola-7b) 🔓
-  - _Open omni-style understanding model used in AV stacks._
-- **[2025-01]** **Megrez-Omni** - Megrez Omni audio-visual understanding. 🔓
-  - _Omni understanding model from Megrez line._
-- **[2025-01]** **Megrez-3B-Omni** - Megrez-3B-Omni. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/infinigence/Infini-Megrez-Omni) 🔓
-  - _不属于完整 S2S 语音生成模型。_
-- **[2025-01]** **Ichigo** - Ichigo. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/homebrewltd/ichigo) 📄
-  - _输出为文本的能力需要另配 TTS 才能形成语音闭环。_
-- **[2025-01]** **Audio Flamingo 3** - NVIDIA Audio Flamingo 3. [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nvidia) 🔓
+- **[2025-07]** **Audio Flamingo 3** - NVIDIA Audio Flamingo 3. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/audio-flamingo) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nvidia) 🔓
   - _Audio understanding LALM from NVIDIA._
-- **[2025-01]** **Audio Flamingo 1 / 2 / 3，AF3 Chat** - Audio Flamingo 1 / 2 / 3，AF3 Chat. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/audio-flamingo) 📄
-  - _基础 AF3 的理解权重与附加 TTS 的完整系统应分层判断。_
-- **[2024-01]** **Ultravox** - Ultravox speech-aware LLM (understanding). [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/fixie-ai/ultravox) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/fixieai) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.ultravox.ai/) 🔓
-  - _Speech→text LLM often paired with external TTS._
-- **[2024-01]** **Qwen2-Audio** - Qwen2-Audio large audio language model. [![arXiv-2407.10759](https://img.shields.io/badge/arXiv--2407.10759-b31b1b.svg)](https://arxiv.org/abs/2407.10759) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM/Qwen2-Audio) 🔓
+- **[2025-02]** **Phi-4 Multimodal** - Microsoft Phi-4 Multimodal. [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) 🔓
+  - _Small multimodal model with audio understanding._
+- **[2025-02]** **Ola** - Ola omni / audio understanding model. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Ola-Omni/Ola) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/THUdyh/Ola-7b) 🔓
+  - _Open omni-style understanding model used in AV stacks._
+- **[2024-12]** **Megrez-3B-Omni** - Megrez Omni audio-visual understanding. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/infinigence/Infini-Megrez-Omni) 🔓
+  - _Omni understanding model from Megrez line._
+- **[2024-10]** **Ichigo** - Ichigo. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/homebrewltd/ichigo) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/homebrewltd/Ichigo-llama3.1-s-instruct-v0.4) 🔓
+  - _Outputs text; needs a separate TTS to close the speech loop._
+- **[2024-07]** **Qwen2-Audio** - Qwen2-Audio large audio language model. [![arXiv-2407.10759](https://img.shields.io/badge/arXiv--2407.10759-b31b1b.svg)](https://arxiv.org/abs/2407.10759) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM/Qwen2-Audio) 🔓
   - _Strong open audio→text LALM baseline._
-- **[2023-10]** **SALMONN** - SALMONN speech audio language model. [![arXiv-2310.13289](https://img.shields.io/badge/arXiv--2310.13289-b31b1b.svg)](https://arxiv.org/abs/2310.13289) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/bytedance/SALMONN) 🔓
+- **[2024-06]** **Ultravox** - Ultravox speech-aware LLM (understanding). [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/fixie-ai/ultravox) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/fixieai) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.ultravox.ai/) 🔓
+  - _Speech→text LLM often paired with external TTS._
+- **[2023-10]** **SLAM-LLM** - SLAM-LLM / SLAM-Omni research framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/X-LANCE/SLAM-LLM) 🧩
+  - _A collection of recipes; it cannot be labeled as a single finished full-duplex checkpoint._
+- **[2023-10]** **SALMONN** - SALMONN speech audio language model. [![arXiv-2310.13289](https://img.shields.io/badge/arXiv--2310.13289-b31b1b.svg)](https://arxiv.org/abs/2310.13289) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/bytedance/SALMONN) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/tsinghua-ee/SALMONN-7B) 🔓
   - _Early influential open audio LLM (ByteDance)._
 
 <a id="bb-platforms"></a>
 ### Hosted Voice Agent Platforms
 
-- **[2025-06]** **Cartesia Line** - Cartesia Line SDK for Background Reasoning Voice Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/cartesia-ai/line) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.cartesia.ai/line/sdk/overview) 🔒
+- **[2025-06]** **Cartesia Line** - Cartesia Line SDK for Background Reasoning Voice Agents. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/cartesia-ai/line) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.cartesia.ai/line/sdk/overview) 🧩
   - _SDK where background tools survive interruptions during speech._
-- **[2025-01]** **Volcengine RTC AI realtime interaction** - Volcengine RTC AI realtime interaction / E2E speech access. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.volcengine.com/docs/real_time_communication/Accessend-to-endreal-timespeechlargemodel?lang=zh) 📄
-  - _与 A14 是服务层和模型服务层两个视图，统计时不视为两个独立基础模型。_
-- **[2025-01]** **Tencent Cloud TRTC Conversational AI** - Tencent Cloud TRTC Conversational AI. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://trtc.io/document/conversational-ai-overview?product=conversationalai) 📄
-  - _与腾讯开放 Covo-Audio 或 VITA-E 不属于同一模型 artifact。_
-- **[2025-01]** **Retell AI** - Retell AI. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.retellai.com/) 📄
-  - _把平台的延迟/打断能力归为服务指标，不能推断每个底层模型架构。_
-- **[2025-01]** **ElevenLabs ElevenAgents** - ElevenLabs ElevenAgents. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://elevenlabs.io/docs/eleven-agents/overview) 📄
-  - _ElevenLabs TTS 模型与 ElevenAgents 完整平台是不同对象。_
-- **[2025-01]** **ElevenAgents** - ElevenLabs conversational / agent platform. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://elevenlabs.io/docs) 🔒
-  - _ElevenLabs agents for conversational voice apps._
-- **[2025-01]** **Deepgram Voice Agent API** - Deepgram Voice Agent API. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.deepgram.com/docs/voice-agent-llm-models) 🔒
-  - _Deepgram 的识别模型、Voice Agent 服务和外接文本模型必须分层记账。_
-- **[2025-01]** **Deepgram Voice Agent** - Deepgram Voice Agent API. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.deepgram.com/) 🔒
-  - _Hosted voice agent with STT-centric realtime stack._
-- **[2025-01]** **Azure Voice Live** - Microsoft Azure Voice Live API. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://learn.microsoft.com/azure/ai-services/) 🔒
+- **[2025-05]** **Azure Voice Live** - Microsoft Azure Voice Live API. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://learn.microsoft.com/azure/ai-services/) 🔒
   - _Azure-hosted realtime voice live API for agents._
-- **[2025-01]** **Agora Conversational AI / Voice Agent** - Agora Conversational AI / Voice Agent. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.agora.io/en/ai) 📄
-  - _可以接原生 S2S 或级联模型，平台本身不等于固定底座。_
-- **[2024-01]** **Volcano RTC AI** - ByteDance Volcano Engine RTC AI. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.volcengine.com/) 🔒
-  - _Volcano RTC AI for realtime conversational experiences._
-- **[2024-01]** **Twilio ConversationRelay** - Twilio ConversationRelay voice AI connector. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.twilio.com/docs) 🔒
-  - _Twilio telephony relay into LLM/voice pipelines._
-- **[2024-01]** **Tencent TRTC AI** - Tencent TRTC conversational AI. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://cloud.tencent.com/document/product/647) 🔒
-  - _Tencent real-time communication AI agent features._
-- **[2024-01]** **Agora Conversational AI** - Agora conversational AI / RTC agent toolkit. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.agora.io/) 🔒
+- **[2025-03]** **Agora Conversational AI** - Agora conversational AI / RTC agent toolkit. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.agora.io/en/ai) 🔒
   - _RTC-native conversational AI building blocks._
-- **[2023-01]** **Vapi** - Vapi hosted voice agent platform. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.vapi.ai/) 🔒
-  - _Orchestrates STT/LLM/TTS or realtime providers for phone/web._
-- **[2023-01]** **Retell** - Retell AI phone voice agents. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.retellai.com/) 🔒
+- **[2024-11]** **Twilio ConversationRelay** - Twilio ConversationRelay voice AI connector. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.twilio.com/docs) 🔒
+  - _Twilio telephony relay into LLM/voice pipelines._
+- **[2024-11]** **ElevenAgents** - ElevenLabs conversational / agent platform. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://elevenlabs.io/docs/eleven-agents/overview) 🔒
+  - _ElevenLabs agents for conversational voice apps._
+- **[2024-09]** **Deepgram Voice Agent** - Deepgram Voice Agent API. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.deepgram.com/docs/voice-agent-llm-models) 🔒
+  - _Hosted listen–think–speak voice agent: STT-centric realtime stack with an external LLM as the thinking stage._
+- **[2024-08]** **Volcano RTC AI** - ByteDance Volcano Engine RTC AI. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.volcengine.com/docs/real_time_communication/Accessend-to-endreal-timespeechlargemodel?lang=zh) 🔒
+  - _Volcano RTC AI for realtime conversational experiences._
+- **[2024-05]** **Tencent TRTC AI** - Tencent TRTC conversational AI. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://trtc.io/document/conversational-ai-overview?product=conversationalai) 🔒
+  - _Tencent real-time communication AI agent features._
+- **[2024-02]** **Retell** - Retell AI phone voice agents. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.retellai.com/) 🔒
   - _Phone-centric voice agent platform with tool calling._
+- **[2023-11]** **Vapi** - Vapi hosted voice agent platform. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.vapi.ai/) 🔒
+  - _Orchestrates STT/LLM/TTS or realtime providers for phone/web._
 
 
 ---

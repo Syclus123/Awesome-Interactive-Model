@@ -40,6 +40,10 @@ STATUS_LABEL = {
 
 REQUIRED = {"id", "name", "title", "date", "status", "sections"}
 
+# Fields rendered verbatim into the English README.
+EN_FIELDS = ("name", "title", "venue", "note_en")
+CJK_RE = re.compile(r"[\u3000-\u303f\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\uff00-\uffef]")
+
 
 def load_yaml(path: Path) -> Any:
     with path.open(encoding="utf-8") as f:
@@ -108,6 +112,9 @@ def validate_entry(e: dict, path: Path, section_ids: set[str]) -> list[str]:
     for s in e.get("sections") or []:
         if s not in section_ids:
             errs.append(f"{path.name}/{e.get('id','?')}: unknown section '{s}'")
+    for field in EN_FIELDS:
+        if CJK_RE.search(str(e.get(field) or "")):
+            errs.append(f"{path.name}/{e.get('id','?')}: Chinese text in English field '{field}'")
     return errs
 
 
@@ -176,7 +183,7 @@ def render_section_block(section: dict, by_section: dict, lang: str) -> str:
     entries = by_section.get(sid, [])
     entries = sorted(entries, key=sort_key, reverse=True)
     if not entries:
-        empty = "_Coming soon / 待补充._" if lang == "en" else "_待补充。_"
+        empty = "_Coming soon._" if lang == "en" else "_待补充。_"
         lines.append(empty)
         lines.append("")
         return "\n".join(lines)
@@ -210,7 +217,7 @@ def render_all_sections(sections: list, by_section: dict, lang: str) -> str:
                     parts.append(render_entry(e, lang))
                 parts.append("")
             else:
-                parts.append("_Coming soon / 待补充._" if lang == "en" else "_待补充。_")
+                parts.append("_Coming soon._" if lang == "en" else "_待补充。_")
                 parts.append("")
     return "\n".join(parts)
 
@@ -302,11 +309,10 @@ def main() -> int:
         print("Validation errors:", file=sys.stderr)
         for err in errors:
             print(f"  - {err}", file=sys.stderr)
-        if any("duplicate" in e or "missing" in e or "bad status" in e for e in errors):
-            # unknown section is warning-level if we want soft fail; make hard for schema
-            hard = [e for e in errors if "unknown section" not in e]
-            if hard:
-                return 1
+        # unknown section is warning-level; everything else is a hard schema error
+        hard = [e for e in errors if "unknown section" not in e]
+        if hard:
+            return 1
 
     if args.check_only:
         print(f"OK: {len(entries)} entries, {len(section_ids)} section ids")

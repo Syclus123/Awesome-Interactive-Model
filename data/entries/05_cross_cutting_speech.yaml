@@ -14,6 +14,8 @@ entries:
   - early-speech-lm
   note_en: Early discrete speech–language LLM with cross-modal conversational ability.
   note_zh: 早期离散语音–语言 LLM，具备跨模态对话能力。
+  license: Depends on version and base-model licenses (e.g., Llama)
+  modalities: A/T → A/T
 - id: audiopalm
   name: AudioPaLM
   title: 'AudioPaLM: A Large Language Model That Can Speak and Listen'
@@ -179,11 +181,15 @@ entries:
   org: StepFun
   status: open_weights
   star: false
-  links: {}
+  links:
+    code: https://github.com/stepfun-ai/Step-Audio
+    hf: https://huggingface.co/stepfun-ai/Step-Audio-Chat
   sections:
   - e2e-speech-dialogue
   note_en: Large end-to-end speech chat model preceding Step-Audio 2.
   note_zh: Step-Audio 2 之前的大型端到端语音聊天模型。
+  license: Code and Chat weights Apache-2.0; verify other components separately
+  modalities: A/T → A/T
 - id: step-audio-2-mini
   name: Step-Audio 2 mini
   title: 'Step-Audio 2 mini: Compact Speech Understanding and Streaming Generation'
@@ -192,11 +198,15 @@ entries:
   org: StepFun
   status: open_weights
   star: false
-  links: {}
+  links:
+    code: https://github.com/stepfun-ai/Step-Audio2
+    hf: https://huggingface.co/stepfun-ai/Step-Audio-2-mini
   sections:
   - e2e-speech-dialogue
   note_en: Compact Step-Audio 2 variant for speech understanding and streaming TTS.
   note_zh: 紧凑 Step-Audio 2 变体，语音理解与流式生成。
+  license: mini weights verified as Apache-2.0
+  modalities: A/T → A/T, depending on variant
 - id: mimo-audio
   name: MiMo-Audio
   title: 'MiMo-Audio: End-to-End Audio Language Models from Xiaomi'
@@ -232,7 +242,7 @@ entries:
 - id: baichuan-audio
   name: Baichuan-Audio
   title: 'Baichuan-Audio: End-to-End Audio Dialogue Models'
-  date: 2025-01
+  date: 2025-02
   venue: ''
   org: Baichuan
   status: open_weights
@@ -347,11 +357,15 @@ entries:
   org: Baichuan
   status: open_weights
   star: false
-  links: {}
+  links:
+    code: https://github.com/baichuan-inc/Baichuan-Omni-1.5
+    hf: https://huggingface.co/baichuan-inc/Baichuan-Omni-1d5
   sections:
   - omni-generation
   note_en: Omni multimodal models with speech generation and streaming output.
   note_zh: Omni 多模态模型，支持语音生成与流式输出。
+  license: 1.5 weights Apache-2.0
+  modalities: A/V/I/T → A/T (1.5)
 - id: ming-lite-omni
   name: Ming-Lite-Omni
   title: 'Ming-Lite-Omni / v1.5: Sparse Omni Generation'
@@ -360,11 +374,15 @@ entries:
   org: inclusionAI / Ant
   status: open_weights
   star: false
-  links: {}
+  links:
+    code: https://github.com/inclusionAI/Ming
+    hf: https://huggingface.co/inclusionAI/Ming-Lite-Omni
   sections:
   - omni-generation
   note_en: Sparse omni generation models in the Ming family.
   note_zh: Ming 系列稀疏 Omni 生成模型。
+  license: MIT (verified on model card)
+  modalities: A/V/I/T → T/image/speech, depending on variant
 - id: longcat-next
   name: LongCat-Next
   title: 'LongCat-Next: Native Discrete Omni Generation'
@@ -559,15 +577,20 @@ entries:
   org: Bairong / Xdynamics
   status: open_weights
   star: false
-  links: {}
+  links:
+    code: https://github.com/Bairong-Xdynamics/TurnSense
+    hf: https://huggingface.co/brgroup/TurnSense
   sections:
   - turn-taking-methods
+  - bb-vad
   note_en: Turn/interruption control models for production voice agents.
   note_zh: 面向生产语音智能体的轮次/打断控制模型。
+  license: Apache-2.0 (project)
+  modalities: Chinese/English A → interaction state
 - id: ten-turn-detection
   name: TEN Turn Detection
   title: TEN Turn Detection Module
-  date: 2025-01
+  date: 2025-04
   venue: ''
   org: TEN
   status: code_only
@@ -734,6 +757,7 @@ entries:
   sections:
   - simul-s2st
   - blogs
+  - industry-others
   note_en: High-fidelity simultaneous S2ST built on Moshi-style duplex stacks.
   note_zh: 高保真同声传译，基于 Moshi 式双工栈。
 - id: hibiki-zero
@@ -1016,12 +1040,16 @@ entries:
   org: inclusionAI / Ant
   status: open_weights
   star: false
-  links: {}
+  links:
+    code: https://github.com/inclusionAI/Ming
+    hf: https://huggingface.co/inclusionAI/Ming-flash-omni-2.0
   sections:
   - streaming-omni-assistants
   - omni-generation
   note_en: Sparse MoE omni models for multimodal generation and interaction.
   note_zh: 稀疏 MoE Omni，面向多模态生成与交互。
+  license: 2.0 weights MIT
+  modalities: A/V/I/T → T/I/A
 - id: stream-omni
   name: Stream-Omni
   title: 'Stream-Omni: Simultaneous Multimodal Interactions with Large Language Models'

@@ -124,8 +124,10 @@ entries:
   star: false
   links:
     arxiv: https://arxiv.org/abs/2604.21406
+    hf: https://huggingface.co/datasets/ASLP-lab/HumDial
   sections:
   - bench-timing
+  - surveys-duplex
   note_en: Human-recorded interruption/rejection track aligned with FDB-style metrics.
   note_zh: 真人录音的打断/拒识赛道，指标对齐 FDB 风格。
 - id: turnbench
@@ -192,12 +194,13 @@ entries:
 - id: dsb-ifeval
   name: DSB-IFEval
   title: Duplex / spoken instruction-following evaluation set
-  date: 2025-01
+  date: 2026-09
   venue: ''
   org: ''
   status: paper_only
   star: false
-  links: {}
+  links:
+    arxiv: https://arxiv.org/abs/2609.03423
   sections:
   - bench-timing
   note_en: Instruction-following checks under duplex or spoken interactive settings.
@@ -304,7 +307,7 @@ entries:
 - id: voxdialogue
   name: VoxDialogue
   title: Can spoken dialogue systems understand information beyond words?
-  date: 2025-01
+  date: 2024-10
   venue: ICLR 2025
   org: ''
   status: code_only
@@ -347,13 +350,13 @@ entries:
 - id: big-bench-audio
   name: Big Bench Audio
   title: Audio extension of BIG-bench style tasks
-  date: 2024-01
+  date: 2024-12
   venue: ''
   org: ''
   status: code_only
   star: false
   links:
-    web: https://github.com/google/BIG-bench
+    web: https://huggingface.co/datasets/ArtificialAnalysis/big_bench_audio
   sections:
   - bench-content
   note_en: Audio-adapted BIG-bench style suite for LALMs.
@@ -532,13 +535,14 @@ entries:
 - id: echat-eval
   name: EChat-eval
   title: Emotional chat evaluation for speech models
-  date: 2025-01
+  date: 2025-08
   venue: ''
   org: ''
   status: code_only
   star: false
   links:
     code: https://github.com/ASLP-lab/OSUM
+    arxiv: https://arxiv.org/abs/2508.09600
   sections:
   - bench-paraling
   note_en: Eval split paired with EChat-style emotional dialogue data.
@@ -602,7 +606,7 @@ entries:
 - id: stepeval-audio-paraling
   name: StepEval-Audio-Paralinguistic
   title: StepFun audio paralinguistic evaluation track
-  date: 2025-01
+  date: 2025-07
   venue: ''
   org: StepFun
   status: code_only
@@ -676,7 +680,7 @@ entries:
 - id: stepeval-audio-toolcall
   name: StepEval-Audio-Toolcall
   title: StepFun audio tool-calling evaluation
-  date: 2025-01
+  date: 2025-07
   venue: ''
   org: StepFun
   status: code_only
@@ -717,12 +721,13 @@ entries:
 - id: mfcl-audio
   name: MFCL-Audio
   title: Multi-turn function calling for audio agents
-  date: 2025-01
+  date: 2025-09
   venue: ''
   org: ''
   status: code_only
   star: false
-  links: {}
+  links:
+    web: https://icml.cc/virtual/2026/poster/61489
   sections:
   - bench-agent
   note_en: Multi-turn function-calling scenarios in audio.
@@ -730,12 +735,13 @@ entries:
 - id: audiocrag
   name: AudioCRAG
   title: Audio retrieval-augmented generation benchmark
-  date: 2025-01
+  date: 2025-10
   venue: ''
   org: ''
   status: code_only
   star: false
-  links: {}
+  links:
+    arxiv: https://arxiv.org/abs/2510.02044
   sections:
   - bench-agent
   note_en: RAG correctness/faithfulness for audio-grounded agents.
@@ -1011,7 +1017,7 @@ entries:
 - id: aa-s2s-index
   name: AA S2S Index
   title: Artificial Analysis speech-to-speech index / leaderboard
-  date: 2025-01
+  date: 2024-12
   venue: ''
   org: ''
   status: closed
@@ -1050,52 +1056,10 @@ entries:
   - bench-leaderboards
   note_en: Hosted leaderboard related to Audio MultiChallenge.
   note_zh: 与 Audio MultiChallenge 相关的托管排行榜。
-- id: talk-arena-lb
-  name: Talk Arena LB
-  title: Talk Arena public leaderboard
-  date: 2025-02
-  venue: ''
-  org: ''
-  status: code_only
-  star: false
-  links:
-    arxiv: https://arxiv.org/abs/2502.15919
-  sections:
-  - bench-leaderboards
-  note_en: Public preference leaderboard for talking models.
-  note_zh: 对话语音模型的公开偏好排行榜。
-- id: turnbench-lb
-  name: TurnBench LB
-  title: TurnBench public leaderboard
-  date: 2026-08
-  venue: ''
-  org: ''
-  status: code_only
-  star: false
-  links:
-    web: https://turnbench.sesame.com/
-  sections:
-  - bench-leaderboards
-  note_en: EOT/INT recall–FPR–latency leaderboard at turnbench.sesame.com.
-  note_zh: turnbench.sesame.com 上的 EOT/INT 召回–误报–时延榜。
-- id: humdial-lb
-  name: HumDial LB
-  title: HumDial challenge leaderboard
-  date: 2026-01
-  venue: ''
-  org: ''
-  status: code_only
-  star: false
-  links:
-    web: https://huggingface.co/spaces
-  sections:
-  - bench-leaderboards
-  note_en: Challenge leaderboard for HumDial tracks.
-  note_zh: HumDial 各赛道挑战赛排行榜。
 - id: audiobench-lb
   name: AudioBench LB
   title: AudioBench / audio LLM leaderboard hubs
-  date: 2024-01
+  date: 2024-06
   venue: ''
   org: ''
   status: code_only
@@ -1137,7 +1101,7 @@ entries:
 - id: candor
   name: CANDOR
   title: CANDOR naturalistic conversation corpus
-  date: 2023-01
+  date: 2023-03
   venue: ''
   org: ''
   status: open_weights
@@ -1179,12 +1143,13 @@ entries:
 - id: otospeech-fd
   name: otoSpeech-FD
   title: otoSpeech full-duplex conversational corpus
-  date: 2025-01
+  date: 2026-02
   venue: ''
   org: ''
   status: open_weights
   star: false
-  links: {}
+  links:
+    data: https://huggingface.co/datasets/otoearth/otoSpeech-full-duplex-280h
   sections:
   - data-real
   note_en: Full-duplex oriented real conversational speech resource.
@@ -1223,12 +1188,13 @@ entries:
 - id: wildturn
   name: WildTurn
   title: In-the-wild turn-taking conversational data
-  date: 2025-01
+  date: 2026-08
   venue: ''
   org: ''
   status: open_weights
   star: false
-  links: {}
+  links:
+    arxiv: https://arxiv.org/abs/2608.28630
   sections:
   - data-real
   note_en: Wild conversational turns for robust EOT models.
@@ -1236,7 +1202,7 @@ entries:
 - id: j-chat
   name: J-CHAT
   title: Japanese conversational chat corpus
-  date: 2024-01
+  date: 2024-07
   venue: ''
   org: ''
   status: open_weights
@@ -1249,7 +1215,7 @@ entries:
 - id: expresso
   name: Expresso
   title: Expresso expressive speech corpus
-  date: 2023-01
+  date: 2023-08
   venue: ''
   org: Meta
   status: open_weights
@@ -1277,12 +1243,13 @@ entries:
 - id: behavior-sd
   name: Behavior-SD
   title: Synthetic spoken dialogue with behavior labels
-  date: 2024-01
+  date: 2025-04
   venue: ''
   org: ''
   status: open_weights
   star: false
-  links: {}
+  links:
+    web: https://aclanthology.org/2025.naacl-long.484/
   sections:
   - data-synthetic
   note_en: Synthetic dialogues labeled for interaction behaviors.
@@ -1290,7 +1257,7 @@ entries:
 - id: instructs2s-200k
   name: InstructS2S-200K
   title: 200K speech-to-speech instruction pairs
-  date: 2024-01
+  date: 2024-09
   venue: ''
   org: ''
   status: open_weights
@@ -1303,7 +1270,7 @@ entries:
 - id: voiceassistant-400k
   name: VoiceAssistant-400K
   title: 400K voice assistant interaction samples
-  date: 2024-01
+  date: 2024-08
   venue: ''
   org: ''
   status: open_weights
@@ -1330,13 +1297,14 @@ entries:
 - id: echat-200k
   name: EChat-200K
   title: 200K emotional chat speech samples
-  date: 2025-01
+  date: 2025-08
   venue: ''
   org: ''
   status: open_weights
   star: false
   links:
     code: https://github.com/ASLP-lab/OSUM
+    arxiv: https://arxiv.org/abs/2508.09600
   sections:
   - data-synthetic
   note_en: Emotional spoken chat data used with OSUM-EChat line.
@@ -1344,12 +1312,13 @@ entries:
 - id: interactspeech
   name: InteractSpeech
   title: Synthetic interactive / duplex speech dataset
-  date: 2025-01
+  date: 2025-11
   venue: ''
   org: ''
   status: open_weights
   star: false
-  links: {}
+  links:
+    web: https://aclanthology.org/2025.findings-emnlp.424/
   sections:
   - data-synthetic
   note_en: Synthesized interactive speech for duplex training.
@@ -1357,7 +1326,7 @@ entries:
 - id: emilia
   name: Emilia
   title: Emilia large-scale multilingual speech generation corpus
-  date: 2024-01
+  date: 2024-07
   venue: ''
   org: ''
   status: open_weights

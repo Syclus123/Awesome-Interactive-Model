@@ -51,7 +51,7 @@ Edit YAML under `data/entries/` (do **not** hand-edit generated `README.md` / `R
 1. Prefer **mechanism** sections; add Industry sections only for vendor products.
 2. Status must match evidence: demos / “coming soon” → `paper_only` or `closed`, not `open_weights`.
 3. Same logical project = one `id`; list multiple `sections` instead of duplicating.
-4. Paper titles stay in English; notes may be bilingual.
+4. `name`, `title`, `venue`, and `note_en` must be in English (the build fails on Chinese characters in these fields); put Chinese notes in `note_zh`.
 5. No prices.
 
 ### Rebuild & checks
@@ -95,7 +95,7 @@ python3 scripts/check_links.py --http --limit 80
 1. 优先按**机制**归类；仅厂商产品再加 Industry 小节。
 2. 状态须有证据：演示 /「即将发布」→ `paper_only` 或 `closed`，不要标 `open_weights`。
 3. 同一项目一个 `id`；用多个 `sections` 跨节复用，不要复制条目。
-4. 论文标题保持英文；说明可中英双语。
+4. `name`、`title`、`venue`、`note_en` 必须是英文（含中文字符时构建会报错）；中文说明写在 `note_zh`。
 5. 不写价格。
 
 ### 重建与检查

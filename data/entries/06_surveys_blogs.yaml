@@ -5,7 +5,7 @@ entries:
   date: 2024-11
   venue: ''
   org: CUHK / collaborators
-  status: paper_only
+  status: code_only
   star: true
   links:
     arxiv: https://arxiv.org/abs/2411.13577
@@ -20,7 +20,7 @@ entries:
   date: 2024-10
   venue: ACL 2025
   org: ''
-  status: paper_only
+  status: code_only
   star: false
   links:
     arxiv: https://arxiv.org/abs/2410.03751
@@ -77,7 +77,7 @@ entries:
   date: 2026-03
   venue: ''
   org: ''
-  status: paper_only
+  status: code_only
   star: false
   links:
     arxiv: https://arxiv.org/abs/2603.22267
@@ -147,12 +147,13 @@ entries:
 - id: turntaking-survey-iwsds
   name: TurnTaking-Survey
   title: Turn-taking survey for spoken dialogue systems (IWSDS 2025)
-  date: 2025-01
+  date: 2025-05
   venue: IWSDS 2025
   org: ''
   status: paper_only
   star: false
-  links: {}
+  links:
+    web: https://aclanthology.org/2025.iwsds-1.27/
   sections:
   - surveys-duplex
   note_en: IWSDS 2025 survey focused on turn-taking mechanisms in SDS.
@@ -199,23 +200,9 @@ entries:
     code: https://github.com/ASLP-lab/HumDial
   sections:
   - surveys-duplex
+  - bench-leaderboards
   note_en: ICASSP HumDial challenge framing human-recorded interactive dialogue eval.
   note_zh: ICASSP HumDial 挑战赛：基于真人录音的交互对话评测框架。
-- id: humdial-fd
-  name: HumDial-FD
-  title: HumDial full-duplex track and FDBench
-  date: 2026-04
-  venue: ''
-  org: ''
-  status: code_only
-  star: false
-  links:
-    arxiv: https://arxiv.org/abs/2604.21406
-    hf: https://huggingface.co/datasets/ASLP-lab/HumDial
-  sections:
-  - surveys-duplex
-  note_en: Full-duplex HumDial track with interruption/rejection metrics aligned to FDB v1.5.
-  note_zh: HumDial 全双工赛道与 FDBench；打断/拒识等指标对齐 Full-Duplex-Bench v1.5。
 - id: omni-mllm
   name: Omni-MLLM
   title: A survey of omni multimodal large language models
@@ -262,12 +249,13 @@ entries:
 - id: online-interactors
   name: Online-Interactors
   title: Survey of online / interactive multimodal agents
-  date: 2025-01
+  date: 2026-06
   venue: ''
   org: ''
   status: paper_only
   star: false
-  links: {}
+  links:
+    web: https://github.com/sotayang/Awesome-Streaming-Video-Understanding
   sections:
   - surveys-omni-stream
   note_en: Survey emphasis on online interactors that decide when to speak under streams.
@@ -289,12 +277,13 @@ entries:
 - id: proactive-convai-tois
   name: ProactiveConvAI
   title: 'Proactive conversational AI: a survey (TOIS)'
-  date: 2024-01
+  date: 2025-01
   venue: TOIS
   org: ''
   status: paper_only
   star: false
-  links: {}
+  links:
+    web: https://doi.org/10.1145/3715097
   sections:
   - surveys-omni-stream
   note_en: TOIS survey of proactivity in conversational agents (when/what to initiate).
@@ -371,7 +360,7 @@ entries:
 - id: tml-interaction-models
   name: TML Interaction Models
   title: 'Thinking Machines Lab: interaction models perspective'
-  date: 2025-01
+  date: 2026-05
   venue: ''
   org: Thinking Machines Lab
   status: closed
@@ -405,7 +394,8 @@ entries:
   org: ''
   status: paper_only
   star: false
-  links: {}
+  links:
+    web: https://icml.cc/virtual/2026/poster/67080
   sections:
   - positions
   note_en: ICML 2026 position arguing speech-native modeling over text-cascades.
@@ -480,8 +470,10 @@ entries:
   sections:
   - blogs
   - industry-openai
-  note_en: GA notes for first-generation gpt-realtime; check deprecation tables before use.
-  note_zh: 第一代 gpt-realtime GA 说明；接入前务必核对停用表。
+  note_en: GA notes for first-generation gpt-realtime. The GA family is scheduled for deprecation on 2027-01-20; the older realtime-preview models were retired in 2026-05.
+  note_zh: 第一代 gpt-realtime GA 说明。GA 家族计划于 2027-01-20 停用；较早的 realtime-preview 已于 2026-05 停用。
+  license: Commercial terms of service
+  modalities: A/T (I in some versions) → A/T
 - id: blog-gpt-realtime-2
   name: GPT-Realtime-2
   title: GPT Realtime 2 series update
@@ -497,6 +489,8 @@ entries:
   - industry-openai
   note_en: Realtime 2 generation with stronger tools/reasoning; migrate path from 1.x.
   note_zh: Realtime 2 代更新，工具与推理更强；提供从 1.x 的迁移路径。
+  license: Commercial terms of service
+  modalities: A/I/T → A/T
 - id: blog-turnbench
   name: TurnBench Blog
   title: 'TurnBench: measuring the timing of conversation'
@@ -544,7 +538,7 @@ entries:
 - id: blog-gemini-31-flash-live
   name: Gemini 3.1 Flash Live
   title: Gemini 3.1 Flash Live announcement
-  date: '2026-01-01'
+  date: '2026-03-26'
   venue: ''
   org: Google DeepMind
   status: closed
@@ -657,13 +651,13 @@ entries:
 - id: tut-voice-ai-primer
   name: Voice AI Primer
   title: Practical Voice AI primer for builders
-  date: '2025-01-01'
+  date: 2025-02
   venue: ''
   org: ''
   status: code_only
   star: false
   links:
-    web: https://docs.livekit.io/agents/
+    web: https://voiceaiandvoiceagents.com/
   sections:
   - tutorials
   note_en: Practitioner primer covering VAD, turn-taking, STT/TTS, and realtime stacks.
@@ -685,7 +679,7 @@ entries:
 - id: tut-gpt-live-guide
   name: GPT-Live Guide
   title: OpenAI GPT-Live developer guide
-  date: '2026-01-01'
+  date: '2026-09-10'
   venue: ''
   org: OpenAI
   status: closed
@@ -699,7 +693,7 @@ entries:
 - id: list-speech-trident
   name: Speech-Trident
   title: Awesome speech/audio LLMs, codecs, and representation learning
-  date: 2024-01
+  date: 2024-04
   venue: ''
   org: ''
   status: code_only
@@ -741,7 +735,7 @@ entries:
 - id: list-awesome-fd-sdm
   name: Awesome-Full-Duplex-SDM
   title: Curated list of full-duplex spoken dialogue models & benchmarks
-  date: 2025-01
+  date: 2025-07
   venue: ''
   org: ''
   status: code_only
@@ -783,7 +777,7 @@ entries:
 - id: list-awesome-audio-llm
   name: Awesome-Audio-LLM
   title: Awesome list of audio LLMs, datasets, and benchmarks
-  date: 2024-01
+  date: 2024-06
   venue: ''
   org: ''
   status: code_only
@@ -797,7 +791,7 @@ entries:
 - id: list-awesome-streaming-video
   name: Awesome-Streaming-Video-Understanding
   title: Curated streaming / online video understanding papers
-  date: 2025-01
+  date: 2025-12
   venue: ''
   org: ''
   status: code_only
@@ -825,7 +819,7 @@ entries:
 - id: list-awesome-voice-agents
   name: awesome-voice-agents
   title: Curated voice agent frameworks, VAD, turn detection, STT/TTS
-  date: 2025-01
+  date: 2025-11
   venue: ''
   org: ''
   status: code_only
@@ -839,7 +833,7 @@ entries:
 - id: list-awesome-umm
   name: Awesome-Unified-Multimodal-Models
   title: Awesome list of unified multimodal / omni models
-  date: 2025-01
+  date: 2025-05
   venue: ''
   org: ''
   status: code_only
@@ -909,7 +903,7 @@ entries:
 - id: list-large-audio-models
   name: Large-Audio-Models
   title: Curated large audio models paper list
-  date: 2024-01
+  date: 2023-03
   venue: ''
   org: ''
   status: code_only
@@ -937,7 +931,7 @@ entries:
 - id: tut-pipecat-docs
   name: Pipecat Docs
   title: Pipecat voice-agent builder documentation
-  date: 2024-01
+  date: 2024-05
   venue: ''
   org: ''
   status: code_only
