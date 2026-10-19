@@ -19,6 +19,7 @@
 
 ## 📰 动态与更新
 
+- **2026-10-19** 🎉 **我们的工作 Jarvis**：让协调拥有自己的“大脑”，以专属 Harness 协同实时对话与后台推理，打造全双工 Audio/Omni 智能体。[论文](https://arxiv.org/abs/2610.23804v1) · [代码](https://github.com/JensenYX/Jarvis) · [Demo](https://amphionteam.github.io/Jarvis-Demo/)
 - **2026-10-05** — Amazon **Nova 2.5 Sonic** GA（语音到语音实时）。
 - **2026-09-10** — OpenAI **GPT-Live** API GA；**gpt-realtime** / **gpt-realtime-mini** 宣布停用。
 - **2026-09** — SeedRealtime、Grok Voice Think Fast、Hibiki-Zero、MiniCPM-o 4.5、PersonaPlex 及大量双工 / 双系统论文。

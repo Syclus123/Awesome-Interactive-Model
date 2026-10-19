@@ -13,16 +13,17 @@
 一份以「<b>交互如何实现</b>」为中心的语音 / Omni <b>交互模型地图</b>：围绕时机控制、思考与说话的调度、以及模型能影响的范围来组织——<b>不是</b>「级联 → 端到端 → 大小脑」的进化阶梯。
 </p>
 
-<p align="center">**收录 584 条**（🔓 开放权重：165，🧩 代码 / 运行时：146，🔒 闭源 API / 产品：92，📄 仅论文 / 未发布：181）。公开资料核验截至 2026-10-06。</p>
+<p align="center">**收录 585 条**（🔓 开放权重：165，🧩 代码 / 运行时：147，🔒 闭源 API / 产品：92，📄 仅论文 / 未发布：181）。公开资料核验截至 2026-10-06。</p>
 
 ---
 
 ## 📰 动态与更新
 
+- **2026-10-19** 🎉 **我们的工作 Jarvis**：让协调拥有自己的“大脑”，以专属 Harness 协同实时对话与后台推理，打造全双工 Audio/Omni 智能体。[论文](https://arxiv.org/abs/2610.23804v1) · [代码](https://github.com/JensenYX/Jarvis) · [Demo](https://amphionteam.github.io/Jarvis-Demo/)
 - **2026-10-05** — Amazon **Nova 2.5 Sonic** GA（语音到语音实时）。
 - **2026-09-10** — OpenAI **GPT-Live** API GA；**gpt-realtime** / **gpt-realtime-mini** 宣布停用。
 - **2026-09** — SeedRealtime、Grok Voice Think Fast、Hibiki-Zero、MiniCPM-o 4.5、PersonaPlex 及大量双工 / 双系统论文。
-- **2026-10-06** — 本列表上线（584 条）。长篇综述：[docs/survey_zh.md](docs/survey_zh.md)。
+- **2026-10-06** — 本列表上线（585 条）。长篇综述：[docs/survey_zh.md](docs/survey_zh.md)。
 
 ---
 
@@ -765,6 +766,8 @@ flowchart TB
 <a id="dual-open"></a>
 ### 3.2 开放双系统模型
 
+- **[2026-10]** **Jarvis** - Jarvis: Coordination Deserves a Brain of Its Own in Agentic Interactive Models. [![arXiv-2610.23804](https://img.shields.io/badge/arXiv--2610.23804-b31b1b.svg)](https://arxiv.org/abs/2610.23804v1) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/JensenYX/Jarvis) 🧩
+  - _Jarvis-Audio/Omni 大小脑协同 Harness；JEV 选择绑定任务版本的类型化操作，代码校验执行与结果投递。_
 - **[2026-09]** **SALMONN-duo** - SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents. [![arXiv-2609.34247](https://img.shields.io/badge/arXiv--2609.34247-b31b1b.svg)](https://arxiv.org/abs/2609.34247) 📄
   - _双工前台与慢推理智能体的自适应协同。_
 - [⭐️] **[2026-09]** **Realtime-Venus-Audio / Omni** - Realtime-Venus: A full-duplex interaction system with asynchronous delegation. [![arXiv-2609.13814](https://img.shields.io/badge/arXiv--2609.13814-b31b1b.svg)](https://arxiv.org/abs/2609.13814) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Realtime-Venus) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI/Realtime-Venus) 🔓
@@ -912,6 +915,8 @@ flowchart TB
 <a id="agentic-harness"></a>
 ### 5.2 交互 Harness 与运行时
 
+- **[2026-10]** **Jarvis** - Jarvis: Coordination Deserves a Brain of Its Own in Agentic Interactive Models. [![arXiv-2610.23804](https://img.shields.io/badge/arXiv--2610.23804-b31b1b.svg)](https://arxiv.org/abs/2610.23804v1) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/JensenYX/Jarvis) 🧩
+  - _Jarvis-Audio/Omni 大小脑协同 Harness；JEV 选择绑定任务版本的类型化操作，代码校验执行与结果投递。_
 - [⭐️] **[2026-09]** **qwen-audio-agent** - qwen-audio-agent v2: Front-End Dialogue with Persistent Background Tasks. [![arXiv-2609.25195](https://img.shields.io/badge/arXiv--2609.25195-b31b1b.svg)](https://arxiv.org/abs/2609.25195) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenAudio/qwen-audio-agent) 🧩
   - _语音前台旁持续后台任务的 Harness。_
 - **[2026-09]** **Venus Harness** - Realtime-Venus Harness: Dual-Loop Task Execution and Speech Delivery. 🧩

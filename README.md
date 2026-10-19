@@ -13,16 +13,17 @@
 A curated map of <b>voice / Omni interactive models</b> organized by <b>how interaction is realized</b>—timing, think/speak scheduling, and effect scope—not by a cascade→E2E→dual-system “evolution ladder”.
 </p>
 
-<p align="center">**584 curated entries** (🔓 open weights: 165, 🧩 code / runtime: 146, 🔒 closed API / product: 92, 📄 paper only / unreleased: 181). Verified sources as of 2026-10-06.</p>
+<p align="center">**585 curated entries** (🔓 open weights: 165, 🧩 code / runtime: 147, 🔒 closed API / product: 92, 📄 paper only / unreleased: 181). Verified sources as of 2026-10-06.</p>
 
 ---
 
 ## 📰 News & Updates
 
+- **2026-10-19** 🎉 **Our work, Jarvis**, gives coordination a brain of its own through a dedicated harness that keeps realtime dialogue and background reasoning in sync for full-duplex Audio/Omni agents. [Paper](https://arxiv.org/abs/2610.23804v1) · [Code](https://github.com/JensenYX/Jarvis) · [Demo](https://amphionteam.github.io/Jarvis-Demo/)
 - **2026-10-05** — Amazon **Nova 2.5 Sonic** GA (speech-to-speech realtime).
 - **2026-09-10** — OpenAI **GPT-Live** API GA; **gpt-realtime** / **gpt-realtime-mini** announced for deprecation.
 - **2026-09** — SeedRealtime, Grok Voice Think Fast, Hibiki-Zero, MiniCPM-o 4.5, PersonaPlex, and many duplex / dual-system papers.
-- **2026-10-06** — This list launched (584 curated entries). Long-form survey: [docs/survey.md](docs/survey.md).
+- **2026-10-06** — This list launched (585 curated entries). Long-form survey: [docs/survey.md](docs/survey.md).
 
 ---
 
@@ -765,6 +766,8 @@ Fast front-end interaction (cerebellum / System 1 / Talker) runs concurrently wi
 <a id="dual-open"></a>
 ### 3.2 Open Dual-System Models
 
+- **[2026-10]** **Jarvis** - Jarvis: Coordination Deserves a Brain of Its Own in Agentic Interactive Models. [![arXiv-2610.23804](https://img.shields.io/badge/arXiv--2610.23804-b31b1b.svg)](https://arxiv.org/abs/2610.23804v1) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/JensenYX/Jarvis) 🧩
+  - _Dual-system coordination harness for Jarvis-Audio/Omni; JEV selects typed, version-bound task operations, while code validates execution and result delivery._
 - **[2026-09]** **SALMONN-duo** - SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents. [![arXiv-2609.34247](https://img.shields.io/badge/arXiv--2609.34247-b31b1b.svg)](https://arxiv.org/abs/2609.34247) 📄
   - _Adaptive coordination between duplex front-end and slow reasoner agent._
 - [⭐️] **[2026-09]** **Realtime-Venus-Audio / Omni** - Realtime-Venus: A full-duplex interaction system with asynchronous delegation. [![arXiv-2609.13814](https://img.shields.io/badge/arXiv--2609.13814-b31b1b.svg)](https://arxiv.org/abs/2609.13814) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Realtime-Venus) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI/Realtime-Venus) 🔓
@@ -912,6 +915,8 @@ Interactive systems that call tools, retrieve knowledge, or run long tasks while
 <a id="agentic-harness"></a>
 ### 5.2 Interaction Harness & Runtimes
 
+- **[2026-10]** **Jarvis** - Jarvis: Coordination Deserves a Brain of Its Own in Agentic Interactive Models. [![arXiv-2610.23804](https://img.shields.io/badge/arXiv--2610.23804-b31b1b.svg)](https://arxiv.org/abs/2610.23804v1) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/JensenYX/Jarvis) 🧩
+  - _Dual-system coordination harness for Jarvis-Audio/Omni; JEV selects typed, version-bound task operations, while code validates execution and result delivery._
 - [⭐️] **[2026-09]** **qwen-audio-agent** - qwen-audio-agent v2: Front-End Dialogue with Persistent Background Tasks. [![arXiv-2609.25195](https://img.shields.io/badge/arXiv--2609.25195-b31b1b.svg)](https://arxiv.org/abs/2609.25195) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenAudio/qwen-audio-agent) 🧩
   - _Harness for continuous background tasks beside a speech front-end._
 - **[2026-09]** **Venus Harness** - Realtime-Venus Harness: Dual-Loop Task Execution and Speech Delivery. 🧩

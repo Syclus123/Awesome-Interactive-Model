@@ -43,6 +43,22 @@ entries:
   - dual-concepts
   note_en: Cognitive dual-process architecture motivating fast/slow AI system designs.
   note_zh: 认知双过程架构，启发快/慢 AI 系统设计。
+- id: jarvis
+  name: Jarvis
+  title: 'Jarvis: Coordination Deserves a Brain of Its Own in Agentic Interactive Models'
+  date: 2026-10
+  venue: ''
+  org: CUHK-Shenzhen / Tencent Hunyuan / Amphion
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.23804v1
+    code: https://github.com/JensenYX/Jarvis
+  sections:
+  - dual-open
+  - agentic-harness
+  note_en: Dual-system coordination harness for Jarvis-Audio/Omni; JEV selects typed, version-bound task operations, while code validates execution and result delivery.
+  note_zh: Jarvis-Audio/Omni 大小脑协同 Harness；JEV 选择绑定任务版本的类型化操作，代码校验执行与结果投递。
 - id: realtime-venus
   name: Realtime-Venus
   title: 'Realtime-Venus: Full-Duplex Interaction with Asynchronous Task Delegation'
