@@ -355,8 +355,8 @@ entries:
   - dual-closed
   - blogs
   - industry-openai
-  note_en: Native duplex voice front-end with Responses/client delegation to agents; audio/text only, no image/video.
-  note_zh: 原生双工语音前台，经 Responses/客户端委派至智能体；仅音频/文本，不含图像/视频。
+  note_en: Native duplex voice front-end with Responses/client delegation to agents; audio/text only, no image/video. Oct 2026 API adds native Decisions delegation and prompt-to-voice with nine new voices.
+  note_zh: 原生双工语音前台，经 Responses/客户端委派至智能体；仅音频/文本，不含图像/视频。2026-10 API 增加原生 Decisions 委派与九种新音色的 prompt-to-voice。
 - id: gemini-live-extended-thinking
   name: Gemini Live ET
   title: Gemini Live with Extended Thinking and Async Tools
@@ -422,20 +422,22 @@ entries:
 - id: step-audio-3-realtime
   name: Step-Audio 3 RT
   title: 'Step-Audio 3 Realtime: Official Full-Duplex Speech Product'
-  date: 2026-06
+  date: 2026-09
   venue: ''
   org: StepFun
   status: closed
   star: false
   links:
+    arxiv: https://arxiv.org/abs/2609.14005
     web: https://www.stepfun.com/
     blog: https://static.stepfun.com/blog/stepaudio3/realtime/
+    docs: https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-realtime
   sections:
   - dual-closed
   - duplex-multistream
   - industry-others
-  note_en: Official full-duplex realtime speech product with dual-system service hooks.
-  note_zh: 官方全双工实时语音产品，含双系统服务接口。
+  note_en: Official full-duplex realtime speech product with dual-system service hooks; tech report StepAudio 3 Realtime (arXiv 2609.14005).
+  note_zh: 官方全双工实时语音产品，含双系统服务接口；技术报告 StepAudio 3 Realtime（arXiv 2609.14005）。
 - id: nova-2-sonic
   name: Nova 2 Sonic
   title: 'Amazon Nova 2 Sonic: Bidirectional Speech with Async Tools'
@@ -624,3 +626,66 @@ entries:
   - dual-concepts
   note_en: 'Conceptual pattern shared by KAME/MoshiRAG: duplex talker + oracle.'
   note_zh: KAME/MoshiRAG 概念：双工Talker加Oracle。
+- id: rubato
+  name: RUBATO
+  title: 'RUBATO: Decoupled Clocks Allow Full-Duplex Models to Think as Fast as They Can'
+  date: 2026-10
+  venue: ''
+  org: UT Austin / Meta FAIR
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.14299
+  sections:
+  - think-while
+  - duplex-multistream
+  note_en: Multistream positional encoding with independent clocks so thinking can decode at hardware-adaptive rates while realtime audio stays steady.
+  note_zh: 多流位置编码配独立时钟，思考流可按硬件自适应速率解码，实时音频流保持稳定。
+- id: diffuplex-nvidia
+  name: Diffuplex
+  title: Full-duplex Spoken Language Modeling with Discrete Diffusion
+  date: 2026-10
+  venue: ''
+  org: NVIDIA
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.17780
+    web: https://cchen1436.github.io/diffuplex-website
+  sections:
+  - think-while
+  - low-latency
+  note_en: AR interaction policy plus parallel discrete diffusion for response content; distinct from University of Seoul DiffuPlex (rolling masked diffusion).
+  note_zh: AR 交互策略加并行离散扩散生成回复内容；与首尔市立大学 DiffuPlex（滚动掩码扩散）不同。
+- id: gpt-live-1-1
+  name: GPT-Live-1.1
+  title: OpenAI GPT-Live-1.1 and GPT-Live-1.1 Quip
+  date: 2026-10
+  venue: ''
+  org: OpenAI
+  status: closed
+  star: true
+  links:
+    web: https://community.openai.com/t/gpt-live-1-1-is-rolling-out-with-new-voices-and-better-accents/1406704
+    docs: https://deploymentsafety.openai.com/gpt-live-1-1/introduction
+  sections:
+  - dual-closed
+  - industry-openai
+  note_en: Successor to GPT-Live-1 / 1 mini with 13 new voices, better accents, and more natural delegation; shipping in ChatGPT, Codex, and Dots, with API coming soon.
+  note_zh: GPT-Live-1 / 1 mini 后继，含 13 个新音色、更好口音与更自然委派；已在 ChatGPT、Codex、Dots 推出，API 即将开放。
+- id: sesame-agents-2610
+  name: Sesame Agents (Oct 2026)
+  title: Sesame Agentic Voice Assistants with Updated Conversational Speech Model
+  date: 2026-10
+  venue: ''
+  org: Sesame
+  status: closed
+  star: false
+  links:
+    blog: https://www.sesame.com/journal/a-new-form-of-eyewear
+    web: https://www.sesame.com/
+  sections:
+  - dual-closed
+  - industry-others
+  note_en: Maya, Miles, Simone, and Charlie gain agentic computer use, Gmail/Calendar tools, and a more expressive conversational speech model; glasses planned for 2027.
+  note_zh: Maya、Miles、Simone、Charlie 获得智能体电脑使用、Gmail/日历工具与更富表现力的对话语音模型；眼镜计划 2027 年推出。

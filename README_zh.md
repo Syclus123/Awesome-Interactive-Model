@@ -13,17 +13,20 @@
 一份以「<b>交互如何实现</b>」为中心的语音 / Omni <b>交互模型地图</b>：围绕时机控制、思考与说话的调度、以及模型能影响的范围来组织——<b>不是</b>「级联 → 端到端 → 大小脑」的进化阶梯。
 </p>
 
-<p align="center"><strong>收录 509 条</strong>（🔓 开放权重：150，🧩 代码 / 运行时：141，🔒 闭源 API / 产品：70，📄 仅论文 / 未发布：148）。公开资料核验截至 2026-10-06。</p>
+<p align="center"><strong>收录 540 条</strong>（🔓 开放权重：155，🧩 代码 / 运行时：145，🔒 闭源 API / 产品：75，📄 仅论文 / 未发布：165）。公开资料核验截至 2026-10-19。</p>
 
 ---
 
 ## 📰 动态与更新
 
 - **2026-10-19** 🎉 **我们的工作 Jarvis**：让协调拥有自己的“大脑”，以专属 Harness 协同实时对话与后台推理，打造全双工 Audio/Omni 智能体。[论文](https://arxiv.org/abs/2610.23804v1) · [代码](https://github.com/JensenYX/Jarvis) · [Demo](https://amphionteam.github.io/Jarvis-Demo/)
+- **2026-10-15/16** — OpenAI **GPT-Live-1.1** 上线新音色；API 增加原生 **Decisions** 委派与 **prompt-to-voice**。
+- **2026-10-14** — xAI **Grok Voice 3.0**（`grok-voice-latest` 现指向该版；2.0 弃用）。
+- **2026-10** — 研究浪潮：RUBATO、D2、DiffuPlex / Diffuplex、SteerablePlex、DuplexAgent-RSI、DuplexAct、VoxTurn、Tyger、ELLSA 2、PERSIST 等。
+- **2026-10-06** — Sesame 智能体语音助手与更新版 CSM；Hume 宣布 EVI/TTS API 停服（访问截止 2026-11-13）。
 - **2026-10-05** — Amazon **Nova 2.5 Sonic** GA（语音到语音实时）。
 - **2026-09-10** — OpenAI **GPT-Live** API GA；**gpt-realtime** / **gpt-realtime-mini** 宣布停用。
 - **2026-09** — SeedRealtime、Grok Voice Think Fast、Hibiki-Zero、MiniCPM-o 4.5、PersonaPlex 及大量双工 / 双系统论文。
-- **2026-10-06** — 本列表上线（509 条）。长篇综述：[docs/survey_zh.md](docs/survey_zh.md)。
 
 ---
 
@@ -104,7 +107,7 @@
 
 ## 🎯 目标
 
-本仓库是持续更新的中英双语 **Interactive Model 图谱**，覆盖语音与 Omni（音视频）智能体。
+本仓库是持续更新的中英双语 **Interactive Model 图谱**，覆盖语音与 Omni（音视频）智能体。本列表于 2026-10-06 上线。分类与开放问题的精炼报告：[docs/survey_zh.md](docs/survey_zh.md)。
 
 此处的 **交互** 指对下列三者的联合控制：
 
@@ -119,7 +122,7 @@
 1. 系统收录 **大小脑双系统** 与带 **harness** 的 agentic 模型；
 2. 每条标注 **开放状态**（🔓 / 🧩 / 🔒 / 📄）；
 3. **Benchmark 按交互层** 组织（时机、状态、Agent、主动性等）；
-4. **产业全景** 带日期与已核实的停用信息（截至 2026-10-06）。
+4. **产业全景** 带日期与已核实的停用信息（截至 2026-10-19）。
 
 相关列表与参考：[Awesome-Full-Duplex-SDM](https://github.com/Ruiqi-Yan/Awesome-Full-Duplex-SDM)、[WavChat](https://github.com/jishengpeng/WavChat)、[Speech-Trident](https://github.com/ga642381/speech-trident)、[Awesome-Audio-LLM](https://github.com/AudioLLMs/Awesome-Audio-LLM)、[Awesome-Streaming-Video-Understanding](https://github.com/sotayang/Awesome-Streaming-Video-Understanding)。
 
@@ -330,7 +333,7 @@ flowchart TB
 - **[2026-08]** **TurnBench Blog** - TurnBench: measuring the timing of conversation. [![arXiv-2608.25218](https://img.shields.io/badge/arXiv--2608.25218-b31b1b.svg)](https://arxiv.org/abs/2608.25218) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://turnbench.sesame.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://www.sesame.com/blog/turnbench) 🧩
   - _Sesame 介绍 TurnBench 排行榜的博客，评测 EOT/打断时机。_
 - [⭐️] **[2026-07]** **GPT-Live** - GPT-Live 1: Native Full-Duplex Voice with Backend Delegation. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://openai.com/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-live-1) 🔒
-  - _原生双工语音前台，经 Responses/客户端委派至智能体；仅音频/文本，不含图像/视频。_
+  - _原生双工语音前台，经 Responses/客户端委派至智能体；仅音频/文本，不含图像/视频。2026-10 API 增加原生 Decisions 委派与九种新音色的 prompt-to-voice。_
 - **[2026-05]** **GPT-Realtime-2** - GPT Realtime 2 series update. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-realtime-2) 🔒
   - _Realtime 2 代更新，工具与推理更强；提供从 1.x 的迁移路径。_
 - **[2026-05]** **TML Interaction Models** - Thinking Machines Lab: interaction models perspective. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://thinkingmachines.ai/) 🔒
@@ -557,6 +560,8 @@ flowchart TB
 <a id="duplex-engineered"></a>
 ### 2.1 Engineered 同步（控制器 / 级联）
 
+- **[2026-10]** **Tyger** - Tyger: Open-Weight Streaming ASR with Full-Duplex Turn Control. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.nineninesix.ai/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/nineninesix-ai/tyger-s2s) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nineninesix/tyger) 🔓
+  - _Nemotron 流式 ASR 加 14M 因果 GRU，每 80 ms 判定句末/打断/附和；tyger-s2s 为配套本地语音智能体栈。_
 - **[2026-08]** **LPS-TC** - Enabling Proactive Spoken Turns via a Generalized Style-Aware Turn Controller. [![arXiv-2608.28630](https://img.shields.io/badge/arXiv--2608.28630-b31b1b.svg)](https://arxiv.org/abs/2608.28630) 📄
   - _风格感知轮次控制器，支持主动发言与立体声数据。_
 - **[2026-03]** **DuplexCascade** - DuplexCascade: VAD-free System Duplex with Micro-Turn Control. [![arXiv-2603.09180](https://img.shields.io/badge/arXiv--2603.09180-b31b1b.svg)](https://arxiv.org/abs/2603.09180) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/sbintuitions/DuplexCascade) 🧩
@@ -599,8 +604,14 @@ flowchart TB
 <a id="duplex-multistream"></a>
 ### 2.2 Learned 同步：多流 / 双通道
 
+- **[2026-10]** **RUBATO** - RUBATO: Decoupled Clocks Allow Full-Duplex Models to Think as Fast as They Can. [![arXiv-2610.14299](https://img.shields.io/badge/arXiv--2610.14299-b31b1b.svg)](https://arxiv.org/abs/2610.14299) 📄
+  - _多流位置编码配独立时钟，思考流可按硬件自适应速率解码，实时音频流保持稳定。_
+- **[2026-10]** **DiffuPlex** - DiffuPlex: Accelerating Full-Duplex Spoken Dialog Models via Rolling Masked Diffusion. [![arXiv-2610.12214](https://img.shields.io/badge/arXiv--2610.12214-b31b1b.svg)](https://arxiv.org/abs/2610.12214) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://diffuplex.github.io/) 📄
+  - _滚动掩码扩散在一次骨干前向中预测多帧用户/助手未来；与 NVIDIA Diffuplex（离散扩散）不同。_
 - **[2026-09]** **VoiceChat** - NemotronLabs VoiceChat: An Open Full-Duplex Spoken Dialogue Model. [![arXiv-2609.21967](https://img.shields.io/badge/arXiv--2609.21967-b31b1b.svg)](https://arxiv.org/abs/2609.21967) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://build.nvidia.com/nvidia/nemotron-voicechat/modelcard) 🔓
   - _11B 双通道双工语音模型，另设工具调用输出通道。_
+- **[2026-09]** **Step-Audio 3 RT** - Step-Audio 3 Realtime: Official Full-Duplex Speech Product. [![arXiv-2609.14005](https://img.shields.io/badge/arXiv--2609.14005-b31b1b.svg)](https://arxiv.org/abs/2609.14005) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.stepfun.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://static.stepfun.com/blog/stepaudio3/realtime/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-realtime) 🔒
+  - _官方全双工实时语音产品，含双系统服务接口；技术报告 StepAudio 3 Realtime（arXiv 2609.14005）。_
 - **[2026-09]** **SteerDuplex** - SteerDuplex: Controllable Moshi-style Full-Duplex Spoken Dialogue. [![arXiv-2609.12623](https://img.shields.io/badge/arXiv--2609.12623-b31b1b.svg)](https://arxiv.org/abs/2609.12623) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Utkarsh4430/SteerDuplex) 📄
   - _可控 Moshi 系双工模型，可引导对话行为。_
 - [⭐️] **[2026-09]** **Realtime-Venus** - Realtime-Venus: Full-Duplex Interaction with Asynchronous Task Delegation. [![arXiv-2609.13814](https://img.shields.io/badge/arXiv--2609.13814-b31b1b.svg)](https://arxiv.org/abs/2609.13814) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Realtime-Venus) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI/Realtime-Venus) 🔓
@@ -611,8 +622,6 @@ flowchart TB
   - _模块化 Thinker–Talker 全双工语音模型，面向共情智能体。_
 - **[2026-07] [ACL'26]** **Lychee-FD** - Lychee-FD: Full-Duplex Spoken Dialogue with Dual-Stream Modeling. [![arXiv-2607.06540](https://img.shields.io/badge/arXiv--2607.06540-b31b1b.svg)](https://arxiv.org/abs/2607.06540) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/HITsz-TMG/Lychee-FD) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/HIT-TMG/Lychee-FD) 🔓
   - _HITsz-TMG 开放双流全双工口语对话模型。_
-- **[2026-06]** **Step-Audio 3 RT** - Step-Audio 3 Realtime: Official Full-Duplex Speech Product. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.stepfun.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://static.stepfun.com/blog/stepaudio3/realtime/) 🔒
-  - _官方全双工实时语音产品，含双系统服务接口。_
 - **[2026-06]** **BayLing-Duplex** - BayLing-Duplex: Native Full-Duplex Spoken Dialogue without External Controllers. [![arXiv-2606.14528](https://img.shields.io/badge/arXiv--2606.14528-b31b1b.svg)](https://arxiv.org/abs/2606.14528) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/BayLing-Models/BayLing-Duplex) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/BayLing-Models/BayLing-Duplex) 🔓
   - _原生全双工语音模型，无独立 VAD/轮次控制器。_
 - [⭐️] **[2026-04]** **Seeduplex** - Doubao Seeduplex: Native Full-Duplex Speech Interaction Model. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.volcengine.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://research.doubao.com/en/seeduplex) 🔒
@@ -657,6 +666,8 @@ flowchart TB
 <a id="duplex-tdm"></a>
 ### 2.3 Learned 同步：时分复用 / 分块 / 状态 Token
 
+- **[2026-10]** **D2** - D2: High-Capability Full-Duplex Spoken Language Models from Half-Duplex Backbones. [![arXiv-2610.17124](https://img.shields.io/badge/arXiv--2610.17124-b31b1b.svg)](https://arxiv.org/abs/2610.17124) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://d2-duplex-demo.github.io/) 📄
+  - _通过无解码器流式适配将半双工 SLM 转为细粒度全双工；Qwen3-Omni-D2 报告 99.2% 轮次 TOR 与 VoiceBench 70.1。_
 - **[2026-09]** **SteerDuplex** - SteerDuplex: Controllable Moshi-style Full-Duplex Spoken Dialogue. [![arXiv-2609.12623](https://img.shields.io/badge/arXiv--2609.12623-b31b1b.svg)](https://arxiv.org/abs/2609.12623) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Utkarsh4430/SteerDuplex) 📄
   - _可控 Moshi 系双工模型，可引导对话行为。_
 - **[2026-09]** **AdaptDuplex** - AdaptDuplex: From Static to Adaptive Full-Duplex Spoken Dialogue. [![arXiv-2609.29217](https://img.shields.io/badge/arXiv--2609.29217-b31b1b.svg)](https://arxiv.org/abs/2609.29217) 📄
@@ -730,8 +741,12 @@ flowchart TB
 <a id="dual-open"></a>
 ### 3.2 开放双系统模型
 
+- **[2026-10]** **SteerablePlex** - SteerablePlex: Can We Steer Full-Duplex Models?. [![arXiv-2610.12201](https://img.shields.io/badge/arXiv--2610.12201-b31b1b.svg)](https://arxiv.org/abs/2610.12201) 📄
+  - _Actor-Director Harness 支持在线指令注入与 GDPO；提出 SimIF-Bench 评测模拟器指令遵循。_
 - **[2026-10]** **Jarvis** - Jarvis: Coordination Deserves a Brain of Its Own in Agentic Interactive Models. [![arXiv-2610.23804](https://img.shields.io/badge/arXiv--2610.23804-b31b1b.svg)](https://arxiv.org/abs/2610.23804v1) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/JensenYX/Jarvis) 🧩
   - _Jarvis-Audio/Omni 大小脑协同 Harness；JEV 选择绑定任务版本的类型化操作，代码校验执行与结果投递。_
+- **[2026-10]** **DuplexAgent-RSI** - DuplexAgent-RSI: Recursive Harness Improvement for Full-Duplex Voice Agent Collaboration. [![arXiv-2610.11299](https://img.shields.io/badge/arXiv--2610.11299-b31b1b.svg)](https://arxiv.org/abs/2610.11299) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://amphionteam.github.io/DuplexAgent-RSI-Demo/) 📄
+  - _双工加委派的六个可编辑 Harness 模块；闭环 RSI 据定时失败轨迹修订。有演示页，代码尚未公开。_
 - **[2026-09]** **SALMONN-duo** - SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents. [![arXiv-2609.34247](https://img.shields.io/badge/arXiv--2609.34247-b31b1b.svg)](https://arxiv.org/abs/2609.34247) 📄
   - _双工前台与慢推理智能体的自适应协同。_
 - [⭐️] **[2026-09]** **Realtime-Venus** - Realtime-Venus: Full-Duplex Interaction with Asynchronous Task Delegation. [![arXiv-2609.13814](https://img.shields.io/badge/arXiv--2609.13814-b31b1b.svg)](https://arxiv.org/abs/2609.13814) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Realtime-Venus) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI/Realtime-Venus) 🔓
@@ -784,6 +799,12 @@ flowchart TB
 <a id="dual-closed"></a>
 ### 3.4 闭源双系统产品
 
+- **[2026-10]** **Sesame Agents (Oct 2026)** - Sesame Agentic Voice Assistants with Updated Conversational Speech Model. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.sesame.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://www.sesame.com/journal/a-new-form-of-eyewear) 🔒
+  - _Maya、Miles、Simone、Charlie 获得智能体电脑使用、Gmail/日历工具与更富表现力的对话语音模型；眼镜计划 2027 年推出。_
+- [⭐️] **[2026-10]** **GPT-Live-1.1** - OpenAI GPT-Live-1.1 and GPT-Live-1.1 Quip. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://community.openai.com/t/gpt-live-1-1-is-rolling-out-with-new-voices-and-better-accents/1406704) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://deploymentsafety.openai.com/gpt-live-1-1/introduction) 🔒
+  - _GPT-Live-1 / 1 mini 后继，含 13 个新音色、更好口音与更自然委派；已在 ChatGPT、Codex、Dots 推出，API 即将开放。_
+- **[2026-09]** **Step-Audio 3 RT** - Step-Audio 3 Realtime: Official Full-Duplex Speech Product. [![arXiv-2609.14005](https://img.shields.io/badge/arXiv--2609.14005-b31b1b.svg)](https://arxiv.org/abs/2609.14005) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.stepfun.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://static.stepfun.com/blog/stepaudio3/realtime/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-realtime) 🔒
+  - _官方全双工实时语音产品，含双系统服务接口；技术报告 StepAudio 3 Realtime（arXiv 2609.14005）。_
 - [⭐️] **[2026-09]** **Qwen-Audio 3.1** - Qwen-Audio 3.1 Realtime Plus: Duplex Speech with Dual-System Services. [![arXiv-2609.25176](https://img.shields.io/badge/arXiv--2609.25176-b31b1b.svg)](https://arxiv.org/abs/2609.25176) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://qwenaudio.github.io/qwen-audio-3.1-realtime/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://www.alibabacloud.com/help/en/model-studio/qwen-audio-realtime-model-access) 🔒
   - _闭源实时双工语音 API，配后台推理/工具服务；不是开源 Qwen3-Omni-30B 的小版本。_
 - [⭐️] **[2026-09]** **Gemini 3.8 Live Extended Thinking** - Gemini 3.8 Live with Extended Thinking. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.google.dev/gemini-api/docs/live-api/thinking) 🔒
@@ -791,9 +812,7 @@ flowchart TB
 - **[2026-08]** **Interaction-Small** - Thinking Machines Lab Interaction-Small Preview. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://thinkingmachines.ai/news/introducing-inkling/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://thinkingmachines.ai/blog/interaction-models/) 🔒
   - _连续交互与后台智能体的研究预览。_
 - [⭐️] **[2026-07]** **GPT-Live** - GPT-Live 1: Native Full-Duplex Voice with Backend Delegation. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://openai.com/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-live-1) 🔒
-  - _原生双工语音前台，经 Responses/客户端委派至智能体；仅音频/文本，不含图像/视频。_
-- **[2026-06]** **Step-Audio 3 RT** - Step-Audio 3 Realtime: Official Full-Duplex Speech Product. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.stepfun.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://static.stepfun.com/blog/stepaudio3/realtime/) 🔒
-  - _官方全双工实时语音产品，含双系统服务接口。_
+  - _原生双工语音前台，经 Responses/客户端委派至智能体；仅音频/文本，不含图像/视频。2026-10 API 增加原生 Decisions 委派与九种新音色的 prompt-to-voice。_
 - **[2026-06]** **Grok Voice Think Fast** - Grok Voice Agent with Fast Thinking Modes. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://x.ai/) 🔒
   - _实时语音智能体，可配置快/慢思考路径。_
 - **[2026-03]** **Gemini Live ET** - Gemini Live with Extended Thinking and Async Tools. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://ai.google.dev/gemini-api/docs/live) 🔒
@@ -806,6 +825,10 @@ flowchart TB
 
 在同一模型时间轴上，利用聆听或说话时段做因果推理的方法——不必等完整用户轮次，也不必依赖独立后台。
 
+- **[2026-10]** **RUBATO** - RUBATO: Decoupled Clocks Allow Full-Duplex Models to Think as Fast as They Can. [![arXiv-2610.14299](https://img.shields.io/badge/arXiv--2610.14299-b31b1b.svg)](https://arxiv.org/abs/2610.14299) 📄
+  - _多流位置编码配独立时钟，思考流可按硬件自适应速率解码，实时音频流保持稳定。_
+- **[2026-10]** **Diffuplex** - Full-duplex Spoken Language Modeling with Discrete Diffusion. [![arXiv-2610.17780](https://img.shields.io/badge/arXiv--2610.17780-b31b1b.svg)](https://arxiv.org/abs/2610.17780) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://cchen1436.github.io/diffuplex-website) 📄
+  - _AR 交互策略加并行离散扩散生成回复内容；与首尔市立大学 DiffuPlex（滚动掩码扩散）不同。_
 - **[2026-09]** **Think-Aloud SLM** - Spoken Language Models that Think Aloud. [![arXiv-2609.26488](https://img.shields.io/badge/arXiv--2609.26488-b31b1b.svg)](https://arxiv.org/abs/2609.26488) 📄
   - _异步双流设计，外显中间推理过程。_
 - **[2026-07] [ACL Findings'26]** **Dual-Reasoner** - Dual-Reasoner: Bridging Interleaved Atomicity and Streaming Latency via Thinking-while-Talking. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://aclanthology.org/) 📄
@@ -867,8 +890,12 @@ flowchart TB
 <a id="agentic-harness"></a>
 ### 5.2 交互 Harness 与运行时
 
+- **[2026-10]** **vLLM-Omni** - vLLM serving extensions for omni / multimodal models. [![arXiv-2610.09307](https://img.shields.io/badge/arXiv--2610.09307-b31b1b.svg)](https://arxiv.org/abs/2610.09307) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/vllm-project/vllm-omni) 🧩
+  - _面向全模态生成的统一服务运行时；技术报告 arXiv 2610.09307（2026-10）。_
 - **[2026-10]** **Jarvis** - Jarvis: Coordination Deserves a Brain of Its Own in Agentic Interactive Models. [![arXiv-2610.23804](https://img.shields.io/badge/arXiv--2610.23804-b31b1b.svg)](https://arxiv.org/abs/2610.23804v1) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/JensenYX/Jarvis) 🧩
   - _Jarvis-Audio/Omni 大小脑协同 Harness；JEV 选择绑定任务版本的类型化操作，代码校验执行与结果投递。_
+- **[2026-10]** **DuplexAgent-RSI** - DuplexAgent-RSI: Recursive Harness Improvement for Full-Duplex Voice Agent Collaboration. [![arXiv-2610.11299](https://img.shields.io/badge/arXiv--2610.11299-b31b1b.svg)](https://arxiv.org/abs/2610.11299) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://amphionteam.github.io/DuplexAgent-RSI-Demo/) 📄
+  - _双工加委派的六个可编辑 Harness 模块；闭环 RSI 据定时失败轨迹修订。有演示页，代码尚未公开。_
 - [⭐️] **[2026-09]** **qwen-audio-agent** - qwen-audio-agent v2: Front-End Dialogue with Persistent Background Tasks. [![arXiv-2609.25195](https://img.shields.io/badge/arXiv--2609.25195-b31b1b.svg)](https://arxiv.org/abs/2609.25195) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenAudio/qwen-audio-agent) 🧩
   - _语音前台旁持续后台任务的 Harness。_
 - **[2026-09]** **Venus Harness** - Realtime-Venus Harness: Dual-Loop Task Execution and Speech Delivery. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Realtime-Venus) 🧩
@@ -891,12 +918,10 @@ flowchart TB
   - _实时语音前台将命名任务委派给 Claude Code/Codex。_
 - **[2025-12]** **XTalk** - XTalk: A System-Level Full-Duplex Voice Interaction Framework. [![arXiv-2512.18706](https://img.shields.io/badge/arXiv--2512.18706-b31b1b.svg)](https://arxiv.org/abs/2512.18706) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/xcc-zach/xtalk) 🧩
   - _系统级全双工语音交互，工程化同步层。_
-- **[2025-11]** **vLLM-Omni** - vLLM serving extensions for omni / multimodal models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/vllm-project/vllm) 🧩
-  - _面向 Omni 权重的高吞吐推理服务路径。_
 - **[2025-10]** **VoiceMode** - VoiceMode: MCP Voice Tools for Coding Agents. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://voicemode.dev) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/mbailey/voicemode) 🧩
   - _MCP 服务/插件，为编程智能体添加语音对话工具。_
-- **[2025-09]** **Strands BidiAgent** - AWS Strands BidiAgent for Bidirectional Voice Agents. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://strandsagents.com/) 🧩
-  - _Strands 双向流、打断与并发工具支持。_
+- **[2025-09]** **Strands BidiAgent** - AWS Strands BidiAgent for Bidirectional Voice Agents. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://strandsagents.com/blog/bidi-agents-now-ga/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://strandsagents.com/) 🧩
+  - _Strands 双向流、打断与并发工具支持。2026-10-05 正式 GA，支持 Nova Sonic、OpenAI 与 Gemini 语音模型。_
 - **[2025-09]** **Letta Voice** - Letta Stateful Voice Agents with Sleep-Time Memory Compute. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/letta-ai/letta-voice) 🧩
   - _语音智能体，含睡眠期后台记忆/计算循环。_
 - **[2025-09]** **FireRedChat** - FireRedChat: A Pluggable, Full-Duplex Voice Interaction System. [![arXiv-2509.06502](https://img.shields.io/badge/arXiv--2509.06502-b31b1b.svg)](https://arxiv.org/abs/2509.06502) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://fireredteam.github.io/demos/firered_chat/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/FireRedTeam/FireRedChat) 🧩
@@ -928,7 +953,7 @@ flowchart TB
 - **[2024-05]** **Pipecat** - Pipecat: Composable Realtime Voice & Multimodal Agent Framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/pipecat-ai/pipecat) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.pipecat.ai/) 🧩
   - _可组合实时语音与多模态智能体流水线框架。_
 - **[2024-01]** **LiveKit Agents** - LiveKit Agents: Realtime Voice Agent Framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/livekit/agents) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.livekit.io/agents/) 🧩
-  - _实时音视频智能体框架，含 Job、工具与 RTC。_
+  - _实时语音智能体框架，含句末/轮次检测。v1.8.1 加入 DuplexModel；v1.8.8（2026-10-15）经 LiveKit Inference 运行 GPT-Live。_
 - **[2023-11]** **Open-LLM-VTuber** - Open-LLM-VTuber. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) 🧩
   - _适合产品壳层研究，不是新的 speech foundation model。_
 
@@ -937,8 +962,8 @@ flowchart TB
 
 - **[2025-12]** **XTalk** - XTalk: A System-Level Full-Duplex Voice Interaction Framework. [![arXiv-2512.18706](https://img.shields.io/badge/arXiv--2512.18706-b31b1b.svg)](https://arxiv.org/abs/2512.18706) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/xcc-zach/xtalk) 🧩
   - _系统级全双工语音交互，工程化同步层。_
-- **[2025-09]** **Strands BidiAgent** - AWS Strands BidiAgent for Bidirectional Voice Agents. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://strandsagents.com/) 🧩
-  - _Strands 双向流、打断与并发工具支持。_
+- **[2025-09]** **Strands BidiAgent** - AWS Strands BidiAgent for Bidirectional Voice Agents. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://strandsagents.com/blog/bidi-agents-now-ga/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://strandsagents.com/) 🧩
+  - _Strands 双向流、打断与并发工具支持。2026-10-05 正式 GA，支持 Nova Sonic、OpenAI 与 Gemini 语音模型。_
 - **[2025-09]** **FireRedChat** - FireRedChat: A Pluggable, Full-Duplex Voice Interaction System. [![arXiv-2509.06502](https://img.shields.io/badge/arXiv--2509.06502-b31b1b.svg)](https://arxiv.org/abs/2509.06502) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://fireredteam.github.io/demos/firered_chat/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/FireRedTeam/FireRedChat) 🧩
   - _级联/半级联双工，含轮次控制、工具与 LiveKit 部署。_
 - **[2025-06]** **CleanS2S** - CleanS2S: An Open Pipeline for Active Real-Time Speech-to-Speech Agents. [![arXiv-2506.01268](https://img.shields.io/badge/arXiv--2506.01268-b31b1b.svg)](https://arxiv.org/abs/2506.01268) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/opendilab/CleanS2S) 🧩
@@ -960,13 +985,17 @@ flowchart TB
 - **[2024-05]** **Pipecat** - Pipecat: Composable Realtime Voice & Multimodal Agent Framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/pipecat-ai/pipecat) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.pipecat.ai/) 🧩
   - _可组合实时语音与多模态智能体流水线框架。_
 - **[2024-01]** **LiveKit Agents** - LiveKit Agents: Realtime Voice Agent Framework. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/livekit/agents) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.livekit.io/agents/) 🧩
-  - _实时音视频智能体框架，含 Job、工具与 RTC。_
+  - _实时语音智能体框架，含句末/轮次检测。v1.8.1 加入 DuplexModel；v1.8.8（2026-10-15）经 LiveKit Inference 运行 GPT-Live。_
 - **[2023-11]** **Open-LLM-VTuber** - Open-LLM-VTuber. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) 🧩
   - _适合产品壳层研究，不是新的 speech foundation model。_
 
 <a id="agentic-memory"></a>
 ### 5.4 交互智能体的记忆
 
+- **[2026-10]** **PERSIST** - PERSIST: Who-What-When Memory Across Sessions for Full-Duplex Spoken Dialogue. [![arXiv-2610.07725](https://img.shields.io/badge/arXiv--2610.07725-b31b1b.svg)](https://arxiv.org/abs/2610.07725) 📄
+  - _跨会话 Who-What-When 持久记忆与 SpokenTrace 诊断基准；复用对话骨干特征实现低延迟检索。_
+- **[2026-10]** **OneStreamer** - OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction. [![arXiv-2610.01762](https://img.shields.io/badge/arXiv--2610.01762-b31b1b.svg)](https://arxiv.org/abs/2610.01762) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/MCG-NJU/OneStreamer) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/MCG-NJU/OneStreamer-4B) 🔓
+  - _4B 流式视频 LLM，含主动分层字幕记忆与状态转移学习；OneStreamer-1M 训练集约百万条记录。_
 - **[2026-08]** **VoiceMem** - VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction. [![arXiv-2608.26005](https://img.shields.io/badge/arXiv--2608.26005-b31b1b.svg)](https://arxiv.org/abs/2608.26005) 📄
   - _在双工语音时延内的流式事实/情感记忆库。_
 - **[2025-09]** **EgoMem** - EgoMem: Lifelong Memory Agent for Full-duplex Omnimodal Models. [![arXiv-2509.11914](https://img.shields.io/badge/arXiv--2509.11914-b31b1b.svg)](https://arxiv.org/abs/2509.11914) 📄
@@ -980,6 +1009,10 @@ flowchart TB
 <a id="streaming-omni-assistants"></a>
 ### 6.1 流式 / 双工 Omni 助手
 
+- **[2026-10]** **JAVIS** - JAVIS: Joint Audio-Visual Interaction and Streaming for Real-Time Conversational Agents. [![arXiv-2610.22499](https://img.shields.io/badge/arXiv--2610.22499-b31b1b.svg)](https://arxiv.org/abs/2610.22499) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://mm.kaist.ac.kr/projects/JAVIS) 📄
+  - _端到端流式框架，共享 LLM 表征经 Joint Refined Head 驱动语音与面部支路；含 JAVIS-Syn 语料。_
+- **[2026-10]** **EgoVoice** - EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams. [![arXiv-2610.12248](https://img.shields.io/badge/arXiv--2610.12248-b31b1b.svg)](https://arxiv.org/abs/2610.12248) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://egocentricvoice.github.io/) 📄
+  - _从第一人称视听流训练与评测主动口语助手，决定何时开口与说什么。_
 - [⭐️] **[2026-09]** **Realtime-Venus** - Realtime-Venus: Full-Duplex Interaction with Asynchronous Task Delegation. [![arXiv-2609.13814](https://img.shields.io/badge/arXiv--2609.13814-b31b1b.svg)](https://arxiv.org/abs/2609.13814) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/inclusionAI/Realtime-Venus) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/inclusionAI/Realtime-Venus) 🔓
   - _基于 MiniCPM-o 的双工前台，双循环异步工具/大脑委派。_
 - [⭐️] **[2026-09]** **Gander** - Gander / Omni-Interaction-Agent: Native Duplex with Asynchronous Brain. [![arXiv-2609.08977](https://img.shields.io/badge/arXiv--2609.08977-b31b1b.svg)](https://arxiv.org/abs/2609.08977) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Omni-Interaction-Gander/Omni-Interaction-Agent) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/Gander-Omni/Gander) 🔓
@@ -1026,6 +1059,10 @@ flowchart TB
 <a id="when-to-speak"></a>
 ### 6.2 When-to-Speak 视频大模型
 
+- **[2026-10]** **OneStreamer** - OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction. [![arXiv-2610.01762](https://img.shields.io/badge/arXiv--2610.01762-b31b1b.svg)](https://arxiv.org/abs/2610.01762) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/MCG-NJU/OneStreamer) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/MCG-NJU/OneStreamer-4B) 🔓
+  - _4B 流式视频 LLM，含主动分层字幕记忆与状态转移学习；OneStreamer-1M 训练集约百万条记录。_
+- **[2026-10]** **EgoVoice** - EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams. [![arXiv-2610.12248](https://img.shields.io/badge/arXiv--2610.12248-b31b1b.svg)](https://arxiv.org/abs/2610.12248) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://egocentricvoice.github.io/) 📄
+  - _从第一人称视听流训练与评测主动口语助手，决定何时开口与说什么。_
 - **[2026-06]** **JoyAI-VL-Interaction** - JoyAI-VL-Interaction: Proactive Interaction with Background Delegation. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/jd-opensource/JoyAI-VL-Interaction) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/jdopensource/JoyAI-VL-Interaction) 🔓
   - _主动视觉交互模型，支持后台任务委派。_
 - **[2026-03]** **Proact-VL** - Proact-VL: A Proactive VideoLLM for Real-Time AI Companions. [![arXiv-2603.03447](https://img.shields.io/badge/arXiv--2603.03447-b31b1b.svg)](https://arxiv.org/abs/2603.03447) 📄
@@ -1083,6 +1120,8 @@ flowchart TB
 <a id="embodied-duplex"></a>
 ### 7.1 全双工具身模型
 
+- **[2026-10]** **ELLSA 2** - ELLSA 2: Full-Duplex Interaction with Speech, Expressions and Gestures. [![arXiv-2610.21452](https://img.shields.io/badge/arXiv--2610.21452-b31b1b.svg)](https://arxiv.org/abs/2610.21452) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/bytedance/SALMONN/tree/ELLSA2) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/tsinghua-ee/ELLSA2) 🔓
+  - _端到端全双工语音并流式生成手势与表情；公开独立生成器权重与 ELLSA2 分支代码。_
 - **[2026-09]** **MIRA** - MIRA: Real-Time Full-Duplex Human-Robot Interaction. [![arXiv-2609.24547](https://img.shields.io/badge/arXiv--2609.24547-b31b1b.svg)](https://arxiv.org/abs/2609.24547) 📄
   - _实时全双工人机语音与行为交互。_
 - **[2026-03]** **StreamingClaw** - StreamingClaw Technical Report. [![arXiv-2603.22120](https://img.shields.io/badge/arXiv--2603.22120-b31b1b.svg)](https://arxiv.org/abs/2603.22120) 📄
@@ -1132,6 +1171,14 @@ flowchart TB
 <a id="turn-taking-methods"></a>
 ### 8.1 轮次、Backchannel 与打断
 
+- **[2026-10]** **XTurnix** - XTurnix: Large-Scale Self-Supervised Turn Control through Two-State Binary Decisions. [![arXiv-2610.04400](https://img.shields.io/badge/arXiv--2610.04400-b31b1b.svg)](https://arxiv.org/abs/2610.04400) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/xcc-zach/xturnix) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/xcczach/xturnix-pt) 🔓
+  - _紧凑文本轮次控制器，状态条件 keep/start/stop 动作，在 550 万自监督样例上预训练。_
+- **[2026-10]** **VoxTurn** - VoxTurn: Answering Several Turn-Taking Questions in One Pass with One Model. [![arXiv-2610.21150](https://img.shields.io/badge/arXiv--2610.21150-b31b1b.svg)](https://arxiv.org/abs/2610.21150) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://swagshaw.github.io/voxturn/) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/AustinXiao/voxturn) 🔓
+  - _开放 0.8B 语音 LLM，一次前向回答多个轮次问题；在 eot-bench 多语言上表现突出。_
+- **[2026-10]** **Tyger** - Tyger: Open-Weight Streaming ASR with Full-Duplex Turn Control. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.nineninesix.ai/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/nineninesix-ai/tyger-s2s) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nineninesix/tyger) 🔓
+  - _Nemotron 流式 ASR 加 14M 因果 GRU，每 80 ms 判定句末/打断/附和；tyger-s2s 为配套本地语音智能体栈。_
+- **[2026-10]** **Initiative Vector** - Reference-Guided Turn-Taking Style Transfer for Full-Duplex Spoken Language Models. [![arXiv-2610.20763](https://img.shields.io/badge/arXiv--2610.20763-b31b1b.svg)](https://arxiv.org/abs/2610.20763) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://elpsykongloo.github.io/initiative-vector/) 📄
+  - _识别晚期层主动性向量，无需重训即可调节发言占比与轮次风格。_
 - **[2026-09]** **BC-Head** - Controlling Backchannels in Streamable Full-duplex Models. [![arXiv-2609.29418](https://img.shields.io/badge/arXiv--2609.29418-b31b1b.svg)](https://arxiv.org/abs/2609.29418) 📄
   - _流式双工模型中可控 backchannel 的专用头。_
 - **[2026-08]** **X2-Turn** - X2-Turn: Fine-Grained Turn Control Model. [![arXiv-2608.10878](https://img.shields.io/badge/arXiv--2608.10878-b31b1b.svg)](https://arxiv.org/abs/2608.10878) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/X-Square-Robot/X2-Turn) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/x-square-robot/X2-Turn-4B-0812) 🔓
@@ -1164,6 +1211,10 @@ flowchart TB
 <a id="duplex-alignment"></a>
 ### 8.2 交互对齐与强化学习
 
+- **[2026-10]** **SteerablePlex** - SteerablePlex: Can We Steer Full-Duplex Models?. [![arXiv-2610.12201](https://img.shields.io/badge/arXiv--2610.12201-b31b1b.svg)](https://arxiv.org/abs/2610.12201) 📄
+  - _Actor-Director Harness 支持在线指令注入与 GDPO；提出 SimIF-Bench 评测模拟器指令遵循。_
+- **[2026-10]** **HiPLEX** - HiPLEX: Hierarchical Policy Factorization for Full Duplex Speech Language Models. [![arXiv-2610.07727](https://img.shields.io/badge/arXiv--2610.07727-b31b1b.svg)](https://arxiv.org/abs/2610.07727) 📄
+  - _将策略分解为控制策略（何时）与条件内容策略（说什么），并用事件因果时机优势更新。_
 - **[2026-06]** **Multi-Faceted RL** - Multi-Faceted Interactivity Alignment in Full-Duplex Speech Models. [![arXiv-2606.11167](https://img.shields.io/badge/arXiv--2606.11167-b31b1b.svg)](https://arxiv.org/abs/2606.11167) 📄
   - _按交互轴分解奖励的 GRPO，对齐双工语音模型。_
 - **[2026-04]** **WavAlign** - WavAlign: Enhancing Intelligence and Expressiveness in Spoken Dialogue. [![arXiv-2604.14932](https://img.shields.io/badge/arXiv--2604.14932-b31b1b.svg)](https://arxiv.org/abs/2604.14932) 📄
@@ -1182,6 +1233,16 @@ flowchart TB
 <a id="expressive"></a>
 ### 8.3 表达、共情与人设控制
 
+- **[2026-10]** **JAVIS** - JAVIS: Joint Audio-Visual Interaction and Streaming for Real-Time Conversational Agents. [![arXiv-2610.22499](https://img.shields.io/badge/arXiv--2610.22499-b31b1b.svg)](https://arxiv.org/abs/2610.22499) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://mm.kaist.ac.kr/projects/JAVIS) 📄
+  - _端到端流式框架，共享 LLM 表征经 Joint Refined Head 驱动语音与面部支路；含 JAVIS-Syn 语料。_
+- **[2026-10]** **Initiative Vector** - Reference-Guided Turn-Taking Style Transfer for Full-Duplex Spoken Language Models. [![arXiv-2610.20763](https://img.shields.io/badge/arXiv--2610.20763-b31b1b.svg)](https://arxiv.org/abs/2610.20763) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://elpsykongloo.github.io/initiative-vector/) 📄
+  - _识别晚期层主动性向量，无需重训即可调节发言占比与轮次风格。_
+- **[2026-10]** **EchoChat** - EchoChat: Structured Cognitive Reasoning in Empathetic Spoken Dialogue. [![arXiv-2610.04826](https://img.shields.io/badge/arXiv--2610.04826-b31b1b.svg)](https://arxiv.org/abs/2610.04826) 📄
+  - _结构化认知推理管线，使共情口语对话超越直接情绪到回复映射。_
+- **[2026-10] [ACM MM 2026]** **EMODE** - EMODE: Dynamic Para-Semantic Experts for Emotion-Aware Speech Language Modeling. [![arXiv-2610.06956](https://img.shields.io/badge/arXiv--2610.06956-b31b1b.svg)](https://arxiv.org/abs/2610.06956) 📄
+  - _动态副语义专家分解语义与副语言通路；提出双语 MEPA 基准。_
+- **[2026-10]** **ELLSA 2** - ELLSA 2: Full-Duplex Interaction with Speech, Expressions and Gestures. [![arXiv-2610.21452](https://img.shields.io/badge/arXiv--2610.21452-b31b1b.svg)](https://arxiv.org/abs/2610.21452) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/bytedance/SALMONN/tree/ELLSA2) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/tsinghua-ee/ELLSA2) 🔓
+  - _端到端全双工语音并流式生成手势与表情；公开独立生成器权重与 ELLSA2 分支代码。_
 - [⭐️] **[2026-02]** **PersonaPlex** - PersonaPlex: Controllable Persona and Style for Full-Duplex Speech Dialogue. [![arXiv-2602.06053](https://img.shields.io/badge/arXiv--2602.06053-b31b1b.svg)](https://arxiv.org/abs/2602.06053) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/personaplex) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nvidia/personaplex-7b-v1) 🔓
   - _Moshi 式双通道模型，可控人设与对话风格。_
 - **[2025-08]** **OSUM-EChat** - OSUM-EChat: Enhancing End-to-End Empathetic Spoken Chatbot. [![arXiv-2508.09600](https://img.shields.io/badge/arXiv--2508.09600-b31b1b.svg)](https://arxiv.org/abs/2508.09600) 🔓
@@ -1220,6 +1281,10 @@ flowchart TB
 <a id="multiparty"></a>
 ### 8.5 多方交互
 
+- **[2026-10]** **SmoothConv / DuplexConv** - SmoothConv and DuplexConv: Complementary Mandarin Multi-Party Conversational Speech Corpora. [![arXiv-2610.11150](https://img.shields.io/badge/arXiv--2610.11150-b31b1b.svg)](https://arxiv.org/abs/2610.11150) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/qualialabsAI/SmoothConv-DuplexConv) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/datasets/qualialabsAI/SmoothConv) [![Data-Link](https://img.shields.io/badge/Data--Link-9b59b6.svg)](https://huggingface.co/datasets/qualialabsAI/DuplexConv) 🧩
+  - _2100 小时普通话多方语料：SmoothConv（约 100h 人工）与 DuplexConv（约 2000h LLM 辅助），含同步分轨。_
+- **[2026-10]** **Jarvis (Multi-Party)** - Jarvis: A Proactive Speech Agent for Multi-Party Conversations. [![arXiv-2610.07506](https://img.shields.io/badge/arXiv--2610.07506-b31b1b.svg)](https://arxiv.org/abs/2610.07506) 📄
+  - _文档 grounding 的多方主动语音智能体，在认知偏差时介入；与 Amphion 双系统 Jarvis Harness 不同。_
 - **[2026-09]** **MultiTalk** - MultiTalk: Scaling Full-Duplex Speech Models to Long Multi-Party Dialogue. [![arXiv-2609.36903](https://img.shields.io/badge/arXiv--2609.36903-b31b1b.svg)](https://arxiv.org/abs/2609.36903) 📄
   - _将全双工语音模型扩展到长多方对话。_
 - **[2025-07]** **Triadic VAP** - Triadic Multi-party Voice Activity Projection for Turn-taking. [![arXiv-2507.07518](https://img.shields.io/badge/arXiv--2507.07518-b31b1b.svg)](https://arxiv.org/abs/2507.07518) 📄
@@ -1230,6 +1295,10 @@ flowchart TB
 <a id="low-latency"></a>
 ### 8.6 低延迟解码与系统
 
+- **[2026-10]** **Diffuplex** - Full-duplex Spoken Language Modeling with Discrete Diffusion. [![arXiv-2610.17780](https://img.shields.io/badge/arXiv--2610.17780-b31b1b.svg)](https://arxiv.org/abs/2610.17780) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://cchen1436.github.io/diffuplex-website) 📄
+  - _AR 交互策略加并行离散扩散生成回复内容；与首尔市立大学 DiffuPlex（滚动掩码扩散）不同。_
+- **[2026-10]** **DiffuPlex** - DiffuPlex: Accelerating Full-Duplex Spoken Dialog Models via Rolling Masked Diffusion. [![arXiv-2610.12214](https://img.shields.io/badge/arXiv--2610.12214-b31b1b.svg)](https://arxiv.org/abs/2610.12214) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://diffuplex.github.io/) 📄
+  - _滚动掩码扩散在一次骨干前向中预测多帧用户/助手未来；与 NVIDIA Diffuplex（离散扩散）不同。_
 - **[2025-09]** **Kyutai DSM** - Streaming Sequence-to-Sequence Learning with Delayed Streams Modeling. [![arXiv-2509.08753](https://img.shields.io/badge/arXiv--2509.08753-b31b1b.svg)](https://arxiv.org/abs/2509.08753) 🔓
   - _延迟流建模，服务低延迟流式序列转换。_
 - **[2025-06]** **Stream-Omni** - Stream-Omni: Simultaneous Multimodal Interactions with Large Language Models. [![arXiv-2506.13642](https://img.shields.io/badge/arXiv--2506.13642-b31b1b.svg)](https://arxiv.org/abs/2506.13642) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/ictnlp/Stream-Omni) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/ICTNLP/stream-omni-8b) 🔓
@@ -1244,15 +1313,17 @@ flowchart TB
 <a id="industry"></a>
 ## 🏢 产业全景
 
-按厂商整理的闭源 API、产品演示与开放权重发布（截至 2026-10-06）。已核实的停用信息会单独标注。
+按厂商整理的闭源 API、产品演示与开放权重发布（截至 2026-10-19）。已核实的停用信息会单独标注。
 
 <a id="industry-openai"></a>
 ### OpenAI
 
+- [⭐️] **[2026-10]** **GPT-Live-1.1** - OpenAI GPT-Live-1.1 and GPT-Live-1.1 Quip. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://community.openai.com/t/gpt-live-1-1-is-rolling-out-with-new-voices-and-better-accents/1406704) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://deploymentsafety.openai.com/gpt-live-1-1/introduction) 🔒
+  - _GPT-Live-1 / 1 mini 后继，含 13 个新音色、更好口音与更自然委派；已在 ChatGPT、Codex、Dots 推出，API 即将开放。_
 - **[2026-07]** **gpt-live-1-mini** - OpenAI GPT-Live 1 mini. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-live-1) 🔒
   - _更小/更便宜的 Live 档；需核对与完整版模态和委派能力是否一致。_
 - [⭐️] **[2026-07]** **GPT-Live** - GPT-Live 1: Native Full-Duplex Voice with Backend Delegation. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://openai.com/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-live-1) 🔒
-  - _原生双工语音前台，经 Responses/客户端委派至智能体；仅音频/文本，不含图像/视频。_
+  - _原生双工语音前台，经 Responses/客户端委派至智能体；仅音频/文本，不含图像/视频。2026-10 API 增加原生 Decisions 委派与九种新音色的 prompt-to-voice。_
 - **[2026-05]** **GPT-Realtime-2** - GPT Realtime 2 series update. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-realtime-2) 🔒
   - _Realtime 2 代更新，工具与推理更强；提供从 1.x 的迁移路径。_
 - [⭐️] **[2026-05]** **gpt-realtime-2.1** - OpenAI GPT Realtime 2.1 / 2.1 mini. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/models/gpt-realtime-2.1) 🔒
@@ -1313,16 +1384,24 @@ flowchart TB
 <a id="industry-others"></a>
 ### 其他厂商
 
+- **[2026-10]** **Sesame Agents (Oct 2026)** - Sesame Agentic Voice Assistants with Updated Conversational Speech Model. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.sesame.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://www.sesame.com/journal/a-new-form-of-eyewear) 🔒
+  - _Maya、Miles、Simone、Charlie 获得智能体电脑使用、Gmail/日历工具与更富表现力的对话语音模型；眼镜计划 2027 年推出。_
 - **[2026-10]** **Nova 2.5 Sonic** - Amazon Nova 2.5 Sonic. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://aws.amazon.com/ai/generative-ai/nova/) 🔒
   - _2.5 Sonic 档；区域与功能以 AWS 文档为准。_
+- **[2026-10]** **MAI-Voice-2.1** - Microsoft MAI-Voice-2.1 and MAI-Voice-2.1-Flash. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://microsoft.ai/news/our-first-streaming-transcription-model/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-voices) 🔒
+  - _面向语音智能体的多语 TTS；Flash 约 150ms 延迟、23 语种，经 Azure Speech / Voice Live 提供门控即时克隆。_
+- **[2026-10]** **MAI-Transcribe-2-Streaming** - Microsoft MAI-Transcribe-2-Streaming. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://microsoft.ai/news/our-first-streaming-transcription-model/) 🔒
+  - _60 语种低延迟流式转写，约 100ms 出部分结果；在 Artificial Analysis 流式 ASR 排名第一。_
+- [⭐️] **[2026-10]** **Grok Voice 3.0** - xAI Grok Voice 3.0. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://x.ai/news/grok-voice-3) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.x.ai/developers/release-notes) 🔒
+  - _模型 grok-voice-3.0；grok-voice-latest 现指向该版且 2.0 弃用。报告 AA S2S Index 86.9 第一、FDB 97%、τ-Voice 71.6%、EVA-Bench 74%。_
 - **[2026-09]** **VoiceChat** - NemotronLabs VoiceChat: An Open Full-Duplex Spoken Dialogue Model. [![arXiv-2609.21967](https://img.shields.io/badge/arXiv--2609.21967-b31b1b.svg)](https://arxiv.org/abs/2609.21967) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nvidia/NVIDIA-NemotronLabs-VoiceChat-11B) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://build.nvidia.com/nvidia/nemotron-voicechat/modelcard) 🔓
   - _11B 双通道双工语音模型，另设工具调用输出通道。_
+- **[2026-09]** **Step-Audio 3 RT** - Step-Audio 3 Realtime: Official Full-Duplex Speech Product. [![arXiv-2609.14005](https://img.shields.io/badge/arXiv--2609.14005-b31b1b.svg)](https://arxiv.org/abs/2609.14005) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.stepfun.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://static.stepfun.com/blog/stepaudio3/realtime/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://platform.stepfun.ai/docs/en/guides/models/stepaudio-3-realtime) 🔒
+  - _官方全双工实时语音产品，含双系统服务接口；技术报告 StepAudio 3 Realtime（arXiv 2609.14005）。_
 - **[2026-08]** **JoyAI-Talker** - JoyAI-Talker: Full-Duplex Speech Interactive Large Model for Empathetic Agents. [![arXiv-2608.01119](https://img.shields.io/badge/arXiv--2608.01119-b31b1b.svg)](https://arxiv.org/abs/2608.01119) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://research.joyai.com/joyai-talker) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/jd-opensource/JoyAI-VL-Interaction) 📄
   - _模块化 Thinker–Talker 全双工语音模型，面向共情智能体。_
 - **[2026-08]** **Interaction-Small** - Thinking Machines Lab Interaction-Small Preview. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://thinkingmachines.ai/news/introducing-inkling/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://thinkingmachines.ai/blog/interaction-models/) 🔒
   - _连续交互与后台智能体的研究预览。_
-- **[2026-06]** **Step-Audio 3 RT** - Step-Audio 3 Realtime: Official Full-Duplex Speech Product. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.stepfun.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://static.stepfun.com/blog/stepaudio3/realtime/) 🔒
-  - _官方全双工实时语音产品，含双系统服务接口。_
 - **[2026-06]** **Grok Voice Think Fast** - Grok Voice Agent with Fast Thinking Modes. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://x.ai/) 🔒
   - _实时语音智能体，可配置快/慢思考路径。_
 - [⭐️] **[2026-04]** **MiniCPM-o 4.5** - MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction. [![arXiv-2604.27393](https://img.shields.io/badge/arXiv--2604.27393-b31b1b.svg)](https://arxiv.org/abs/2604.27393) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/OpenBMB/MiniCPM-o) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/openbmb/MiniCPM-o-4_5) 🔓
@@ -1336,7 +1415,7 @@ flowchart TB
 - **[2025-12]** **Nova 2 Sonic** - Amazon Nova 2 Sonic: Bidirectional Speech with Async Tools. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.aws.amazon.com/nova/) 🔒
   - _双向语音流，支持 Bedrock 异步工具调用。_
 - **[2025-12]** **Grok Voice Agent / grok-voice-latest** - Grok Voice Agent / grok-voice-latest. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.x.ai/developers/model-capabilities/audio/voice) 🔒
-  - _latest 是可变别名；未找到对应开放语音权重，不可套用 Grok 文本模型历史开放状态。_
+  - _latest 是可变别名，现指向 grok-voice-3.0；grok-voice-2.0 已弃用。未找到对应开放语音权重，不可套用 Grok 文本模型历史开放状态。_
 - **[2025-11]** **ERNIE 5.0** - Baidu ERNIE 5.0 multimodal / voice capabilities. 🔒
   - _文心 5.0 通过千帆提供的多模态/语音能力。_
 - **[2025-06]** **TalkingMachines** - Character.AI TalkingMachines voice stack. 🔒
@@ -1346,7 +1425,7 @@ flowchart TB
 - **[2025-06]** **Apple Live Translation / Siri AI** - Apple Live Translation and Siri AI voice features. 🔒
   - _端侧/系统集成的实时翻译与 Siri AI 语音。_
 - **[2025-05]** **Hume EVI 3 / 4-mini** - Hume Empathic Voice Interface 3 and 4-mini. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://dev.hume.ai/docs/speech-to-speech-evi/configuration/evi-version) 🔒
-  - _强调表达/情绪交互的共情语音 API；EVI 1/2 已停止支持。_
+  - _强调表达/情绪交互的共情语音 API；EVI 1/2 已停止支持。2026-10-02 宣布 TTS 与 EVI API 将于 2026-11-13 停服。_
 - **[2025-05]** **Claude Voice Mode** - Anthropic Claude voice mode. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.anthropic.com/) 🔒
   - _Claude 应用语音模式；级联 vs 原生双工细节未完全公开。_
 - **[2025-04]** **Nova Sonic** - Amazon Nova Sonic speech-to-speech announcement. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://aws.amazon.com/ai/generative-ai/nova/) 🔒
@@ -1388,10 +1467,16 @@ flowchart TB
 <a id="bench-timing"></a>
 ### 时机与发言权
 
+- **[2026-10]** **People Conversation Bench** - People Making Conversation: Evaluating How Naturally Speech Models Converse. [![arXiv-2610.12802](https://img.shields.io/badge/arXiv--2610.12802-b31b1b.svg)](https://arxiv.org/abs/2610.12802) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/People-Make-Things/people-conversation-bench) 🧩
+  - _在 Seamless Interaction 停顿与话轮末对照真人行为评分实时系统；公开标注、评测架与输出。_
+- **[2026-10]** **DyaFDB** - Conversation Is a Two-Body Problem: Dyadic Evaluation of Full-Duplex Dialogue Models. [![arXiv-2610.08125](https://img.shields.io/badge/arXiv--2610.08125-b31b1b.svg)](https://arxiv.org/abs/2610.08125) 📄
+  - _双体评测：两个全双工模型在给定角色下直接对话并对双方打分。_
+- **[2026-10]** **DuplexAct** - DuplexAct: How Interactive Are Frontier Full-Duplex Spoken Language Models?. [![arXiv-2610.17738](https://img.shields.io/badge/arXiv--2610.17738-b31b1b.svg)](https://arxiv.org/abs/2610.17738) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/JiahengDong/DuplexAct) 🧩
+  - _八种交互动作的动作级分类与 4691 条实例及成功标准；与 DuplexAct-Bench（arXiv 2609.39446）不同。_
 - **[2026-09]** **TACT** - TACT timing and conversational turn benchmark. [![arXiv-2609.27372](https://img.shields.io/badge/arXiv--2609.27372-b31b1b.svg)](https://arxiv.org/abs/2609.27372) 📄
   - _关注时机的对话轮次评测套件。_
 - **[2026-09]** **DuplexAct-Bench** - Benchmark for duplex action / interaction decisions. [![arXiv-2609.39446](https://img.shields.io/badge/arXiv--2609.39446-b31b1b.svg)](https://arxiv.org/abs/2609.39446) 📄
-  - _在双工听说下评测动作级交互决策。_
+  - _在双工听说下评测动作级交互决策。与 DuplexAct（arXiv 2610.17738 / id duplexact）不同。_
 - **[2026-09]** **DSB-IFEval** - Duplex / spoken instruction-following evaluation set. [![arXiv-2609.03423](https://img.shields.io/badge/arXiv--2609.03423-b31b1b.svg)](https://arxiv.org/abs/2609.03423) 📄
   - _双工或口语交互设定下的指令遵循检查。_
 - **[2026-08]** **TurnBench** - Measuring conversational turn-taking timing on dual-channel speech. [![arXiv-2608.25218](https://img.shields.io/badge/arXiv--2608.25218-b31b1b.svg)](https://arxiv.org/abs/2608.25218) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://turnbench.sesame.com/) [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://www.sesame.com/blog/turnbench) 🧩
@@ -1428,6 +1513,10 @@ flowchart TB
 <a id="bench-multiparty"></a>
 ### 多方
 
+- **[2026-10]** **SmoothConv / DuplexConv** - SmoothConv and DuplexConv: Complementary Mandarin Multi-Party Conversational Speech Corpora. [![arXiv-2610.11150](https://img.shields.io/badge/arXiv--2610.11150-b31b1b.svg)](https://arxiv.org/abs/2610.11150) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/qualialabsAI/SmoothConv-DuplexConv) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/datasets/qualialabsAI/SmoothConv) [![Data-Link](https://img.shields.io/badge/Data--Link-9b59b6.svg)](https://huggingface.co/datasets/qualialabsAI/DuplexConv) 🧩
+  - _2100 小时普通话多方语料：SmoothConv（约 100h 人工）与 DuplexConv（约 2000h LLM 辅助），含同步分轨。_
+- **[2026-10]** **MultiPartyTurnBench** - MultiPartyTurnBench: Benchmarking Floor Control in Multi-Party Spoken Dialogue. [![arXiv-2610.20172](https://img.shields.io/badge/arXiv--2610.20172-b31b1b.svg)](https://arxiv.org/abs/2610.20172) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://multiparty-turnbench.github.io/) 📄
+  - _240 段分轨多方对话，评测 2–5 人场景的句末与打断控场。_
 - **[2026-09]** **MP-Bench** - Multi-party spoken interaction benchmark. [![arXiv-2609.13076](https://img.shields.io/badge/arXiv--2609.13076-b31b1b.svg)](https://arxiv.org/abs/2609.13076) 📄
   - _评测多方轮次分配与共同接地。_
 - **[2026-09]** **Duplex-MPE** - Multi-party evaluation for duplex spoken systems. [![arXiv-2609.31948](https://img.shields.io/badge/arXiv--2609.31948-b31b1b.svg)](https://arxiv.org/abs/2609.31948) 📄
@@ -1436,6 +1525,8 @@ flowchart TB
 <a id="bench-content"></a>
 ### 口语内容质量
 
+- **[2026-10]** **People Conversation Bench** - People Making Conversation: Evaluating How Naturally Speech Models Converse. [![arXiv-2610.12802](https://img.shields.io/badge/arXiv--2610.12802-b31b1b.svg)](https://arxiv.org/abs/2610.12802) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/People-Make-Things/people-conversation-bench) 🧩
+  - _在 Seamless Interaction 停顿与话轮末对照真人行为评分实时系统；公开标注、评测架与输出。_
 - **[2025-12]** **Audio MultiChallenge** - Multi-challenge audio LLM evaluation suite. [![arXiv-2512.14865](https://img.shields.io/badge/arXiv--2512.14865-b31b1b.svg)](https://arxiv.org/abs/2512.14865) 🧩
   - _聚合多样音频挑战以做整体打分。_
 - **[2025-08]** **MTalk-Bench** - Multi-turn talking / spoken dialogue benchmark. [![arXiv-2508.18240](https://img.shields.io/badge/arXiv--2508.18240-b31b1b.svg)](https://arxiv.org/abs/2508.18240) 🧩
@@ -1474,6 +1565,8 @@ flowchart TB
 <a id="bench-paraling"></a>
 ### 副语言、共情与角色扮演
 
+- **[2026-10] [ACM MM 2026]** **EMODE** - EMODE: Dynamic Para-Semantic Experts for Emotion-Aware Speech Language Modeling. [![arXiv-2610.06956](https://img.shields.io/badge/arXiv--2610.06956-b31b1b.svg)](https://arxiv.org/abs/2610.06956) 📄
+  - _动态副语义专家分解语义与副语言通路；提出双语 MEPA 基准。_
 - **[2025-11]** **ParaS2SBench** - Paralinguistic speech-to-speech benchmark. [![arXiv-2511.08723](https://img.shields.io/badge/arXiv--2511.08723-b31b1b.svg)](https://arxiv.org/abs/2511.08723) 🧩
   - _评测语音到语音生成中的副语言控制。_
 - **[2025-10]** **EchoMind** - Empathetic / mind-reading style speech benchmark. [![arXiv-2510.22758](https://img.shields.io/badge/arXiv--2510.22758-b31b1b.svg)](https://arxiv.org/abs/2510.22758) 🧩
@@ -1522,6 +1615,12 @@ flowchart TB
 <a id="bench-proactive"></a>
 ### 主动性
 
+- **[2026-10]** **P3IBench** - P3IBench: Benchmarking Proactive Video Assistants in Real-Life Scenarios. [![arXiv-2610.21568](https://img.shields.io/badge/arXiv--2610.21568-b31b1b.svg)](https://arxiv.org/abs/2610.21568) 📄
+  - _主动流式视频基准，覆盖感知、风险预测与介入时机；并训练 P3I-Assistant-4B。_
+- **[2026-10]** **Jarvis (Multi-Party)** - Jarvis: A Proactive Speech Agent for Multi-Party Conversations. [![arXiv-2610.07506](https://img.shields.io/badge/arXiv--2610.07506-b31b1b.svg)](https://arxiv.org/abs/2610.07506) 📄
+  - _文档 grounding 的多方主动语音智能体，在认知偏差时介入；与 Amphion 双系统 Jarvis Harness 不同。_
+- **[2026-10]** **InteractionBench** - InteractionBench: A Real-Time Interaction Benchmark for Streaming Video Systems. [![arXiv-2610.05775](https://img.shields.io/badge/arXiv--2610.05775-b31b1b.svg)](https://arxiv.org/abs/2610.05775) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.enxinsong.com/projects/interactionbench/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Espere-1119-Song/InteractionBench) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/datasets/InteractionBench/InteractionBench) 🧩
+  - _812 段视频上 1060 次交互，对流式视频助手评内容、时机与保持静默合规。_
 - **[2026-09]** **ProactiveBench** - General proactive agent benchmark. [![arXiv-2609.12658](https://img.shields.io/badge/arXiv--2609.12658-b31b1b.svg)](https://arxiv.org/abs/2609.12658) 🧩
   - _更广的主动决策基准，含语音/视频 Agent。_
 - **[2026-05]** **OmniPro** - Omni proactive interaction benchmark. [![arXiv-2605.18577](https://img.shields.io/badge/arXiv--2605.18577-b31b1b.svg)](https://arxiv.org/abs/2605.18577) 🧩
@@ -1534,6 +1633,10 @@ flowchart TB
 <a id="bench-omni"></a>
 ### Omni 与流式视频
 
+- **[2026-10]** **P3IBench** - P3IBench: Benchmarking Proactive Video Assistants in Real-Life Scenarios. [![arXiv-2610.21568](https://img.shields.io/badge/arXiv--2610.21568-b31b1b.svg)](https://arxiv.org/abs/2610.21568) 📄
+  - _主动流式视频基准，覆盖感知、风险预测与介入时机；并训练 P3I-Assistant-4B。_
+- **[2026-10]** **InteractionBench** - InteractionBench: A Real-Time Interaction Benchmark for Streaming Video Systems. [![arXiv-2610.05775](https://img.shields.io/badge/arXiv--2610.05775-b31b1b.svg)](https://arxiv.org/abs/2610.05775) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.enxinsong.com/projects/interactionbench/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Espere-1119-Song/InteractionBench) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/datasets/InteractionBench/InteractionBench) 🧩
+  - _812 段视频上 1060 次交互，对流式视频助手评内容、时机与保持静默合规。_
 - **[2026-05]** **VideoFDB** - Video full-duplex benchmark (nonverbal dynamics). [![arXiv-2605.30256](https://img.shields.io/badge/arXiv--2605.30256-b31b1b.svg)](https://arxiv.org/abs/2605.30256) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/datasets/nvidia/video-full-duplex-benchmark) 📄
   - _NVIDIA 视频全双工基准；数据集许可需申请。_
 - **[2026-05]** **OmniInteract** - Omni interactive AV agent benchmark. [![arXiv-2605.26485](https://img.shields.io/badge/arXiv--2605.26485-b31b1b.svg)](https://arxiv.org/abs/2605.26485) 🧩
@@ -1582,6 +1685,10 @@ flowchart TB
 <a id="bench-method"></a>
 ### 评测方法论
 
+- **[2026-10]** **SteerablePlex** - SteerablePlex: Can We Steer Full-Duplex Models?. [![arXiv-2610.12201](https://img.shields.io/badge/arXiv--2610.12201-b31b1b.svg)](https://arxiv.org/abs/2610.12201) 📄
+  - _Actor-Director Harness 支持在线指令注入与 GDPO；提出 SimIF-Bench 评测模拟器指令遵循。_
+- **[2026-10]** **DyaFDB** - Conversation Is a Two-Body Problem: Dyadic Evaluation of Full-Duplex Dialogue Models. [![arXiv-2610.08125](https://img.shields.io/badge/arXiv--2610.08125-b31b1b.svg)](https://arxiv.org/abs/2610.08125) 📄
+  - _双体评测：两个全双工模型在给定角色下直接对话并对双方打分。_
 - **[2026-09]** **RTVA-Eval** - Evaluating real-time voice agents: methodology and pitfalls. [![arXiv-2609.30798](https://img.shields.io/badge/arXiv--2609.30798-b31b1b.svg)](https://arxiv.org/abs/2609.30798) 📄
   - _面向实时/全双工语音 Agent 的评测方法论与常见陷阱。_
 
@@ -1593,6 +1700,8 @@ flowchart TB
 <a id="data-real"></a>
 ### 真实对话语料
 
+- **[2026-10]** **SmoothConv / DuplexConv** - SmoothConv and DuplexConv: Complementary Mandarin Multi-Party Conversational Speech Corpora. [![arXiv-2610.11150](https://img.shields.io/badge/arXiv--2610.11150-b31b1b.svg)](https://arxiv.org/abs/2610.11150) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/qualialabsAI/SmoothConv-DuplexConv) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/datasets/qualialabsAI/SmoothConv) [![Data-Link](https://img.shields.io/badge/Data--Link-9b59b6.svg)](https://huggingface.co/datasets/qualialabsAI/DuplexConv) 🧩
+  - _2100 小时普通话多方语料：SmoothConv（约 100h 人工）与 DuplexConv（约 2000h LLM 辅助），含同步分轨。_
 - **[2026-08]** **WildTurn** - In-the-wild turn-taking conversational data. [![arXiv-2608.28630](https://img.shields.io/badge/arXiv--2608.28630-b31b1b.svg)](https://arxiv.org/abs/2608.28630) 🔓
   - _用于稳健 EOT 模型的野外会话轮次数据。_
 - **[2026-02]** **otoSpeech-FD** - otoSpeech full-duplex conversational corpus. [![Data-Link](https://img.shields.io/badge/Data--Link-9b59b6.svg)](https://huggingface.co/datasets/otoearth/otoSpeech-full-duplex-280h) 🔓
@@ -1682,6 +1791,8 @@ flowchart TB
 <a id="bb-tts"></a>
 ### 流式 TTS
 
+- **[2026-10]** **MAI-Voice-2.1** - Microsoft MAI-Voice-2.1 and MAI-Voice-2.1-Flash. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://microsoft.ai/news/our-first-streaming-transcription-model/) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-voices) 🔒
+  - _面向语音智能体的多语 TTS；Flash 约 150ms 延迟、23 语种，经 Azure Speech / Voice Live 提供门控即时克隆。_
 - **[2026-01]** **Qwen3-TTS** - Qwen3 text-to-speech models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/QwenLM) 🔓
   - _通义 TTS 线，支持流式/可控语音。_
 - **[2025-12]** **VibeVoice-Realtime** - VibeVoice realtime TTS. 🔓
@@ -1708,6 +1819,8 @@ flowchart TB
 <a id="bb-asr"></a>
 ### 流式 ASR
 
+- **[2026-10]** **MAI-Transcribe-2-Streaming** - Microsoft MAI-Transcribe-2-Streaming. [![Blog-Link](https://img.shields.io/badge/Blog--Link-orange.svg)](https://microsoft.ai/news/our-first-streaming-transcription-model/) 🔒
+  - _60 语种低延迟流式转写，约 100ms 出部分结果；在 Artificial Analysis 流式 ASR 排名第一。_
 - **[2026-02]** **Voxtral Realtime** - Mistral Voxtral realtime ASR / audio understanding. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.mistral.ai/) 🔓
   - _可用作 ASR 前端的实时音频理解 API。_
 - **[2026-02]** **Moonshine v2** - Useful Sensors Moonshine v2 efficient ASR. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/usefulsensors/moonshine) 🔓
@@ -1730,6 +1843,12 @@ flowchart TB
 <a id="bb-vad"></a>
 ### VAD 与轮次检测
 
+- **[2026-10]** **XTurnix** - XTurnix: Large-Scale Self-Supervised Turn Control through Two-State Binary Decisions. [![arXiv-2610.04400](https://img.shields.io/badge/arXiv--2610.04400-b31b1b.svg)](https://arxiv.org/abs/2610.04400) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/xcc-zach/xturnix) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/xcczach/xturnix-pt) 🔓
+  - _紧凑文本轮次控制器，状态条件 keep/start/stop 动作，在 550 万自监督样例上预训练。_
+- **[2026-10]** **VoxTurn** - VoxTurn: Answering Several Turn-Taking Questions in One Pass with One Model. [![arXiv-2610.21150](https://img.shields.io/badge/arXiv--2610.21150-b31b1b.svg)](https://arxiv.org/abs/2610.21150) [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://swagshaw.github.io/voxturn/) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/AustinXiao/voxturn) 🔓
+  - _开放 0.8B 语音 LLM，一次前向回答多个轮次问题；在 eot-bench 多语言上表现突出。_
+- **[2026-10]** **Tyger** - Tyger: Open-Weight Streaming ASR with Full-Duplex Turn Control. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://www.nineninesix.ai/) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/nineninesix-ai/tyger-s2s) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/nineninesix/tyger) 🔓
+  - _Nemotron 流式 ASR 加 14M 因果 GRU，每 80 ms 判定句末/打断/附和；tyger-s2s 为配套本地语音智能体栈。_
 - **[2026-08]** **X2-Turn** - X2-Turn: Fine-Grained Turn Control Model. [![arXiv-2608.10878](https://img.shields.io/badge/arXiv--2608.10878-b31b1b.svg)](https://arxiv.org/abs/2608.10878) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/X-Square-Robot/X2-Turn) [![HF-Model](https://img.shields.io/badge/HF--Model-yellow.svg)](https://huggingface.co/x-square-robot/X2-Turn-4B-0812) 🔓
   - _面向交互智能体的细粒度轮次控制模型。_
 - **[2026-03]** **SoulX-Duplug** - SoulX-Duplug: Semantic VAD / Duplex Control Plugin. [![arXiv-2603.14877](https://img.shields.io/badge/arXiv--2603.14877-b31b1b.svg)](https://arxiv.org/abs/2603.14877) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/Soul-AILab/SoulX-Duplug) 🔓
@@ -1768,10 +1887,10 @@ flowchart TB
 <a id="bb-serving"></a>
 ### 推理服务与传输
 
+- **[2026-10]** **vLLM-Omni** - vLLM serving extensions for omni / multimodal models. [![arXiv-2610.09307](https://img.shields.io/badge/arXiv--2610.09307-b31b1b.svg)](https://arxiv.org/abs/2610.09307) [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/vllm-project/vllm-omni) 🧩
+  - _面向全模态生成的统一服务运行时；技术报告 arXiv 2610.09307（2026-10）。_
 - **[2026-06]** **SGLang-Omni** - SGLang serving for omni / speech models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/sgl-project/sglang) 🧩
   - _用于快速 Omni/语音服务的 SGLang 运行时。_
-- **[2025-11]** **vLLM-Omni** - vLLM serving extensions for omni / multimodal models. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/vllm-project/vllm) 🧩
-  - _面向 Omni 权重的高吞吐推理服务路径。_
 - **[2025-09]** **NeMo Voice Agent** - NVIDIA NeMo voice agent recipes / runtime. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/NeMo) 🧩
   - _NeMo 语音 Agent 组件与配方。_
 - **[2025-05]** **NeMo SpeechLM2 Duplex** - NeMo SpeechLM2: SALM, DuplexS2S, DuplexSTT and EAR TTS Recipes. [![Code-GitHub](https://img.shields.io/badge/Code--GitHub-green.svg)](https://github.com/NVIDIA/NeMo) [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://docs.nvidia.com/nemo/speech/nightly/speechlm2/models.html) 🧩
@@ -1848,7 +1967,7 @@ flowchart TB
   author       = {Shengbo Cai},
   year         = {2026},
   howpublished = {\url{https://github.com/Syclus123/Awesome-Interactive-Model}},
-  note         = {Accessed: 2026-10-06}
+  note         = {Accessed: 2026-10-19}
 }
 ```
 

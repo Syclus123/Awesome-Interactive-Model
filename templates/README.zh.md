@@ -20,10 +20,13 @@
 ## 📰 动态与更新
 
 - **2026-10-19** 🎉 **我们的工作 Jarvis**：让协调拥有自己的“大脑”，以专属 Harness 协同实时对话与后台推理，打造全双工 Audio/Omni 智能体。[论文](https://arxiv.org/abs/2610.23804v1) · [代码](https://github.com/JensenYX/Jarvis) · [Demo](https://amphionteam.github.io/Jarvis-Demo/)
+- **2026-10-15/16** — OpenAI **GPT-Live-1.1** 上线新音色；API 增加原生 **Decisions** 委派与 **prompt-to-voice**。
+- **2026-10-14** — xAI **Grok Voice 3.0**（`grok-voice-latest` 现指向该版；2.0 弃用）。
+- **2026-10** — 研究浪潮：RUBATO、D2、DiffuPlex / Diffuplex、SteerablePlex、DuplexAgent-RSI、DuplexAct、VoxTurn、Tyger、ELLSA 2、PERSIST 等。
+- **2026-10-06** — Sesame 智能体语音助手与更新版 CSM；Hume 宣布 EVI/TTS API 停服（访问截止 2026-11-13）。
 - **2026-10-05** — Amazon **Nova 2.5 Sonic** GA（语音到语音实时）。
 - **2026-09-10** — OpenAI **GPT-Live** API GA；**gpt-realtime** / **gpt-realtime-mini** 宣布停用。
 - **2026-09** — SeedRealtime、Grok Voice Think Fast、Hibiki-Zero、MiniCPM-o 4.5、PersonaPlex 及大量双工 / 双系统论文。
-- **2026-10-06** — 本列表上线（{{AUTO_ENTRY_COUNT}} 条）。长篇综述：[docs/survey_zh.md](docs/survey_zh.md)。
 
 ---
 
@@ -35,7 +38,7 @@
 
 ## 🎯 目标
 
-本仓库是持续更新的中英双语 **Interactive Model 图谱**，覆盖语音与 Omni（音视频）智能体。
+本仓库是持续更新的中英双语 **Interactive Model 图谱**，覆盖语音与 Omni（音视频）智能体。本列表于 2026-10-06 上线。分类与开放问题的精炼报告：[docs/survey_zh.md](docs/survey_zh.md)。
 
 此处的 **交互** 指对下列三者的联合控制：
 
@@ -50,7 +53,7 @@
 1. 系统收录 **大小脑双系统** 与带 **harness** 的 agentic 模型；
 2. 每条标注 **开放状态**（🔓 / 🧩 / 🔒 / 📄）；
 3. **Benchmark 按交互层** 组织（时机、状态、Agent、主动性等）；
-4. **产业全景** 带日期与已核实的停用信息（截至 2026-10-06）。
+4. **产业全景** 带日期与已核实的停用信息（截至 2026-10-19）。
 
 相关列表与参考：[Awesome-Full-Duplex-SDM](https://github.com/Ruiqi-Yan/Awesome-Full-Duplex-SDM)、[WavChat](https://github.com/jishengpeng/WavChat)、[Speech-Trident](https://github.com/ga642381/speech-trident)、[Awesome-Audio-LLM](https://github.com/AudioLLMs/Awesome-Audio-LLM)、[Awesome-Streaming-Video-Understanding](https://github.com/sotayang/Awesome-Streaming-Video-Understanding)。
 
@@ -180,7 +183,7 @@ flowchart TB
   author       = {Shengbo Cai},
   year         = {2026},
   howpublished = {\url{https://github.com/Syclus123/Awesome-Interactive-Model}},
-  note         = {Accessed: 2026-10-06}
+  note         = {Accessed: 2026-10-19}
 }
 ```
 

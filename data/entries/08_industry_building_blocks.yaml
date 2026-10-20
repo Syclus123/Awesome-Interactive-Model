@@ -239,8 +239,8 @@ entries:
     docs: https://dev.hume.ai/docs/speech-to-speech-evi/configuration/evi-version
   sections:
   - industry-others
-  note_en: Empathic voice API focused on expressive/emotional interaction; EVI 1/2 are no longer supported.
-  note_zh: 强调表达/情绪交互的共情语音 API；EVI 1/2 已停止支持。
+  note_en: Empathic voice API focused on expressive/emotional interaction; EVI 1/2 are no longer supported. TTS and EVI APIs sunset announced 2026-10-02 with access ending 2026-11-13.
+  note_zh: 强调表达/情绪交互的共情语音 API；EVI 1/2 已停止支持。2026-10-02 宣布 TTS 与 EVI API 将于 2026-11-13 停服。
   license: Commercial terms of service
   modalities: A/T → A/T
 - id: ind-sensenova-omni
@@ -997,18 +997,19 @@ entries:
 - id: bb-vllm-omni
   name: vLLM-Omni
   title: vLLM serving extensions for omni / multimodal models
-  date: 2025-11
+  date: 2026-10
   venue: ''
   org: vLLM Community
   status: code_only
   star: false
   links:
-    code: https://github.com/vllm-project/vllm
+    code: https://github.com/vllm-project/vllm-omni
+    arxiv: https://arxiv.org/abs/2610.09307
   sections:
   - bb-serving
   - agentic-harness
-  note_en: High-throughput serving path for omni checkpoints.
-  note_zh: 面向 Omni 权重的高吞吐推理服务路径。
+  note_en: Unified serving runtime for omni-modality generation; tech report arXiv 2610.09307 (2026-10).
+  note_zh: 面向全模态生成的统一服务运行时；技术报告 arXiv 2610.09307（2026-10）。
 - id: bb-sglang-omni
   name: SGLang-Omni
   title: SGLang serving for omni / speech models
@@ -1307,3 +1308,49 @@ entries:
   note_zh: 火山 RTC AI，用于实时对话体验。
   license: Commercial terms of service
   modalities: RTC + Doubao S2S / hybrid LLM
+- id: grok-voice-3
+  name: Grok Voice 3.0
+  title: xAI Grok Voice 3.0
+  date: 2026-10
+  venue: ''
+  org: xAI
+  status: closed
+  star: true
+  links:
+    blog: https://x.ai/news/grok-voice-3
+    docs: https://docs.x.ai/developers/release-notes
+  sections:
+  - industry-others
+  note_en: 'Model grok-voice-3.0; grok-voice-latest now routes here and grok-voice-2.0 is deprecated. Reports #1 AA S2S Index 86.9, FDB 97%, tau-Voice 71.6%, EVA-Bench 74%.'
+  note_zh: 模型 grok-voice-3.0；grok-voice-latest 现指向该版且 2.0 弃用。报告 AA S2S Index 86.9 第一、FDB 97%、τ-Voice 71.6%、EVA-Bench 74%。
+- id: mai-voice-2-1
+  name: MAI-Voice-2.1
+  title: Microsoft MAI-Voice-2.1 and MAI-Voice-2.1-Flash
+  date: 2026-10
+  venue: ''
+  org: Microsoft AI
+  status: closed
+  star: false
+  links:
+    blog: https://microsoft.ai/news/our-first-streaming-transcription-model/
+    docs: https://learn.microsoft.com/en-us/azure/ai-services/speech-service/mai-voices
+  sections:
+  - bb-tts
+  - industry-others
+  note_en: Multilingual TTS for voice agents; Flash targets ~150ms latency and 23 languages with gated instant cloning via Azure Speech / Voice Live.
+  note_zh: 面向语音智能体的多语 TTS；Flash 约 150ms 延迟、23 语种，经 Azure Speech / Voice Live 提供门控即时克隆。
+- id: mai-transcribe-2-streaming
+  name: MAI-Transcribe-2-Streaming
+  title: Microsoft MAI-Transcribe-2-Streaming
+  date: 2026-10
+  venue: ''
+  org: Microsoft AI
+  status: closed
+  star: false
+  links:
+    blog: https://microsoft.ai/news/our-first-streaming-transcription-model/
+  sections:
+  - bb-asr
+  - industry-others
+  note_en: 'Low-latency streaming transcription in 60 languages with partials in just over 100ms; ranks #1 on Artificial Analysis streaming ASR.'
+  note_zh: 60 语种低延迟流式转写，约 100ms 出部分结果；在 Artificial Analysis 流式 ASR 排名第一。

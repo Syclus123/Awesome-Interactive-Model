@@ -159,8 +159,8 @@ entries:
     arxiv: https://arxiv.org/abs/2609.39446
   sections:
   - bench-timing
-  note_en: Evaluates action-level decisions under duplex listening/speaking.
-  note_zh: 在双工听说下评测动作级交互决策。
+  note_en: Evaluates action-level decisions under duplex listening/speaking. Distinct from DuplexAct (arXiv 2610.17738 / id duplexact).
+  note_zh: 在双工听说下评测动作级交互决策。与 DuplexAct（arXiv 2610.17738 / id duplexact）不同。
 - id: tact-bench
   name: TACT
   title: TACT timing and conversational turn benchmark
@@ -1366,3 +1366,116 @@ entries:
   - data-pipelines
   note_en: Conversation mixing pipeline creating overlapping/duplex-like audio.
   note_zh: 通过会话混合构造重叠/类双工音频的管线。
+- id: duplexact
+  name: DuplexAct
+  title: 'DuplexAct: How Interactive Are Frontier Full-Duplex Spoken Language Models?'
+  date: 2026-10
+  venue: ''
+  org: University of Melbourne / University of Birmingham / Wuhan University
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.17738
+    code: https://github.com/JiahengDong/DuplexAct
+  sections:
+  - bench-timing
+  note_en: Action-level taxonomy with 4,691 instances and success criteria for eight interaction actions; distinct from DuplexAct-Bench (arXiv 2609.39446).
+  note_zh: 八种交互动作的动作级分类与 4691 条实例及成功标准；与 DuplexAct-Bench（arXiv 2609.39446）不同。
+- id: people-conversation-bench
+  name: People Conversation Bench
+  title: 'People Making Conversation: Evaluating How Naturally Speech Models Converse'
+  date: 2026-10
+  venue: ''
+  org: People Make Things
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.12802
+    code: https://github.com/People-Make-Things/people-conversation-bench
+  sections:
+  - bench-timing
+  - bench-content
+  note_en: Scores realtime systems at Seamless Interaction pauses and turn ends against what people actually did; releases labels, harness, and outputs.
+  note_zh: 在 Seamless Interaction 停顿与话轮末对照真人行为评分实时系统；公开标注、评测架与输出。
+- id: dyafdb
+  name: DyaFDB
+  title: 'Conversation Is a Two-Body Problem: Dyadic Evaluation of Full-Duplex Dialogue Models'
+  date: 2026-10
+  venue: ''
+  org: KAIST
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.08125
+  sections:
+  - bench-method
+  - bench-timing
+  note_en: Dyadic evaluation where two full-duplex models converse under assigned roles and both sides are scored.
+  note_zh: 双体评测：两个全双工模型在给定角色下直接对话并对双方打分。
+- id: multiparty-turnbench
+  name: MultiPartyTurnBench
+  title: 'MultiPartyTurnBench: Benchmarking Floor Control in Multi-Party Spoken Dialogue'
+  date: 2026-10
+  venue: ''
+  org: University of Maryland
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.20172
+    web: https://multiparty-turnbench.github.io/
+  sections:
+  - bench-multiparty
+  note_en: 240 channel-separated multi-party conversations evaluating end-of-turn and interruption floor control for 2–5 speakers.
+  note_zh: 240 段分轨多方对话，评测 2–5 人场景的句末与打断控场。
+- id: p3ibench
+  name: P3IBench
+  title: 'P3IBench: Benchmarking Proactive Video Assistants in Real-Life Scenarios'
+  date: 2026-10
+  venue: ''
+  org: Fudan University
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.21568
+  sections:
+  - bench-proactive
+  - bench-omni
+  note_en: Proactive streaming-video benchmark covering perception, risk prediction, and intervention timing; also trains P3I-Assistant-4B.
+  note_zh: 主动流式视频基准，覆盖感知、风险预测与介入时机；并训练 P3I-Assistant-4B。
+- id: interactionbench
+  name: InteractionBench
+  title: 'InteractionBench: A Real-Time Interaction Benchmark for Streaming Video Systems'
+  date: 2026-10
+  venue: ''
+  org: ''
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.05775
+    code: https://github.com/Espere-1119-Song/InteractionBench
+    hf: https://huggingface.co/datasets/InteractionBench/InteractionBench
+    web: https://www.enxinsong.com/projects/interactionbench/
+  sections:
+  - bench-proactive
+  - bench-omni
+  note_en: 1,060 interactions over 812 videos scoring content, timing, and silence compliance for streaming video assistants.
+  note_zh: 812 段视频上 1060 次交互，对流式视频助手评内容、时机与保持静默合规。
+- id: smoothconv-duplexconv
+  name: SmoothConv / DuplexConv
+  title: 'SmoothConv and DuplexConv: Complementary Mandarin Multi-Party Conversational Speech Corpora'
+  date: 2026-10
+  venue: ''
+  org: NWPU ASLP / QualiaLabs
+  status: code_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.11150
+    code: https://github.com/qualialabsAI/SmoothConv-DuplexConv
+    hf: https://huggingface.co/datasets/qualialabsAI/SmoothConv
+    data: https://huggingface.co/datasets/qualialabsAI/DuplexConv
+  sections:
+  - data-real
+  - multiparty
+  - bench-multiparty
+  note_en: '2,100h Mandarin multi-party corpora: SmoothConv (~100h expert) plus DuplexConv (~2,000h LLM-assisted) with synchronized tracks.'
+  note_zh: 2100 小时普通话多方语料：SmoothConv（约 100h 人工）与 DuplexConv（约 2000h LLM 辅助），含同步分轨。

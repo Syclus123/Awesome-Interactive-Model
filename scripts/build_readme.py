@@ -234,7 +234,7 @@ def render_toc(sections: list, lang: str) -> str:
     return "\n".join(lines)
 
 
-def stats_text(entries: list, lang: str) -> str:
+def stats_text(entries: list, lang: str, as_of: str) -> str:
     n = len(entries)
     by_status = defaultdict(int)
     for e in entries:
@@ -245,13 +245,13 @@ def stats_text(entries: list, lang: str) -> str:
             for k in STATUS_ICON
             if by_status[k]
         )
-        return f"<strong>{n} curated entries</strong> ({bits}). Verified sources as of 2026-10-06."
+        return f"<strong>{n} curated entries</strong> ({bits}). Verified sources as of {as_of}."
     bits = "，".join(
         f"{STATUS_ICON[k]} {STATUS_LABEL['zh'][k]}：{by_status[k]}"
         for k in STATUS_ICON
         if by_status[k]
     )
-    return f"<strong>收录 {n} 条</strong>（{bits}）。公开资料核验截至 2026-10-06。"
+    return f"<strong>收录 {n} 条</strong>（{bits}）。公开资料核验截至 {as_of}。"
 
 
 def load_all_entries(section_ids: set[str]) -> tuple[list[dict], list[str]]:
@@ -274,7 +274,7 @@ def load_all_entries(section_ids: set[str]) -> tuple[list[dict], list[str]]:
     return entries, errors
 
 
-def build(lang: str, sections: list, entries: list) -> str:
+def build(lang: str, sections: list, entries: list, as_of: str) -> str:
     by_section: dict[str, list] = defaultdict(list)
     for e in entries:
         for sid in e.get("sections") or []:
@@ -285,7 +285,7 @@ def build(lang: str, sections: list, entries: list) -> str:
 
     replacements = {
         "{{AUTO_TOC}}": render_toc(sections, lang),
-        "{{AUTO_STATS}}": stats_text(entries, lang),
+        "{{AUTO_STATS}}": stats_text(entries, lang, as_of),
         "{{AUTO_SECTIONS}}": render_all_sections(sections, by_section, lang),
         "{{AUTO_ENTRY_COUNT}}": str(len(entries)),
     }
@@ -302,6 +302,7 @@ def main() -> int:
 
     meta = load_yaml(DATA / "sections.yaml")
     sections = meta["sections"]
+    as_of = (meta.get("meta") or {}).get("as_of") or "2026-10-19"
     section_ids = collect_section_ids(sections)
     entries, errors = load_all_entries(section_ids)
 
@@ -321,7 +322,7 @@ def main() -> int:
         return 0
 
     for lang, out_name in (("en", "README.md"), ("zh", "README_zh.md")):
-        text = build(lang, sections, entries)
+        text = build(lang, sections, entries, as_of)
         (ROOT / out_name).write_text(text, encoding="utf-8")
         print(f"Wrote {out_name} ({len(text)} chars, {len(entries)} entries)")
     return 0

@@ -1,9 +1,9 @@
-# 语音与 Omni 交互模型工作综述
+# 语音与 Omni 交互模型精炼报告
 
-**截至：** 2026-10-06  
+**截至：** 2026-10-19  
 **配套列表：** [Awesome Interactive Model（中文）](../README_zh.md) · [English](survey.md)
 
-本文配合 curated 列表阅读。这是一份*工作综述*：在分类上有明确立场，不对每篇论文做穷尽评述，并坚持——**类别描述的是组成关系，不是进化阶梯**。
+本文配合 curated 列表阅读。这是一份精炼报告：在分类上有明确立场，不对每篇论文做穷尽评述，并坚持——**类别描述的是组成关系，不是进化阶梯**。
 
 ---
 
@@ -122,14 +122,15 @@
 
 ---
 
-## 6. 产业快照（2026-10-06）
+## 6. 产业快照（2026-10-19）
 
-- **OpenAI：** GPT-Live GA（2026-09-10）；原 gpt-realtime / mini 进入停用路径。经 Live + Responses / supervisor 呈现双系统味道。
-- **Google：** Gemini Live 家族与 extended thinking；媒体流式 API。
+- **OpenAI：** GPT-Live GA（2026-09-10）；GPT-Live-1.1 产品上线（2026-10-15），API 增加原生 Decisions 委派与 prompt-to-voice；原 gpt-realtime / mini 进入停用路径。
+- **Google：** Gemini Live 家族与 extended thinking；媒体流式 API（10 月上旬无新 Live 模型，仍为 3.8 Live）。
 - **阿里 / 通义：** Omni 开放权重 + 实时产品线（Audio 3.1 / Omni realtime 变体）——需区分哪些仅 API。
 - **字节 / Seed：** SeedRealtime 及相关语音 Agent。
-- **Amazon：** Nova 2.5 Sonic GA（2026-10-05）。
-- **其他：** xAI Grok Voice Think Fast；TML Interaction-Small；诸多区域实时 API。
+- **Amazon：** Nova 2.5 Sonic GA（2026-10-05）；Strands Bidi Agents GA（2026-10-05）。
+- **Microsoft：** MAI-Voice-2.1 / Flash 与 MAI-Transcribe-2-Streaming（2026-10-01），面向级联语音智能体。
+- **其他：** xAI Grok Voice 3.0（2026-10-14；latest 别名）；Sesame 智能体助手（2026-10-06）；Hume 宣布 EVI/TTS 停服（访问截止 2026-11-13）；TML Interaction-Small；诸多区域实时 API。
 
 故意不写价格。停用信息仅在厂商文档确认后记录。
 

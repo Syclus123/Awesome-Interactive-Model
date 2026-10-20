@@ -380,8 +380,8 @@ entries:
   sections:
   - agentic-frameworks
   - agentic-harness
-  note_en: Framework for realtime voice/video agents with jobs, tools, and RTC.
-  note_zh: 实时音视频智能体框架，含 Job、工具与 RTC。
+  note_en: Realtime voice agent framework with EOU/turn detection. v1.8.1 adds DuplexModel; v1.8.8 (2026-10-15) runs GPT-Live via LiveKit Inference.
+  note_zh: 实时语音智能体框架，含句末/轮次检测。v1.8.1 加入 DuplexModel；v1.8.8（2026-10-15）经 LiveKit Inference 运行 GPT-Live。
 - id: pipecat
   name: Pipecat
   title: 'Pipecat: Composable Realtime Voice & Multimodal Agent Framework'
@@ -498,11 +498,12 @@ entries:
   star: false
   links:
     docs: https://strandsagents.com/
+    blog: https://strandsagents.com/blog/bidi-agents-now-ga/
   sections:
   - agentic-frameworks
   - agentic-harness
-  note_en: Bidirectional streaming, barge-in, and concurrent tools in Strands.
-  note_zh: Strands 双向流、打断与并发工具支持。
+  note_en: Bidirectional streaming, barge-in, and concurrent tools in Strands. Generally available as of 2026-10-05 for Nova Sonic, OpenAI, and Gemini voice models.
+  note_zh: Strands 双向流、打断与并发工具支持。2026-10-05 正式 GA，支持 Nova Sonic、OpenAI 与 Gemini 语音模型。
 - id: fastrtc
   name: FastRTC
   title: 'FastRTC: Interactive Audio/Video Transport for Agents'
@@ -1230,3 +1231,99 @@ entries:
   - embodied-dual-vla
   note_en: VLA conditioned on speech instructions for interactive robot control.
   note_zh: 以语音指令为条件的 VLA，服务交互机器人控制。
+- id: duplexagent-rsi
+  name: DuplexAgent-RSI
+  title: 'DuplexAgent-RSI: Recursive Harness Improvement for Full-Duplex Voice Agent Collaboration'
+  date: 2026-10
+  venue: ''
+  org: CUHK-Shenzhen / Amphion
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.11299
+    web: https://amphionteam.github.io/DuplexAgent-RSI-Demo/
+  sections:
+  - agentic-harness
+  - dual-open
+  note_en: Six editable harness modules for duplex-plus-delegation; a closed RSI loop revises them from timed failure traces. Demo available; code not yet released.
+  note_zh: 双工加委派的六个可编辑 Harness 模块；闭环 RSI 据定时失败轨迹修订。有演示页，代码尚未公开。
+- id: persist-memory
+  name: PERSIST
+  title: 'PERSIST: Who-What-When Memory Across Sessions for Full-Duplex Spoken Dialogue'
+  date: 2026-10
+  venue: ''
+  org: Tsinghua / Huawei
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.07725
+  sections:
+  - agentic-memory
+  note_en: Persistent Who-What-When memory with 3W joint scoring and SpokenTrace diagnostic benchmark; reuses dialogue-backbone features for low-latency retrieval.
+  note_zh: 跨会话 Who-What-When 持久记忆与 SpokenTrace 诊断基准；复用对话骨干特征实现低延迟检索。
+- id: egovoice
+  name: EgoVoice
+  title: 'EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams'
+  date: 2026-10
+  venue: ''
+  org: University of Seoul
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.12248
+    web: https://egocentricvoice.github.io/
+  sections:
+  - when-to-speak
+  - streaming-omni-assistants
+  note_en: Framework for training and evaluating proactive egocentric spoken assistants that decide when and what to say from first-person video and audio.
+  note_zh: 从第一人称视听流训练与评测主动口语助手，决定何时开口与说什么。
+- id: javis
+  name: JAVIS
+  title: 'JAVIS: Joint Audio-Visual Interaction and Streaming for Real-Time Conversational Agents'
+  date: 2026-10
+  venue: ''
+  org: KAIST
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.22499
+    web: https://mm.kaist.ac.kr/projects/JAVIS
+  sections:
+  - streaming-omni-assistants
+  - expressive
+  note_en: End-to-end streaming framework where a Joint Refined Head feeds dedicated speech and face branches from a shared LLM representation; includes JAVIS-Syn corpus.
+  note_zh: 端到端流式框架，共享 LLM 表征经 Joint Refined Head 驱动语音与面部支路；含 JAVIS-Syn 语料。
+- id: ellsa-2
+  name: ELLSA 2
+  title: 'ELLSA 2: Full-Duplex Interaction with Speech, Expressions and Gestures'
+  date: 2026-10
+  venue: ''
+  org: Tsinghua / ByteDance
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.21452
+    code: https://github.com/bytedance/SALMONN/tree/ELLSA2
+    hf: https://huggingface.co/tsinghua-ee/ELLSA2
+  sections:
+  - embodied-duplex
+  - expressive
+  note_en: End-to-end full-duplex speech with streaming gesture and expression generation; releases standalone generator checkpoints and ELLSA2 branch code.
+  note_zh: 端到端全双工语音并流式生成手势与表情；公开独立生成器权重与 ELLSA2 分支代码。
+- id: onestreamer
+  name: OneStreamer
+  title: 'OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction'
+  date: 2026-10
+  venue: ''
+  org: MCG-NJU
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.01762
+    code: https://github.com/MCG-NJU/OneStreamer
+    hf: https://huggingface.co/MCG-NJU/OneStreamer-4B
+  sections:
+  - when-to-speak
+  - agentic-memory
+  note_en: 4B streaming video LLM with proactive hierarchical caption memory and state-transition learning; OneStreamer-1M training set spans over one million records.
+  note_zh: 4B 流式视频 LLM，含主动分层字幕记忆与状态转移学习；OneStreamer-1M 训练集约百万条记录。

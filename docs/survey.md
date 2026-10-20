@@ -1,9 +1,9 @@
-# Interactive Models for Voice and Omni Agents: A Working Survey
+# Interactive Models for Voice and Omni Agents: A Concise Report
 
-**As of:** 2026-10-06  
+**As of:** 2026-10-19  
 **Companion list:** [Awesome Interactive Model](../README.md) · [中文版](survey_zh.md)
 
-This note accompanies the curated list. It is a *working* survey: opinionated about taxonomy, deliberately short on exhaustive paper reviews, and aligned with the position that **categories are compositional roles, not an evolution ladder**.
+This note accompanies the curated list. It is a concise report: opinionated about taxonomy, deliberately short on exhaustive paper reviews, and aligned with the position that **categories are compositional roles, not an evolution ladder**.
 
 ---
 
@@ -122,14 +122,15 @@ Benchmarks in the list are grouped accordingly (Full-Duplex-Bench family, EchoCh
 
 ---
 
-## 6. Industry landscape (snapshot 2026-10-06)
+## 6. Industry landscape (snapshot 2026-10-19)
 
-- **OpenAI:** GPT-Live GA (2026-09-10); prior gpt-realtime / mini on deprecation path. Dual-system flavour via Live + Responses / supervisor patterns.
-- **Google:** Gemini Live family with extended thinking options; media streaming APIs.
+- **OpenAI:** GPT-Live GA (2026-09-10); GPT-Live-1.1 product rollout (2026-10-15) with native Decisions delegation and prompt-to-voice in the API; prior gpt-realtime / mini on deprecation path.
+- **Google:** Gemini Live family with extended thinking options; media streaming APIs (no new Live model in early October beyond 3.8 Live).
 - **Alibaba / Qwen:** Omni open weights + realtime product lines (Audio 3.1 / Omni realtime variants)—track which are API-only.
 - **ByteDance / Seed:** SeedRealtime and related speech agents.
-- **Amazon:** Nova 2.5 Sonic GA (2026-10-05).
-- **Others:** xAI Grok Voice Think Fast; TML Interaction-Small; numerous regional realtime APIs.
+- **Amazon:** Nova 2.5 Sonic GA (2026-10-05); Strands Bidi Agents GA (2026-10-05).
+- **Microsoft:** MAI-Voice-2.1 / Flash and MAI-Transcribe-2-Streaming (2026-10-01) for cascaded voice agents.
+- **Others:** xAI Grok Voice 3.0 (2026-10-14; latest alias); Sesame agentic assistants (2026-10-06); Hume EVI/TTS sunset announced (access ends 2026-11-13); TML Interaction-Small; numerous regional realtime APIs.
 
 Prices are intentionally omitted. Deprecations are recorded only when vendor docs confirm them.
 

@@ -20,10 +20,13 @@ A curated map of <b>voice / Omni interactive models</b> organized by <b>how inte
 ## 📰 News & Updates
 
 - **2026-10-19** 🎉 **Our work, Jarvis**, gives coordination a brain of its own through a dedicated harness that keeps realtime dialogue and background reasoning in sync for full-duplex Audio/Omni agents. [Paper](https://arxiv.org/abs/2610.23804v1) · [Code](https://github.com/JensenYX/Jarvis) · [Demo](https://amphionteam.github.io/Jarvis-Demo/)
+- **2026-10-15/16** — OpenAI **GPT-Live-1.1** rolls out with new voices; API adds native **Decisions** delegation and **prompt-to-voice**.
+- **2026-10-14** — xAI **Grok Voice 3.0** (`grok-voice-latest` now routes here; 2.0 deprecated).
+- **2026-10** — Research wave: RUBATO, D2, DiffuPlex / Diffuplex, SteerablePlex, DuplexAgent-RSI, DuplexAct, VoxTurn, Tyger, ELLSA 2, PERSIST, and more.
+- **2026-10-06** — Sesame agentic voice assistants with updated CSM; Hume announces EVI/TTS API sunset (access ends 2026-11-13).
 - **2026-10-05** — Amazon **Nova 2.5 Sonic** GA (speech-to-speech realtime).
 - **2026-09-10** — OpenAI **GPT-Live** API GA; **gpt-realtime** / **gpt-realtime-mini** announced for deprecation.
 - **2026-09** — SeedRealtime, Grok Voice Think Fast, Hibiki-Zero, MiniCPM-o 4.5, PersonaPlex, and many duplex / dual-system papers.
-- **2026-10-06** — This list launched ({{AUTO_ENTRY_COUNT}} curated entries). Long-form survey: [docs/survey.md](docs/survey.md).
 
 ---
 
@@ -35,7 +38,7 @@ A curated map of <b>voice / Omni interactive models</b> organized by <b>how inte
 
 ## 🎯 Aim
 
-This repository is a bilingual, continuously updated **atlas of Interactive Models** for speech and omni (audio–vision) agents.
+This repository is a bilingual, continuously updated **atlas of Interactive Models** for speech and omni (audio–vision) agents. The list launched on 2026-10-06. A concise report on the taxonomy and open problems: [docs/survey.md](docs/survey.md).
 
 **Interaction** here means the joint control of:
 
@@ -50,7 +53,7 @@ We distinguish this list from related awesome repos by:
 1. Explicit coverage of **brain–cerebellum dual systems** and **agentic harness** runtimes.
 2. An **openness status** on every entry (🔓 / 🧩 / 🔒 / 📄).
 3. **Benchmarks grouped by interaction layer** (timing, state, agents, proactivity, …).
-4. An **Industry Landscape** with dates and verified deprecations (as of 2026-10-06).
+4. An **Industry Landscape** with dates and verified deprecations (as of 2026-10-19).
 
 Related lists and references: [Awesome-Full-Duplex-SDM](https://github.com/Ruiqi-Yan/Awesome-Full-Duplex-SDM), [WavChat](https://github.com/jishengpeng/WavChat), [Speech-Trident](https://github.com/ga642381/speech-trident), [Awesome-Audio-LLM](https://github.com/AudioLLMs/Awesome-Audio-LLM), [Awesome-Streaming-Video-Understanding](https://github.com/sotayang/Awesome-Streaming-Video-Understanding).
 
@@ -180,7 +183,7 @@ If you find this list useful, please cite:
   author       = {Shengbo Cai},
   year         = {2026},
   howpublished = {\url{https://github.com/Syclus123/Awesome-Interactive-Model}},
-  note         = {Accessed: 2026-10-06}
+  note         = {Accessed: 2026-10-19}
 }
 ```
 

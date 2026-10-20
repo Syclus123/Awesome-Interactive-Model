@@ -1068,3 +1068,127 @@ entries:
   - omni-generation
   note_en: Text intermediate layer plus streaming speech interaction decoding.
   note_zh: 文本中间层 + 流式语音交互解码。
+- id: steerableplex
+  name: SteerablePlex
+  title: 'SteerablePlex: Can We Steer Full-Duplex Models?'
+  date: 2026-10
+  venue: ''
+  org: UIUC / KIT / Charles University / others
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.12201
+  sections:
+  - duplex-alignment
+  - dual-open
+  - bench-method
+  note_en: Actor-director harness with online instruction injection and GDPO; introduces SimIF-Bench for simulator instruction following.
+  note_zh: Actor-Director Harness 支持在线指令注入与 GDPO；提出 SimIF-Bench 评测模拟器指令遵循。
+- id: hiplex
+  name: HiPLEX
+  title: 'HiPLEX: Hierarchical Policy Factorization for Full Duplex Speech Language Models'
+  date: 2026-10
+  venue: ''
+  org: Qualcomm AI Research / KAIST
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.07727
+  sections:
+  - duplex-alignment
+  note_en: RL factorization into a control policy (when) and a conditional content policy (what), with event-causal timing advantages.
+  note_zh: 将策略分解为控制策略（何时）与条件内容策略（说什么），并用事件因果时机优势更新。
+- id: initiative-vector
+  name: Initiative Vector
+  title: Reference-Guided Turn-Taking Style Transfer for Full-Duplex Spoken Language Models
+  date: 2026-10
+  venue: ''
+  org: CUHK-Shenzhen / Melbourne / Lulula
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.20763
+    web: https://elpsykongloo.github.io/initiative-vector/
+  sections:
+  - turn-taking-methods
+  - expressive
+  note_en: Identifies a late-layer initiative vector that steers speech ratio and turn-taking style without retraining.
+  note_zh: 识别晚期层主动性向量，无需重训即可调节发言占比与轮次风格。
+- id: voxturn
+  name: VoxTurn
+  title: 'VoxTurn: Answering Several Turn-Taking Questions in One Pass with One Model'
+  date: 2026-10
+  venue: ''
+  org: ''
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.21150
+    hf: https://huggingface.co/AustinXiao/voxturn
+    web: https://swagshaw.github.io/voxturn/
+  sections:
+  - turn-taking-methods
+  - bb-vad
+  note_en: Open 0.8B speech LLM that answers multiple turn-taking questions in one forward pass; strong eot-bench multilingual results.
+  note_zh: 开放 0.8B 语音 LLM，一次前向回答多个轮次问题；在 eot-bench 多语言上表现突出。
+- id: jarvis-multiparty
+  name: Jarvis (Multi-Party)
+  title: 'Jarvis: A Proactive Speech Agent for Multi-Party Conversations'
+  date: 2026-10
+  venue: ''
+  org: University of Washington / University of Tokyo
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.07506
+  sections:
+  - multiparty
+  - bench-proactive
+  note_en: Document-grounded proactive multi-party speech agent that intervenes on epistemic breakdowns; distinct from the Amphion dual-system Jarvis harness.
+  note_zh: 文档 grounding 的多方主动语音智能体，在认知偏差时介入；与 Amphion 双系统 Jarvis Harness 不同。
+- id: xturnix
+  name: XTurnix
+  title: 'XTurnix: Large-Scale Self-Supervised Turn Control through Two-State Binary Decisions'
+  date: 2026-10
+  venue: ''
+  org: SJTU X-LANCE / Shanghai Innovation Institute / others
+  status: open_weights
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.04400
+    code: https://github.com/xcc-zach/xturnix
+    hf: https://huggingface.co/xcczach/xturnix-pt
+  sections:
+  - turn-taking-methods
+  - bb-vad
+  note_en: Compact text turn controller with state-conditioned keep/start/stop actions, pretrained on 5.5M self-supervised examples.
+  note_zh: 紧凑文本轮次控制器，状态条件 keep/start/stop 动作，在 550 万自监督样例上预训练。
+- id: echochat
+  name: EchoChat
+  title: 'EchoChat: Structured Cognitive Reasoning in Empathetic Spoken Dialogue'
+  date: 2026-10
+  venue: ''
+  org: CUHK / Microsoft
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.04826
+  sections:
+  - expressive
+  note_en: Structured cognitive reasoning pipeline for empathetic spoken dialogue beyond direct emotion-to-response mapping.
+  note_zh: 结构化认知推理管线，使共情口语对话超越直接情绪到回复映射。
+- id: emode
+  name: EMODE
+  title: 'EMODE: Dynamic Para-Semantic Experts for Emotion-Aware Speech Language Modeling'
+  date: 2026-10
+  venue: ACM MM 2026
+  org: Zhejiang University
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.06956
+  sections:
+  - expressive
+  - bench-paraling
+  note_en: Dynamic Para-Semantic Experts decompose semantic and paralinguistic pathways; introduces bilingual MEPA benchmark.
+  note_zh: 动态副语义专家分解语义与副语言通路；提出双语 MEPA 基准。

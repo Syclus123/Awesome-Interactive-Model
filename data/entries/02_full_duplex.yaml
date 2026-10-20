@@ -864,3 +864,52 @@ entries:
   - duplex-engineered
   note_en: Streaming TTS component used inside NeMo duplex speech pipelines.
   note_zh: NeMo 双工语音流水线中的流式 TTS 组件。
+- id: d2-duplex
+  name: D2
+  title: 'D2: High-Capability Full-Duplex Spoken Language Models from Half-Duplex Backbones'
+  date: 2026-10
+  venue: ''
+  org: MIT CSAIL / MIT-IBM
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.17124
+    web: https://d2-duplex-demo.github.io/
+  sections:
+  - duplex-tdm
+  note_en: Converts half-duplex SLMs into fine-grained full-duplex models via decoder-free streaming adaptation; Qwen3-Omni-D2 reports 99.2% turn-taking TOR and VoiceBench 70.1.
+  note_zh: 通过无解码器流式适配将半双工 SLM 转为细粒度全双工；Qwen3-Omni-D2 报告 99.2% 轮次 TOR 与 VoiceBench 70.1。
+- id: diffuplex-uos
+  name: DiffuPlex
+  title: 'DiffuPlex: Accelerating Full-Duplex Spoken Dialog Models via Rolling Masked Diffusion'
+  date: 2026-10
+  venue: ''
+  org: University of Seoul
+  status: paper_only
+  star: false
+  links:
+    arxiv: https://arxiv.org/abs/2610.12214
+    web: https://diffuplex.github.io/
+  sections:
+  - low-latency
+  - duplex-multistream
+  note_en: Rolling masked diffusion predicts multiple future user/assistant frames per backbone wake; distinct from NVIDIA Diffuplex (discrete diffusion).
+  note_zh: 滚动掩码扩散在一次骨干前向中预测多帧用户/助手未来；与 NVIDIA Diffuplex（离散扩散）不同。
+- id: tyger
+  name: Tyger
+  title: 'Tyger: Open-Weight Streaming ASR with Full-Duplex Turn Control'
+  date: 2026-10
+  venue: ''
+  org: nineninesix
+  status: open_weights
+  star: false
+  links:
+    hf: https://huggingface.co/nineninesix/tyger
+    code: https://github.com/nineninesix-ai/tyger-s2s
+    web: https://www.nineninesix.ai/
+  sections:
+  - duplex-engineered
+  - bb-vad
+  - turn-taking-methods
+  note_en: Nemotron streaming ASR plus a 14M causal GRU that classifies endpoint, barge-in, and backchannel every 80 ms; tyger-s2s is the accompanying local voice-agent stack.
+  note_zh: Nemotron 流式 ASR 加 14M 因果 GRU，每 80 ms 判定句末/打断/附和；tyger-s2s 为配套本地语音智能体栈。

@@ -28,8 +28,8 @@ entries:
     docs: https://docs.x.ai/developers/model-capabilities/audio/voice
   sections:
   - industry-others
-  note_en: grok-voice-latest is a moving alias; no corresponding open voice weights were found, so the past open releases of Grok text models do not apply.
-  note_zh: latest 是可变别名；未找到对应开放语音权重，不可套用 Grok 文本模型历史开放状态。
+  note_en: grok-voice-latest is a moving alias now routing to grok-voice-3.0; grok-voice-2.0 is deprecated. No corresponding open voice weights were found, so the past open releases of Grok text models do not apply.
+  note_zh: latest 是可变别名，现指向 grok-voice-3.0；grok-voice-2.0 已弃用。未找到对应开放语音权重，不可套用 Grok 文本模型历史开放状态。
   license: Commercial terms of service
   modalities: A/T → A/T
   source_group: A

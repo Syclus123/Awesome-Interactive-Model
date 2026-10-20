@@ -2,7 +2,7 @@
 # Each section has: id, anchor, title_en, title_zh, intro_en, intro_zh, children?
 
 meta:
-  as_of: "2026-10-06"
+  as_of: "2026-10-19"
 
 sections:
   - id: surveys
@@ -214,8 +214,8 @@ sections:
     emoji: "🏢"
     title_en: "Industry Landscape"
     title_zh: "产业全景"
-    intro_en: "Closed APIs, product demos, and open-weight releases by vendor (as of 2026-10-06). Deprecations are noted where verified."
-    intro_zh: "按厂商整理的闭源 API、产品演示与开放权重发布（截至 2026-10-06）。已核实的停用信息会单独标注。"
+    intro_en: "Closed APIs, product demos, and open-weight releases by vendor (as of 2026-10-19). Deprecations are noted where verified."
+    intro_zh: "按厂商整理的闭源 API、产品演示与开放权重发布（截至 2026-10-19）。已核实的停用信息会单独标注。"
     children:
       - id: industry-openai
         anchor: industry-openai
