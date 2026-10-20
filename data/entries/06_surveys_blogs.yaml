@@ -643,7 +643,8 @@ entries:
   org: ''
   status: paper_only
   star: false
-  links: {}
+  links:
+    web: https://interspeech2026slm.github.io/assets/slides/interspeech-2026-slm-tutorial.pdf
   sections:
   - tutorials
   note_en: IS 2026 tutorial covering duplex and interactive speech LMs.
