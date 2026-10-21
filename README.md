@@ -388,7 +388,7 @@ Surveys, taxonomies, and position papers that map spoken dialogue, full-duplex S
 
 - **[2026-09]** **GPT-Live Guide** - OpenAI GPT-Live developer guide. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/guides/live) 🔒
   - _Official guide for GPT-Live sessions, delegation, and billing split._
-- **[2026-09] [Interspeech 2026]** **IS26 SLM Tutorial** - Interspeech 2026 tutorial on speech / duplex LMs. 📄
+- **[2026-09] [Interspeech 2026]** **IS26 SLM Tutorial** - Interspeech 2026 tutorial on speech / duplex LMs. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://interspeech2026slm.github.io/assets/slides/interspeech-2026-slm-tutorial.pdf) 📄
   - _IS 2026 tutorial covering duplex and interactive speech LMs._
 - **[2026-03]** **RTVoiceAgent Tutorial** - Building real-time voice agents: a tutorial. [![arXiv-2603.05413](https://img.shields.io/badge/arXiv--2603.05413-b31b1b.svg)](https://arxiv.org/abs/2603.05413) 📄
   - _Paper tutorial walking through realtime voice-agent pipelines and pitfalls._

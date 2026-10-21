@@ -388,7 +388,7 @@ flowchart TB
 
 - **[2026-09]** **GPT-Live Guide** - OpenAI GPT-Live developer guide. [![Docs-Link](https://img.shields.io/badge/Docs--Link-lightgrey.svg)](https://developers.openai.com/api/docs/guides/live) 🔒
   - _GPT-Live 官方指南：会话、委派与计费拆分。_
-- **[2026-09] [Interspeech 2026]** **IS26 SLM Tutorial** - Interspeech 2026 tutorial on speech / duplex LMs. 📄
+- **[2026-09] [Interspeech 2026]** **IS26 SLM Tutorial** - Interspeech 2026 tutorial on speech / duplex LMs. [![Website-Link](https://img.shields.io/badge/Website--Link-blue.svg)](https://interspeech2026slm.github.io/assets/slides/interspeech-2026-slm-tutorial.pdf) 📄
   - _Interspeech 2026 覆盖双工与交互式语音大模型的教程。_
 - **[2026-03]** **RTVoiceAgent Tutorial** - Building real-time voice agents: a tutorial. [![arXiv-2603.05413](https://img.shields.io/badge/arXiv--2603.05413-b31b1b.svg)](https://arxiv.org/abs/2603.05413) 📄
   - _论文教程：梳理实时语音 Agent 流水线与常见坑。_
